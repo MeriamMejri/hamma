@@ -1,43 +1,42 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\mtcSfont 84}{section.4.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Résultats des Modèles de Machine Learning}{\reset@font\mtcSfont 84}{section.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Modèle de Régression Logistique}{\reset@font\mtcSSfont 84}{subsection.4.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.1.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 84}{subsubsection.4.2.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.1.2}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 85}{subsubsection.4.2.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Modèle Arbre de Décision}{\reset@font\mtcSSfont 86}{subsection.4.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.2.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 86}{subsubsection.4.2.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.2.2}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 88}{subsubsection.4.2.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Modèle de Random Forest}{\reset@font\mtcSSfont 88}{subsection.4.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 88}{subsubsection.4.2.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.2}Sélection automatique du seuil d'importance}{\reset@font\mtcSSSfont 90}{subsubsection.4.2.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.3}Approche de KMeans et résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 91}{subsubsection.4.2.3.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.4}Résultats après KMeans sur \textit {retail\_juin}}{\reset@font\mtcSSSfont 92}{subsubsection.4.2.3.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.5}Conclusion}{\reset@font\mtcSSSfont 93}{subsubsection.4.2.3.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Résultats des Modèles de Deep Learning}{\reset@font\mtcSfont 94}{section.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Modèle Deep Learning avec PyTorch}{\reset@font\mtcSSfont 94}{subsection.4.3.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.1.1}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 95}{subsubsection.4.3.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Résultats des Modèles avec Keras/TensorFlow}{\reset@font\mtcSSfont 96}{subsection.4.3.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSSfont 96}{subsubsection.4.3.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Résultats pour \textit {network\_may}}{\reset@font\mtcSSSfont 97}{subsubsection.4.3.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.3}Résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 97}{subsubsection.4.3.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.4}Comparaison des Résultats}{\reset@font\mtcSSSfont 98}{subsubsection.4.3.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Comparaison Entre les Modèles de Machine Learning et de Deep Learning}{\reset@font\mtcSfont 98}{section.4.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Comparaison et Validation des Modèles de Machine Learning}{\reset@font\mtcSSfont 99}{subsection.4.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Comparaison et Validation des Modèles de Deep Learning}{\reset@font\mtcSSfont 100}{subsection.4.4.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.3}Comparaison Globale : Machine Learning vs Deep Learning}{\reset@font\mtcSSfont 101}{subsection.4.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.4}Modèle d’Ensemble (Random Forest, AdaBoost et Réseau de Neurones)}{\reset@font\mtcSSfont 102}{subsection.4.4.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.1}Motivation de l’approche d’ensemble}{\reset@font\mtcSSSfont 102}{subsubsection.4.4.4.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.2}Justification des datasets sélectionnés}{\reset@font\mtcSSSfont 102}{subsubsection.4.4.4.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.3}Optimisation des poids pour la combinaison des modèles}{\reset@font\mtcSSSfont 103}{subsubsection.4.4.4.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.4}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSSfont 103}{subsubsection.4.4.4.4}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.5}Résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 104}{subsubsection.4.4.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.5}Vérification de surajustement du meilleur modèle}{\reset@font\mtcSSfont 106}{subsection.4.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.6}Conclusion}{\reset@font\mtcSSfont 106}{subsection.4.4.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Vérification du surajustement du meilleur modèle}{\reset@font\mtcSfont 106}{section.4.5}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Analyse des résultats}{\reset@font\mtcSSfont 107}{subsection.4.5.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Conclusion sur le surajustement}{\reset@font\mtcSSfont 107}{subsection.4.5.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Profil des Clients Satisfaits et Interprétation des Variables}{\reset@font\mtcSfont 108}{section.4.6}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.1}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSfont 108}{subsection.4.6.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.2}Résultats pour \textit {network\_may}}{\reset@font\mtcSSfont 109}{subsection.4.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.3}Résultats pour \textit {retail\_juin}}{\reset@font\mtcSSfont 110}{subsection.4.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.4}Comparaison des Résultats Entre les Trois Datasets}{\reset@font\mtcSSfont 111}{subsection.4.6.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}Conclusion}{\reset@font\mtcSfont 112}{section.4.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.1}Introduction}{\reset@font\mtcSfont 77}{section.4.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.2}Résultats des Modèles de Machine Learning}{\reset@font\mtcSfont 77}{section.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.1}Modèle de Régression Logistique}{\reset@font\mtcSSfont 77}{subsection.4.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.1.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 77}{subsubsection.4.2.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.1.2}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 78}{subsubsection.4.2.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.2}Modèle Arbre de Décision}{\reset@font\mtcSSfont 79}{subsection.4.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.2.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 79}{subsubsection.4.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.2.2}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 81}{subsubsection.4.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.2.3}Modèle de Random Forest}{\reset@font\mtcSSfont 81}{subsection.4.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.1}Résultats pour les trois datasets}{\reset@font\mtcSSSfont 81}{subsubsection.4.2.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.2}Sélection automatique du seuil d'importance}{\reset@font\mtcSSSfont 83}{subsubsection.4.2.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.3}Approche de KMeans et résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 84}{subsubsection.4.2.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.4}Résultats après KMeans sur \textit {retail\_juin}}{\reset@font\mtcSSSfont 85}{subsubsection.4.2.3.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.2.3.5}Conclusion}{\reset@font\mtcSSSfont 86}{subsubsection.4.2.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}Résultats des Modèles de Deep Learning}{\reset@font\mtcSfont 86}{section.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Modèle Deep Learning avec PyTorch}{\reset@font\mtcSSfont 86}{subsection.4.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.1.1}Comparaison des résultats entre les trois datasets}{\reset@font\mtcSSSfont 87}{subsubsection.4.3.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Résultats des Modèles avec Keras/TensorFlow}{\reset@font\mtcSSfont 88}{subsection.4.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.1}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSSfont 88}{subsubsection.4.3.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.2}Résultats pour \textit {network\_may}}{\reset@font\mtcSSSfont 88}{subsubsection.4.3.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.3}Résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 89}{subsubsection.4.3.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.3.2.4}Comparaison des Résultats}{\reset@font\mtcSSSfont 90}{subsubsection.4.3.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Comparaison Entre les Modèles de Machine Learning et de Deep Learning}{\reset@font\mtcSfont 90}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.1}Comparaison et Validation des Modèles de Machine Learning}{\reset@font\mtcSSfont 90}{subsection.4.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.2}Comparaison et Validation des Modèles de Deep Learning}{\reset@font\mtcSSfont 91}{subsection.4.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.3}Comparaison Globale : Machine Learning vs Deep Learning}{\reset@font\mtcSSfont 92}{subsection.4.4.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.4}Modèle d’Ensemble (Random Forest, AdaBoost et Réseau de Neurones)}{\reset@font\mtcSSfont 93}{subsection.4.4.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.1}Motivation de l’approche d’ensemble}{\reset@font\mtcSSSfont 93}{subsubsection.4.4.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.2}Justification des datasets sélectionnés}{\reset@font\mtcSSSfont 93}{subsubsection.4.4.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.3}Optimisation des poids pour la combinaison des modèles}{\reset@font\mtcSSSfont 94}{subsubsection.4.4.4.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.4}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSSfont 94}{subsubsection.4.4.4.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {4.4.4.5}Résultats pour \textit {retail\_juin}}{\reset@font\mtcSSSfont 95}{subsubsection.4.4.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.5}Vérification de surajustement du meilleur modèle}{\reset@font\mtcSSfont 96}{subsection.4.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.4.6}Conclusion}{\reset@font\mtcSSfont 96}{subsection.4.4.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.5}Vérification du surajustement du meilleur modèle}{\reset@font\mtcSfont 96}{section.4.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.1}Analyse des résultats}{\reset@font\mtcSSfont 97}{subsection.4.5.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.5.2}Conclusion sur le surajustement}{\reset@font\mtcSSfont 97}{subsection.4.5.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.6}Profil des Clients Satisfaits et Interprétation des Variables}{\reset@font\mtcSfont 98}{section.4.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.1}Résultats pour \textit {network\_fev}}{\reset@font\mtcSSfont 98}{subsection.4.6.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.2}Résultats pour \textit {network\_may}}{\reset@font\mtcSSfont 99}{subsection.4.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.6.3}Comparaison des Résultats Entre les Trois Datasets}{\reset@font\mtcSSfont 100}{subsection.4.6.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.7}Conclusion}{\reset@font\mtcSfont 100}{section.4.7}}

@@ -13,148 +13,147 @@
 \contentsline {subsection}{\numberline {1.2.5}L’organigramme de la direction Technologie }{7}{subsection.1.2.5}%
 \contentsline {section}{\numberline {1.3}Contexte générale du projet}{8}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Problématique}{8}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Objectif du projet}{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Objectif du projet}{9}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Méthodologie de travail}{10}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Choix technologiques}{11}{subsection.1.3.4}%
-\contentsline {section}{\numberline {1.4}Concepts Clés}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {1.3.4}Choix technologiques}{10}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Concepts Clés}{11}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Data Mining}{12}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Machine Learning}{13}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Data Mining vs Machine Learning}{14}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}Deep Learning}{15}{subsection.1.4.4}%
-\contentsline {subsubsection}{\numberline {1.4.4.1}Principes du Deep Learning}{15}{subsubsection.1.4.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Machine Learning}{12}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Data Mining vs Machine Learning}{13}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.4}Deep Learning}{14}{subsection.1.4.4}%
+\contentsline {subsubsection}{\numberline {1.4.4.1}Principes du Deep Learning}{14}{subsubsection.1.4.4.1}%
 \contentsline {subsubsection}{\numberline {1.4.4.2}Applications du Deep Learning}{15}{subsubsection.1.4.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.4.3}Différence entre Machine Learning et Deep Learning}{16}{subsubsection.1.4.4.3}%
-\contentsline {section}{\numberline {1.5}Conclusion}{16}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Outils mathématiques d'ordre général}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Techniques de Prétraitement des Données}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Normalisation des Données}{19}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Méthodes classiques de normalisation}{19}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Méthodes avancées de normalisation}{20}{subsubsection.2.2.1.2}%
-\contentsline {subsection}{\numberline {2.2.2}Traitement des Valeurs Manquantes}{21}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Imputation par la Médiane}{21}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}K-Nearest Neighbors pour la Prédiction des Valeurs Manquantes}{21}{subsubsection.2.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Conclusion}{22}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Les indicateurs statistiques}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Eta Carré}{23}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Cramer V}{23}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Lambda de Goodman et Kruskal}{24}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Covariance}{24}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Limitation des Indicateurs Statistiques}{25}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Conclusion}{25}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Les Tests de corrélation}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Tests paramétriques}{26}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.1}Les conditions pour appliquer les tests paramétriques}{26}{subsubsection.2.4.1.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.2}Test t de Student}{29}{subsubsection.2.4.1.2}%
-\contentsline {subsubsection}{\numberline {2.4.1.3}Test ANOVA}{30}{subsubsection.2.4.1.3}%
-\contentsline {subsubsection}{\numberline {2.4.1.4}Test de Pearson}{31}{subsubsection.2.4.1.4}%
-\contentsline {subsection}{\numberline {2.4.2}Tests non paramétriques}{32}{subsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.1}Test U de Mann-Whitney}{32}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {2.4.2.2}Test de Kruskal-Wallis}{32}{subsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.3}Test de Spearman}{33}{subsubsection.2.4.2.3}%
-\contentsline {subsubsection}{\numberline {2.4.2.4}Test du Chi-Deux}{33}{subsubsection.2.4.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.2.5}Test exact de Fisher}{34}{subsubsection.2.4.2.5}%
-\contentsline {section}{\numberline {2.5}Équilibrage des Classes avec SMOTE}{35}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Sélection des Caractéristiques (Feature Selection)}{36}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}RFE (Recursive Feature Elimination)}{36}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}SelectKBest}{37}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Feature Importance avec Forêt Aléatoire}{37}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Conclusion}{38}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}Modèles de Machine Learning}{38}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Régression Logistique}{38}{subsection.2.7.1}%
-\contentsline {subsubsection}{\numberline {2.7.1.1}Hyperparamètres}{40}{subsubsection.2.7.1.1}%
-\contentsline {subsection}{\numberline {2.7.2}L’Arbre de Décision}{42}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}La Forêt Aléatoire: un modèle non paramétrique}{44}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}AdaBoost: Amélioration des Arbres de Décision}{45}{subsection.2.7.4}%
-\contentsline {subsection}{\numberline {2.7.5}Conclusion}{47}{subsection.2.7.5}%
-\contentsline {section}{\numberline {2.8}Deep Learning}{47}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Les Couches dans un Réseau de Neurones}{47}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Fonctions d'Activation}{48}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Entraînement et Backpropagation}{48}{subsection.2.8.3}%
-\contentsline {subsubsection}{\numberline {2.8.3.1}Calcul de la Fonction de Perte}{48}{subsubsection.2.8.3.1}%
-\contentsline {subsubsection}{\numberline {2.8.3.2}Backpropagation et Descente de Gradient}{49}{subsubsection.2.8.3.2}%
-\contentsline {subsection}{\numberline {2.8.4}Régularisation et Dropout}{49}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Hyperparamètres: Signification et Impact}{50}{subsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.8.6}Conclusion}{50}{subsection.2.8.6}%
-\contentsline {section}{\numberline {2.9}Interprétation des Modèles pour la Prédiction de la Satisfaction Client}{50}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}Clustering avec KMeans}{50}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Calcul de la Probabilité de Satisfaction}{51}{subsection.2.9.2}%
-\contentsline {subsection}{\numberline {2.9.3}Interprétation des Résultats}{51}{subsection.2.9.3}%
-\contentsline {subsection}{\numberline {2.9.4}Conclusion}{51}{subsection.2.9.4}%
-\contentsline {section}{\numberline {2.10}Conclusion}{51}{section.2.10}%
-\contentsline {chapter}{\numberline {3}Réalisation}{52}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{53}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Prétraitement des données}{53}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Préparation et nettoyage des données}{53}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Normalisation des données}{57}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Utilisation de plusieurs tables}{57}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Analyse des données}{58}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Analyse descriptive}{59}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Analyse des variables quantitatives}{59}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Analyse des variables qualitative}{62}{subsubsection.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.1.3}Comparaison globale entre OSAT multiclasse et OSAT binaire}{65}{subsubsection.3.3.1.3}%
-\contentsline {subsection}{\numberline {3.3.2}Analyse inférentielle}{65}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Corrélation entre la variable cible et les variables explicatives}{66}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Analyse des corrélations entre les variables explicatives}{71}{subsubsection.3.3.2.2}%
-\contentsline {section}{\numberline {3.4}Modélisation}{76}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Équilibrage des classes (SMOTE)}{76}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Sélection des caractéristiques}{77}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Modélisation avec Machine Learning}{79}{subsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.3.1}Introduction}{79}{subsubsection.3.4.3.1}%
-\contentsline {subsubsection}{\numberline {3.4.3.2}Prétraitement des données}{79}{subsubsection.3.4.3.2}%
-\contentsline {subsubsection}{\numberline {3.4.3.3}Optimisation des hyperparamètres}{80}{subsubsection.3.4.3.3}%
-\contentsline {subsubsection}{\numberline {3.4.3.4}Sélection des caractéristiques importantes et réentraînement du modèle}{80}{subsubsection.3.4.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.3.5}Optimisation du seuil de classification}{80}{subsubsection.3.4.3.5}%
-\contentsline {subsubsection}{\numberline {3.4.3.6}Conclusion}{80}{subsubsection.3.4.3.6}%
-\contentsline {subsection}{\numberline {3.4.4}Modélisation avec Deep Learning}{81}{subsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.4.1}Approche PyTorch}{81}{subsubsection.3.4.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.4.2}Approche Keras/TensorFlow}{81}{subsubsection.3.4.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.4.3}Conclusion}{82}{subsubsection.3.4.4.3}%
-\contentsline {section}{\numberline {3.5}Conclusion}{82}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Résultats et interprétation}{83}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{84}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Résultats des Modèles de Machine Learning}{84}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Modèle de Régression Logistique}{84}{subsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.1}Résultats pour les trois datasets}{84}{subsubsection.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.1.2}Comparaison des résultats entre les trois datasets}{85}{subsubsection.4.2.1.2}%
-\contentsline {subsection}{\numberline {4.2.2}Modèle Arbre de Décision}{86}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}Résultats pour les trois datasets}{86}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}Comparaison des résultats entre les trois datasets}{88}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Modèle de Random Forest}{88}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}Résultats pour les trois datasets}{88}{subsubsection.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}Sélection automatique du seuil d'importance}{90}{subsubsection.4.2.3.2}%
-\contentsline {subsubsection}{\numberline {4.2.3.3}Approche de KMeans et résultats pour \textit {retail\_juin}}{91}{subsubsection.4.2.3.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.4}Résultats après KMeans sur \textit {retail\_juin}}{92}{subsubsection.4.2.3.4}%
-\contentsline {subsubsection}{\numberline {4.2.3.5}Conclusion}{93}{subsubsection.4.2.3.5}%
-\contentsline {section}{\numberline {4.3}Résultats des Modèles de Deep Learning}{94}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Modèle Deep Learning avec PyTorch}{94}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Comparaison des résultats entre les trois datasets}{95}{subsubsection.4.3.1.1}%
-\contentsline {subsection}{\numberline {4.3.2}Résultats des Modèles avec Keras/TensorFlow}{96}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Résultats pour \textit {network\_fev}}{96}{subsubsection.4.3.2.1}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Résultats pour \textit {network\_may}}{97}{subsubsection.4.3.2.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Résultats pour \textit {retail\_juin}}{97}{subsubsection.4.3.2.3}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}Comparaison des Résultats}{98}{subsubsection.4.3.2.4}%
-\contentsline {section}{\numberline {4.4}Comparaison Entre les Modèles de Machine Learning et de Deep Learning}{98}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Comparaison et Validation des Modèles de Machine Learning}{99}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Comparaison et Validation des Modèles de Deep Learning}{100}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Comparaison Globale : Machine Learning vs Deep Learning}{101}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modèle d’Ensemble (Random Forest, AdaBoost et Réseau de Neurones)}{102}{subsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.4.1}Motivation de l’approche d’ensemble}{102}{subsubsection.4.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.4.2}Justification des datasets sélectionnés}{102}{subsubsection.4.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.4.3}Optimisation des poids pour la combinaison des modèles}{103}{subsubsection.4.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.4.4}Résultats pour \textit {network\_fev}}{103}{subsubsection.4.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.4.5}Résultats pour \textit {retail\_juin}}{104}{subsubsection.4.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.5}Vérification de surajustement du meilleur modèle}{106}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6}Conclusion}{106}{subsection.4.4.6}%
-\contentsline {section}{\numberline {4.5}Vérification du surajustement du meilleur modèle}{106}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Analyse des résultats}{107}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Conclusion sur le surajustement}{107}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Profil des Clients Satisfaits et Interprétation des Variables}{108}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Résultats pour \textit {network\_fev}}{108}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Résultats pour \textit {network\_may}}{109}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Résultats pour \textit {retail\_juin}}{110}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Comparaison des Résultats Entre les Trois Datasets}{111}{subsection.4.6.4}%
-\contentsline {section}{\numberline {4.7}Conclusion}{112}{section.4.7}%
-\contentsline {chapter}{Conclusion générale}{113}{chapter*.74}%
-\contentsline {chapter}{Références}{113}{chapter*.74}%
-\contentsline {chapter}{Annexe}{119}{chapter*.76}%
+\contentsline {subsubsection}{\numberline {1.4.4.3}Différence entre Machine Learning et Deep Learning}{15}{subsubsection.1.4.4.3}%
+\contentsline {section}{\numberline {1.5}Conclusion}{15}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Outils mathématiques d'ordre général}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{18}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Techniques de Prétraitement des Données}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Normalisation des Données}{18}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Méthodes classiques de normalisation}{18}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Méthodes avancées de normalisation}{19}{subsubsection.2.2.1.2}%
+\contentsline {subsection}{\numberline {2.2.2}Traitement des Valeurs Manquantes}{20}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Imputation par la Médiane}{20}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}K-Nearest Neighbors pour la Prédiction des Valeurs Manquantes}{20}{subsubsection.2.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Conclusion}{21}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Les indicateurs statistiques}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Eta Carré}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Cramer V}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lambda de Goodman et Kruskal}{22}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Covariance}{23}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Limitation des Indicateurs Statistiques}{23}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Conclusion}{23}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Les Tests de corrélation}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Tests paramétriques}{24}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Les conditions pour appliquer les tests paramétriques}{24}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}Test t de Student}{27}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.1.3}Test ANOVA}{27}{subsubsection.2.4.1.3}%
+\contentsline {subsubsection}{\numberline {2.4.1.4}Test de Pearson}{28}{subsubsection.2.4.1.4}%
+\contentsline {subsection}{\numberline {2.4.2}Tests non paramétriques}{29}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Test U de Mann-Whitney}{29}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Test de Kruskal-Wallis}{30}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}Test de Spearman}{30}{subsubsection.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.2.4}Test du Chi-Deux}{31}{subsubsection.2.4.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.2.5}Test exact de Fisher}{32}{subsubsection.2.4.2.5}%
+\contentsline {section}{\numberline {2.5}Équilibrage des Classes avec SMOTE}{32}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Sélection des Caractéristiques (Feature Selection)}{33}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}RFE (Recursive Feature Elimination)}{33}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}SelectKBest}{34}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Feature Importance avec Forêt Aléatoire}{34}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Conclusion}{35}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Modèles de Machine Learning}{35}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Régression Logistique}{35}{subsection.2.7.1}%
+\contentsline {subsubsection}{\numberline {2.7.1.1}Hyperparamètres}{36}{subsubsection.2.7.1.1}%
+\contentsline {subsection}{\numberline {2.7.2}L’Arbre de Décision}{38}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}La Forêt Aléatoire: un modèle non paramétrique}{40}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}AdaBoost: Amélioration des Arbres de Décision}{41}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Conclusion}{42}{subsection.2.7.5}%
+\contentsline {section}{\numberline {2.8}Deep Learning}{43}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Les Couches dans un Réseau de Neurones}{43}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Fonctions d'Activation}{43}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Entraînement et Backpropagation}{44}{subsection.2.8.3}%
+\contentsline {subsubsection}{\numberline {2.8.3.1}Calcul de la Fonction de Perte}{44}{subsubsection.2.8.3.1}%
+\contentsline {subsubsection}{\numberline {2.8.3.2}Backpropagation et Descente de Gradient}{44}{subsubsection.2.8.3.2}%
+\contentsline {subsection}{\numberline {2.8.4}Régularisation et Dropout}{45}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}Hyperparamètres: Signification et Impact}{45}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Conclusion}{45}{subsection.2.8.6}%
+\contentsline {section}{\numberline {2.9}Interprétation des Modèles pour la Prédiction de la Satisfaction Client}{46}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Clustering avec KMeans}{46}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Calcul de la Probabilité de Satisfaction}{46}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Interprétation des Résultats}{46}{subsection.2.9.3}%
+\contentsline {subsection}{\numberline {2.9.4}Conclusion}{47}{subsection.2.9.4}%
+\contentsline {section}{\numberline {2.10}Conclusion}{47}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Réalisation}{48}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{49}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Prétraitement des données}{49}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Préparation et nettoyage des données}{49}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Normalisation des données}{52}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Utilisation de plusieurs tables}{53}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Analyse des données}{54}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Analyse descriptive}{54}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Analyse des variables quantitatives}{54}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Analyse des variables qualitative}{56}{subsubsection.3.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.3.1.3}Comparaison globale entre OSAT multiclasse et OSAT binaire}{59}{subsubsection.3.3.1.3}%
+\contentsline {subsection}{\numberline {3.3.2}Analyse inférentielle}{60}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Corrélation entre la variable cible et les variables explicatives}{60}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Analyse des corrélations entre les variables explicatives}{65}{subsubsection.3.3.2.2}%
+\contentsline {section}{\numberline {3.4}Modélisation}{70}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Équilibrage des classes (SMOTE)}{70}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Sélection des caractéristiques}{71}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Modélisation avec Machine Learning}{73}{subsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.1}Introduction}{73}{subsubsection.3.4.3.1}%
+\contentsline {subsubsection}{\numberline {3.4.3.2}Prétraitement des données}{73}{subsubsection.3.4.3.2}%
+\contentsline {subsubsection}{\numberline {3.4.3.3}Optimisation des hyperparamètres}{73}{subsubsection.3.4.3.3}%
+\contentsline {subsubsection}{\numberline {3.4.3.4}Sélection des caractéristiques importantes et réentraînement du modèle}{73}{subsubsection.3.4.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.3.5}Optimisation du seuil de classification}{73}{subsubsection.3.4.3.5}%
+\contentsline {subsubsection}{\numberline {3.4.3.6}Conclusion}{74}{subsubsection.3.4.3.6}%
+\contentsline {subsection}{\numberline {3.4.4}Modélisation avec Deep Learning}{74}{subsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4.1}Approche PyTorch}{74}{subsubsection.3.4.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.4.2}Approche Keras/TensorFlow}{74}{subsubsection.3.4.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.4.3}Conclusion}{75}{subsubsection.3.4.4.3}%
+\contentsline {section}{\numberline {3.5}Conclusion}{75}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Résultats et interprétation}{76}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{77}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Résultats des Modèles de Machine Learning}{77}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modèle de Régression Logistique}{77}{subsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.1}Résultats pour les trois datasets}{77}{subsubsection.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.1.2}Comparaison des résultats entre les trois datasets}{78}{subsubsection.4.2.1.2}%
+\contentsline {subsection}{\numberline {4.2.2}Modèle Arbre de Décision}{79}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Résultats pour les trois datasets}{79}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Comparaison des résultats entre les trois datasets}{81}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Modèle de Random Forest}{81}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Résultats pour les trois datasets}{81}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Sélection automatique du seuil d'importance}{83}{subsubsection.4.2.3.2}%
+\contentsline {subsubsection}{\numberline {4.2.3.3}Approche de KMeans et résultats pour \textit {retail\_juin}}{84}{subsubsection.4.2.3.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.4}Résultats après KMeans sur \textit {retail\_juin}}{85}{subsubsection.4.2.3.4}%
+\contentsline {subsubsection}{\numberline {4.2.3.5}Conclusion}{86}{subsubsection.4.2.3.5}%
+\contentsline {section}{\numberline {4.3}Résultats des Modèles de Deep Learning}{86}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Modèle Deep Learning avec PyTorch}{86}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Comparaison des résultats entre les trois datasets}{87}{subsubsection.4.3.1.1}%
+\contentsline {subsection}{\numberline {4.3.2}Résultats des Modèles avec Keras/TensorFlow}{88}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Résultats pour \textit {network\_fev}}{88}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Résultats pour \textit {network\_may}}{88}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Résultats pour \textit {retail\_juin}}{89}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Comparaison des Résultats}{90}{subsubsection.4.3.2.4}%
+\contentsline {section}{\numberline {4.4}Comparaison Entre les Modèles de Machine Learning et de Deep Learning}{90}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Comparaison et Validation des Modèles de Machine Learning}{90}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Comparaison et Validation des Modèles de Deep Learning}{91}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Comparaison Globale : Machine Learning vs Deep Learning}{92}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Modèle d’Ensemble (Random Forest, AdaBoost et Réseau de Neurones)}{93}{subsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.4.1}Motivation de l’approche d’ensemble}{93}{subsubsection.4.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.4.2}Justification des datasets sélectionnés}{93}{subsubsection.4.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.4.3}Optimisation des poids pour la combinaison des modèles}{94}{subsubsection.4.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4.4}Résultats pour \textit {network\_fev}}{94}{subsubsection.4.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.4.5}Résultats pour \textit {retail\_juin}}{95}{subsubsection.4.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.5}Vérification de surajustement du meilleur modèle}{96}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}Conclusion}{96}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}Vérification du surajustement du meilleur modèle}{96}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Analyse des résultats}{97}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Conclusion sur le surajustement}{97}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Profil des Clients Satisfaits et Interprétation des Variables}{98}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Résultats pour \textit {network\_fev}}{98}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Résultats pour \textit {network\_may}}{99}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Comparaison des Résultats Entre les Trois Datasets}{100}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Conclusion}{100}{section.4.7}%
+\contentsline {chapter}{Conclusion générale}{102}{chapter*.71}%
+\contentsline {chapter}{Références}{102}{chapter*.71}%
+\contentsline {chapter}{Annexe}{107}{chapter*.73}%
