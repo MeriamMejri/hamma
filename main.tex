@@ -3,6 +3,13 @@
 \usepackage{silence}
 \WarningsOff*
 
+\usepackage[french]{babel} % Utilisation du français
+
+% Change Chapter and Contents titles
+\addto\captionsfrench{\renewcommand{\chaptername}{Chapitre}} % Change 'Chapter' to 'Chapitre'
+\renewcommand{\contentsname}{Table de matières} % Change 'Contents' to 'Table de matières'
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Packages to use
@@ -365,104 +372,81 @@
 
 % \end{document}
 
-
 \begin{document}
-  \dominitoc
-  % \renewcommand{\familydefault}{\justifying}
-    \input{chapter/00-CoverPage}
-    \singlespacing{}% Double spacing between lines
-    \pagenumbering{roman}% i ii iii iv ...
-    
-    \noindent
-    \begin{center}
-        {\LARGE \textbf{University’s gdf Supervisor Stamp and Signature}}
-    \end{center}
-    \vspace{0.5cm}
-    \begin{center}
-    
-    \begin{tikzpicture}
-        \draw (0,0) rectangle (10,8); % Adjust the size as needed
-        % \node at (5,4) {\includegraphics[width=7cm,height=5cm]{images//Projet tutore/houda.png}}; 
-              
-    \end{tikzpicture}
-        
-    \end{center}
-    \vspace{1cm}
-    \noindent
-    \begin{center}
-        {\LARGE \textbf{Company Supervisor Stamp and Signature}}
-    \end{center}
-    \vspace{0.5cm}
-    \begin{center}
-    \begin{tikzpicture}
-    
-        \draw (0,0) rectangle (10,8); % Adjust the size as needed
-        % \node at (5,4) {\includegraphics[width=9cm]{Magda_Signature.png}}; 
 
-        \end{tikzpicture}
-        
-    \end{center}
-        \mbox{}
-        \clearpage % Ensure that the next page starts a new page
-    
-    \input{chapter/01-Dedication}
+% Initialize the minitocs
+\dominitoc % Activate minitoc for the whole document
 
-    \input{chapter/02-Acknowledgement}
+% Add signatures
+\noindent
+\begin{center}
+    {\LARGE \textbf{Signature du superviseur académique de l'université}}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) rectangle (10,8); % Adjust the size as needed
+\end{tikzpicture}
+\end{center}
 
-    % \input{chapter/10-Back_of_Report}
-     
-    \addtocontents{toc}{\protect\thispagestyle{MyStyle}}
-    \renewcommand*\contentsname{Table de matières}
-    \begin{spacing}{1}
-    \tableofcontents
-    \end{spacing}
+\vspace{1cm}
+\noindent
+\begin{center}
+    {\LARGE \textbf{Signature du superviseur en entreprise}}
+\end{center}
+\vspace{0.5cm}
+\begin{center}
+\begin{tikzpicture}
+    \draw (0,0) rectangle (10,8); % Adjust the size as needed
+\end{tikzpicture}
+\end{center}
 
-    \input{chapter/03-ListOfAbr}
+\clearpage
+\pagenumbering{roman}
 
-    \addtocontents{lof}{\protect\thispagestyle{MyStyle}}
-    \renewcommand{\listfigurename}{Liste des figures}
-    \begin{spacing}{1}
-    \listoffigures
-    \end{spacing}
-    \addcontentsline{toc}{chapter}{\listfigurename}
-    \adjustmtc
-    
-    \addtocontents{lof}{\protect\thispagestyle{MyStyle}}
-    \renewcommand{\listtablename}{Liste des tables}
-    %\begin{spacing}{1}
-    %\listoftables
-    %\end{spacing}
-    \addcontentsline{toc}{chapter}{\listtablename}
-    \adjustmtc
-    \doublespacing{}% Double spacing between lines
+% Dedication and Acknowledgment
+\input{chapter/01-Dedication}
+\input{chapter/02-Acknowledgement}
 
-    
+% Main Table of Contents
+\addtocontents{toc}{\protect\thispagestyle{MyStyle}}
+\renewcommand*\contentsname{Table de matières}
+\begin{spacing}{1}
+\tableofcontents
+\end{spacing}
+\pagenumbering{roman}
 
-    \newpage
-    \pagenumbering{arabic}
-    \input{chapter/04-GeneralIntroduction}
-    
+% Add Resume before List of Abbreviations
+\input{chapter/Resume}
 
-    \doublespacing{}% Double spacing between lines
-    %\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
-    
-    \input{chapter/Chapitre_1}
+% List of Abbreviations
+\input{chapter/03-ListOfAbr}
 
-    \input{chapter/Chapitre_2}
-    
-    \input{chapter/Chapitre_3}
-    
-    \input{chapter/Chapitre_4}
+% Chapters with mini-tocs
+\newpage
+\pagenumbering{arabic}
 
-    \input{chapter/07-GeneralConclusion}
+\minitoc % Mini-table of contents for this chapter
+\input{chapter/Chapitre_1}
 
+\minitoc % Mini-table of contents for this chapter
+\input{chapter/Chapitre_2}
 
+\minitoc % Mini-table of contents for this chapter
+\input{chapter/Chapitre_3}
 
-    \pagenumbering{roman}
-    \input{chapter/08-Bibliography}
-    \input{chapter/haja}
-    \input{chapter/09-AnnexeA}
-    \input{chapter/09-AnnexeB}
+\minitoc % Mini-table of contents for this chapter
+\input{chapter/Chapitre_4}
 
+% General Conclusion
+\input{chapter/07-GeneralConclusion}
+
+% Bibliography
+\pagenumbering{roman}
+\input{chapter/08-Bibliography}
+
+% Appendices
+\input{chapter/09-AnnexeA}
+\input{chapter/09-AnnexeB}
 
 \end{document}

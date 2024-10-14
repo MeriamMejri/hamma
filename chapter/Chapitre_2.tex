@@ -10,7 +10,7 @@
 \sloppy \setstretch{1.2} 
 \section{Introduction}
 
-Ce chapitre couvre les techniques de prétraitement, les tests de corrélation et la modélisation. Nous abordons des méthodes comme la normalisation et le traitement des valeurs manquantes, puis explorons des outils statistiques pour analyser les relations entre variables. Enfin, nous présentons des techniques de modélisation, incluant l’équilibrage des classes et la sélection de caractéristiques, qui améliorent les performances des modèles prédictifs.
+Ce chapitre couvre les techniques de prétraitement, les tests de corrélation et la modélisation. on aborde des méthodes comme la normalisation et le traitement des valeurs manquantes, puis explorons des outils statistiques pour analyser les relations entre variables. Enfin, on présente des techniques de modélisation, incluant l’équilibrage des classes et la sélection de caractéristiques, qui améliorent les performances des modèles prédictifs.
 
 \section{Techniques de Prétraitement des Données}
 
@@ -69,7 +69,7 @@ y(\lambda) =
 \end{cases}
 \]
 
-\noindent \textbf{\(\rightarrow\)} \textbf{Explication}: Box-Cox applique une transformation exponentielle ou logarithmique aux données, selon la valeur de $\lambda$. Lorsque $\lambda$ est différent de zéro, la transformation lisse les données et réduit l'asymétrie en modifiant la relation entre les valeurs observées et la moyenne. Si $\lambda = 0$, elle applique une transformation logarithmique pour atténuer l'impact des grandes valeurs tout en rendant la distribution plus symétrique. Nous approfondirons la notion de \textbf{log-vraisemblance} dans une section ultérieure.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{Explication}: Box-Cox applique une transformation exponentielle ou logarithmique aux données, selon la valeur de $\lambda$. Lorsque $\lambda$ est différent de zéro, la transformation lisse les données et réduit l'asymétrie en modifiant la relation entre les valeurs observées et la moyenne. Si $\lambda = 0$, elle applique une transformation logarithmique pour atténuer l'impact des grandes valeurs tout en rendant la distribution plus symétrique. on approfondir1 la notion de \textbf{log-vraisemblance} dans une section ultérieure.\\
 \textbf{\(\rightarrow\)} \textbf{Utilité}: Utile pour les données strictement positives, permet d'uniformiser les distributions non normales.\\
 \textbf{\(\rightarrow\)} \textbf{Choix de $\lambda$}: Le paramètre $\lambda$ est choisi par maximisation de la log-vraisemblance.
 
@@ -405,7 +405,7 @@ Où:
     
 \textbf{\(\checkmark\)} \textbf{Conditions d'application du test ANOVA:}\\
 \textbf{\(\rightarrow\)} \textbf{Normalité}: Les données dans chaque groupe doivent suivre une distribution normale.\\
-\textbf{\(\rightarrow\)} \textbf{Homogénéité des variances}: Les variances des groupes doivent être égales (homoscédasticité), ce que nous avons testé avec le test de Levene dans la section précédente.\\
+\textbf{\(\rightarrow\)} \textbf{Homogénéité des variances}: Les variances des groupes doivent être égales (homoscédasticité), ce que on a testé avec le test de Levene dans la section précédente.\\
 \textbf{\(\rightarrow\)} \textbf{Variables}: Le test compare une variable quantitative continue (la réponse) avec une variable qualitative (les groupes).
     
 \textbf{\(\checkmark\)} \textbf{Hypothèses du test:}\\
@@ -414,7 +414,7 @@ Où:
     
     \textbf{\(\checkmark\)} \textbf{Formule du test ANOVA:}
     
-    Nous avons déjà utilisé des formules similaires pour l'ANOVA appliqué aux déviations absolues dans le test de Levene pour évaluer l'homogénéité des variances. Dans ce contexte, l'ANOVA est utilisé pour comparer les moyennes des groupes en utilisant la même structure de calcul pour la statistique \( F \):
+    on a déjà utilisé des formules similaires pour l'ANOVA appliqué aux déviations absolues dans le test de Levene pour évaluer l'homogénéité des variances. Dans ce contexte, l'ANOVA est utilisé pour comparer les moyennes des groupes en utilisant la même structure de calcul pour la statistique \( F \):
     
     \[
     F = \frac{\text{Variance inter-groupes}}{\text{Variance intra-groupes}}
@@ -877,7 +877,7 @@ La performance d'une forêt aléatoire dépend fortement de la configuration de 
 \noindent \textbf{\(\rightarrow\)} \textbf{oob\_score (out-of-bag score):} Ce score est calculé en utilisant les échantillons non sélectionnés par bootstrap pour entraîner un arbre. Il permet d’évaluer la performance du modèle sans avoir recours à une validation croisée, économisant ainsi du temps de calcul.
 
 \textbf{\(\checkmark\)} \textbf{Importance des Caractéristiques:}\\
-La forêt aléatoire permet également de mesurer l'importance des caractéristiques en évaluant leur contribution à la réduction de l'impureté (Gini ou entropie) aux nœuds de décision. Les détails sur le calcul de l'importance des caractéristiques ont déjà été abordés dans la section dédiée à la sélection des caractéristiques. Ici, nous rappelons que cette importance est calculée en fonction de la réduction d'impureté à chaque nœud où une caractéristique est utilisée.
+La forêt aléatoire permet également de mesurer l'importance des caractéristiques en évaluant leur contribution à la réduction de l'impureté (Gini ou entropie) aux nœuds de décision. Les détails sur le calcul de l'importance des caractéristiques ont déjà été abordés dans la section dédiée à la sélection des caractéristiques. Ici, on rappel que cette importance est calculée en fonction de la réduction d'impureté à chaque nœud où une caractéristique est utilisée.
 
 \textbf{\(\checkmark\)} \textbf{Relation avec l'Arbre de Décision:}\\
 Contrairement à un arbre de décision unique, la forêt aléatoire utilise plusieurs arbres créés à partir de différentes sous-parties des données et des caractéristiques. Cette approche réduit le surapprentissage, rendant le modèle plus robuste. L'agrégation des prédictions améliore la capacité du modèle à capturer la variabilité des données, produisant ainsi des résultats plus précis et plus généralisables.
@@ -931,7 +931,7 @@ Les modèles de machine learning présentés offrent diverses approches pour la 
 
 \section{Deep Learning}
 
-Dans cette section, nous nous concentrons sur les aspects techniques et mathématiques des réseaux de neurones profonds. on va explorer comment les couches de neurones, les fonctions d'activation, et les processus d'entraînement tels que la \textbf{backpropagation} et la descente de gradient sont mis en œuvre pour optimiser les modèles d'apprentissage.
+Dans cette section, On se concentre sur les aspects techniques et mathématiques des réseaux de neurones profonds. on va explorer comment les couches de neurones, les fonctions d'activation, et les processus d'entraînement tels que la \textbf{backpropagation} et la descente de gradient sont mis en œuvre pour optimiser les modèles d'apprentissage.
 
 \subsection{Les Couches dans un Réseau de Neurones}
 
@@ -1042,7 +1042,7 @@ Le deep learning transforme les données à travers des couches non linéaires. 
 
 \section{Interprétation des Modèles pour la Prédiction de la Satisfaction Client}
 
-Une fois les modèles prédictifs validés, il est essentiel d'interpréter les résultats pour identifier les profils clients les plus satisfaits. L'algorithme de clustering KMeans est utilisé pour regrouper les clients en groupes homogènes, puis nous calculons la probabilité de satisfaction pour chaque groupe.
+Une fois les modèles prédictifs validés, il est essentiel d'interpréter les résultats pour identifier les profils clients les plus satisfaits. L'algorithme de clustering KMeans est utilisé pour regrouper les clients en groupes homogènes, puis on calcul la probabilité de satisfaction pour chaque groupe.
 
 \subsection{Clustering avec KMeans}
 
@@ -1080,4 +1080,4 @@ L'algorithme KMeans identifie des groupes homogènes de clients et, en calculant
 
 \section{Conclusion}
 
-Ce chapitre a présenté des outils essentiels pour le prétraitement des données, l’analyse de corrélation et la modélisation. Grâce à des méthodes comme SMOTE, la sélection des caractéristiques et des modèles de machine learning, nous avons établi des bases solides pour optimiser la précision et la robustesse des modèles prédictifs.
+Ce chapitre a présenté des outils essentiels pour le prétraitement des données, l’analyse de corrélation et la modélisation. Grâce à des méthodes comme SMOTE, la sélection des caractéristiques et des modèles de machine learning, on a établi des bases solides pour optimiser la précision et la robustesse des modèles prédictifs.

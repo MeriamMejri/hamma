@@ -39,7 +39,7 @@ La table \textbf{Resp\_Network\_Fev} contient les réponses des clients et leur 
 
 \noindent \textbf{\(\checkmark\)} \textbf{Table Monthly Aggregation:} Après avoir préparé la table \textbf{Resp\_Network\_Fev}, on a ensuite travaillé avec une autre table pour l'analyse, nommée \textbf{monthly\_aggregation}. Cette table contient des informations sur le comportement des clients au cours des trois mois précédents, notamment leur utilisation du réseau, le nombre de SMS envoyés, les montants des recharges, et d'autres indicateurs clés. 
 
-Contrairement à la table \textbf{Resp\_Network\_Fev}, qui se concentre sur les réponses aux enquêtes, \textbf{monthly\_aggregation} regroupe des informations comportementales riches que nous utilisons comme \textbf{caractéristiques} dans notre modèle prédictif.
+Contrairement à la table \textbf{Resp\_Network\_Fev}, qui se concentre sur les réponses aux enquêtes, \textbf{monthly\_aggregation} regroupe des informations comportementales riches que on utilise comme \textbf{caractéristiques} dans notre modèle prédictif.
 
 
 \noindent \textbf{\checkmark Agrégation des données:} Chaque client (identifié par \textbf{subscriber\_id}) a plusieurs enregistrements dans la table \textbf{monthly\_aggregation}, un pour chaque mois (identifié par \textbf{period\_id}). Pour obtenir une vue d'ensemble des trois mois, on a agrégé ces enregistrements en une seule ligne par client en faisant la moyenne sur les 3 mois.
@@ -48,7 +48,7 @@ Contrairement à la table \textbf{Resp\_Network\_Fev}, qui se concentre sur les 
 Certaines variables, bien qu'utiles en théorie, posent des problèmes de crédibilité dans les données disponibles.\\
 \noindent \textbf{\checkmark Exclusion des variables non pertinentes:}
 
-Dans notre analyse, on a choisi de nous concentrer uniquement sur les clients prépayés en raison de leur comportement plus homogène, lié directement aux recharges. Les clients postpayés ont des comportements influencés par des offres et promotions complexes, rendant leur analyse plus difficile.
+Dans notre analyse, on a choisi de se concentrer uniquement sur les clients prépayés en raison de leur comportement plus homogène, lié directement aux recharges. Les clients postpayés ont des comportements influencés par des offres et promotions complexes, rendant leur analyse plus difficile.
 
 on a également exclu certaines variables qui posaient des problèmes de fiabilité ou de pertinence, telles que:
 \begin{itemize}
@@ -182,7 +182,7 @@ Les statistiques descriptives pour la variable \textbf{recharge} selon les class
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{analyse_descriptive_2.png}
-    \caption{Distribution de la variable \textbf{recharge} par classe \textbf{OSAT} multiclasse.}
+    \caption{Distribution de la variable \textbf{recharge} par classe d'\textbf{OSAT}}
     \label{fig:analyse_descriptive_2}
 \end{figure}
 
@@ -273,7 +273,7 @@ L'analyse de la variable \textbf{monthly\_rech\_subscriber\_seg} selon les class
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{barre_monthl_rech.png}
-    \caption{Distribution de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe \textbf{OSAT} multiclasse.}
+    \caption{Distribution de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe d'\textbf{OSAT}}
     \label{fig:barre_monthl_rech}
 \end{figure}
 
@@ -284,7 +284,7 @@ Passons maintenant à la comparaison avec \textbf{OSAT} binaire.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{barre_monthl_rech_binary.png}
-    \caption{Distribution de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe \textbf{OSAT} binaire.}
+    \caption{Distribution de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe \textbf{OSAT} binaire}
     \label{fig:barre_monthl_rech_binary}
 \end{figure}
 
@@ -341,12 +341,12 @@ L'analyse des variables quantitatives et qualitatives montre que, bien que la ve
 
 \subsection{Analyse inférentielle}
 
-L'objectif de l'analyse inférentielle est de comprendre les relations entre la variable cible (\textbf{OSAT}) et les différentes \textbf{features} explicatives, qu'elles soient quantitatives ou qualitatives. Dans cette section, nous explorons la corrélation entre les variables qualitatives et quantitatives, ainsi que la corrélation entre variables qualitatives elles-mêmes.
+L'objectif de l'analyse inférentielle est de comprendre les relations entre la variable cible (\textbf{OSAT}) et les différentes \textbf{features} explicatives, qu'elles soient quantitatives ou qualitatives. Dans cette section, On explore la corrélation entre les variables qualitatives et quantitatives, ainsi que la corrélation entre variables qualitatives elles-mêmes.
 on a d'abord examiné la corrélation entre la variable cible (\textbf{OSAT}) et les différentes \textbf{features} quantitatives. L'analyse de corrélation est illustrée par une matrice de corrélation, dans laquelle on a utilisé le coefficient de corrélation de Pearson pour évaluer la relation linéaire entre les variables.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Correlation_Retail.png}
-    \caption{Heatmap de la matrice de corrélation globale pour la table de Juin.}
+    \caption{Heatmap de la matrice de corrélation globale pour la table de Juin}
     \label{fig:correlation_matrix}
 \end{figure}
 
@@ -368,12 +368,12 @@ Pour évaluer la relation entre des variables qualitatives comme \textbf{device\
 
 Pour la relation entre \textbf{device\_type} et \textbf{osat\_binary} (binarisation d'OSAT), une p-value de \textbf{0.7528} a été obtenue, indiquant qu'il n'y a pas d'association significative.
 
-\textbf{\checkmark Exemple de tableau de contingence:}
+
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_sas_39.png}
-    \caption{Tableau de contingence pour \textbf{device\_type} et \textbf{osat\_binary}.}
+    \caption{Tableau de contingence pour \textbf{device\_type} et \textbf{osat\_binary}}
 \end{figure}
 
 Le test du Chi-Carré confirme qu'il n'y a pas d'association significative entre \textbf{device\_type} et \textbf{osat\_binary} (p-value = 0.7528). Le test de Fisher n'était pas applicable, car le tableau de contingence n'était pas de dimension 2x2.
@@ -421,7 +421,7 @@ Pour la variable quantitative \textbf{recharge}, l'ensemble des tests a été ap
 
 L'interprétation de ce résultat indique que l'effet de la variable explicative sur la satisfaction (\textbf{OSAT}) est très faible, suggérant une influence limitée.
 
-\textbf{\checkmark Test pour \textbf{osat\_binary}:} Les tests de \textbf{Shapiro-Wilk} montrent que les données ne suivent pas une distribution normale pour les deux groupes (statistiques de \textbf{0.7522} pour le groupe 0 et \textbf{0.6954} pour le groupe 1, avec des p-values inférieures à 0.05). De plus, le test de \textbf{Levene} indique que les variances ne sont pas homogènes (\textbf{p-value = 0.0273}). Par conséquent, les conditions pour appliquer un test paramétrique ne sont pas respectées. Nous avons donc appliqué le \textbf{test de Mann-Whitney}, qui révèle des différences significatives entre les deux groupes (\textbf{p-value = 0.0003}). 
+\textbf{\checkmark Test pour \textbf{osat\_binary}:} Les tests de \textbf{Shapiro-Wilk} montrent que les données ne suivent pas une distribution normale pour les deux groupes (statistiques de \textbf{0.7522} pour le groupe 0 et \textbf{0.6954} pour le groupe 1, avec des p-values inférieures à 0.05). De plus, le test de \textbf{Levene} indique que les variances ne sont pas homogènes (\textbf{p-value = 0.0273}). Par conséquent, les conditions pour appliquer un test paramétrique ne sont pas respectées. on a donc appliqué le \textbf{test de Mann-Whitney}, qui révèle des différences significatives entre les deux groupes (\textbf{p-value = 0.0003}). 
 
 
 \textit{Les résultats du test de normalité et de variances et du test de Mann-Whitney sont disponibles en annexe, voir Figure \ref{AnB4} et \ref{AnB5}.}
@@ -538,7 +538,7 @@ En général, les corrélations entre les variables de consommation, telles que 
 
 on va maintenant analyser les corrélations entre les variables explicatives quantitatives et qualitatives afin de comprendre leur interdépendance et leur impact potentiel sur les résultats.
 
-Pour cette section, nous analysons les relations entre les variables explicatives quantitatives et qualitatives en utilisant les tests ANOVA et Kruskal-Wallis. Voici un exemple illustré par la figure ci-dessous.
+Pour cette section, on analyse les relations entre les variables explicatives quantitatives et qualitatives en utilisant les tests ANOVA et Kruskal-Wallis. Voici un exemple illustré par la figure ci-dessous.
 
 \begin{figure}[H]
     \centering
@@ -549,7 +549,7 @@ Pour cette section, nous analysons les relations entre les variables explicative
 
 La figure \ref{flag4g_mou} présente l'analyse de \textbf{mou\_moyenne} selon la variable qualitative \textbf{Flag\_4g\_binary}. Les résultats des tests ANOVA et Kruskal-Wallis montrent des différences significatives entre les groupes (\textbf{p-value} < 0.05), indiquant que les utilisateurs du \textbf{Flag 4G} consomment significativement plus de minutes (\textbf{mou\_moyenne}) que les non-utilisateurs.
 
-Dans cet exemple, nous observons que l'accès à la 4G semble être associé à une augmentation de la consommation de minutes, ce qui suggère une corrélation significative entre ces variables.
+Dans cet exemple, on observe que l'accès à la 4G semble être associé à une augmentation de la consommation de minutes, ce qui suggère une corrélation significative entre ces variables.
 
 \subsection*{Conclusion }
 La même méthodologie a été appliquée aux combinaisons de variables quantitatives et qualitatives. Voici quelques résultats obtenus : des différences significatives ont été observées entre \textbf{activation\_days} et \textbf{flag\_smartphone} (ANOVA p = 0.0232, Kruskal-Wallis p = 0.0006), indiquant une variation selon l'utilisation du smartphone. Concernant \textbf{recharge\_moyenne} et \textbf{Number\_of\_reactivation}, des différences significatives ont également été notées (ANOVA p = 0.0164, Kruskal-Wallis p = 0.0000), avec une recharge moyenne plus élevée pour les utilisateurs réactivés. 
@@ -670,7 +670,7 @@ Ce processus rigoureux a permis de définir les variables ayant un impact direct
 
 \subsection{Modélisation avec Machine Learning}
 
-Bien que plusieurs modèles aient été testés, cette section se concentre sur l'algorithme \textbf{Random Forest}, qui a donné les meilleurs résultats. Nous avons appliqué une validation croisée, ajusté les hyperparamètres, et évalué le modèle avec des métriques telles que l'exactitude, le rappel et la courbe ROC.
+Bien que plusieurs modèles aient été testés, cette section se concentre sur l'algorithme \textbf{Random Forest}, qui a donné les meilleurs résultats. on a appliqué une validation croisée, ajusté les hyperparamètres, et évalué le modèle avec des métriques telles que l'exactitude, le rappel et la courbe ROC.
 
 \subsubsection{Prétraitement des données}
 Le prétraitement a consisté à standardiser les caractéristiques avec un \textbf{StandardScaler} pour assurer une échelle comparable entre les variables. Les données ont ensuite été divisées en ensembles d'entraînement et de test (70/30) avec \textbf{train\_test\_split}.
@@ -698,10 +698,10 @@ Pour améliorer les performances du modèle, la courbe ROC a été utilisée pou
 Le modèle Random Forest a montré de bonnes performances après optimisation. La sélection des caractéristiques et l'ajustement du seuil ont amélioré l'exactitude et la précision, avec des variables clés comme \textbf{recharge\_moyenne}, \textbf{voice\_amount\_moyenne}, et \textbf{activation\_days}.
 
 \subsection{Modélisation avec Deep Learning}
-Dans cette section, nous explorons l'application des réseaux de neurones pour la prédiction de la variable cible \textbf{osat\_binary}, à travers deux approches distinctes: \textbf{PyTorch} et \textbf{Keras/TensorFlow}. Nous détaillons le processus de modélisation, incluant la préparation des données, le choix des architectures de réseaux de neurones, et les stratégies de réglage des hyperparamètres, tout en mettant en évidence les spécificités de chaque approche.
+Dans cette section, on explore l'application des réseaux de neurones pour la prédiction de la variable cible \textbf{osat\_binary}, à travers deux approches distinctes: \textbf{PyTorch} et \textbf{Keras/TensorFlow}. On détaille le processus de modélisation, incluant la préparation des données, le choix des architectures de réseaux de neurones, et les stratégies de réglage des hyperparamètres, tout en mettant en évidence les spécificités de chaque approche.
 
 \subsubsection{Approche PyTorch}
-L'approche \textbf{PyTorch} a été choisie pour sa flexibilité. Nous avons construit un modèle de classification binaire pour prédire la satisfaction des clients (\textbf{osat\_binary}).
+L'approche \textbf{PyTorch} a été choisie pour sa flexibilité. on a construit un modèle de classification binaire pour prédire la satisfaction des clients (\textbf{osat\_binary}).
 
 \textbf{1. Préparation des données:} Les données ont été standardisées et converties en tenseurs. Les \textbf{poids de classe} ont été calculés pour traiter le déséquilibre des classes. 
 

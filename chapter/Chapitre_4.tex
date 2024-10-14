@@ -9,9 +9,9 @@
 
 \sloppy \setstretch{1.2} 
 \section{Introduction}
-Dans ce chapitre, nous présentons les résultats des modèles de machine learning et deep learning appliqués à trois datasets distincts. L'objectif est d'évaluer la performance de chaque modèle pour identifier les meilleures méthodes de classification.
+Dans ce chapitre, on présente les résultats des modèles de machine learning et deep learning appliqués à trois datasets distincts. L'objectif est d'évaluer la performance de chaque modèle pour identifier les meilleures méthodes de classification.
 
-Nous analyserons les résultats des modèles traditionnels (régression logistique, arbres de décision, Random Forest) ainsi que des modèles de deep learning basés sur PyTorch et Keras/TensorFlow. Une comparaison finale déterminera la meilleure approche pour la généralisation et les insights sur les facteurs influençant la satisfaction des clients.
+on analysera les résultats des modèles traditionnels (régression logistique, arbres de décision, Random Forest) ainsi que des modèles de deep learning basés sur PyTorch et Keras/TensorFlow. Une comparaison finale déterminera la meilleure approche pour la généralisation et les insights sur les facteurs influençant la satisfaction des clients.
 \section{Résultats des Modèles de Machine Learning}
 
 Plusieurs modèles de \textit{Machine Learning} ont été testés pour prédire la variable cible à partir des caractéristiques fournies. Les modèles utilisés incluent : \textbf{Régression Logistique}, \textbf{Arbre de Décision}, \textbf{Random Forest}, \textbf{AdaBoost}, \textbf{Gradient Boosting}, et un \textbf{Modèle Ensembliste}.
@@ -20,7 +20,7 @@ Ces modèles ont été entraînés et évalués sur trois jeux de données (\tex
 
 \subsection{Modèle de Régression Logistique}
 
-La régression logistique est un modèle de base souvent utilisé pour la classification binaire. Nous l'avons appliqué sur les trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}, afin de fournir une première évaluation de la relation entre les variables explicatives et la variable cible.
+La régression logistique est un modèle de base souvent utilisé pour la classification binaire. on l'a appliqué sur les trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}, afin de fournir une première évaluation de la relation entre les variables explicatives et la variable cible.
 
 \subsubsection{Résultats pour les trois datasets}
 
@@ -48,14 +48,14 @@ Les figures ci-dessous illustrent les matrices de confusion et les courbes ROC p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_1.png}
-        \caption{Matrice de confusion pour \textit{network\_fev}.}
+        \caption{Matrice de confusion pour \textit{network\_fev}}
         \label{eee}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_3.png}
-        \caption{Courbe ROC pour \textit{network\_fev}.}
+        \caption{Courbe ROC pour \textit{network\_fev}}
         \label{hhh}
     \end{minipage}
 \end{figure}
@@ -67,14 +67,14 @@ Les figures ci-dessous illustrent les matrices de confusion et les courbes ROC p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_4.png}
-        \caption{Matrice de confusion pour \textit{network\_may}.}
+        \caption{Matrice de confusion pour \textit{network\_may}}
         \label{mmm}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_20.png}
-        \caption{Matrice de confusion pour \textit{retail\_juin}.}
+        \caption{Matrice de confusion pour \textit{retail\_juin}}
         \label{nnn}
     \end{minipage}
 \end{figure}
@@ -123,13 +123,13 @@ Les matrices de confusion et courbes ROC ci-dessous permettent de visualiser la 
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_6.png}
-        \caption{Matrice de confusion pour \textit{network\_fev}.}
+        \caption{Matrice de confusion pour \textit{network\_fev}}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_7.png}
-        \caption{Matrice de confusion pour \textit{network\_may}.}
+        \caption{Matrice de confusion pour \textit{network\_may}}
     \end{minipage}
 \end{figure}
 
@@ -138,7 +138,7 @@ Les matrices de confusion et courbes ROC ci-dessous permettent de visualiser la 
     \begin{minipage}{0.45\textwidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_8.png}
-        \caption{Matrice de confusion pour \textit{retail\_juin}.}
+        \caption{Matrice de confusion pour \textit{retail\_juin}}
     \end{minipage}
 \end{figure}
 
@@ -192,13 +192,13 @@ Les figures ci-dessous illustrent les matrices de confusion et les courbes ROC p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_9.png}
-        \caption{Matrice de confusion pour \textit{network\_fev}.}
+        \caption{Matrice de confusion pour \textit{network\_fev}}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_10.png}
-        \caption{Courbe ROC pour \textit{network\_fev}.}
+        \caption{Courbe ROC pour \textit{network\_fev}}
     \end{minipage}
 \end{figure}
 
@@ -209,13 +209,13 @@ Les figures ci-dessous illustrent les matrices de confusion et les courbes ROC p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_11.png}
-        \caption{Matrice de confusion pour \textit{network\_may}.}
+        \caption{Matrice de confusion pour \textit{network\_may}}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_40.png}
-        \caption{Courbe ROC pour \textit{network\_may}.}
+        \caption{Courbe ROC pour \textit{network\_may}}
         \label{fig:roc_may_rf}
     \end{minipage}
 \end{figure}
@@ -227,13 +227,13 @@ Les figures ci-dessous illustrent les matrices de confusion et les courbes ROC p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_14.png}
-        \caption{Matrice de confusion pour \textit{retail\_juin}.}
+        \caption{Matrice de confusion pour \textit{retail\_juin}}
     \end{minipage}
     \hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=\linewidth]{capture_modele_15.png}
-        \caption{Courbe ROC pour \textit{retail\_juin}.}
+        \caption{Courbe ROC pour \textit{retail\_juin}}
         \label{fig:roc_juin_rf}
     \end{minipage}
 \end{figure}
@@ -255,7 +255,7 @@ La figure \ref{fig:seuil_importance} montre l'évolution de l'exactitude en fonc
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{capture_modele_38.png}
-    \caption{Exactitude en fonction du seuil d'importance.}
+    \caption{Exactitude en fonction du seuil d'importance}
     \label{fig:seuil_importance}
 \end{figure}
 
@@ -264,7 +264,7 @@ Le meilleur seuil trouvé est 0.01, permettant de maintenir une bonne performanc
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_modele_39.png}
-    \caption{Matrice de confusion avec caractéristiques importantes (\textit{retail\_juin}).}
+    \caption{Matrice de confusion avec caractéristiques importantes (\textit{retail\_juin})}
     \label{fig:confusion_rf_imp}
 \end{figure}
 
@@ -284,7 +284,7 @@ Le meilleur seuil trouvé est 0.01, permettant de maintenir une bonne performanc
 
 \subsubsection{Approche de KMeans et résultats pour \textit{retail\_juin}}
 
-Pour le dataset \textit{retail\_juin}, nous avons utilisé l'algorithme KMeans pour convertir les variables continues en catégories. Cette méthode aide à identifier des patterns sous-jacents.
+Pour le dataset \textit{retail\_juin}, on a utilisé l'algorithme KMeans pour convertir les variables continues en catégories. Cette méthode aide à identifier des patterns sous-jacents.
 
 \textbf{Mesure de Silhouette:} Cet indicateur évalue la qualité des clusters obtenus. Un score proche de 1 signifie des clusters bien définis, 0 indique des frontières floues, et un score négatif signale un mauvais regroupement.
 
@@ -295,13 +295,13 @@ Pour le dataset \textit{retail\_juin}, nous avons utilisé l'algorithme KMeans p
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=1\linewidth]{capture_modele_18.png}
-        \caption{Meilleurs scores de silhouette pour \textit{retail\_juin}.}
+        \caption{Meilleurs scores de silhouette pour \textit{retail\_juin}}
         \label{fig:kmeans_intervals}
     \end{minipage}\hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=1\linewidth]{capture_modele_19.png}
-        \caption{Répartition des variables en clusters après KMeans.}
+        \caption{Répartition des variables en clusters après KMeans}
         \label{kmeans_clusters}
     \end{minipage}
 \end{figure}
@@ -335,7 +335,7 @@ Après avoir catégorisé les variables continues avec KMeans, le modèle Random
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_modele_17.png}
-    \caption{Rapport de classification pour \textit{retail\_juin} après KMeans.}
+    \caption{Rapport de classification pour \textit{retail\_juin} après KMeans}
     \label{fig:classification_kmeans}
 \end{figure}
 
@@ -356,14 +356,14 @@ En conclusion, le modèle Random Forest s'est avéré plus performant que la ré
 
 \section{Résultats des Modèles de Deep Learning}
 
-Dans cette section, nous présentons les résultats obtenus à l'aide de modèles de deep learning appliqués aux trois datasets: \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a utilisé deux frameworks de deep learning populaires, PyTorch et Keras/TensorFlow, pour entraîner ces modèles tout en optimisant les hyperparamètres pour chaque dataset. 
+Dans cette section, on présente les résultats obtenus à l'aide de modèles de deep learning appliqués aux trois datasets: \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a utilisé deux frameworks de deep learning populaires, PyTorch et Keras/TensorFlow, pour entraîner ces modèles tout en optimisant les hyperparamètres pour chaque dataset. 
 
-Pour chaque modèle, on a ajusté des paramètres tels que le taux d'apprentissage, la taille des batches, le taux de drop-out, ainsi que la profondeur des réseaux de neurones afin d'obtenir des performances optimales. Les résultats obtenus sont comparés aux modèles de machine learning traditionnels afin de déterminer l'impact de l'approche de deep learning sur la qualité des prédictions. Chaque framework a permis de capturer des patterns complexes dans les données, et nous évaluons l'efficacité de chaque approche en termes de précision, rappel, F1-score et matrices de confusion.
+Pour chaque modèle, on a ajusté des paramètres tels que le taux d'apprentissage, la taille des batches, le taux de drop-out, ainsi que la profondeur des réseaux de neurones afin d'obtenir des performances optimales. Les résultats obtenus sont comparés aux modèles de machine learning traditionnels afin de déterminer l'impact de l'approche de deep learning sur la qualité des prédictions. Chaque framework a permis de capturer des patterns complexes dans les données, et on évalue l'efficacité de chaque approche en termes de précision, rappel, F1-score et matrices de confusion.
 
 
 \subsection{Modèle Deep Learning avec PyTorch}
 
-Dans cette sous-section, nous présentons les résultats obtenus à l'aide du framework PyTorch pour les trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a optimisé les hyperparamètres, incluant le taux d'apprentissage, la taille du batch, et le taux de drop-out afin d'obtenir des résultats optimaux pour chaque dataset.
+Dans cette sous-section, on présente les résultats obtenus à l'aide du framework PyTorch pour les trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a optimisé les hyperparamètres, incluant le taux d'apprentissage, la taille du batch, et le taux de drop-out afin d'obtenir des résultats optimaux pour chaque dataset.
 
 \textbf{Résultats pour les trois datasets:} Les résultats obtenus avec l'approche PyTorch sur les trois datasets sont résumés dans le tableau ci-dessous :
 
@@ -388,12 +388,12 @@ Dans cette sous-section, nous présentons les résultats obtenus à l'aide du fr
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=1\linewidth]{capture_modele_25.png}
-        \caption{Matrice de confusion pour \textit{network\_fev} (PyTorch).}
+        \caption{Matrice de confusion pour \textit{network\_fev} (PyTorch)}
     \end{minipage}\hfill
     \begin{minipage}{0.45\linewidth}
         \centering
         \includegraphics[width=1\linewidth]{capture_modele_26.png}
-        \caption{Matrice de confusion pour \textit{network\_may} (PyTorch).}
+        \caption{Matrice de confusion pour \textit{network\_may} (PyTorch)}
     \end{minipage}
 \end{figure}
 
@@ -402,7 +402,7 @@ Dans cette sous-section, nous présentons les résultats obtenus à l'aide du fr
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_modele_27.png}
-    \caption{Matrice de confusion pour \textit{retail\_juin} (PyTorch).}
+    \caption{Matrice de confusion pour \textit{retail\_juin} (PyTorch)}
 \end{figure}
 
 \textbf{Interprétation :} Sur \textit{retail\_juin}, le modèle obtient une exactitude de 0.69 avec un F1-score de 0.65. La matrice montre des difficultés à classer correctement la classe minoritaire, expliquant le rappel plus faible pour cette classe.
@@ -429,7 +429,7 @@ Les résultats obtenus pour \textit{network\_fev} sont résumés dans la matrice
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_modele_28.png}
-    \caption{Matrice de confusion pour \textit{network\_fev} avec Keras/TensorFlow.}
+    \caption{Matrice de confusion pour \textit{network\_fev} avec Keras/TensorFlow}
 \end{figure}
 
 \textbf{Interprétation :} Le modèle a atteint une précision de 0.72 et un F1-score de 0.72, indiquant une classification relativement équilibrée entre les deux classes. Bien que ces résultats soient satisfaisants, ils restent comparables aux performances obtenues avec d'autres modèles tels que Random Forest et l'approche d'ensemble, sans apporter d'amélioration majeure.
@@ -441,7 +441,7 @@ Les résultats obtenus pour \textit{network\_may} sont également encourageants,
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\linewidth]{capture_modele_29.png}
-    \caption{Matrice de confusion pour \textit{network\_may} avec Keras/TensorFlow.}
+    \caption{Matrice de confusion pour \textit{network\_may} avec Keras/TensorFlow}
 \end{figure}
 
 \textbf{Interprétation :} Avec une précision de 0.73 et un F1-score de 0.74, le modèle Keras/TensorFlow a montré des performances solides sur ce dataset. Il a bien capturé les caractéristiques des deux classes, surpassant légèrement les autres modèles en termes de précision sur ce dataset. Toutefois, l'amélioration reste marginale par rapport à d'autres modèles comme le modèle d'ensemble.
@@ -453,13 +453,13 @@ Enfin, les résultats obtenus pour le dataset \textit{retail\_juin} montrent ég
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{capture_modele_30.png}
-    \caption{Matrice de confusion et classification report pour \textit{retail\_juin} avec Keras/TensorFlow.}
+    \caption{Matrice de confusion et classification report pour \textit{retail\_juin} avec Keras/TensorFlow}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\linewidth]{capture_modele_31.png}
-    \caption{Courbes de précision et de perte sur les epochs pour \textit{retail\_juin}.}
+    \caption{Courbes de précision et de perte sur les epochs pour \textit{retail\_juin}}
     \label{fig:curves_juin_keras}
 \end{figure}
 
@@ -472,11 +472,11 @@ Dans l'ensemble, le modèle Keras/TensorFlow a montré des performances solides 
 
 \section{Comparaison Entre les Modèles de Machine Learning et de Deep Learning}
 
-Dans cette section, nous comparons les résultats obtenus à l'aide des différentes approches de machine learning et de deep learning appliquées aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. Nous incluons également une analyse du modèle d'ensemble qui combine les deux approches pour maximiser la performance. Cette comparaison permet de comprendre les avantages et inconvénients de chaque méthode en fonction de la nature des données et de leur complexité.
+Dans cette section, on compare les résultats obtenus à l'aide des différentes approches de machine learning et de deep learning appliquées aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on inclut également une analyse du modèle d'ensemble qui combine les deux approches pour maximiser la performance. Cette comparaison permet de comprendre les avantages et inconvénients de chaque méthode en fonction de la nature des données et de leur complexité.
 
 \subsection{Comparaison et Validation des Modèles de Machine Learning}
 
-Dans cette sous-section, nous comparons et validons les performances des différents modèles de machine learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. 
+Dans cette sous-section, on compare et validons les performances des différents modèles de machine learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. 
 
 Les modèles de régression logistique, d'arbre de décision, et de Random Forest ont été testés sur chaque dataset et évalués selon plusieurs métriques de performance, incluant la précision, le rappel, le F1-score et l'aire sous la courbe ROC (AUC). Voici les principales observations :
 
@@ -496,7 +496,7 @@ Ces résultats valident l'efficacité des modèles de machine learning basés su
 
 \subsection{Comparaison et Validation des Modèles de Deep Learning}
 
-Dans cette sous-section, nous comparons et validons les performances des modèles de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a utilisé deux frameworks de deep learning, PyTorch et Keras/TensorFlow, afin d'explorer leurs performances respectives sur ces datasets.
+Dans cette sous-section, on compare et validons les performances des modèles de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. on a utilisé deux frameworks de deep learning, PyTorch et Keras/TensorFlow, afin d'explorer leurs performances respectives sur ces datasets.
 
 Les modèles ont été évalués selon des métriques standard telles que la précision, le rappel, le F1-score, ainsi que la capacité de généralisation des modèles mesurée par les courbes ROC et l'aire sous la courbe (AUC). Voici un résumé des comparaisons entre les deux frameworks et leurs performances respectives.
 
@@ -516,7 +516,7 @@ En conclusion, bien que les deux frameworks aient montré des résultats promett
 
 \subsection{Comparaison Globale : Machine Learning vs Deep Learning}
 
-Dans cette sous-section, nous comparons les performances des modèles de machine learning et de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. Cette comparaison permet de comprendre les forces et les faiblesses des deux approches selon les types de données et leur complexité.
+Dans cette sous-section, on compare les performances des modèles de machine learning et de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. Cette comparaison permet de comprendre les forces et les faiblesses des deux approches selon les types de données et leur complexité.
 
 \begin{itemize}
     \item \textbf{Précision et F1-score :} Les modèles de deep learning, en particulier avec Keras/TensorFlow, ont montré une meilleure capacité de généralisation sur les datasets plus complexes comme \textit{retail\_juin}, tandis que les modèles de machine learning, comme Random Forest, ont bien performé sur des datasets plus simples tels que \textit{network\_fev}.
@@ -538,7 +538,7 @@ Le modèle d'ensemble utilisé ici combine trois algorithmes : Random Forest, Ad
 
 \subsubsection{Motivation de l’approche d’ensemble}
 
-L'approche d'ensemble est particulièrement efficace pour réduire les erreurs de généralisation des modèles individuels, car elle combine leurs prédictions, et peut ainsi réduire le risque de sur-apprentissage (overfitting) ou de sous-apprentissage (underfitting). En combinant un modèle basé sur les arbres de décision (Random Forest), un modèle de boosting (AdaBoost) qui corrige les erreurs de prédiction, et un réseau de neurones profond capable de capturer des relations non linéaires dans les données, nous espérions que cette approche augmenterait la robustesse des résultats sur des données complexes comme \textit{network\_fev} et \textit{retail\_juin}.
+L'approche d'ensemble est particulièrement efficace pour réduire les erreurs de généralisation des modèles individuels, car elle combine leurs prédictions, et peut ainsi réduire le risque de sur-apprentissage (overfitting) ou de sous-apprentissage (underfitting). En combinant un modèle basé sur les arbres de décision (Random Forest), un modèle de boosting (AdaBoost) qui corrige les erreurs de prédiction, et un réseau de neurones profond capable de capturer des relations non linéaires dans les données, on espére que cette approche augmenterait la robustesse des résultats sur des données complexes comme \textit{network\_fev} et \textit{retail\_juin}.
 
 \subsubsection{Justification des datasets sélectionnés}
 
@@ -605,7 +605,7 @@ Dans cette section, on a comparé les performances des modèles de machine learn
 
 Le surajustement (\textit{overfitting}) est un phénomène où un modèle apprend trop spécifiquement les détails et le bruit des données d'entraînement, ce qui lui permet d'obtenir de bonnes performances sur ces données, mais il généralise mal sur des données non vues (jeu de test). Un modèle surajusté aura tendance à surapprendre les particularités des données d'entraînement, au détriment de sa capacité à bien performer sur des données nouvelles.
 
-Pour évaluer si le meilleur modèle présente un phénomène de surajustement, nous avons comparé ses performances sur les jeux de validation et de test. Les résultats présentés ici concernent la data \textbf{network\_may}, et des analyses similaires ont été effectuées pour les autres datasets, où des résultats cohérents ont été obtenus. La figure \ref{fig:overfit} montre ces performances.
+Pour évaluer si le meilleur modèle présente un phénomène de surajustement, on a comparé ses performances sur les jeux de validation et de test. Les résultats présentés ici concernent la data \textbf{network\_may}, et des analyses similaires ont été effectuées pour les autres datasets, où des résultats cohérents ont été obtenus. La figure \ref{fig:overfit} montre ces performances.
 
 \begin{figure}[H]
     \centering
@@ -644,7 +644,7 @@ La Figure \ref{fig:profil_satisfaction} illustre le profil du client le plus sat
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{capture_modele_32.png}
-    \caption{Profil du client le plus satisfait pour \textit{network\_fev} basé sur les intervalles de satisfaction.}
+    \caption{Profil du client le plus satisfait pour \textit{network\_fev} : intervalles de satisfaction}
     \label{fig:profil_satisfaction}
 \end{figure}
 
@@ -669,7 +669,7 @@ La figure \ref{fig:profil_satisfait_may} présente les autres intervalles corres
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{capture_modele_33.png}
-    \caption{Profil du client le plus satisfait pour \textit{network\_may} basé sur les intervalles de satisfaction.}
+    \caption{Profil du client le plus satisfait pour \textit{network\_may} : intervalles de satisfaction}
     \label{fig:profil_satisfait_may}
 \end{figure}
 
@@ -691,7 +691,7 @@ La figure \ref{fig:profil_satisfait_retail} présente les autres intervalles cor
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\linewidth]{capture_modele_34.png}
-    \caption{Profil du client le plus satisfait pour \textit{retail\_juin} basé sur les intervalles de satisfaction.}
+    \caption{Profil du client le plus satisfait pour \textit{retail\_juin} : intervalles de satisfaction}
     \label{fig:profil_satisfait_retail}
 \end{figure}
 
@@ -718,6 +718,6 @@ Les trois datasets présentent des profils de satisfaction légèrement différe
 
 \section{Conclusion}
 
-Ce chapitre présente les résultats obtenus à l'aide des modèles de machine learning et de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. Les modèles utilisés incluent la régression logistique, l'arbre de décision, et le Random Forest pour la partie machine learning, ainsi que PyTorch et Keras/TensorFlow pour la partie deep learning. De plus, une approche d'ensemble combinant le Random Forest, AdaBoost et un réseau de neurones a été explorée afin d'améliorer la performance globale de classification. Chaque méthode a été analysée et validée à travers plusieurs métriques de performance, incluant la précision, le F1-score, et l'aire sous la courbe ROC (AUC). Enfin, on a proposé une analyse approfondie du profil des clients les plus satisfaits en nous basant sur les résultats des modèles et en examinant les effets des variables.
+Ce chapitre présente les résultats obtenus à l'aide des modèles de machine learning et de deep learning appliqués aux trois datasets : \textit{network\_fev}, \textit{network\_may}, et \textit{retail\_juin}. Les modèles utilisés incluent la régression logistique, l'arbre de décision, et le Random Forest pour la partie machine learning, ainsi que PyTorch et Keras/TensorFlow pour la partie deep learning. De plus, une approche d'ensemble combinant le Random Forest, AdaBoost et un réseau de neurones a été explorée afin d'améliorer la performance globale de classification. Chaque méthode a été analysée et validée à travers plusieurs métriques de performance, incluant la précision, le F1-score, et l'aire sous la courbe ROC (AUC). Enfin, on a proposé une analyse approfondie du profil des clients les plus satisfaits en se basant sur les résultats des modèles et en examinant les effets des variables.
 
-Le chapitre est structuré de la manière suivante : tout d'abord, les résultats des modèles de machine learning sont présentés, suivis des résultats des modèles de deep learning. Ensuite, une comparaison globale des deux approches est effectuée avant de présenter les résultats du modèle d'ensemble. Finalement, nous analysons le profil des clients satisfaits en nous basant sur les variables clés identifiées à partir des modèles.
+Le chapitre est structuré de la manière suivante : tout d'abord, les résultats des modèles de machine learning sont présentés, suivis des résultats des modèles de deep learning. Ensuite, une comparaison globale des deux approches est effectuée avant de présenter les résultats du modèle d'ensemble. Finalement, on analyse le profil des clients satisfaits en se basant sur les variables clés identifiées à partir des modèles.
