@@ -59,7 +59,7 @@ Elle met les données à l’échelle entre 0 et 1 selon la formule suivante:
 Pour améliorer la qualité des données, surtout lorsque celles-ci ne suivent pas une distribution normale, des techniques avancées comme la transformation de Box-Cox et la transformation de Yeo-Johnson sont souvent employées.
 
 \textbf{\(\checkmark\)} \textbf{Transformation de Box-Cox} \\
-La transformation de Box-Cox stabilise la variance et rapproche les données d'une distribution normale. Elle est définie par:
+La transformation de Box-Cox \cite{titleB1000} stabilise la variance et rapproche les données d'une distribution normale. Elle est définie par:
 
 \[
 y(\lambda) =
@@ -74,7 +74,7 @@ y(\lambda) =
 \textbf{\(\rightarrow\)} \textbf{Choix de $\lambda$}: Le paramètre $\lambda$ est choisi par maximisation de la log-vraisemblance.
 
 \textbf{\(\checkmark\)} \textbf{Transformation de Yeo-Johnson} \\
-Cette transformation est une généralisation de Box-Cox qui permet de traiter à la fois les données positives et négatives. Elle est définie par:
+La transformation de Yeo-Johnson \cite{haha} est une généralisation de Box-Cox qui permet de traiter à la fois les données positives et négatives. Elle est définie par:
 
 \[
 y(\lambda) =
@@ -109,14 +109,14 @@ x_{i,\text{missing}} = \text{Médiane}(x_i)
 Le K-Nearest Neighbors (KNN) repose sur la similarité des données pour imputer les valeurs manquantes. Il identifie les \(k\) voisins les plus proches de l'observation avec la valeur manquante, en se basant sur une mesure de distance. Parmi ces mesures, la distance de Minkowski est une généralisation couramment utilisée.
 
 \textbf{\(\checkmark\)} \textbf{Étape 1: Calcul de la distance de Minkowski:} \\
-La distance de Minkowski est définie par :
+La distance de Minkowski \cite{min} est définie par :
 
 \[
 d(x_i, x_j) = \left( \sum_{k=1}^{n} |x_{ik} - x_{jk}|^p \right)^{1/p}
 \]
 
 \textbf{Cas particuliers:}\\
-\textbf{\(\rightarrow\)} Si \( p = 2 \), on obtient la \textbf{distance euclidienne}, utilisée pour les données continues.\\
+\textbf{\(\rightarrow\)} Si \( p = 2 \), on obtient la \textbf{distance euclidienne} \cite{euc}, utilisée pour les données continues.\\
 \textbf{\(\rightarrow\)} Si \( p = 1 \), on obtient la \textbf{distance de Manhattan}, adaptée aux données avec de grandes variations.\\
 \textbf{\(\rightarrow\)} Pour d'autres valeurs de \( p \), la \textbf{distance de Minkowski} offre une flexibilité accrue pour ajuster la mesure de similarité.
 
@@ -189,7 +189,7 @@ Où:
 
 \subsection{Lambda de Goodman et Kruskal}
 
-Le \textbf{Lambda} (\(\lambda\)) mesure l'amélioration de la prédiction d'une variable qualitative dépendante en fonction d'une variable qualitative indépendante. Il compare les erreurs de prédiction avec et sans la variable indépendante.
+Le \textbf{Lambda} (\(\lambda\)) de Goodman et Kruskal \cite{gm} mesure l'amélioration de la prédiction d'une variable qualitative dépendante en fonction d'une variable qualitative indépendante. Il compare les erreurs de prédiction avec et sans la variable indépendante.
 \[
 \lambda = \frac{E_0 - E_1}{E_0}
 \]
@@ -240,7 +240,7 @@ En résumé, les indicateurs comme le Cramer V, le Lambda de Goodman et Kruskal,
 
 \section{Les Tests de corrélation}
 
- Les tests de corrélation évaluent la relation entre deux variables. Ils se divisent en tests paramétriques, comme Pearson et ANOVA, qui supposent la normalité des données, et en tests non paramétriques, comme Mann-Whitney et Spearman, qui sont plus flexibles en l'absence de ces conditions.
+ Les tests de corrélation évaluent la relation entre deux variables. Ils se divisent en tests paramétriques, comme Pearson \cite{pearson} et ANOVA, qui supposent la normalité des données, et en tests non paramétriques, comme Mann-Whitney \cite{U} et Spearman, qui sont plus flexibles en l'absence de ces conditions.
 
 \subsection*{Types de Corrélation}
 
@@ -260,18 +260,11 @@ Les tests paramétriques, plus puissants que les non-paramétriques, détectent 
 \subsubsection{Les conditions pour appliquer les tests paramétriques}
 \subsubsection*{Vérification de la normalité des données:}
 
-La vérification de la normalité est essentielle avant d'appliquer des tests paramétriques. Le test de Shapiro-Wilk utilise la statistique \( W \) pour évaluer si un échantillon suit une loi normale. Si la p-value associée à \( W \) est inférieure à 0,05, l'hypothèse de normalité est rejetée.
+La vérification de la normalité est essentielle avant d'appliquer des tests paramétriques. Le test de Shapiro-Wilk \cite{11} utilise la statistique \( W \) pour évaluer si un échantillon suit une loi normale. Si la p-value associée à \( W \) est inférieure à 0,05, l'hypothèse de normalité est rejetée.
 
 \textbf{\(\checkmark\)} \textbf{Hypothèses du Test:}\\
 \noindent \textbf{\(\rightarrow\)} \( H_0 \) L'échantillon suit une loi normale.\\
 \textbf{\(\rightarrow\)} \( H_1 \) L'échantillon ne suit pas une loi normale.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{gaussqq.png}
-    \caption{Distribution normale et Q-Q plot pour la vérification de la normalité.}
-    \label{fig:normality_check}
-\end{figure}
 
 \textbf{\(\checkmark\)} \textbf{Explication Mathématique:}
 Le test de Shapiro-Wilk compare les statistiques d'ordre observées à celles attendues sous la loi normale. La statistique \( W \) est calculée comme suit:
@@ -294,10 +287,10 @@ Où:
 
 \subsubsection*{Homoscédasticité (ou égalité des variances):}
 
-L'homoscédasticité est cruciale avant d'appliquer des tests paramétriques. Le test de Levene compare les déviations absolues par rapport à la médiane pour évaluer l'égalité des variances entre groupes.
+L'homoscédasticité est cruciale avant d'appliquer des tests paramétriques. Le test de Levene \cite{Levene} compare les déviations absolues par rapport à la médiane pour évaluer l'égalité des variances entre groupes.
 
 \textbf{\(\checkmark\)} \textbf{Hypothèses du Test:}\\
-\noindent \textbf{\(\rightarrow\)} \( H_0 \): Les variances des groupes sont égales (homoscédasticité).
+\noindent \textbf{\(\rightarrow\)} \( H_0 \): Les variances des groupes sont égales (homoscédasticité).\\
 \textbf{\(\rightarrow\)} \( H_1 \): Les variances des groupes sont différentes (hétéroscédasticité).
 
 \textbf{\(\checkmark\)} \textbf{Calcul des Déviations Absolues}:
@@ -381,7 +374,7 @@ R^2 = 1 - \frac{\sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2}{\sum_{i=1}^{n} (Y_i - \bar{Y
 
 \subsubsection{Test t de Student}
 
-\textbf{Le test t (ou test de Student)} est utilisé pour comparer les moyennes de deux groupes ou d'un groupe par rapport à une valeur standard. Il vise à déterminer si les différences entre les moyennes sont statistiquement significatives ou dues au hasard.
+\textbf{Le test t (ou test de Student)} \cite{t} est utilisé pour comparer les moyennes de deux groupes ou d'un groupe par rapport à une valeur standard. Il vise à déterminer si les différences entre les moyennes sont statistiquement significatives ou dues au hasard.
 
 \textbf{\(\checkmark\)} \textbf{Conditions d'application du test t:}\\
     \textbf{\(\rightarrow\)} \textbf{Normalité}: Les données doivent suivre une distribution normale.\\
@@ -516,7 +509,7 @@ Où:
 
 \subsubsection{Test de Spearman}
 
-\textbf{Le test de Spearman} mesure la force et la direction de la relation monotone entre deux variables ordinales ou continues non normales. Il est une alternative au test de Pearson pour les données non paramétriques.
+\textbf{Le test de Spearman} \cite{spearman} mesure la force et la direction de la relation monotone entre deux variables ordinales ou continues non normales. Il est une alternative au test de Pearson pour les données non paramétriques.
 
 \textbf{\(\checkmark\)} \textbf{Formule du coefficient de Spearman:}
 \[
@@ -565,7 +558,7 @@ Où:
 
 \subsubsection{Test exact de Fisher}
 
-\textbf{Le test exact de Fisher} est utilisé pour évaluer l'indépendance entre deux variables dans un tableau de contingence 2x2, particulièrement utile lorsque les effectifs sont petits ou les fréquences observées faibles.
+\textbf{Le test exact de Fisher} \cite{fisher} est utilisé pour évaluer l'indépendance entre deux variables dans un tableau de contingence 2x2, particulièrement utile lorsque les effectifs sont petits ou les fréquences observées faibles.
 
 \textbf{\(\checkmark\)} \textbf{Explication mathématique:}\\
 Le test évalue la probabilité d'obtenir une répartition des données aussi extrême ou plus extrême que celle observée, sous l'hypothèse nulle d'indépendance.
