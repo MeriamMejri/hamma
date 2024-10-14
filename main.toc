@@ -1,7 +1,7 @@
 \thispagestyle {MyStyle}
 \contentsline {chapter}{Liste des abréviations}{ix}{chapter*.4}%
-\contentsline {chapter}{Liste des figures}{xii}{chapter*.5}%
-\contentsline {chapter}{Liste des tables}{xii}{chapter*.5}%
+\contentsline {chapter}{Liste des figures}{xiii}{chapter*.5}%
+\contentsline {chapter}{Liste des tables}{xiii}{chapter*.5}%
 \contentsline {chapter}{INTRODUCTION \MakeUppercase []{générale}}{1}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Présentation générale du projet}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}%
