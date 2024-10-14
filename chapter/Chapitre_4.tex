@@ -601,17 +601,16 @@ Les résultats obtenus avec l'approche d'ensemble sur le dataset \textit{retail\
 \subsection{Conclusion}
 
 Dans cette section, on a comparé les performances des modèles de machine learning et de deep learning sur les trois datasets. Les modèles de machine learning, notamment Random Forest, ont bien performé sur les données moins complexes, tandis que les modèles de deep learning, tels que ceux basés sur Keras/TensorFlow, ont mieux généralisé sur des données plus complexes comme \textit{retail\_juin}. L'approche d'ensemble combinant ces deux méthodes n'a apporté que des gains marginaux. En conclusion, le choix du modèle optimal dépend de la complexité des données et du besoin de généralisation.
-
 \section{Vérification du surajustement du meilleur modèle}
 
 Le surajustement (\textit{overfitting}) est un phénomène où un modèle apprend trop spécifiquement les détails et le bruit des données d'entraînement, ce qui lui permet d'obtenir de bonnes performances sur ces données, mais il généralise mal sur des données non vues (jeu de test). Un modèle surajusté aura tendance à surapprendre les particularités des données d'entraînement, au détriment de sa capacité à bien performer sur des données nouvelles.
 
-Pour évaluer si le meilleur modèle présente un phénomène de surajustement, nous avons comparé ses performances sur les jeux de validation et de test. Les résultats de l'évaluation sont présentés dans la figure \ref{fig:overfit}.
+Pour évaluer si le meilleur modèle présente un phénomène de surajustement, nous avons comparé ses performances sur les jeux de validation et de test. Les résultats présentés ici concernent la data \textbf{network\_may}, et des analyses similaires ont été effectuées pour les autres datasets, où des résultats cohérents ont été obtenus. La figure \ref{fig:overfit} montre ces performances.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\linewidth]{OVERFIT.png}
-    \caption{Performances du modèle sur les jeux de validation et de test}
+    \includegraphics[width=0.7\linewidth]{OVERFIT.png}
+    \caption{Performances du modèle sur les jeux de validation et de test pour \textbf{network\_may}}
     \label{fig:overfit}
 \end{figure}
 
