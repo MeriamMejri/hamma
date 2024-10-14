@@ -7,8 +7,11 @@
 \newpage
 \justifying
 
-\sloppy \setstretch{1.3} 
+\sloppy \setstretch{1.2} 
 \section{Introduction}
+
+Dans ce chapitre, on évalue les performances de différents modèles de machine learning et de deep learning pour l'analyse des données dans le secteur des télécommunications. L'objectif est de comparer plusieurs techniques de modélisation, y compris la régression logistique, les arbres de décision, ainsi que des approches plus complexes de deep learning avec PyTorch et Keras/TensorFlow. On examinera aussi l'impact de l'optimisation des hyperparamètres et de la sélection des caractéristiques, ainsi que l'utilisation de méthodes d'ensemble pour améliorer les performances de classification et de prédiction.
+
 \section{Prétraitement des données}
 
 Le prétraitement des données est essentiel pour garantir la qualité des informations avant l'analyse. Il permet de nettoyer et transformer les données brutes pour qu'elles soient prêtes pour la modélisation.
@@ -42,7 +45,7 @@ Contrairement à la table \textbf{Resp\_Network\_Fev}, qui se concentre sur les 
 \noindent \textbf{\checkmark Agrégation des données:} Chaque client (identifié par \textbf{subscriber\_id}) a plusieurs enregistrements dans la table \textbf{monthly\_aggregation}, un pour chaque mois (identifié par \textbf{period\_id}). Pour obtenir une vue d'ensemble des trois mois, on a agrégé ces enregistrements en une seule ligne par client en faisant la moyenne sur les 3 mois.
 
 
-Certaines variables, bien qu'utiles en théorie, posent des problèmes de crédibilité dans les données disponibles.
+Certaines variables, bien qu'utiles en théorie, posent des problèmes de crédibilité dans les données disponibles.\\
 \noindent \textbf{\checkmark Exclusion des variables non pertinentes:}
 
 Dans notre analyse, on a choisi de nous concentrer uniquement sur les clients prépayés en raison de leur comportement plus homogène, lié directement aux recharges. Les clients postpayés ont des comportements influencés par des offres et promotions complexes, rendant leur analyse plus difficile.
@@ -287,24 +290,6 @@ Passons maintenant à la comparaison avec \textbf{OSAT} binaire.
 
 Dans la version binaire, comme le montre la figure \ref{fig:barre_monthl_rech_binary}, les utilisateurs satisfaits (classe 1) sont largement dominants dans tous les segments de recharge mensuelle, particulièrement dans les segments 3 et 5. À l'inverse, les utilisateurs insatisfaits (classe 0) sont moins présents, ce qui reflète un comportement de recharge moins intense pour cette classe.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{heatmap_monthly_recharge.png}
-    \caption{Heatmap de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe \textbf{OSAT} multiclasse.}
-    \label{fig:heatmap_monthly_recharge}
-\end{figure}
-
-La carte de chaleur (\ref{fig:heatmap_monthly_recharge}) met en évidence une forte concentration d'utilisateurs dans les classes 1 et 5 pour les segments 1, 5 et 6, confirmant les tendances observées dans le graphique en barres.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{heatmap_monthly_recharge_binary.png}
-    \caption{Heatmap de la variable \textbf{monthly\_rech\_subscriber\_seg} par classe \textbf{OSAT} binaire.}
-    \label{fig:heatmap_monthly_recharge_binary}
-\end{figure}
-
-Pour la version binaire (\ref{fig:heatmap_monthly_recharge_binary}), on observe une dominance claire des utilisateurs satisfaits (classe 1) dans presque tous les segments de recharge, particulièrement dans les segments 3 et 5, ce qui reflète une tendance similaire à celle observée dans la version multiclasse, mais avec une distinction plus marquée.
-
 \subsubsection*{Comparaison entre les OSAT multiclasse et OSAT binaire pour la variable \textbf{monthly\_rech\_subscriber\_seg}} 
 Bien que la version multiclasse de \textbf{OSAT} offre une segmentation plus fine, les tendances principales se retrouvent également dans la version binaire. La classe 1 (satisfaits) montre une fréquence plus élevée dans les segments de recharge les plus importants (3 et 5). Par conséquent, la version binaire est privilégiée pour les analyses ultérieures afin de simplifier les interprétations sans perdre d'informations significatives.
 
@@ -400,10 +385,9 @@ Cette méthodologie a été appliquée pour toutes les autres variables qualitat
 
 \textbf{\(\rightarrow\)} \textbf{Variables sans association significative:} Les variables \textbf{Flag\_4g\_binary} et \textbf{flag\_smartphone} n’ont montré aucune association avec \textbf{osat\_binary}. Les \textbf{p-values} sont supérieures à 0.05, confirmant l'absence de relation statistiquement significative.
 
+\textbf{\(\rightarrow\)} \textbf{Variable avec une association significative:} La variable \textbf{monthly\_rech\_subscriber\_seg} montre une association significative avec une \textbf{p-value} de \textbf{0.0211}, suggérant un impact potentiel sur la satisfaction (\textbf{osat\_binary}).\par
 
-\textbf{\(\rightarrow\)} \textbf{Variable avec une association significative:} La variable \textbf{monthly\_rech\_subscriber\_seg} montre une association significative avec une \textbf{p-value} de \textbf{0.0211}, suggérant un impact potentiel sur la satisfaction (\textbf{osat\_binary}).
-
-\noindent \textbf{3. Analyse de l'association par la Lambda de Goodman et Kruskal:} Pour approfondir l'analyse des relations entre les variables qualitatives et \textbf{osat\_binary}, on a calculé la \textbf{Lambda de Goodman et Kruskal}, qui évalue la réduction d'erreur dans la prédiction d'une variable en fonction d'une autre.
+\textbf{3. Analyse de l'association par la Lambda de Goodman et Kruskal:} Pour approfondir l'analyse des relations entre les variables qualitatives et \textbf{osat\_binary}, on a calculé la \textbf{Lambda de Goodman et Kruskal}, qui évalue la réduction d'erreur dans la prédiction d'une variable en fonction d'une autre.
 
 \textit{Le code utilisé pour calculer la Lambda de Goodman et Kruskal est présenté dans l'annexe, voir Figure \ref{555}.}
 
@@ -505,7 +489,7 @@ Cette première figure \ref{nuage1} représente un nuage de points entre les var
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{capture_sas_48.png}
+    \includegraphics[width=0.6\linewidth]{capture_sas_48.png}
     \caption{Matrice de corrélation entre \textbf{recharge\_moyenne} et \textbf{Arpu\_moyenne}}
     \label{matrice1}
 \end{figure}
@@ -532,7 +516,7 @@ La figure \ref{nuage4} montre un nuage de points entre les variables \textbf{voi
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{capture_sas_51.png}
+    \includegraphics[width=0.6\linewidth]{capture_sas_51.png}
     \caption{Matrice de corrélation entre \textbf{voice\_volume\_moyenne} et \textbf{voice\_amount\_moyenne}}
     \label{matrice4}
 \end{figure}
@@ -546,10 +530,9 @@ Les résultats des tests de Shapiro-Wilk montrent que les deux variables ne suiv
 \subsubsection*{Conclusion }
 
 Les résultats de l'analyse des corrélations révèlent que plusieurs variables quantitatives présentent des relations significatives. Par exemple, la corrélation entre \textbf{recharge moyenne} et \textbf{ARPU} est forte avec un coefficient de \(r = 0.91\), ce qui suggère qu'une augmentation de la recharge moyenne est associée à une augmentation de l'ARPU. De même, la \textbf{voice\_volume\_moyenne} et la \textbf{voice\_amount\_moyenne} montrent également une corrélation positive avec \(r = 0.58\), reflétant une relation modérée entre ces deux variables.
+Certaines relations, comme entre \textbf{recharge moyenne} et \textbf{activation\_days}, montrent une faible corrélation négative (\(r = -0.25\)), suggérant une tendance inverse entre l'ancienneté du client et la fréquence des recharges. D'autres variables, telles que \textbf{nbre\_sms\_moyenne} et \textbf{recharge\_moyenne}, affichent une corrélation positive modérée (\(r = 0.77\)).
 
-En revanche, certaines relations, comme entre \textbf{recharge moyenne} et \textbf{activation\_days}, affichent une corrélation négative et faible (\(r = -0.25\)), suggérant une tendance inverse entre l'ancienneté du client et la fréquence des recharges. D'autres variables, telles que \textbf{nbre\_sms\_moyenne} et \textbf{recharge\_moyenne}, présentent une corrélation positive modérée (\(r = 0.77\)).
-
-Globalement, les corrélations entre les variables de consommation, comme la \textbf{mou moyenne} ou le \textbf{data volume}, sont souvent positives et significatives, tandis que certaines variables temporelles ou d'ancienneté montrent un impact moins direct ou négatif.
+En général, les corrélations entre les variables de consommation, telles que la \textbf{mou moyenne} ou le \textbf{data volume}, sont positives et significatives, tandis que les variables temporelles montrent un impact moindre ou négatif.
 
 \textbf{2. Variable quantitative VS Variable qualitative:}
 
@@ -569,16 +552,11 @@ La figure \ref{flag4g_mou} présente l'analyse de \textbf{mou\_moyenne} selon la
 Dans cet exemple, nous observons que l'accès à la 4G semble être associé à une augmentation de la consommation de minutes, ce qui suggère une corrélation significative entre ces variables.
 
 \subsection*{Conclusion }
-Pour le reste des analyses, on a appliqué la même méthodologie aux différentes combinaisons de variables quantitatives et qualitatives. Voici quelques exemples de résultats obtenus:
+La même méthodologie a été appliquée aux combinaisons de variables quantitatives et qualitatives. Voici quelques résultats obtenus : des différences significatives ont été observées entre \textbf{activation\_days} et \textbf{flag\_smartphone} (ANOVA p = 0.0232, Kruskal-Wallis p = 0.0006), indiquant une variation selon l'utilisation du smartphone. Concernant \textbf{recharge\_moyenne} et \textbf{Number\_of\_reactivation}, des différences significatives ont également été notées (ANOVA p = 0.0164, Kruskal-Wallis p = 0.0000), avec une recharge moyenne plus élevée pour les utilisateurs réactivés. 
 
-\begin{itemize}
-    \item \textbf{activation\_days} vs \textbf{flag\_smartphone}: différences significatives (ANOVA p-value = 0.0232, Kruskal-Wallis p-value = 0.0006), indiquant que la durée d'activation varie selon l'utilisation du smartphone.
-    \item \textbf{recharge\_moyenne} vs \textbf{Number\_of\_reactivation}: différences significatives (ANOVA p-value = 0.0164, Kruskal-Wallis p-value = 0.0000), avec une moyenne de recharge plus élevée pour les utilisateurs ayant des réactivations.
-    \item \textbf{mou\_moyenne} vs \textbf{Number\_of\_reactivation}: différences très significatives (ANOVA p-value = 0.0000, Kruskal-Wallis p-value = 0.0000), montrant une consommation plus importante de minutes pour les utilisateurs réactivés.
-    \item \textbf{nbre\_recharges\_moyenne} vs \textbf{Number\_of\_reactivation}: différences significatives (ANOVA p-value = 0.0000, Kruskal-Wallis p-value = 0.0000), les utilisateurs réactivés ayant un nombre moyen de recharges plus élevé.
-\end{itemize}
+Par ailleurs, \textbf{mou\_moyenne} montre des différences très significatives avec \textbf{Number\_of\_reactivation} (ANOVA p = 0.0000, Kruskal-Wallis p = 0.0000), illustrant une consommation plus importante pour les utilisateurs réactivés. Enfin, le nombre moyen de recharges (\textbf{nbre\_recharges\_moyenne}) est également significatif pour \textbf{Number\_of\_reactivation} (ANOVA p = 0.0000, Kruskal-Wallis p = 0.0000), ces utilisateurs ayant un nombre moyen de recharges plus élevé.
 
-Ces analyses montrent que des variables qualitatives comme \textbf{flag\_smartphone} et \textbf{Number\_of\_reactivation} sont significativement associées à des variables quantitatives telles que \textbf{mou\_moyenne} et \textbf{recharge\_moyenne}, suggérant leur importance pour les futurs modèles.
+Ces analyses soulignent des associations importantes entre des variables qualitatives comme \textbf{flag\_smartphone} et \textbf{Number\_of\_reactivation} et des variables quantitatives telles que \textbf{mou\_moyenne} et \textbf{recharge\_moyenne}, ce qui peut guider la modélisation future.
 
 % \subsubsection{Visualisation Tridimensionnelle des Relations}
 
@@ -692,7 +670,6 @@ Ce processus rigoureux a permis de définir les variables ayant un impact direct
 
 \subsection{Modélisation avec Machine Learning}
 
-\subsubsection{Introduction}
 Bien que plusieurs modèles aient été testés, cette section se concentre sur l'algorithme \textbf{Random Forest}, qui a donné les meilleurs résultats. Nous avons appliqué une validation croisée, ajusté les hyperparamètres, et évalué le modèle avec des métriques telles que l'exactitude, le rappel et la courbe ROC.
 
 \subsubsection{Prétraitement des données}
