@@ -1,0 +1,509 @@
+\chapter{Outils Mathématiques et Modélisation}
+\begin{spacing}{1.2}
+\minitoc
+\thispagestyle{MyStyle}
+\setstretch{1.2} 
+\end{spacing}
+\newpage
+\justifying
+
+\setstretch{1.3} 
+
+\section{Introduction}
+
+Dans ce chapitre, nous explorons diverses techniques de prétraitement des données, de modélisation et d’interprétation des résultats, toutes essentielles pour l’analyse de données structurées et non structurées. Nous aborderons les méthodes de normalisation, l’imputation des données manquantes, l’équilibrage des classes et la sélection des caractéristiques. Nous explorerons également plusieurs modèles de machine learning, ainsi que des techniques de deep learning pour améliorer la performance des prédictions et l’interprétation des modèles.
+
+\section{Équilibrage des Classes avec SMOTE}
+
+Dans le contexte de l'apprentissage supervisé, l'équilibrage des classes est crucial lorsqu'on traite des jeux de données déséquilibrés, c'est-à-dire lorsque certaines classes, souvent la classe minoritaire, sont sous-représentées. Le \textbf{SMOTE} (Synthetic Minority Over-sampling Technique) est une méthode avancée qui génère artificiellement de nouveaux exemples synthétiques pour la classe minoritaire, afin de rééquilibrer les données.
+
+Le principe de SMOTE repose sur la génération de nouveaux points synthétiques en utilisant les données existantes des classes minoritaires. Le processus se fait comme suit:
+
+\textbf{\(\rightarrow\)} \textbf{Étape 1:} Pour chaque exemple minoritaire \(x_i\), sélectionner un ou plusieurs \(k\)-voisins \(x_j\) dans la classe minoritaire, où \(j\) est un indice de voisin sélectionné parmi les plus proches voisins.
+    
+\textbf{\(\rightarrow\)} \textbf{Étape 2:} Générer un nouveau point \(x_{\text{new}}\) qui est situé quelque part sur la ligne reliant \(x_i\) et \(x_j\), selon la formule suivante:
+    
+    \[
+    x_{\text{new}} = x_i + \delta \times (x_j - x_i)
+    \]
+    
+    où \(x_i\) et \(x_j\) sont les points dans l'espace des features, et \(\delta\) est un facteur aléatoire compris entre 0 et 1.
+    
+\textbf{\(\rightarrow\)} \textbf{Étape 3:} Répéter ce processus pour plusieurs \(k\)-voisins afin de générer plusieurs points synthétiques, augmentant ainsi le nombre d'exemples dans la classe minoritaire.
+
+\textbf{\(\checkmark\)} \textbf{Interprétation:}\\
+\textbf{\(\rightarrow\)} \textbf{Utilité:} SMOTE permet de combler l'écart entre des exemples existants de la classe minoritaire et leurs voisins, créant ainsi des points synthétiques qui enrichissent la classe minoritaire tout en conservant les propriétés de l'espace des features.\\
+\textbf{\(\rightarrow\)} \textbf{Impact:} Cette technique réduit les biais introduits par les classes déséquilibrées et améliore la performance des algorithmes de classification, notamment pour les classes minoritaires.
+
+\textbf{\(\checkmark\)} \textbf{Détail du Calcul:}\\
+\textbf{\(\rightarrow\)} \(x_i\): Un point dans la classe minoritaire.\\
+\textbf{\(\rightarrow\)} \(x_j\): Un voisin \(k\)-proche de \(x_i\) dans la même classe minoritaire.\\
+\textbf{\(\rightarrow\)} \(\delta\): Un nombre aléatoire entre 0 et 1, qui détermine la position du nouveau point sur la ligne reliant \(x_i\) et \(x_j\). Si \(\delta = 0.5\), \(x_{\text{new}}\) se situe au milieu de \(x_i\) et \(x_j\), tandis que des valeurs plus proches de 0 ou de 1 rapprochent \(x_{\text{new}}\) de \(x_i\) ou \(x_j\).
+
+Cette méthode permet de créer de nouvelles observations synthétiques en comblant l'écart entre des points minoritaires et leurs voisins. Cela évite les biais liés aux données déséquilibrées sans simplement dupliquer les exemples existants, ce qui améliore les performances des modèles sans risquer de surapprentissage.
+
+\section{Sélection des Caractéristiques (Feature Selection)}
+
+La sélection des caractéristiques est une étape essentielle dans la construction de modèles de machine learning. Elle permet de réduire la dimensionnalité, d'améliorer la performance des modèles et de faciliter l'interprétation. 
+
+\subsection{RFE (Recursive Feature Elimination)}
+
+L'algorithme \textbf{RFE} (Élimination Récursive des Caractéristiques) sélectionne les caractéristiques les plus importantes en entraînant un modèle, en attribuant un poids à chaque caractéristique, puis en éliminant récursivement celles avec les poids les plus faibles.
+
+\textbf{\(\checkmark\)} \textbf{Étape 1: Entraînement du modèle de base} \\ 
+    Un modèle (comme une régression linéaire ou une forêt aléatoire) est entraîné sur l'ensemble des caractéristiques. Chaque caractéristique se voit attribuer un \textbf{poids} basé sur son influence sur les prédictions.
+
+\textbf{\(\checkmark\)} \textbf{Étape 2: Élimination des caractéristiques moins importantes} \\ 
+    Les caractéristiques ayant des poids proches de zéro ou jugées peu influentes sont éliminées.
+
+\textbf{\(\checkmark\)} \textbf{Étape 3: Répétition du processus} \\ 
+    L'algorithme répète le processus jusqu'à ce qu'il ne reste qu'un sous-ensemble optimal de caractéristiques.
+
+Contrairement à la méthode des \textbf{Forêts Aléatoires} qui évalue l'importance via l'impureté des nœuds, \textbf{RFE} élimine les caractéristiques en se basant sur l'importance globale donnée par le modèle choisi. Cette approche est complémentaire à l'analyse d'importance, permettant d'affiner encore davantage le choix des caractéristiques.
+
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: RFE est utile pour réduire la dimensionnalité tout en conservant les caractéristiques les plus influentes.\\
+\textbf{\(\rightarrow\)} \textbf{Impact}: Cette méthode aide à éliminer les variables redondantes ou non pertinentes qui pourraient dégrader les performances des modèles.
+
+
+\subsection{SelectKBest}
+
+La méthode \textbf{SelectKBest} sélectionne les $k$ meilleures caractéristiques en fonction d'une mesure statistique. Un test statistique couramment utilisé est le test F, qui mesure le rapport entre la variance inter-classes et la variance intra-classes:
+
+\[
+F = \frac{\text{Variance entre les classes}}{\text{Variance intra-classes}}
+\]
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Cette méthode est particulièrement utile pour sélectionner les caractéristiques ayant un fort pouvoir discriminant dans les modèles supervisés.\\
+\textbf{\(\rightarrow\)} \textbf{Impact}: La sélection des caractéristiques en fonction du test F permet d'optimiser la performance des modèles en se concentrant sur les variables ayant une forte influence sur la variable cible.
+
+\subsection{Feature Importance avec Forêt Aléatoire}
+
+La \textbf{forêt aléatoire} est un ensemble d'arbres de décision qui attribue une importance à chaque caractéristique en fonction de la réduction d'impureté, mesurée par l'indice de Gini, aux nœuds de décision où la caractéristique est utilisée. L'importance d'une caractéristique est calculée en fonction de la somme de la réduction d'impureté avant et après la division.
+
+La réduction de l'impureté, aussi appelée \textbf{réduction de Gini}, est définie par la formule:
+
+\[
+\Delta \text{Gini}(f) = \sum (\text{Gini avant} - \text{Gini après})
+\]
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Cette méthode identifie les caractéristiques qui contribuent le plus à la séparation des classes dans un jeu de données complexe.\\
+\textbf{\(\rightarrow\)} \textbf{Impact}: La forêt aléatoire est robuste aux interactions entre les caractéristiques, ce qui permet d'évaluer l'importance relative de chaque variable.
+
+Le concept d'impureté et l'indice de Gini seront détaillés dans la partie consacrée aux \textit{modèles d'arbres de décision} dans la suite de ce chapitre.
+
+\subsection{Conclusion}
+
+Les trois algorithmes de sélection – RFE, SelectKBest et Feature Importance avec Forêt Aléatoire – sont complémentaires. RFE élimine les caractéristiques moins pertinentes, SelectKBest identifie statistiquement les meilleures, et la Forêt Aléatoire évalue leur importance via la réduction d'impureté. Ensemble, ces méthodes optimisent la sélection des variables, améliorant la performance des modèles.
+
+
+\section{Modèles de Machine Learning}
+Les modèles de machine learning permettent d’entraîner des algorithmes pour prédire des résultats en fonction des données. Ces algorithmes optimisent leurs paramètres internes pour minimiser les erreurs de prédiction.
+
+\subsection{Régression Logistique}
+
+\textbf{La régression logistique} est un modèle paramétrique utilisé principalement pour les tâches de classification binaire. Son objectif est de prédire la probabilité qu'une observation appartienne à une classe spécifique.
+
+\textbf{\(\checkmark\)} \textbf{Concept Fondamental:}\\
+La régression logistique modélise la probabilité qu’un événement se produise à l'aide d'une fonction sigmoïde. La formule de la probabilité est donnée par:
+
+\[
+P = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_k x_k)}}
+\]
+
+Où:
+\begin{itemize}
+    \item \( P \): Probabilité que l'observation appartienne à la classe 1.
+    \item \( \beta_0 \): Intercept (log-odds quand toutes les variables sont nulles).
+    \item \( \beta_i \): Coefficients associés aux variables explicatives \( x_i \), qui déterminent l'importance de chaque variable.
+    \item \( x_i \): Variables explicatives, ou caractéristiques, utilisées pour prédire la probabilité.
+\end{itemize}
+
+Le but est d’ajuster les coefficients \( \beta_0, \beta_1, \dots, \beta_k \) de manière à ce que le modèle prévoie correctement la classe à partir des données d'entrée.
+
+\textbf{\(\checkmark\)} \textbf{Fonction de Coût (ou Perte):}\\
+La fonction de coût dans un modèle de régression logistique est appelée \textbf{log-loss} ou \textbf{cross-entropy loss}. Elle mesure l’écart entre les prédictions du modèle et les vraies valeurs:
+
+\[
+L(\beta) = -\sum_{i=1}^{N} [y_i \log(p_i) + (1 - y_i) \log(1 - p_i)]
+\]
+
+Où:
+\begin{itemize}
+    \item \( N \): Nombre total d'observations dans le jeu de données.
+    \item \( y_i \): Valeur réelle de la classe pour l'observation \( i \) (0 ou 1).
+    \item \( p_i \): Probabilité prédite par le modèle pour l'observation \( i \).
+\end{itemize}
+
+La fonction de coût est essentielle, car elle guide l'algorithme sur la façon d'ajuster les coefficients du modèle pour mieux correspondre aux données observées.
+
+\textbf{\(\checkmark\)} \textbf{Optimisation et Descente de Gradient:}\\
+L’objectif de l’optimisation est de minimiser la fonction de coût en ajustant les coefficients \( \beta_0, \beta_1, \dots, \beta_k \). Une méthode populaire pour cela est la \textbf{descente de gradient}, où les coefficients sont mis à jour en suivant le gradient de la fonction de coût (qui indique la direction et l'intensité des modifications à apporter).
+
+La mise à jour des coefficients se fait ainsi:
+\[
+\beta_i \leftarrow \beta_i - \alpha \frac{\partial L(\beta)}{\partial \beta_i}
+\]
+
+Où:
+\begin{itemize}
+    \item \( \alpha \) est le \textbf{taux d'apprentissage}, qui contrôle l'ampleur des mises à jour des coefficients.
+    \item \( \frac{\partial L(\beta)}{\partial \beta_i} \) est le gradient de la fonction de coût par rapport à chaque coefficient \( \beta_i \).
+\end{itemize}
+
+Le \textbf{taux d'apprentissage} (\( \alpha \)) est un hyperparamètre important qui doit être bien choisi: un \( \alpha \) trop grand peut entraîner des oscillations, tandis qu'un \( \alpha \) trop petit rend l’apprentissage trop lent.
+\subsubsection{Hyperparamètres}
+
+Les \textbf{hyperparamètres} sont des variables définies avant l’entraînement du modèle. Contrairement aux coefficients \( \beta \), qui sont appris à partir des données, les hyperparamètres influencent le processus d'optimisation et de convergence du modèle.
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Taux d'apprentissage (\( \alpha \))}: Ce paramètre contrôle la taille des pas effectués pour ajuster les coefficients \( \beta \).
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Solver}: Le solver est l'algorithme utilisé pour minimiser la fonction de coût. Différents solveurs sont disponibles en fonction du type de problème et des contraintes de calcul. Voici un aperçu des principaux solveurs utilisés :
+
+\begin{itemize}
+    \item \textbf{Newton-CG}: Utilise la matrice Hessienne \( H \), qui contient les dérivées secondes de la fonction de coût, pour calculer la direction de descente. La mise à jour des coefficients \( \beta \) est effectuée comme suit:
+    \[
+    \beta \leftarrow \beta - H^{-1} \nabla L(\beta)
+    \]
+    Où \( H^{-1} \) est l'inverse de la Hessienne et \( \nabla L(\beta) \) est le gradient de la fonction de coût. Bien que précis, il peut être coûteux en temps pour les grands ensembles de données.
+
+    \item \textbf{LBFGS} (Limited-memory Broyden–Fletcher–Goldfarb–Shanno): Version plus efficace de Newton-CG, LBFGS utilise les gradients récents au lieu de la matrice Hessienne complète pour estimer la direction de descente. La mise à jour est donnée par:
+    \[
+    \beta \leftarrow \beta - \alpha \cdot \text{Direction}
+    \]
+    LBFGS réduit la mémoire utilisée et accélère les calculs, ce qui le rend adapté pour les grands ensembles de données.
+
+    \item \textbf{SAGA}: Améliore la descente de gradient stochastique (SGD) en combinant les gradients précédemment calculés pour affiner les mises à jour. La descente de gradient stochastique est une variante de la descente de gradient où les mises à jour des paramètres sont effectuées après chaque échantillon de données, plutôt que sur l'ensemble complet des données. Cela permet une convergence plus rapide, mais les mises à jour peuvent être plus bruyantes.
+
+    SAGA combine cette approche avec un ajustement basé sur l'accumulation des gradients passés, offrant une meilleure stabilité et précision. La mise à jour des coefficients se fait ainsi:
+    \[
+    \beta \leftarrow \beta - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \nabla L_i(\beta)
+    \]
+    Où \( \nabla L_i(\beta) \) est le gradient de la fonction de coût pour un échantillon \( i \), et \( N \) est la taille de l'ensemble de données.
+\end{itemize}
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Max\_iter}: Définit le nombre maximal d'itérations de l'algorithme d'optimisation. Un nombre trop faible d'itérations peut entraîner une convergence incomplète, tandis qu'un nombre trop élevé peut augmenter le temps de calcul sans gains significatifs.
+
+Ces hyperparamètres influencent la vitesse de convergence, la précision du modèle et la capacité d'adaptation aux données complexes.
+
+\textbf{\(\checkmark\)} \textbf{Régularisation:}\\
+La \textbf{régularisation} est un mécanisme qui ajoute une pénalité aux coefficients du modèle pour éviter le surajustement (overfitting). Il existe deux types principaux de régularisation:
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Régularisation L2 (Ridge)}: Ajoute une pénalité proportionnelle à la somme des carrés des coefficients pour éviter que certains coefficients ne deviennent trop grands. Sa formule est:
+    \[
+    L2 = \lambda \sum_{j=1}^{k} \beta_j^2
+    \]
+    Où \( \lambda \) contrôle l’importance de cette pénalisation.
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Régularisation L1 (Lasso)}: Pénalise la somme des valeurs absolues des coefficients, favorisant des modèles plus simples en mettant certains coefficients à zéro (ce qui peut exclure certaines variables inutiles):
+    \[
+    L1 = \lambda \sum_{j=1}^{k} |\beta_j|
+    \]
+
+Le choix de la régularisation dépend de l'objectif: L1 aide à la sélection des variables, tandis que L2 contrôle la taille des coefficients pour éviter le surajustement.
+
+\textbf{\(\checkmark\)} \textbf{Résumé du Processus:}
+\begin{enumerate}
+    \item Initialisation des coefficients \( \beta_0, \dots, \beta_k \).
+    \item Calcul de la fonction de coût en fonction des prédictions.
+    \item Utilisation de l’algorithme de descente de gradient pour ajuster les coefficients en minimisant la fonction de coût.
+    \item Application de la régularisation pendant l'optimisation pour éviter le surajustement.
+    \item Répéter jusqu'à atteindre la convergence ou le nombre maximal d'itérations.
+\end{enumerate}
+
+
+\subsection{L’Arbre de Décision}
+
+\textbf{\(\checkmark\)} \textbf{Concept Fondamental:}\\
+Un arbre de décision classe des observations en les divisant en sous-groupes basés sur leurs caractéristiques. Chaque nœud interne pose une question, et les branches représentent les résultats des décisions, menant à des feuilles où la prédiction finale est réalisée.
+
+\textbf{\(\checkmark\)} \textbf{Structure de l'Arbre:}\\
+\textbf{Nœuds internes}: Posent des questions sur les caractéristiques.\\
+\textbf{Branches}: Représentent les résultats des décisions.\\
+\textbf{Feuilles}: Donnent la prédiction finale.
+
+\textbf{\(\checkmark\)} \textbf{Processus de Division:}\\
+L'arbre divise les données en sous-groupes aussi homogènes que possible, avec l'objectif de maximiser la pureté de chaque nœud.
+
+\textbf{\(\checkmark\)} \textbf{Critères de Division:}\\
+Les deux critères principaux pour mesurer la qualité des divisions sont l'Impureté de Gini et l'Entropie.
+
+\textbf{1. Impureté de Gini:}\\
+Mesure la pureté d’un nœud: un nœud est pur si toutes les observations appartiennent à la même classe. La formule est donnée par:
+
+\[
+Gini(S) = 1 - \sum_{k=1}^{K} P_k^2
+\]
+
+où \( P_k \) est la proportion d'éléments de la classe \( k \). Une réduction de l'impureté de Gini est calculée après chaque division:
+
+\[
+\Delta Gini = Gini(S) - Gini_{\text{moy}}
+\]
+
+La meilleure division est celle qui maximise la réduction de l'impureté.
+
+\textbf{2. Entropie:}\\
+L'entropie mesure l'incertitude des classes au sein d’un nœud. Plus l'entropie est faible, plus le nœud est homogène.
+
+\[
+Entropie(S) = -\sum_{k=1}^{K} P_k \log_2(P_k)
+\]
+
+\[
+\Delta Entropie = Entropie(S) - Entropie_{\text{moy}}
+\]
+
+Le critère retenu dépend de la priorité donnée à la pureté des nœuds ou à la réduction de l'incertitude.
+
+\textbf{Différence entre Gini et Entropie:}\\
+Bien que similaires, Gini privilégie la pureté des nœuds, tandis que l’entropie est plus sensible aux classes rares. Les deux critères sont souvent utilisés de manière interchangeable selon les besoins du modèle.
+
+\textbf{\(\checkmark\)} \textbf{Hyperparamètres:}\\
+Pour éviter le surapprentissage, plusieurs hyperparamètres doivent être ajustés:\\
+\noindent \textbf{\(\rightarrow\)} \textbf{Profondeur de l'arbre}: Limite la taille de l'arbre pour éviter la sur-optimisation.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{Max\_features}: Nombre de caractéristiques considérées à chaque division.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{min\_samples\_split} et \textbf{min\_samples\_leaf}: Limites pour diviser un nœud ou créer une feuille.
+
+\textbf{\(\checkmark\)} \textbf{Optimisation:}\\
+Des méthodes comme \textbf{RandomizedSearchCV} permettent de tester différentes combinaisons d’hyperparamètres pour obtenir le meilleur modèle. Contrairement à \textbf{GridSearchCV}, qui explore de manière exhaustive toutes les combinaisons possibles, \textbf{RandomizedSearchCV} sélectionne aléatoirement un sous-ensemble de ces combinaisons.
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Principe}: \textbf{RandomizedSearchCV} effectue un échantillonnage aléatoire des combinaisons d'hyperparamètres à tester. Au lieu de tester toutes les possibilités, il en sélectionne une fraction aléatoire, ce qui permet de trouver une solution optimale plus rapidement, particulièrement utile pour les grands jeux de données ou lorsque le nombre d'hyperparamètres à ajuster est important.
+
+\noindent \textbf{\(\rightarrow\)} \textbf{Différence avec GridSearchCV}: \textbf{GridSearchCV} explore systématiquement chaque combinaison d’hyperparamètres, tandis que \textbf{RandomizedSearchCV} teste aléatoirement un certain nombre d'échantillons, ce qui permet une optimisation plus rapide.
+
+\textbf{Note:} La fonction de coût et les détails sur la descente de gradient, souvent utilisés dans l’optimisation d’hyperparamètres, ont déjà été abordés dans une section précédente.
+
+\textbf{\(\checkmark\)} \textbf{Résumé du Processus:}\\
+L'arbre de décision divise les données en sous-groupes en fonction des caractéristiques, en utilisant les critères de Gini ou d’entropie pour maximiser la pureté à chaque division. Les hyperparamètres contrôlent la complexité du modèle, garantissant un bon équilibre entre précision et généralisation.
+
+\subsection{La Forêt Aléatoire: un modèle non paramétrique}
+
+\textbf{\(\checkmark\)} \textbf{Concept Fondamental:}\\
+La forêt aléatoire est un ensemble d'arbres de décision, où plusieurs arbres sont créés à partir d'échantillons différents des données. Chaque arbre effectue sa propre prédiction, et les résultats sont combinés pour améliorer la précision globale. Ce processus réduit le surapprentissage et améliore la robustesse du modèle.
+
+\textbf{\(\checkmark\)} \textbf{Création des Arbres de Décision:}
+\begin{enumerate}
+    \item \textbf{Échantillonnage Bootstrap:} Chaque arbre est formé à partir d’un sous-échantillon aléatoire avec remplacement (bootstrap) des données d’entraînement. Cela permet de diversifier les arbres créés, réduisant le risque de surajustement (overfitting).
+    
+    \item \textbf{Sélection Aléatoire des Caractéristiques:} À chaque nœud, une fraction aléatoire des caractéristiques est sélectionnée pour déterminer les divisions, ce qui diminue la corrélation entre les arbres et favorise une meilleure généralisation.
+
+    \item \textbf{Vote Majoritaire:} Chaque arbre vote pour une classe, et la classe finale prédite est celle qui reçoit le plus de votes. Cela est formalisé par l'équation suivante:
+    \[
+    \hat{y} = \arg\max_k \left( \sum_{i=1}^{T} \mathbf{1}(\hat{y}_i = k) \right)
+    \]
+    où \( T \) est le nombre total d'arbres et \( k \) les classes possibles.
+\end{enumerate}
+
+\textbf{\(\checkmark\)} \textbf{Optimisation des Hyperparamètres:}\\
+La performance d'une forêt aléatoire dépend fortement de la configuration de ses hyperparamètres. Voici quelques hyperparamètres clés à ajuster:\\
+\noindent \textbf{\(\rightarrow\)} \textbf{n\_estimators:} Nombre d’arbres dans la forêt. Plus il est élevé, meilleure est la précision, mais cela augmente le temps de calcul.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{max\_features:} Nombre de caractéristiques à considérer pour chaque division. Une valeur courante est la racine carrée du nombre total de caractéristiques.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{min\_samples\_split:} Nombre minimum d’échantillons requis pour diviser un nœud. Ajuster ce paramètre permet de contrôler la profondeur des arbres.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{oob\_score (out-of-bag score):} Ce score est calculé en utilisant les échantillons non sélectionnés par bootstrap pour entraîner un arbre. Il permet d’évaluer la performance du modèle sans avoir recours à une validation croisée, économisant ainsi du temps de calcul.
+
+\textbf{\(\checkmark\)} \textbf{Importance des Caractéristiques:}\\
+La forêt aléatoire permet également de mesurer l'importance des caractéristiques en évaluant leur contribution à la réduction de l'impureté (Gini ou entropie) aux nœuds de décision. Les détails sur le calcul de l'importance des caractéristiques ont déjà été abordés dans la section dédiée à la sélection des caractéristiques. Ici, nous rappelons que cette importance est calculée en fonction de la réduction d'impureté à chaque nœud où une caractéristique est utilisée.
+
+\textbf{\(\checkmark\)} \textbf{Relation avec l'Arbre de Décision:}\\
+Contrairement à un arbre de décision unique, la forêt aléatoire utilise plusieurs arbres créés à partir de différentes sous-parties des données et des caractéristiques. Cette approche réduit le surapprentissage, rendant le modèle plus robuste. L'agrégation des prédictions améliore la capacité du modèle à capturer la variabilité des données, produisant ainsi des résultats plus précis et plus généralisables.
+
+\subsection{AdaBoost: Amélioration des Arbres de Décision}
+
+\textbf{\(\checkmark\)} \textbf{Concept Fondamental:}\\
+AdaBoost est une technique de \textbf{boosting} qui améliore les performances des arbres de décision en créant des modèles séquentiels. Contrairement à la forêt aléatoire qui utilise des arbres indépendants, le boosting corrige les erreurs des arbres précédents, rendant le modèle plus précis à chaque étape.
+
+\textbf{AdaBoost} se concentre sur les observations mal classées en attribuant des poids plus importants à ces données après chaque itération. L’objectif est de forcer les arbres suivants à prêter plus d’attention à ces erreurs.
+
+\textbf{\(\checkmark\)} \textbf{Explication du Processus:}
+\begin{enumerate}
+    \item \textbf{Poids des observations:} Chaque observation a un poids. Initialement, toutes les observations ont le même poids.
+    \item \textbf{Ajustement des poids après chaque itération:} Les observations mal classées reçoivent des poids plus élevés afin que l’arbre suivant se concentre davantage sur ces erreurs.
+\end{enumerate}
+
+La formule suivante détermine les poids des modèles faibles \( \alpha_m \) selon les erreurs (\( \epsilon_m \)):
+\[
+\alpha_m = \frac{1}{2} \log\left(\frac{1 - \epsilon_m}{\epsilon_m}\right)
+\]
+Les poids des observations sont ensuite mis à jour:
+\[
+w_{i,m+1} = w_{i,m} \exp(-\alpha_m y_i h_m(x_i))
+\]
+Cela permet aux arbres suivants de mieux corriger les erreurs des arbres précédents.
+
+\textbf{\(\checkmark\)} \textbf{Utilité Pratique:}\\
+AdaBoost est particulièrement utile lorsque l’on veut se concentrer sur les observations difficiles à classer. Il est efficace pour les ensembles de données où certaines erreurs sont difficiles à corriger avec des méthodes traditionnelles.
+
+\textbf{\(\checkmark\)} \textbf{Hyperparamètres:}\\
+\noindent \textbf{\(\rightarrow\)} \textbf{n\_estimators}: Nombre d’arbres. Un nombre élevé permet d’améliorer la précision, mais au prix d’un temps de calcul plus long.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{learning\_rate}: Il détermine la contribution de chaque nouvel arbre aux prédictions finales. Un faible taux d’apprentissage (par exemple, 0,1) est souvent recommandé pour une meilleure convergence.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{max\_depth}: La profondeur maximale des arbres. Une profondeur plus faible permet d’éviter le surajustement.\\
+\noindent \textbf{\(\rightarrow\)} \textbf{oob\_score}: L’utilisation des échantillons hors sac (out-of-bag) permet d’évaluer la performance sans validation croisée.
+
+\textbf{\(\checkmark\)} \textbf{Résumé du Processus:}
+\begin{enumerate}
+    \item \textbf{Initialisation:} Démarrage avec des poids égaux.
+    \item \textbf{Correction des erreurs:} Chaque arbre suivant est formé pour corriger les erreurs du modèle précédent.
+    \item \textbf{Mise à jour des prédictions:} Les poids sont ajustés, et le modèle est mis à jour à chaque itération.
+    \item \textbf{Ajustement des hyperparamètres:} Des hyperparamètres tels que le taux d’apprentissage et la profondeur des arbres sont ajustés pour maximiser la performance tout en évitant le surajustement.
+
+\end{enumerate}
+
+\textbf{\(\checkmark\)} \textbf{Conclusion:}\\
+AdaBoost exploite la séquence et l’adaptation dans la formation des arbres en se concentrant sur les erreurs les plus difficiles à corriger. Cela permet d’améliorer significativement les performances des modèles d’arbres de décision, surtout dans les ensembles de données où certaines observations sont particulièrement difficiles à classer.
+
+\subsection{Conclusion}
+Les modèles de machine learning présentés offrent diverses approches pour la classification et la régression. L'optimisation des hyperparamètres, comme la validation croisée et le réglage de \( C \) et \( \gamma \), ajuste les modèles pour améliorer la précision et éviter le surapprentissage.
+
+\section{Deep Learning}
+
+Dans cette section, nous nous concentrons sur les aspects techniques et mathématiques des réseaux de neurones profonds. on va explorer comment les couches de neurones, les fonctions d'activation, et les processus d'entraînement tels que la \textbf{backpropagation} et la descente de gradient sont mis en œuvre pour optimiser les modèles d'apprentissage.
+
+\subsection{Les Couches dans un Réseau de Neurones}
+
+Un réseau de neurones profond est composé de plusieurs couches. Chaque couche réalise une transformation linéaire suivie d'une fonction d'activation non linéaire. Mathématiquement, une couche \( l \) applique la transformation suivante:
+
+\[
+h^{(l)} = f(W^{(l)} h^{(l-1)} + b^{(l)})
+\]
+
+Où:
+\begin{itemize}
+    \item \( h^{(l-1)} \) est le vecteur de sortie de la couche précédente (ou les entrées pour la première couche),
+    \item \( W^{(l)} \) est la matrice des poids de la couche \( l \),
+    \item \( b^{(l)} \) est le biais de la couche \( l \),
+    \item \( f \) est la fonction d'activation appliquée à chaque neurone.
+\end{itemize}
+
+Cette formule montre comment chaque neurone d'une couche reçoit une combinaison pondérée des neurones de la couche précédente, plus un biais, puis passe cette somme à travers une fonction d'activation.
+\subsection{Fonctions d'Activation}
+
+Les fonctions d'activation ajoutent de la non-linéarité, permettant aux réseaux d'apprendre des relations complexes.
+
+\textbf{\(\checkmark\)} \textbf{ReLU:} 
+\[ f(x) = \max(0, x) \]
+ReLU renvoie \( x \) si \( x \) est positif, sinon 0, accélérant l'apprentissage. Toutefois, certains neurones peuvent cesser d'apprendre si leurs valeurs deviennent constamment nulles.
+
+\textbf{\(\checkmark\)} \textbf{Tanh:} 
+\[ f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \]
+Tanh produit des sorties entre -1 et 1, utile pour centrer les données, mais entraîne la saturation des gradients pour des valeurs extrêmes, ralentissant l'apprentissage.
+
+\textbf{\(\checkmark\)} \textbf{Sigmoïde:} 
+\[ f(x) = \frac{1}{1 + e^{-x}} \]
+La Sigmoïde compresse entre 0 et 1, idéale pour la classification binaire, mais ralentit l'apprentissage dans les réseaux profonds en réduisant les gradients pour des valeurs extrêmes de \( x \).
+
+
+\subsection{Entraînement et Backpropagation}
+
+L'entraînement d'un réseau de neurones consiste à ajuster les poids et les biais pour minimiser une fonction de perte. Ce processus est réalisé via l'algorithme de \textbf{backpropagation}, en conjonction avec des méthodes d'optimisation comme la \textbf{descente de gradient}.
+
+\subsubsection{Calcul de la Fonction de Perte}
+
+La fonction de perte mesure l'écart entre la sortie prédite et la valeur réelle. Dans les tâches de classification binaire, une fonction courante est la \textbf{binary cross-entropy}, définie comme suit:
+
+\[
+L(\hat{y}, y) = - \frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+\]
+
+Où:
+\begin{itemize}
+    \item \( N \) est le nombre d'exemples dans le lot (batch),
+    \item \( y_i \) est la vraie classe de l'exemple \( i \) (soit 0, soit 1),
+    \item \( \hat{y}_i \) est la probabilité prédite par le modèle que l'exemple \( i \) appartienne à la classe 1.
+\end{itemize}
+
+\subsubsection{Backpropagation et Descente de Gradient}
+
+Une fois la perte calculée, l'algorithme de \textbf{backpropagation} est utilisé pour propager l'erreur depuis la couche de sortie jusqu'aux couches précédentes afin de calculer les gradients des poids et des biais. 
+
+L'objectif est de minimiser la fonction de perte \( L \). Pour ce faire, on ajuste les poids \( W \) et les biais \( b \) en utilisant la descente de gradient:
+
+\[
+W_{\text{nouveau}} = W_{\text{ancien}} - \eta \frac{\partial L}{\partial W}
+\]
+\[
+b_{\text{nouveau}} = b_{\text{ancien}} - \eta \frac{\partial L}{\partial b}
+\]
+
+Où:
+\begin{itemize}
+    \item \( \eta \) est le taux d'apprentissage, qui contrôle la taille des pas de mise à jour,
+    \item \( \frac{\partial L}{\partial W} \) et \( \frac{\partial L}{\partial b} \) sont les gradients de la perte par rapport aux poids et aux biais.
+\end{itemize}
+
+Les gradients sont calculés en utilisant la règle de la chaîne pour rétropropager l'erreur depuis la couche de sortie vers les couches cachées. Cela permet à chaque neurone d'ajuster ses poids en fonction de sa contribution à l'erreur totale.
+
+\subsection{Régularisation et Dropout}
+
+La \textbf{régularisation \( L_2 \)} aide à prévenir le surapprentissage en ajoutant une pénalité proportionnelle à la somme des carrés des poids à la fonction de perte :
+
+\[ 
+L_{\text{rég}} = L + \lambda \sum_{i} W_i^2 
+\]
+
+Cela empêche certains neurones de développer des poids trop élevés, réduisant ainsi la spécialisation excessive du modèle.
+
+Le \textbf{Dropout}, autre technique courante, désactive aléatoirement un pourcentage de neurones à chaque itération, empêchant leur co-adaptation excessive. Mathématiquement, pour un neurone \( h^{(l)} \) dans la couche \( l \) :
+
+\[
+h^{(l)} = \text{Dropout}(f(W^{(l)} h^{(l-1)} + b^{(l)}))
+\]
+
+Le taux de Dropout, un hyperparamètre clé, doit être bien ajusté : un taux trop bas a peu d'effet, tandis qu'un taux trop élevé peut entraîner un sous-apprentissage.
+
+\subsection{Hyperparamètres: Signification et Impact}
+Les hyperparamètres, comme expliqué précédemment, sont des variables fixées avant l'entraînement. Voici les principaux hyperparamètres et leur impact:
+\begin{itemize}
+\item \textbf{Nombre d'époques:} Nombre de passages complets sur l'ensemble de données. Trop peu entraîne un sous-apprentissage, trop d'époques peut entraîner un surapprentissage.
+
+\item \textbf{Taille du Batch:} Nombre d'exemples utilisés par itération. Petits batchs = mises à jour plus fréquentes et bruitées. Grands batchs = plus stables mais nécessitent plus de mémoire.
+
+\item \textbf{Dropout Rate:} Proportion de neurones désactivés à chaque itération. Taux élevé réduit le surapprentissage, mais trop élevé risque de sous-apprentissage.
+
+\end{itemize}
+
+\subsection{Conclusion}
+
+Le deep learning transforme les données à travers des couches non linéaires. L'optimisation par backpropagation ajuste les poids pour minimiser la perte. La régularisation, le dropout, et l'ajustement des hyperparamètres évitent le surapprentissage et améliorent les performances.
+
+\section{Interprétation des Modèles pour la Prédiction de la Satisfaction Client}
+
+Une fois les modèles prédictifs validés, il est essentiel d'interpréter les résultats pour identifier les profils clients les plus satisfaits. L'algorithme de clustering KMeans est utilisé pour regrouper les clients en groupes homogènes, puis nous calculons la probabilité de satisfaction pour chaque groupe.
+
+\subsection{Clustering avec KMeans}
+
+KMeans est une méthode non supervisée qui partitionne les observations en \(k\) clusters en minimisant les distances intra-clusters. L'objectif est de former des groupes où les observations sont proches du centroïde (centre) du cluster.
+
+\textbf{Formulation mathématique:}
+
+L'algorithme minimise l'inertie intra-cluster:
+
+\[
+\min \sum_{i=1}^{k} \sum_{x \in C_i} \| x - \mu_i \|^2
+\]
+
+où \( C_i \) est le \(i\)-ème cluster, \( x \) une observation, \( \mu_i \) le centroïde, et \( \| x - \mu_i \|^2 \) la distance euclidienne au carré.\\
+\textbf{Étape 1}: Chaque observation est assignée au cluster le plus proche.\\
+\textbf{Étape 2}: Les centroïdes sont recalculés en prenant la moyenne des observations assignées. Ce processus se répète jusqu'à convergence.
+
+\subsection{Calcul de la Probabilité de Satisfaction}
+
+Chaque cluster représente un groupe distinct de clients. Pour chaque cluster \( C_i \), la probabilité moyenne de satisfaction est calculée par:
+
+\[
+P_{\text{satisfaction}}(C_i) = \frac{1}{|C_i|} \sum_{x \in C_i} P_{\text{satisfaction}}(x)
+\]
+
+où \( P_{\text{satisfaction}}(x) \) est la probabilité de satisfaction de chaque client \( x \), et \( |C_i| \) est la taille du cluster. Cela permet d'identifier les groupes de clients les plus satisfaits.
+
+\subsection{Interprétation des Résultats}
+
+L'analyse des résultats permet d'identifier les caractéristiques communes des clients dans les clusters avec la plus forte probabilité de satisfaction. Par exemple, cela peut révéler des segments de clients ayant des habitudes de consommation spécifiques.
+
+\subsection{Conclusion}
+
+L'algorithme KMeans identifie des groupes homogènes de clients et, en calculant la probabilité de satisfaction pour chaque cluster, permet de dégager des profils types. Cela fournit une vision claire des segments de clientèle à cibler, en se basant sur les caractéristiques des clients les plus satisfaits.
+
+\section{Conclusion}
+
+Ce chapitre a présenté diverses techniques essentielles, allant de l'équilibrage des classes avec SMOTE à la sélection des caractéristiques à travers RFE, SelectKBest et la Forêt Aléatoire. Nous avons également exploré plusieurs modèles de machine learning, tels que la régression logistique, les arbres de décision, et les méthodes de deep learning. Enfin, l'interprétation des résultats, via des techniques comme KMeans et le calcul des probabilités de satisfaction, a permis d'identifier des segments clés. Ces outils et méthodes garantissent des analyses prédictives robustes et des insights exploitables.

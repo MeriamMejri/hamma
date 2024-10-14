@@ -1,0 +1,96 @@
+Table ~\ref{table:ISO Alpha} summarizes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Define the Table Example 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{table}[H]
+\label{table:ISO Alpha}
+\caption{Table Title}
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|}
+\hline
+\rowcolor{lightgray} \multicolumn{3}{|c|}{Country List}     \\\hline
+Country Name or Area Name & ISO ALPHA 2 Code & ISO ALPHA 3  \\\hline
+Afghanistan               & AF               &AFG           \\\hline
+\rowcolor{gray}
+Aland Islands             & AX               & ALA          \\\hline
+Albania                   &AL                & ALB          \\\hline
+Algeria                   &DZ                & DZA          \\\hline
+American Samoa            & AS               & ASM           \\\hline
+Andorra                   & AD              & \cellcolor[HTML]{6195C9} AND    \\\hline
+Angola                    & AO              & AGO            \\\hline
+
+\end{tabular}
+\label{table:ISO Alpha}
+\end{table}
+
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor\cite{titleBIB2}
+
+
+\section{SECTION 1.4}
+Test items => tiny bullet :
+\renewcommand{\labelitemi}{\tiny$\bullet$}
+\begin{itemize}[leftmargin=2cm, topsep=0pt]
+        \begin{spacing}{1.25}
+        \item item1
+        \item item2
+        \item item3
+        \end{spacing}
+\end{itemize}
+\begin{spacing}{0.5}
+\end{spacing}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+
+Test items => '-':
+\renewcommand{\labelitemi}{\tiny$-$}
+\begin{itemize}[leftmargin=2cm, topsep=0pt]
+        \begin{spacing}{1.25}
+        \item item1
+        \item item2
+        \item item3
+        \end{spacing}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[H]
+    \centering
+    \subfloat[\centering Log parsed with filebeat]{{\includegraphics[width=4cm]{images/filebeat.png} }}%
+    \qquad
+    \subfloat[\centering Normal logs]{{\includegraphics[width=7cm]{images/normal log.png} }}%
+    \caption{Difference between logs }%
+    \label{fig:example}%
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% table de fpga %%%%%%%%%%%%%%%%%%%%
+\begin{landscape}
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Characteristic                                                                      & FPGA                                                                                                                          & SoC                                                                                                                                             & ASIC                                                                                                                                      & Design Verification                                                                                                                 \\ \hline
+Configurability                                                                     & \begin{tabular}[c]{@{}l@{}}Highly configurable, \\ users can define custom \\ digital logic circuits.\end{tabular}            & \begin{tabular}[c]{@{}l@{}}Less configurable, \\ as components are \\ typically fixed and \\ tailored to \\ specific applications.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fixed, designed for\\ a single specific \\ purpose, not \\ reconfigurable.\end{tabular}                        & \begin{tabular}[c]{@{}l@{}}Used to validate designs \\ for various integrated circuits.\end{tabular}                                \\ \hline
+\begin{tabular}[c]{@{}l@{}}Hardware \\ Description \\ Languages (HDLs)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Programmed using HDLs \\ such as VHDL or Verilog.\end{tabular}                                     & \begin{tabular}[c]{@{}l@{}}May involve HDLs, but often \\ involves software development \\ for specific applications.\end{tabular}              & \begin{tabular}[c]{@{}l@{}}Custom-designed and may not \\ involve HDLs.\end{tabular}                                                      & \begin{tabular}[c]{@{}l@{}}Used to ensure that the hardware \\ design meets specifications and \\ functions correctly.\end{tabular} \\ \hline
+Reprogrammable                                                                      & \begin{tabular}[c]{@{}l@{}}Reprogrammable multiple \\ times to adapt to changing \\ requirements.\end{tabular}                & \begin{tabular}[c]{@{}l@{}}Typically not reprogrammable \\ after manufacturing.\end{tabular}                                                    & \begin{tabular}[c]{@{}l@{}}Not reprogrammable, fixed \\ at the time of manufacturing.\end{tabular}                                        & \begin{tabular}[c]{@{}l@{}}Not applicable; it is a process \\ to validate hardware designs.\end{tabular}                            \\ \hline
+Parallel Processing                                                                 & \begin{tabular}[c]{@{}l@{}}Excels in parallel processing, \\ suitable for applications \\ requiring parallelism.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Capable of parallel processing\\ but often less flexible \\ compared to FPGAs.\end{tabular}                          & \begin{tabular}[c]{@{}l@{}}Specific to the application, \\ may or may not support \\ parallel processing.\end{tabular}                    & \begin{tabular}[c]{@{}l@{}}Focuses on validation rather \\ than processing capabilities.\end{tabular}                               \\ \hline
+Rapid Prototyping                                                                   & \begin{tabular}[c]{@{}l@{}}Used for rapid prototyping \\ and experimentation with \\ different designs.\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Less suitable for rapid \\ prototyping, as the \\ components are usually fixed.\end{tabular}                         & \begin{tabular}[c]{@{}l@{}}Not used for rapid prototyping \\ due to the fixed nature of the design.\end{tabular}                          & \begin{tabular}[c]{@{}l@{}}Ensures hardware designs are \\ correct before manufacturing.\end{tabular}                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}Digital Signal \\ Processing (DSP)\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Well-suited for DSP \\ applications due to \\ parallel processing capabilities.\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Can handle DSP but may \\ not be as efficient as FPGAs.\end{tabular}                                                 & \begin{tabular}[c]{@{}l@{}}Custom-designed ASICs can \\ be optimized for DSP tasks.\end{tabular}                                          & \begin{tabular}[c]{@{}l@{}}Part of the validation process \\ to ensure DSP components \\ work as intended.\end{tabular}             \\ \hline
+Embedded Systems                                                                    & \begin{tabular}[c]{@{}l@{}}Often used in embedded \\ systems where configurability \\ is a benefit.\end{tabular}              & \begin{tabular}[c]{@{}l@{}}Commonly used in embedded \\ systems, combining various \\ components on a single chip.\end{tabular}                 & \begin{tabular}[c]{@{}l@{}}Custom ASICs can be used in \\ embedded systems for \\ specific functions.\end{tabular}                        & \begin{tabular}[c]{@{}l@{}}Ensures the hardware design \\ works correctly within an \\ embedded system.\end{tabular}                \\ \hline
+Cryptography                                                                        & \begin{tabular}[c]{@{}l@{}}Used in cryptographic \\ applications for secure \\ and efficient processing.\end{tabular}         & \begin{tabular}[c]{@{}l@{}}Can be used for cryptography, \\ but may require additional \\ components.\end{tabular}                              & \begin{tabular}[c]{@{}l@{}}Custom ASICs can be \\ optimized for encryption/decryption.\end{tabular}                                       & \begin{tabular}[c]{@{}l@{}}Part of the validation process \\ to ensure cryptographic \\ components are accurate.\end{tabular}       \\ \hline
+Cost Difference                                                                     & \begin{tabular}[c]{@{}l@{}}Generally moderate cost, \\ depending on the complexity \\ of the design.\end{tabular}             & \begin{tabular}[c]{@{}l@{}}Cost varies widely depending \\ on the components and integration.\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}Higher upfront design and \\ manufacturing costs but lower \\ per-unit costs for mass production.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Part of the cost control process \\ for hardware development.\end{tabular}                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}High-Performance \\ Computing\end{tabular}               & \begin{tabular}[c]{@{}l@{}}Utilized in high-performance \\ computing for specific \\ parallel tasks.\end{tabular}             & \begin{tabular}[c]{@{}l@{}}May be used in HPC but \\ often lacks the flexibility \\ of FPGAs.\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}Custom ASICs can be designed \\ for high-performance computing.\end{tabular}                                   & \begin{tabular}[c]{@{}l@{}}Ensures the hardware design \\ is capable of high-performance \\ tasks.\end{tabular}                     \\ \hline
+\end{tabular}%
+}
+\caption{Comparison of FPGA, SoC, ASIC, and Design Verification: Characteristics}
+\label{tab:my-table}
+\end{table}
+\end{landscape}
