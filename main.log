@@ -1,0 +1,2951 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  14 OCT 2024 01:43
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/meria/Desktop/Nouveau dossier (3)/hamma/main.tex"
+(c:/Users/meria/Desktop/Nouveau dossier (3)/hamma/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/silence\silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count196
+\sl@StateNumber=\count197
+\sl@MessageCount=\count198
+\sl@Casualties=\count199
+\sl@Filter=\toks17
+\sl@Message=\toks18
+\sl@UnexpandedMessage=\toks19
+\sl@Mess@ge=\toks20
+\sl@WarningCount=\count266
+\sl@WarningNumber=\count267
+\sl@WarningCasualties=\count268
+\sl@TempBOW=\toks21
+\sl@BankOfWarnings=\toks22
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count269
+\sl@ErrorNumber=\count270
+\sl@ErrorCasualties=\count271
+\sl@TempBOE=\toks23
+\sl@BankOfErrors=\toks24
+LaTeX Info: Redefining \GenericError on input line 601.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks26
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks27
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/verse\verse.sty
+Package: verse 2014/05/10 v2.4b verse typesetting
+\c@vslineno=\count275
+\c@poemline=\count276
+\c@fvsline=\count277
+\c@modulo@vs=\count278
+\c@verse@envctr=\count279
+\versewidth=\skip50
+\vgap=\skip51
+\vindent=\skip52
+\stanzaskip=\skip53
+\vleftskip=\skip54
+\vrightskip=\skip55
+\c@chrsinstr=\count280
+\beforepoemtitleskip=\skip56
+\afterpoemtitleskip=\skip57
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen149
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count286
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count287
+\dotsspace@=\muskip16
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks29
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks30
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks31
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count293
+\calc@Bcount=\count294
+\calc@Adimen=\dimen158
+\calc@Bdimen=\dimen159
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count295
+\calc@Cskip=\skip63
+) (C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count296
+\l_MT_multwidth_dim=\dimen160
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen161
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen162
+\l_MT_above_intertext_sep=\dimen163
+\l_MT_below_intertext_sep=\dimen164
+\l_MT_above_shortintertext_sep=\dimen165
+\l_MT_below_shortintertext_sep=\dimen166
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen167
+) (C:\Program Files\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks33
+\float@box=\box54
+\@float@everytoks=\toks34
+\@floatcapt=\box55
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count298
+\LTcapwidth=\dimen168
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks35
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box61
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
+\ttl@toksa=\toks36
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen174
+\captionmargin=\dimen175
+\caption@leftmargin=\dimen176
+\caption@rightmargin=\dimen177
+\caption@width=\dimen178
+\caption@indent=\dimen179
+\caption@parindent=\dimen180
+\caption@hangindent=\dimen181
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count305
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count306
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count307
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count308
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count312
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen183
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count313
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count314
+\c@Item=\count315
+\c@Hfootnote=\count316
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count317
+\c@bookmark@seq@number=\count318
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip80
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen186
+\ESO@tempdimb=\dimen187
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
+)
+\AM@pagewidth=\dimen190
+\AM@pageheight=\dimen191
+\AM@fboxrule=\dimen192
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count319
+\AM@pagebox=\box62
+\AM@global@opts=\toks37
+\AM@pagecnt=\count320
+\AM@toc@title=\toks38
+\AM@lof@heading=\toks39
+\c@AM@survey=\count321
+\AM@templatesizebox=\box63
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip81
+\enit@outerparindent=\dimen193
+\enit@toks=\toks40
+\enit@inbox=\box64
+\enit@count@id=\count322
+\enitdp@description=\count323
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks41
+\footnotemargin=\dimen194
+\@outputbox@depth=\dimen195
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\varioref.sty
+Package: varioref 2022/01/09 v1.6f package for extended references (FMi)
+\c@vrcnt=\count324
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count325
+\xs_countb=\count326
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks42
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write3
+\mtcindent=\skip82
+\mtcskipamount=\skip83
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks43
+\mtc@strutbox=\box65
+\mtc@hstrutbox=\box66
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `main.mtc0'.
+
+\openout3 = `main.mtc'.
+
+ (main.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc0'.
+
+\c@mtc=\count327
+\c@minitocdepth=\count328
+\c@ptc=\count329
+\c@parttocdepth=\count330
+\ptcindent=\skip84
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count331
+\lst@gtempboxa=\box67
+\lst@token=\toks44
+\lst@length=\count332
+\lst@currlwidth=\dimen196
+\lst@column=\count333
+\lst@pos=\count334
+\lst@lostspace=\dimen197
+\lst@width=\dimen198
+\lst@newlines=\count335
+\lst@lineno=\count336
+\lst@maxwidth=\dimen199
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2023/02/27 1.9 (Carsten Heinz)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count337
+\lst@skipnumbers=\count338
+\lst@framebox=\box68
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/forest\forest.sty
+Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks45
+\pgfutil@tempdima=\dimen256
+\pgfutil@tempdimb=\dimen257
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box69
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks46
+\pgfkeys@temptoks=\toks47
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks48
+))
+\pgf@x=\dimen258
+\pgf@y=\dimen259
+\pgf@xa=\dimen260
+\pgf@ya=\dimen261
+\pgf@xb=\dimen262
+\pgf@yb=\dimen263
+\pgf@xc=\dimen264
+\pgf@yc=\dimen265
+\pgf@xd=\dimen266
+\pgf@yd=\dimen267
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count339
+\c@pgf@countb=\count340
+\c@pgf@countc=\count341
+\c@pgf@countd=\count342
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
+\pgf@sys@id@count=\count343
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count344
+\pgfsyssoftpath@bigbuffer@items=\count345
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen268
+\pgfmath@count=\count346
+\pgfmath@box=\box70
+\pgfmath@toks=\toks52
+\pgfmath@stack@operand=\toks53
+\pgfmath@stack@operation=\toks54
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count347
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen269
+\pgf@picmaxx=\dimen270
+\pgf@picminy=\dimen271
+\pgf@picmaxy=\dimen272
+\pgf@pathminx=\dimen273
+\pgf@pathmaxx=\dimen274
+\pgf@pathminy=\dimen275
+\pgf@pathmaxy=\dimen276
+\pgf@xx=\dimen277
+\pgf@xy=\dimen278
+\pgf@yx=\dimen279
+\pgf@yy=\dimen280
+\pgf@zx=\dimen281
+\pgf@zy=\dimen282
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen283
+\pgf@path@lasty=\dimen284
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen285
+\pgf@shorten@start@additional=\dimen286
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count348
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen287
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen288
+\pgf@pt@y=\dimen289
+\pgf@pt@temp=\dimen290
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen291
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen292
+\pgf@sys@shading@range@num=\count349
+\pgf@shadingcount=\count350
+)
+(C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box74
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box75
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
+\pgffor@stack=\toks55
+\pgffor@toks=\toks56
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count351
+\pgfplotmarksize=\dimen297
+)
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikz@lastmovetox=\dimen302
+\tikz@lastmovetoy=\dimen303
+\tikzleveldistance=\dimen304
+\tikzsiblingdistance=\dimen305
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
+)
+\tikz@expandcount=\count359
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.callouts.code.tex (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.callouts.code.tex)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box80
+\pgfnodeparttwobox=\box81
+\pgfnodepartthreebox=\box82
+\pgfnodepartfourbox=\box83
+\pgfnodeparttwentybox=\box84
+\pgfnodepartnineteenbox=\box85
+\pgfnodeparteighteenbox=\box86
+\pgfnodepartseventeenbox=\box87
+\pgfnodepartsixteenbox=\box88
+\pgfnodepartfifteenbox=\box89
+\pgfnodepartfourteenbox=\box90
+\pgfnodepartthirteenbox=\box91
+\pgfnodeparttwelvebox=\box92
+\pgfnodepartelevenbox=\box93
+\pgfnodeparttenbox=\box94
+\pgfnodepartninebox=\box95
+\pgfnodeparteightbox=\box96
+\pgfnodepartsevenbox=\box97
+\pgfnodepartsixbox=\box98
+\pgfnodepartfivebox=\box99
+))) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryintersections.code.tex (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count360
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks57
+\pgfopts@list@add@b@toks=\toks58
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/elocalloc\elocalloc.sty
+Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count361
+\l__pdf_internal_box=\box100
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/inlinedef\inlinedef.sty
+Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
+\ID@toks=\toks59
+\ID@count=\count362
+)
+\ID@usercommands=\toks60
+\safeloop@depth=\count363
+\safeRKloop@depth=\count364
+\forest@temp@dimen=\dimen306
+\forest@temp@count=\count365
+\forest@n=\count366
+\forest@temp@global@count=\count367
+\forest@temp@toks=\toks61
+\forest@temparray@M=\count368
+\forest@temparray@N=\count369
+\forest@global@temparray@M=\count370
+\forest@global@temparray@N=\count371
+\forest@isnum@count=\count372
+\forest@isdim@nonintpart=\count373
+\forest@isdim@dimen=\dimen307
+\forest@sort@m=\count374
+\forest@sort@k=\count375
+\forest@sort@p=\count376
+\bracket@content=\toks62
+\bracket@afterthought=\toks63
+\forest@node@maxid=\count377
+\forest@process@left@M=\count378
+\forest@process@left@N=\count379
+\forest@process@right@M=\count380
+\forest@process@right@N=\count381
+\forest@process@saved@M=\count382
+\forest@process@saved@N=\count383
+\forest@process@result@M=\count384
+\forest@process@result@N=\count385
+\forest@process@n=\count386
+\forest@nodewalk@branch@toks=\toks64
+\forest@nodewalk@shortsteps@resolution=\toks65
+\forest@do@dynamics=\toks66
+\forest@box=\box101
+\forest@xg=\dimen308
+\forest@yg=\dimen309
+\forest@xs=\dimen310
+\forest@ys=\dimen311
+\forest@pi@toks=\toks67
+\forest@segment@toks=\toks68
+\forest@PIi@toks=\toks69
+\forest@PIii@toks=\toks70
+\forest@copy@in=\read3
+\forest@copy@out=\write5
+\forest@externalize@max@outer@n=\count387
+\forest@externalize@inner@n=\count388
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks71
+\verbatim@line=\toks72
+\verbatim@in@stream=\read4
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks73
+\inpenc@posthook=\toks74
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 112.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+\tcb@titlebox=\box102
+\tcb@upperbox=\box103
+\tcb@lowerbox=\box104
+\tcb@phantombox=\box105
+\c@tcbbreakpart=\count389
+\c@tcblayer=\count390
+\c@tcolorbox@number=\count391
+\l__tcobox_tmpa_box=\box106
+\l__tcobox_tmpa_dim=\dimen312
+\tcb@temp=\box107
+\tcb@temp=\box108
+\tcb@temp=\box109
+\tcb@temp=\box110
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box111
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+))) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen313
+\ar@mcellbox=\box112
+\extrarowheight=\dimen314
+\NC@list=\toks75
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box113
+)
+\TX@col@width=\dimen315
+\TX@old@table=\dimen316
+\TX@old@col=\dimen317
+\TX@target=\dimen318
+\TX@delta=\dimen319
+\TX@cols=\count392
+\TX@ftn=\toks76
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen320
+\lightrulewidth=\dimen321
+\cmidrulewidth=\dimen322
+\belowrulesep=\dimen323
+\belowbottomsep=\dimen324
+\aboverulesep=\dimen325
+\abovetopsep=\dimen326
+\cmidrulesep=\dimen327
+\cmidrulekern=\dimen328
+\defaultaddspace=\dimen329
+\@cmidla=\count393
+\@cmidlb=\count394
+\@aboverulesep=\dimen330
+\@belowrulesep=\dimen331
+\@thisruleclass=\count395
+\@lastruleclass=\count396
+\@thisrulewidth=\dimen332
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks77
+\XKV@tempa@toks=\toks78
+)
+\XKV@depth=\count397
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box114
+)
+\tc@llx=\dimen333
+\tc@lly=\dimen334
+\tc@urx=\dimen335
+\tc@ury=\dimen336
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen337
+\adjbox@Height=\dimen338
+\adjbox@Depth=\dimen339
+\adjbox@Totalheight=\dimen340
+\adjbox@pwidth=\dimen341
+\adjbox@pheight=\dimen342
+\adjbox@pdepth=\dimen343
+\adjbox@ptotalheight=\dimen344
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count398
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box115
+\sift@deathcycles=\count399
+\@vwid@loff=\dimen345
+\@vwid@roff=\dimen346
+)) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/ctable\ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of table and figure floats using key/value directives
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count400
+\rotFPtop=\skip87
+\rotFPbot=\skip88
+\rot@float@box=\box116
+\rot@mess@toks=\toks79
+)
+\@CTframesep=\dimen347
+\@dfltCTframesep=\dimen348
+\@CTframerule=\dimen349
+\@dfltCTframerule=\dimen350
+\@CTwidth=\dimen351
+\@dfltCTwidth=\dimen352
+\@CTcaptionskip=\dimen353
+\@dfltCTcaptionskip=\dimen354
+\@CTmaxwidth=\dimen355
+\@dfltCTmaxwidth=\dimen356
+\@CTmincapwidth=\dimen357
+\@dfltCTmincapwidth=\dimen358
+\@CTfooterwidth=\dimen359
+\@dfltCTfooterwidth=\dimen360
+\@CTw=\dimen361
+\@CTfloatwidth=\dimen362
+\@CToldsep=\dimen363
+\@CToldrule=\dimen364
+\CT@t=\box117
+\@CTcurftwidth=\dimen365
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip89
+\multirow@cntb=\count401
+\multirow@dima=\skip90
+\bigstrutjot=\dimen366
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/seqsplit\seqsplit.sty
+Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins, etc.) 
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen367
+\WF@size=\dimen368
+\c@WF@wrappedlines=\count402
+\WF@box=\box118
+\WF@everypar=\toks80
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/nowidow\nowidow.sty
+Package: nowidow 2011/09/20 1.0 Easily prevent widows and orphans
+Package: nowidow 
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip91
+\RaggedLeftLeftskip=\skip92
+\RaggedRightLeftskip=\skip93
+\CenteringRightskip=\skip94
+\RaggedLeftRightskip=\skip95
+\RaggedRightRightskip=\skip96
+\CenteringParfillskip=\skip97
+\RaggedLeftParfillskip=\skip98
+\RaggedRightParfillskip=\skip99
+\JustifyingParfillskip=\skip100
+\CenteringParindent=\skip101
+\RaggedLeftParindent=\skip102
+\RaggedRightParindent=\skip103
+\JustifyingParindent=\skip104
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count403
+\c@@ppsavesec=\count404
+\c@@ppsaveapp=\count405
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/xurl\xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2024-08-20 v3.3.21 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count406
+\l__siunitx_number_exponent_fixed_int=\count407
+\l__siunitx_number_min_decimal_int=\count408
+\l__siunitx_number_min_integer_int=\count409
+\l__siunitx_number_round_precision_int=\count410
+\l__siunitx_number_lower_threshold_int=\count411
+\l__siunitx_number_upper_threshold_int=\count412
+\l__siunitx_number_group_first_int=\count413
+\l__siunitx_number_group_size_int=\count414
+\l__siunitx_number_group_minimum_int=\count415
+\l__siunitx_angle_tmp_dim=\dimen369
+\l__siunitx_angle_marker_box=\box119
+\l__siunitx_angle_unit_box=\box120
+\l__siunitx_compound_count_int=\count416
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box121
+\l__siunitx_table_tmp_dim=\dimen370
+\l__siunitx_table_column_width_dim=\dimen371
+\l__siunitx_table_integer_box=\box122
+\l__siunitx_table_decimal_box=\box123
+\l__siunitx_table_uncert_box=\box124
+\l__siunitx_table_before_box=\box125
+\l__siunitx_table_after_box=\box126
+\l__siunitx_table_before_dim=\dimen372
+\l__siunitx_table_carry_dim=\dimen373
+\l__siunitx_unit_tmp_int=\count417
+\l__siunitx_unit_position_int=\count418
+\l__siunitx_unit_total_int=\count419
+)
+   defining Unicode char U+2212 (decimal 8722)
+\BoxWd=\skip105
+\Aux=\skip106
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 369.
+ (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 369.
+LaTeX Font Info:    ... okay on input line 369.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 369.
+(main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count420
+\scratchdimen=\dimen374
+\scratchbox=\box127
+\nofMPsegments=\count421
+\nofMParguments=\count422
+\everyMPshowfont=\toks81
+\MPscratchCnt=\count423
+\MPscratchDim=\dimen375
+\MPnumerator=\count424
+\makeMPintoPDFobject=\count425
+\everyMPtoPDFconversion=\toks82
+) (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)) (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+\c@lstlisting=\count426
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 369.
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 372.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc1.
+\openout3 = `main.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc2.
+\openout3 = `main.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc3.
+\openout3 = `main.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc4.
+\openout3 = `main.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc5.
+\openout3 = `main.mtc5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc6.
+\openout3 = `main.mtc6'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc7.
+\openout3 = `main.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc8.
+\openout3 = `main.mtc8'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc9.
+\openout3 = `main.mtc9'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc10.
+\openout3 = `main.mtc10'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
+
+ (chapter/00-CoverPage.tex [1
+
+{C:/Users/meria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]) [1] (chapter/01-Dedication.tex
+LaTeX Font Info:    Calculating math sizes for size <26> on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 1.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 1.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 1.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <26> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <19.24014> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.60016> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+) (chapter/02-Acknowledgement.tex [2
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+) [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+
+ []
+
+(main.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+ [4
+
+] [5] [6]
+Overfull \hbox (3.99097pt too wide) in paragraph at lines 106--106
+ [][] [][]\T1/ptm/m/n/12 Sélection des car-ac-téris-tiques im-por-tantes et réen-traîne-ment du mod-èle[] [][]  
+ []
+
+[7])
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ (chapter/03-ListOfAbr.tex [8]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+) [9
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{SDLC}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.425     \listoffigures
+                        ]
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+
+ []
+
+(main.lof
+Overfull \hbox (0.47339pt too wide) in paragraph at lines 16--16
+ [][] [][]\T1/ptm/m/n/12 Distribution de la vari-able \T1/ptm/b/n/12 monthly_rech_subscriber_seg \T1/ptm/m/n/12 par classe \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 mul-ti-classe.[] [][]  
+ []
+
+[10
+
+] [11])
+\tf@lof=\write8
+\openout8 = `main.lof'.
+
+ [12] (chapter/04-GeneralIntroduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+
+Overfull \hbox (10.41008pt too wide) in paragraph at lines 33--33
+\T1/ptm/m/n/12 de ser-vices de télé-phonie et de com-mu-ni-ca-tion, s'est pro-gres-sive-ment di-ver-si-fié pour of-frir une mul-ti-tude
+ []
+
+
+Overfull \hbox (11.09355pt too wide) in paragraph at lines 36--37
+\T1/ptm/m/n/12 secteur des télé-com-mu-ni-ca-tions. Les en-treprises ne se con-tentent plus de com-pren-dre les com-porte-ments
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 E
+      n utilisant \textbf{des outils mathÃ©matiques} \textbf{et statistiques... [1
+
+]) (chapter/Chapitre_1.tex [2]
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(main.mtc5) [3
+
+] [4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 60.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (10.28845pt too wide) in paragraph at lines 60--61
+[]\T1/ptm/b/n/12 Caring\T1/ptm/m/n/12 : Cette valeur se traduit par une ap-proche sim-ple et trans-par-ente dans toutes les in-ter-ac-tions
+ []
+
+
+Overfull \hbox (14.23784pt too wide) in paragraph at lines 61--62
+[]\T1/ptm/b/n/12 Connecting\T1/ptm/m/n/12 : Oore-doo met un point d'honneur à of-frir un ac-cès fi-able et per-ti-nent à la com-mu-nauté,
+ []
+
+
+Overfull \hbox (10.96092pt too wide) in paragraph at lines 61--62
+\T1/ptm/m/n/12 s'efforce de main-tenir une re-la-tion de con-fi-ance avec ses clients en restant fidèle à ses en-gage-ments
+ []
+
+<Value_Ooredoo.png, id=1086, 845.26315pt x 597.60106pt>
+File: Value_Ooredoo.png Graphic file (type png)
+<use Value_Ooredoo.png>
+Package pdftex.def Info: Value_Ooredoo.png  used on input line 71.
+(pdftex.def)             Requested size: 290.22107pt x 205.18777pt.
+[5]
+Overfull \hbox (24.71095pt too wide) in paragraph at lines 91--92
+[]\T1/ptm/m/n/12 Le siège se com-pose de dix di-rec-tions à savoir: Di-rec-tion Ressources Hu-maines, Di-rec-tion Tech-nolo-gie,
+ []
+
+
+Overfull \hbox (12.08916pt too wide) in paragraph at lines 91--92
+\T1/ptm/m/n/12 Di-rec-tion Ad-min-is-tra-tive et Fi-nan-cière, Di-rec-tion Vente et Dis-tri-bu-tion, Di-rec-tion Mar-ket-ing et Di-rec-tion
+ []
+
+
+Overfull \hbox (16.70674pt too wide) in paragraph at lines 93--94
+[]\T1/ptm/m/n/12 La fig-ure []1.2[] ci-dessous il-lus-tre la ré-par-ti-tion des prin-ci-paux postes de di-rec-tion au sein de l'entreprise. 
+ []
+
+<General_Ooredoo.png, id=1092, 597.60106pt x 845.26315pt>
+File: General_Ooredoo.png Graphic file (type png)
+<use General_Ooredoo.png>
+Package pdftex.def Info: General_Ooredoo.png  used on input line 97.
+(pdftex.def)             Requested size: 241.84843pt x 342.07175pt.
+[6 <./Value_Ooredoo.png (PNG copy)>]
+Overfull \hbox (6.89343pt too wide) in paragraph at lines 104--107
+\T1/ptm/m/n/12 Di-rec-tion CME (Cen-tre de Main-te-nance et d'Exploitation) est re-spon-s-able de la main-te-nance préven-tive
+ []
+
+
+Overfull \hbox (39.07848pt too wide) in paragraph at lines 104--107
+\T1/ptm/m/n/12 et cor-rec-tive des équipements ainsi que de leur ex-ploita-tion quo-ti-di-enne pour garan-tir leur bon fonc-tion-nement. 
+ []
+
+[7 <./General_Ooredoo.png (PNG copy)>]
+Overfull \hbox (8.5978pt too wide) in paragraph at lines 116--117
+\T1/ptm/m/n/12 La fig-ure []1.3[] ci-dessous il-lus-tre la ré-par-ti-tion des dif-férentes di-rec-tions au sein de la di-rec-tion Tech-nique. 
+ []
+
+<DepIT_Ooredoo.jpg, id=1103, 845.26315pt x 597.60106pt>
+File: DepIT_Ooredoo.jpg Graphic file (type jpg)
+<use DepIT_Ooredoo.jpg>
+Package pdftex.def Info: DepIT_Ooredoo.jpg  used on input line 120.
+(pdftex.def)             Requested size: 241.84843pt x 170.98372pt.
+[8 <./DepIT_Ooredoo.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 132.
+ (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Overfull \hbox (5.51408pt too wide) in paragraph at lines 132--133
+\T1/ptm/m/n/12 recharger leur crédit. Ils représen-tent une caté-gorie ho-mogène dont le com-porte-ment est prin-ci-pale-ment
+ []
+
+
+Overfull \hbox (31.65907pt too wide) in paragraph at lines 132--133
+\T1/ptm/m/n/12 recharges, comme \T1/cmtt/m/n/12 recharge_amount \T1/ptm/m/n/12 et \T1/cmtt/m/n/12 number_of_recharges\T1/ptm/m/n/12 , sont des in-di-ca-teurs clés pour com-pren-dre
+ []
+
+[9]
+Overfull \hbox (16.50333pt too wide) in paragraph at lines 160--161
+[]\T1/ptm/b/n/12 Optimiser l'expérience client \T1/ptm/m/n/12 en iden-ti-fi-ant les seg-ments de clien-tèle né-ces-si-tant des amélio-ra-tions
+ []
+
+
+Overfull \hbox (10.73283pt too wide) in paragraph at lines 163--164
+\T1/ptm/m/n/12 statis-tique des ré-sul-tats, le développe-ment et l'évaluation de mod-èles pré-dic-tifs, ainsi que l'interprétation
+ []
+
+[10]
+Overfull \hbox (17.04506pt too wide) in paragraph at lines 178--179
+[]\T1/ptm/b/n/12 Évaluation du mod-èle\T1/ptm/m/n/12 : Après la mod-éli-sa-tion, chaque mod-èle est évalué en ter-mes de per-for-mance
+ []
+
+
+Overfull \hbox (7.16002pt too wide) in paragraph at lines 189--190
+[]\T1/ptm/b/n/12 Jupyter Note-book\T1/ptm/m/n/12 : Un en-vi-ron-nement de développe-ment in-ter-ac-tif qui per-met de com-biner
+ []
+
+
+Overfull \hbox (8.63487pt too wide) in paragraph at lines 189--190
+\T1/ptm/m/n/12 code, texte et vi-su-al-i-sa-tions dans un même doc-u-ment, par-ti-c-ulière-ment adapté pour l'analyse
+ []
+
+[11]
+Overfull \hbox (7.05138pt too wide) in paragraph at lines 205--206
+[]\T1/ptm/b/n/12 TensorFlow\T1/ptm/m/n/12 : Bib-lio-thèque open source pour con-stru-ire et en-traîner des mod-èles de ma-chine
+ []
+
+
+Overfull \hbox (0.7646pt too wide) in paragraph at lines 207--208
+[]\T1/ptm/b/n/12 PyTorch\T1/ptm/m/n/12 : Bib-lio-thèque open source dévelop-pée par Face-book, pop-u-laire pour la recherche
+ []
+
+
+Overfull \hbox (8.73914pt too wide) in paragraph at lines 222--223
+[]\T1/ptm/m/n/12 Contrairement à d'autres ap-proches, le Data Min-ing est da-van-tage ori-enté vers l'analyse ex-ploratoire
+ []
+
+[12]
+Overfull \hbox (5.86151pt too wide) in paragraph at lines 232--233
+\T1/ptm/m/n/12 fa-ciliter l'exploration des don-nées. Cepen-dant, son ob-jec-tif est prin-ci-pale-ment de-scrip-tif, con-traire-ment
+ []
+
+[13]
+Overfull \hbox (8.84827pt too wide) in paragraph at lines 249--250
+[]\T1/ptm/b/n/12 Sélection des car-ac-téris-tiques\T1/ptm/m/n/12 : Choix des vari-ables per-ti-nentes pour l'entraînement des mod-èles. 
+ []
+
+
+Overfull \hbox (3.59424pt too wide) in paragraph at lines 257--258
+\T1/ptm/m/n/12 l'exploration des don-nées pour en ex-traire des in-for-ma-tions utiles, ils se dis-tinguent par leurs ap-proches
+ []
+
+[14]
+Overfull \hbox (14.27371pt too wide) in paragraph at lines 282--283
+\T1/ptm/b/n/12 sig-moïde \T1/ptm/m/n/12 ou \T1/ptm/b/n/12 tanh\T1/ptm/m/n/12 ) pour in-tro-duire de la non-linéarité dans le mod-èle, ce qui lui per-met d'apprendre
+ []
+
+
+Overfull \hbox (6.48535pt too wide) in paragraph at lines 284--285
+[]\T1/ptm/b/n/12 Régularisation et Dropout\T1/ptm/m/n/12 : Pour éviter le sur-apprentissage (over-fit-ting), des tech-niques comme
+ []
+
+[15]
+Overfull \hbox (32.11613pt too wide) in paragraph at lines 292--293
+[]\T1/ptm/b/n/12 Reconnaissance d'images\T1/ptm/m/n/12 : Util-i-sa-tion de réseaux de neu-rones con-vo-lu-tifs (CNN) pour l'identification
+ []
+
+
+Overfull \hbox (3.68896pt too wide) in paragraph at lines 293--294
+[]\T1/ptm/b/n/12 Traitement du lan-gage na-turel (NLP)\T1/ptm/m/n/12 : Util-i-sa-tion de mod-èles comme les \T1/ptm/b/n/12 réseaux de neu-rones
+ []
+
+
+Overfull \hbox (0.54495pt too wide) in paragraph at lines 303--304
+[]\T1/ptm/b/n/12 Caractéristiques au-toma-tiques\T1/ptm/m/n/12 : Dans le Ma-chine Learn-ing tra-di-tion-nel, les in-génieurs doivent
+ []
+
+) [16] (chapter/Chapitre_2.tex [17]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc6 [18
+
+]) [19]
+Overfull \hbox (5.87404pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 abor-dons des méth-odes comme la nor-mal-i-sa-tion et le traite-ment des valeurs man-quantes, puis ex-plorons
+ []
+
+
+Overfull \hbox (0.25757pt too wide) in paragraph at lines 13--14
+\T1/ptm/m/n/12 des out-ils statis-tiques pour anal-yser les re-la-tions en-tre vari-ables. En-fin, nous présen-tons des tech-niques
+ []
+
+[20]
+Overfull \hbox (1.57811pt too wide) in paragraph at lines 59--60
+\T1/ptm/m/n/12 Pour améliorer la qual-ité des don-nées, surtout lorsque celles-ci ne suiv-ent pas une dis-tri-bu-tion nor-male,
+ []
+
+
+Overfull \hbox (6.9783pt too wide) in paragraph at lines 61--63
+\T1/ptm/m/n/12 La trans-for-ma-tion de Box-Cox sta-bilise la vari-ance et rap-proche les don-nées d'une dis-tri-bu-tion nor-male.
+ []
+
+
+Overfull \hbox (8.536pt too wide) in paragraph at lines 72--75
+[]$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Ex-pli-ca-tion\T1/ptm/m/n/12 : Box-Cox ap-plique une trans-for-ma-tion ex-po-nen-tielle ou log-a-rith-mique aux don-nées,
+ []
+
+
+Overfull \hbox (19.26607pt too wide) in paragraph at lines 72--75
+\T1/ptm/m/n/12 une trans-for-ma-tion log-a-rith-mique pour at-ténuer l'impact des grandes valeurs tout en ren-dant la dis-tri-bu-tion
+ []
+
+[21]
+Overfull \hbox (16.80539pt too wide) in paragraph at lines 109--110
+\T1/ptm/m/n/12 Le K-Nearest Neigh-bors (KNN) re-pose sur la sim-i-lar-ité des don-nées pour im-puter les valeurs man-quantes.
+ []
+
+[22]
+Overfull \hbox (15.70187pt too wide) in paragraph at lines 123--125
+\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Im-pact\T1/ptm/m/n/12 : Le choix de la dis-tance in-flu-ence les voisins sélec-tion-nés, et donc la pré-ci-sion de l'imputation. 
+ []
+
+
+Overfull \hbox (8.9466pt too wide) in paragraph at lines 135--137
+\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Im-pact\T1/ptm/m/n/12 : Les valeurs im-putées sont sou-vent plus proches des vraies don-nées man-quantes, aug-men-tant
+ []
+
+
+Overfull \hbox (9.22084pt too wide) in paragraph at lines 144--145
+\T1/ptm/m/n/12 Les \T1/ptm/b/n/12 in-di-ca-teurs statis-tiques \T1/ptm/m/n/12 ré-su-ment les don-nées et per-me-t-tent de mesurer les re-la-tions en-tre vari-ables.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Overfull \hbox (1.68575pt too wide) in paragraph at lines 146--150
+\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Dis-per-sion : \T1/ptm/m/n/12 Vari-ance, écart-type et éten-due quan-ti-fient la vari-abil-ité au-tour de la ten-dance cen-trale. 
+ []
+
+[23]
+Overfull \hbox (3.68678pt too wide) in paragraph at lines 172--173
+\T1/ptm/m/n/12 du $\OML/ztmcm/m/it/12 ^^_[]$\T1/ptm/m/n/12 . Il est sou-vent util-isé avec un \T1/ptm/b/n/12 tableau de con-tin-gence\T1/ptm/m/n/12 , qui mon-tre la fréquence des com-bi-naisons
+ []
+
+[24]
+Overfull \hbox (17.02182pt too wide) in paragraph at lines 210--211
+\T1/ptm/m/n/12 La \T1/ptm/b/n/12 co-vari-ance \T1/ptm/m/n/12 mesure la vari-a-tion con-jointe de deux vari-ables quan-ti-ta-tives, in-di-quant si elles aug-mentent
+ []
+
+[25] [26]
+<gaussqq.png, id=1236, 803.0pt x 401.5pt>
+File: gaussqq.png Graphic file (type png)
+<use gaussqq.png>
+Package pdftex.def Info: gaussqq.png  used on input line 271.
+(pdftex.def)             Requested size: 338.58632pt x 169.29662pt.
+
+Overfull \hbox (4.20703pt too wide) in paragraph at lines 276--278
+[]$[]$ \T1/ptm/b/n/12 Ex-pli-ca-tion Math-é-ma-tique: \T1/ptm/m/n/12 Le test de Shapiro-Wilk com-pare les statis-tiques d'ordre ob-servées
+ []
+
+[27 <./gaussqq.png>] [28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 386--393
+
+ []
+
+[30] [31] [32] [33]
+Overfull \hbox (10.56541pt too wide) in paragraph at lines 537--538
+\T1/ptm/b/n/12 Le test du Chi-Deux \T1/ptm/m/n/12 est util-isé pour éval-uer si les dis-tri-bu-tions ob-servées dans des don-nées caté-gorielles
+ []
+
+[34] [35]
+Overfull \hbox (23.1512pt too wide) in paragraph at lines 613--614
+[]$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Étape 3: \T1/ptm/m/n/12 Répéter ce pro-ces-sus pour plusieurs $\OML/ztmcm/m/it/12 k$\T1/ptm/m/n/12 -voisins afin de générer plusieurs points syn-thé-tiques,
+ []
+
+[36]
+Overfull \hbox (19.72157pt too wide) in paragraph at lines 640--642
+\T1/ptm/m/n/12 L'algorithme répète le pro-ces-sus jusqu'à ce qu'il ne reste qu'un sous-ensemble op-ti-mal de car-ac-téris-tiques. 
+ []
+
+[37]
+Overfull \hbox (25.59013pt too wide) in paragraph at lines 663--664
+\T1/ptm/m/n/12 La \T1/ptm/b/n/12 forêt aléa-toire \T1/ptm/m/n/12 est un en-sem-ble d'arbres de dé-ci-sion qui at-tribue une im-por-tance à chaque car-ac-téris-tique
+ []
+
+[38]
+Overfull \hbox (0.18504pt too wide) in paragraph at lines 678--679
+\T1/ptm/m/n/12 statis-tique-ment les meilleures, et la Forêt Aléa-toire évalue leur im-por-tance via la ré-duc-tion d'impureté.
+ []
+
+
+Overfull \hbox (26.33286pt too wide) in paragraph at lines 686--687
+\T1/ptm/b/n/12 La ré-gres-sion lo-gis-tique \T1/ptm/m/n/12 est un mod-èle paramétrique util-isé prin-ci-pale-ment pour les tâches de clas-si-fi-ca-tion
+ []
+
+
+Overfull \hbox (8.34624pt too wide) in paragraph at lines 686--687
+\T1/ptm/m/n/12 bi-naire. Son ob-jec-tif est de prédire la prob-a-bil-ité qu'une ob-ser-va-tion ap-par-ti-enne à une classe spé-ci-fique. 
+ []
+
+[39]
+Overfull \hbox (7.57954pt too wide) in paragraph at lines 703--704
+[]\T1/ptm/m/n/12 Le but est d'ajuster les co-ef-fi-cients $\OML/ztmcm/m/it/12 ^^L[]; ^^L[]; [] ; ^^L[]$ \T1/ptm/m/n/12 de manière à ce que le mod-èle prévoie cor-recte-ment
+ []
+
+
+Overfull \hbox (10.12582pt too wide) in paragraph at lines 721--723
+\T1/ptm/m/n/12 L'objectif de l'optimisation est de min-imiser la fonc-tion de coût en ajus-tant les co-ef-fi-cients $\OML/ztmcm/m/it/12 ^^L[]; ^^L[]; [] ; ^^L[]$\T1/ptm/m/n/12 .
+ []
+
+[40]
+Overfull \hbox (39.47273pt too wide) in paragraph at lines 751--752
+[]\T1/ptm/b/n/12 LBFGS \T1/ptm/m/n/12 (Limited-memory Broy-den^^UFletcher^^UGoldfarb^^UShanno): Ver-sion plus ef-fi-cace de Newton-CG,
+ []
+
+
+Overfull \hbox (36.27994pt too wide) in paragraph at lines 757--758
+[]\T1/ptm/b/n/12 SAGA\T1/ptm/m/n/12 : Améliore la de-scente de gra-di-ent stochas-tique (SGD) en com-bi-nant les gra-di-ents précédem-ment
+ []
+
+
+Overfull \hbox (0.36469pt too wide) in paragraph at lines 759--760
+[]\T1/ptm/m/n/12 SAGA com-bine cette ap-proche avec un ajuste-ment basé sur l'accumulation des gra-di-ents passés,
+ []
+
+[41]
+Overfull \hbox (0.2694pt too wide) in paragraph at lines 779--780
+\T1/ptm/m/n/12 des mod-èles plus sim-ples en met-tant cer-tains co-ef-fi-cients à zéro (ce qui peut ex-clure cer-taines vari-ables
+ []
+
+[42]
+Overfull \hbox (24.78548pt too wide) in paragraph at lines 798--800
+\T1/ptm/m/n/12 Un ar-bre de dé-ci-sion classe des ob-ser-va-tions en les di-visant en sous-groupes basés sur leurs car-ac-téris-tiques.
+ []
+
+
+Overfull \hbox (2.50253pt too wide) in paragraph at lines 806--808
+\T1/ptm/m/n/12 L'arbre di-vise les don-nées en sous-groupes aussi ho-mogènes que pos-si-ble, avec l'objectif de max-imiser
+ []
+
+
+Overfull \hbox (2.45412pt too wide) in paragraph at lines 809--811
+\T1/ptm/m/n/12 Les deux critères prin-ci-paux pour mesurer la qual-ité des di-vi-sions sont l'Impureté de Gini et l'Entropie. 
+ []
+
+[43]
+Overfull \hbox (8.49977pt too wide) in paragraph at lines 838--839
+[]\T1/ptm/m/n/12 Le critère retenu dépend de la pri-or-ité don-née à la pureté des n÷uds ou à la ré-duc-tion de l'incertitude. 
+ []
+
+
+Overfull \hbox (49.46881pt too wide) in paragraph at lines 849--851
+\T1/ptm/m/n/12 Des méth-odes comme \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 per-me-t-tent de tester dif-férentes com-bi-naisons d'hyperparamètres
+ []
+
+
+Overfull \hbox (8.75275pt too wide) in paragraph at lines 849--851
+\T1/ptm/m/n/12 toutes les com-bi-naisons pos-si-bles, \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 sélec-tionne aléa-toire-ment un sous-ensemble
+ []
+
+
+Overfull \hbox (53.213pt too wide) in paragraph at lines 852--853
+$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Principe\T1/ptm/m/n/12 : \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 ef-fectue un échan-til-lon-nage aléa-toire des com-bi-naisons d'hyperparamètres
+ []
+
+
+Overfull \hbox (32.58516pt too wide) in paragraph at lines 854--855
+\T1/ptm/m/n/12 d'hyperparamètres, tan-dis que \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 teste aléa-toire-ment un cer-tain nom-bre d'échantillons,
+ []
+
+
+Overfull \hbox (16.38255pt too wide) in paragraph at lines 856--857
+[]\T1/ptm/b/n/12 Note: \T1/ptm/m/n/12 La fonc-tion de coût et les dé-tails sur la de-scente de gra-di-ent, sou-vent util-isés dans l'optimisation
+ []
+
+[44]
+Overfull \hbox (22.45766pt too wide) in paragraph at lines 863--865
+\T1/ptm/m/n/12 La forêt aléa-toire est un en-sem-ble d'arbres de dé-ci-sion, où plusieurs ar-bres sont créés à par-tir d'échantillons
+ []
+
+
+Overfull \hbox (29.29573pt too wide) in paragraph at lines 870--871
+[]\T1/ptm/b/n/12 Sélection Aléa-toire des Car-ac-téris-tiques: \T1/ptm/m/n/12 À chaque n÷ud, une frac-tion aléa-toire des car-ac-téris-tiques
+ []
+
+[45] [46]
+Overfull \hbox (8.46745pt too wide) in paragraph at lines 918--923
+\T1/ptm/m/n/12 faible taux d'apprentissage (par ex-em-ple, 0,1) est sou-vent recom-mandé pour une meilleure con-ver-gence. 
+ []
+
+[47]
+Overfull \hbox (29.62279pt too wide) in paragraph at lines 945--946
+\T1/ptm/m/n/12 Un réseau de neu-rones pro-fond est com-posé de plusieurs couches. Chaque couche réalise une trans-for-ma-tion
+ []
+
+
+Overfull \hbox (6.08998pt too wide) in paragraph at lines 962--963
+\T1/ptm/m/n/12 Les fonc-tions d'activation ajoutent de la non-linéarité, per-me-t-tant aux réseaux d'apprendre des re-la-tions
+ []
+
+[48] [49]
+Overfull \hbox (8.12682pt too wide) in paragraph at lines 1025--1026
+[]\T1/ptm/m/n/12 Cela em-pêche cer-tains neu-rones de dévelop-per des poids trop élevés, ré-duisant ainsi la spé-cial-i-sa-tion
+ []
+
+[50]
+Overfull \hbox (7.89143pt too wide) in paragraph at lines 1050--1050
+|\T1/ptm/b/n/17.28 2.9 In-ter-pré-ta-tion des Mod-èles pour la Pré-dic-tion de la Sat-is-fac-tion
+ []
+
+[51]
+Overfull \hbox (0.12831pt too wide) in paragraph at lines 1072--1073
+\T1/ptm/m/n/12 Chaque clus-ter représente un groupe dis-tinct de clients. Pour chaque clus-ter $\OML/ztmcm/m/it/12 C[]$\T1/ptm/m/n/12 , la prob-a-bil-ité moyenne
+ []
+
+) (chapter/Chapitre_3.tex [52]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc7) [53
+
+] [54]
+Overfull \hbox (8.81221pt too wide) in paragraph at lines 58--59
+[]\T1/ptm/b/n/12 Variables caté-gorielles: \T1/ptm/m/n/12 Pour traiter les vari-ables caté-gorielles, on a ap-pliqué des trans-for-ma-tions
+ []
+
+<capture_sas_3.png, id=1384, 396.2805pt x 274.626pt>
+File: capture_sas_3.png Graphic file (type png)
+<use capture_sas_3.png>
+Package pdftex.def Info: capture_sas_3.png  used on input line 62.
+(pdftex.def)             Requested size: 241.84843pt x 167.60541pt.
+[55]
+<capture_sas_4.png, id=1389, 590.80725pt x 58.41824pt>
+File: capture_sas_4.png Graphic file (type png)
+<use capture_sas_4.png>
+Package pdftex.def Info: capture_sas_4.png  used on input line 71.
+(pdftex.def)             Requested size: 338.58632pt x 33.47969pt.
+
+Overfull \hbox (12.89044pt too wide) in paragraph at lines 80--81
+[]\T1/ptm/m/n/12 Ces trans-for-ma-tions garan-tis-sent que les don-nées, tant qual-i-ta-tives que quan-ti-ta-tives, sont con-solidées
+ []
+
+
+Overfull \hbox (25.87094pt too wide) in paragraph at lines 83--85
+[]\T1/ptm/b/n/12 Fusion des ta-bles et agré-ga-tion: \T1/ptm/m/n/12 on a fu-sion-ner les ta-bles \T1/ptm/b/n/12 Resp_Network_Fev \T1/ptm/m/n/12 et \T1/ptm/b/n/12 monthly_aggregation
+ []
+
+[56 <./capture_sas_3.png> <./capture_sas_4.png>]
+Overfull \hbox (9.79768pt too wide) in paragraph at lines 117--118
+[]\T1/ptm/m/n/12 Avant l'imputation, les dates ont été con-ver-ties en jours depuis une date de référence (\T1/ptm/b/n/12 01/01/1970\T1/ptm/m/n/12 ),
+ []
+
+
+Overfull \hbox (21.29353pt too wide) in paragraph at lines 119--120
+[]\T1/ptm/b/n/12 Imputation KNN: \T1/ptm/m/n/12 On a ap-pliqué \T1/ptm/b/n/12 KN-NIm-puter \T1/ptm/m/n/12 avec 5 voisins pour es-timer les valeurs man-quantes,
+ []
+
+[57]
+Overfull \hbox (8.86266pt too wide) in paragraph at lines 132--134
+\T1/ptm/b/n/12 Recharge_moyenne\T1/ptm/m/n/12 , créant la nou-velle vari-able nor-mal-isée \T1/ptm/b/n/12 new_recharge_moyenne\T1/ptm/m/n/12 . Le code dé-taillé
+ []
+
+
+Overfull \hbox (23.63821pt too wide) in paragraph at lines 142--144
+[]\T1/ptm/b/n/12 Comparaison des échan-til-lons: \T1/ptm/m/n/12 La ta-ble \T1/ptm/b/n/12 net-work_may \T1/ptm/m/n/12 con-tient 375 lignes, un échan-til-lon rel-a-tive-ment
+ []
+
+[58]
+Overfull \hbox (14.9439pt too wide) in paragraph at lines 177--178
+\T1/ptm/m/n/12 Les statis-tiques de-scrip-tives pour la vari-able \T1/ptm/b/n/12 recharge \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 mul-ti-classe sont présen-tées
+ []
+
+<analyse_descriptive_2.png, id=1410, 498.06075pt x 437.2335pt>
+File: analyse_descriptive_2.png Graphic file (type png)
+<use analyse_descriptive_2.png>
+Package pdftex.def Info: analyse_descriptive_2.png  used on input line 181.
+(pdftex.def)             Requested size: 338.58632pt x 297.24812pt.
+[59]
+Overfull \hbox (11.89336pt too wide) in paragraph at lines 190--191
+[]\T1/ptm/m/n/12 Les statis-tiques de-scrip-tives pour la vari-able \T1/ptm/b/n/12 recharge \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 bi-naire sont présen-tées
+ []
+
+
+Overfull \hbox (46.4846pt too wide) in paragraph at lines 194--202
+ [][] 
+ []
+
+[60 <./analyse_descriptive_2.png>]
+Overfull \hbox (6.29326pt too wide) in paragraph at lines 220--223
+\T1/ptm/b/n/12 OSAT mul-ti-classe\T1/ptm/m/n/12 : Les moyennes sont sta-bles en-tre les classes (38 à 43), avec une légère aug-men-ta-tion
+ []
+
+[61]
+Overfull \hbox (4.78116pt too wide) in paragraph at lines 244--247
+\T1/ptm/b/n/12 OSAT bi-naire\T1/ptm/m/n/12 : La dif-férence en-tre les classes 0 et 1 est min-ime, avec des durées moyennes d'activation
+ []
+
+
+Overfull \hbox (3.9666pt too wide) in paragraph at lines 244--247
+\T1/ptm/m/n/12 d'environ 46,6 ans (classe 0) et 46,3 ans (classe 1), ce qui mon-tre une sta-bil-ité dans la durée d'activation
+ []
+
+
+Overfull \hbox (17.44154pt too wide) in paragraph at lines 256--259
+\T1/ptm/b/n/12 OSAT bi-naire\T1/ptm/m/n/12 : La dif-férence en-tre les classes 0 et 1 est faible (7,37 vs 6,97), in-di-quant une con-som-ma-tion
+ []
+
+
+Overfull \hbox (8.82495pt too wide) in paragraph at lines 263--264
+\T1/ptm/m/n/12 Dans l'ensemble, la ver-sion mul-ti-classe d'OSAT per-met une seg-men-ta-tion plus fine, mais les dif-férences
+ []
+
+
+Overfull \hbox (8.55997pt too wide) in paragraph at lines 268--269
+\T1/ptm/m/n/12 L'analyse de la vari-able \T1/ptm/b/n/12 monthly_rech_subscriber_seg \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 mul-ti-classe est il-lus-trée
+ []
+
+<barre_monthl_rech.png, id=1427, 1003.8303pt x 570.933pt>
+File: barre_monthl_rech.png Graphic file (type png)
+<use barre_monthl_rech.png>
+Package pdftex.def Info: barre_monthl_rech.png  used on input line 272.
+(pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
+[62]
+<barre_monthl_rech_binary.png, id=1433, 1003.8303pt x 570.933pt>
+File: barre_monthl_rech_binary.png Graphic file (type png)
+<use barre_monthl_rech_binary.png>
+Package pdftex.def Info: barre_monthl_rech_binary.png  used on input line 283.
+(pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
+
+Overfull \hbox (3.92973pt too wide) in paragraph at lines 288--289
+\T1/ptm/m/n/12 large-ment dom-i-nants dans tous les seg-ments de recharge men-su-elle, par-ti-c-ulière-ment dans les seg-ments
+ []
+
+[63 <./barre_monthl_rech.png> <./barre_monthl_rech_binary.png>]
+<heatmap_monthly_recharge.png, id=1441, 659.1024pt x 505.1673pt>
+File: heatmap_monthly_recharge.png Graphic file (type png)
+<use heatmap_monthly_recharge.png>
+Package pdftex.def Info: heatmap_monthly_recharge.png  used on input line 292.
+(pdftex.def)             Requested size: 338.58632pt x 259.505pt.
+<heatmap_monthly_recharge_binary.png, id=1443, 665.6067pt x 505.1673pt>
+File: heatmap_monthly_recharge_binary.png Graphic file (type png)
+<use heatmap_monthly_recharge_binary.png>
+Package pdftex.def Info: heatmap_monthly_recharge_binary.png  used on input line 301.
+(pdftex.def)             Requested size: 338.58632pt x 256.97672pt.
+ [64 <./heatmap_monthly_recharge.png> <./heatmap_monthly_recharge_binary.png>]
+Overfull \hbox (44.99225pt too wide) in paragraph at lines 308--308
+|\T1/ptm/b/n/12 Comparaison en-tre les OSAT mul-ti-classe et OSAT bi-naire pour la vari-able monthly_rech_subscriber_seg| 
+ []
+
+
+Overfull \hbox (1.94919pt too wide) in paragraph at lines 309--310
+\T1/ptm/m/n/12 priv-ilégiée pour les anal-y-ses ultérieures afin de sim-pli-fier les in-ter-pré-ta-tions sans per-dre d'informations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+[]|\T1/ptm/b/n/12 Observations
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\T1/ptm/m/n/12 Les valeurs sont
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+[]|\T1/ptm/m/n/12 Segment 3 reste
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 324--325
+\T1/ptm/m/n/12 im-por-tant dans les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]|\T1/ptm/m/it/12 Monthly ARPU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\T1/ptm/m/n/12 une pré-dom-i-nance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+[]|\T1/ptm/m/n/12 Segment 12 est
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 329--330
+\T1/ptm/m/n/12 dom-i-nant dans les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[]|\T1/ptm/m/n/12 Classe 1 con-tient
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+\T1/ptm/m/n/12 la ma-jorité des
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 333--333
+[]|\T1/ptm/m/n/12 La classe 1 reste
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 333--333
+\T1/ptm/m/n/12 dom-i-nante dans le
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 334--335
+[]|\T1/ptm/m/n/12 Une forte ma-jorité
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+[]|\T1/ptm/m/n/12 Les classes 1 et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
+\T1/ptm/m/n/12 5 mon-trent une
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+[]|\T1/ptm/m/n/12 La ma-jorité des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+\T1/ptm/m/n/12 util-isa-teurs sont
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+[]|\T1/ptm/m/n/12 Utilisation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\T1/ptm/m/n/12 général-isée de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\T1/ptm/m/n/12 smart-phones dans
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+[]|\T1/ptm/m/it/12 Number of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/ptm/m/n/12 Classe 1 a des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
+[]|\T1/ptm/m/n/12 Les réac-ti-va-tions
+ []
+
+
+Overfull \hbox (5.80188pt too wide) in paragraph at lines 354--355
+\T1/ptm/m/n/12 L'analyse des vari-ables quan-ti-ta-tives et qual-i-ta-tives mon-tre que, bien que la ver-sion mul-ti-classe d'OSAT
+ []
+
+[65]
+<Correlation_Retail.png, id=1456, 1389.0294pt x 1076.1003pt>
+File: Correlation_Retail.png Graphic file (type png)
+<use Correlation_Retail.png>
+Package pdftex.def Info: Correlation_Retail.png  used on input line 363.
+(pdftex.def)             Requested size: 338.58632pt x 262.30865pt.
+
+Overfull \hbox (10.39761pt too wide) in paragraph at lines 371--372
+\T1/ptm/m/n/12 Pour éval-uer la re-la-tion en-tre des vari-ables qual-i-ta-tives comme \T1/ptm/b/n/12 de-vice_type \T1/ptm/m/n/12 et \T1/ptm/b/n/12 osat\T1/ptm/m/n/12 , plusieurs in-di-ca-teurs
+ []
+
+[66 <./Correlation_Retail.png>]
+<capture_sas_38.png, id=1464, 441.44925pt x 51.19125pt>
+File: capture_sas_38.png Graphic file (type png)
+<use capture_sas_38.png>
+Package pdftex.def Info: capture_sas_38.png  used on input line 381.
+(pdftex.def)             Requested size: 290.22107pt x 33.65509pt.
+<capture_sas_39.png, id=1466, 456.5055pt x 260.77425pt>
+File: capture_sas_39.png Graphic file (type png)
+<use capture_sas_39.png>
+Package pdftex.def Info: capture_sas_39.png  used on input line 395.
+(pdftex.def)             Requested size: 290.22107pt x 165.78477pt.
+ [67 <./capture_sas_38.png> <./capture_sas_39.png>]
+Overfull \hbox (6.73877pt too wide) in paragraph at lines 415--416
+\T1/ptm/m/n/12 in-di-quant que la con-nais-sance de cette vari-able per-met une ré-duc-tion d'erreur de \T1/ptm/b/n/12 42% \T1/ptm/m/n/12 dans la pré-dic-tion
+ []
+
+<capture_sas_40.png, id=1474, 906.38625pt x 281.25075pt>
+File: capture_sas_40.png Graphic file (type png)
+<use capture_sas_40.png>
+Package pdftex.def Info: capture_sas_40.png  used on input line 419.
+(pdftex.def)             Requested size: 386.95897pt x 120.07286pt.
+
+Overfull \hbox (5.9235pt too wide) in paragraph at lines 423--424
+\T1/ptm/m/n/12 0.15, in-di-quant une faible ré-duc-tion d'erreur, tan-dis que \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation
+ []
+
+
+Overfull \hbox (6.73862pt too wide) in paragraph at lines 423--424
+\T1/ptm/m/n/12 af-fichent des lamb-das de 0.60 et 0.84 re-spec-tive-ment, sig-nalant une ré-duc-tion d'erreur plus sig-ni-fica-tive.
+ []
+
+
+Overfull \hbox (13.07458pt too wide) in paragraph at lines 423--424
+\T1/ptm/m/n/12 En re-vanche, \T1/ptm/b/n/12 monthly_arpu_subscriber_seg \T1/ptm/m/n/12 et \T1/ptm/b/n/12 monthly_rech_subscriber_seg \T1/ptm/m/n/12 n'ont au-cune ré-duc-tion
+ []
+
+[68 <./capture_sas_40.png>]
+Overfull \hbox (28.5633pt too wide) in paragraph at lines 425--426
+[]\T1/ptm/m/n/12 Cela mon-tre que cer-taines vari-ables, comme \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation\T1/ptm/m/n/12 , in-flu-en-cent
+ []
+
+
+Overfull \hbox (6.35402pt too wide) in paragraph at lines 425--426
+\T1/ptm/m/n/12 la sat-is-fac-tion (\T1/ptm/b/n/12 osat_binary\T1/ptm/m/n/12 ), tan-dis que d'autres, comme \T1/ptm/b/n/12 monthly_arpu_subscriber_seg\T1/ptm/m/n/12 , n'apportent
+ []
+
+<capture_sas_41.png, id=1482, 394.47375pt x 70.46326pt>
+File: capture_sas_41.png Graphic file (type png)
+<use capture_sas_41.png>
+Package pdftex.def Info: capture_sas_41.png  used on input line 445.
+(pdftex.def)             Requested size: 386.95897pt x 69.12125pt.
+[69 <./capture_sas_41.png>]
+<capture_sas_42.png, id=1488, 454.69875pt x 262.581pt>
+File: capture_sas_42.png Graphic file (type png)
+<use capture_sas_42.png>
+Package pdftex.def Info: capture_sas_42.png  used on input line 455.
+(pdftex.def)             Requested size: 386.95897pt x 223.46733pt.
+<capture_sas_43.png, id=1489, 885.3075pt x 73.4745pt>
+File: capture_sas_43.png Graphic file (type png)
+<use capture_sas_43.png>
+Package pdftex.def Info: capture_sas_43.png  used on input line 461.
+(pdftex.def)             Requested size: 386.95897pt x 32.11473pt.
+
+Overfull \hbox (3.9798pt too wide) in paragraph at lines 465--466
+\T1/ptm/m/n/12 de la vari-able \T1/ptm/b/n/12 recharge_moyenne \T1/ptm/m/n/12 pour les deux groupes de \T1/ptm/b/n/12 osat_binary \T1/ptm/m/n/12 (\T1/ptm/b/n/12 p-value = 0.0003\T1/ptm/m/n/12 ), in-di-quant
+ []
+
+
+Overfull \hbox (6.78181pt too wide) in paragraph at lines 467--468
+[]\T1/ptm/m/n/12 Pour \T1/ptm/b/n/12 osat mul-ti-classe\T1/ptm/m/n/12 , les tests ont mon-tré des ré-sul-tats sim-i-laires avec des dif-férences sig-ni-fica-tives
+ []
+
+
+Overfull \hbox (10.43115pt too wide) in paragraph at lines 471--472
+[]\T1/ptm/m/n/12 En con-séquence, tous les tests util-isés sont non paramétriques : le \T1/ptm/b/n/12 Mann-Whitney \T1/ptm/m/n/12 pour \T1/ptm/b/n/12 osat_binary
+ []
+
+
+Overfull \hbox (39.11348pt too wide) in paragraph at lines 471--472
+\T1/ptm/m/n/12 et le \T1/ptm/b/n/12 Kruskal-Wallis \T1/ptm/m/n/12 pour \T1/ptm/b/n/12 OSAT\T1/ptm/m/n/12 . Lorsque des dif-férences sig-ni-fica-tives ont été dé-tec-tées avec Kruskal-Wallis,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+[]|\T1/ptm/b/n/12 Interprétation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[]|\T1/ptm/m/n/12 Différences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+[]|\T1/ptm/m/n/12 Différences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+[]|\T1/ptm/m/n/12 Différences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+[]|\T1/ptm/m/n/12 Pas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--484
+\T1/ptm/m/n/12 dif-férences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+[]|\T1/ptm/m/n/12 Différences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+[]|\T1/ptm/m/n/12 Différences
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+[]|\T1/ptm/m/n/12 Pas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+\T1/ptm/m/n/12 dif-férences
+ []
+
+
+Overfull \hbox (5.57811pt too wide) in alignment at lines 473--491
+ [] [] [] [] [] 
+ []
+
+[70 <./capture_sas_42.png> <./capture_sas_43.png>]
+Overfull \hbox (11.64467pt too wide) in paragraph at lines 494--496
+\T1/ptm/m/n/12 en év-i-dence des im-pacts lim-ités des vari-ables étudiées sur la sat-is-fac-tion client. \T1/ptm/b/n/12 Vari-ables quan-ti-ta-tives:
+ []
+
+
+Overfull \hbox (14.08177pt too wide) in paragraph at lines 494--496
+\T1/ptm/m/n/12 Les vari-ables quan-ti-ta-tives, comme \T1/ptm/b/n/12 Arpu\T1/ptm/m/n/12 , \T1/ptm/b/n/12 Voice Vol-ume\T1/ptm/m/n/12 , et \T1/ptm/b/n/12 Mou\T1/ptm/m/n/12 , mon-trent des dif-férences sig-ni-fica-tives
+ []
+
+
+Overfull \hbox (12.49835pt too wide) in paragraph at lines 501--502
+\T1/ptm/m/n/12 in-ter-dépen-dances. Une forte cor-réla-tion pour-rait in-di-quer que deux vari-ables véhicu-lent des in-for-ma-tions
+ []
+
+[71]
+Overfull \hbox (2.90688pt too wide) in paragraph at lines 509--510
+[]\T1/ptm/m/n/12 De plus, le code génère des \T1/ptm/b/n/12 di-a-grammes de dis-per-sion \T1/ptm/m/n/12 qui per-me-t-tent de vi-su-aliser et d'interpréter
+ []
+
+
+Overfull \hbox (9.7705pt too wide) in paragraph at lines 511--512
+[]\T1/ptm/m/n/12 Cette ap-proche per-met d'explorer les re-la-tions linéaires et non linéaires, même lorsque les con-di-tions
+ []
+
+<capture_sas_47.png, id=1503, 663.6795pt x 410.7345pt>
+File: capture_sas_47.png Graphic file (type png)
+<use capture_sas_47.png>
+Package pdftex.def Info: capture_sas_47.png  used on input line 516.
+(pdftex.def)             Requested size: 290.22107pt x 179.61443pt.
+<capture_sas_48.png, id=1505, 392.06474pt x 293.898pt>
+File: capture_sas_48.png Graphic file (type png)
+<use capture_sas_48.png>
+Package pdftex.def Info: capture_sas_48.png  used on input line 526.
+(pdftex.def)             Requested size: 241.84843pt x 181.29105pt.
+[72 <./capture_sas_47.png>]
+Overfull \hbox (10.35062pt too wide) in paragraph at lines 531--532
+\T1/ptm/m/n/12 La ma-trice de cor-réla-tion dans la fig-ure []3.16[] con-firme cette ob-ser-va-tion avec un co-ef-fi-cient de cor-réla-tion
+ []
+
+<capture_sas_49.png, id=1514, 579.3645pt x 234.8775pt>
+File: capture_sas_49.png Graphic file (type png)
+<use capture_sas_49.png>
+Package pdftex.def Info: capture_sas_49.png  used on input line 538.
+(pdftex.def)             Requested size: 386.95897pt x 156.87968pt.
+
+Overfull \hbox (23.88727pt too wide) in paragraph at lines 543--545
+\T1/ptm/m/n/12 forte en-tre ces deux vari-ables (\T1/ptm/b/n/12 r = 0.9450\T1/ptm/m/n/12 , \T1/ptm/b/n/12 p-value = 0.0000\T1/ptm/m/n/12 ). Cela sig-ni-fie que lorsque \T1/ptm/b/n/12 recharge_moyenne
+ []
+
+<capture_sas_50.png, id=1515, 684.75826pt x 416.757pt>
+File: capture_sas_50.png Graphic file (type png)
+<use capture_sas_50.png>
+Package pdftex.def Info: capture_sas_50.png  used on input line 548.
+(pdftex.def)             Requested size: 290.22107pt x 176.6329pt.
+[73 <./capture_sas_48.png> <./capture_sas_49.png>]
+Overfull \hbox (58.9631pt too wide) in paragraph at lines 553--555
+\T1/ptm/m/n/12 La fig-ure []3.18[] mon-tre un nu-age de points en-tre les vari-ables \T1/ptm/b/n/12 voice_volume_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 voice_amount_moyenne\T1/ptm/m/n/12 .
+ []
+
+<capture_sas_51.png, id=1523, 498.663pt x 301.125pt>
+File: capture_sas_51.png Graphic file (type png)
+<use capture_sas_51.png>
+Package pdftex.def Info: capture_sas_51.png  used on input line 558.
+(pdftex.def)             Requested size: 241.84843pt x 146.04085pt.
+[74 <./capture_sas_50.png> <./capture_sas_51.png>]
+Overfull \hbox (40.55391pt too wide) in paragraph at lines 573--574
+\T1/ptm/m/n/12 client et la fréquence des recharges. D'autres vari-ables, telles que \T1/ptm/b/n/12 nbre_sms_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 ,
+ []
+
+
+Overfull \hbox (8.97803pt too wide) in paragraph at lines 579--580
+[]\T1/ptm/m/n/12 on va main-tenant anal-yser les cor-réla-tions en-tre les vari-ables ex-plica-tives quan-ti-ta-tives et qual-i-ta-tives
+ []
+
+<capture_sas_36.png, id=1531, 397.485pt x 133.6995pt>
+File: capture_sas_36.png Graphic file (type png)
+<use capture_sas_36.png>
+Package pdftex.def Info: capture_sas_36.png  used on input line 585.
+(pdftex.def)             Requested size: 338.58632pt x 113.89194pt.
+[75 <./capture_sas_36.png>]
+Overfull \hbox (45.4229pt too wide) in paragraph at lines 604--605
+[]\T1/ptm/m/n/12 Ces anal-y-ses mon-trent que des vari-ables qual-i-ta-tives comme \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation
+ []
+
+
+Overfull \hbox (39.1375pt too wide) in paragraph at lines 604--605
+\T1/ptm/m/n/12 sont sig-ni-fica-tive-ment as-so-ciées à des vari-ables quan-ti-ta-tives telles que \T1/ptm/b/n/12 mou_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 ,
+ []
+
+<capture_sas_57.png, id=1539, 663.6795pt x 407.72325pt>
+File: capture_sas_57.png Graphic file (type png)
+<use capture_sas_57.png>
+Package pdftex.def Info: capture_sas_57.png  used on input line 654.
+(pdftex.def)             Requested size: 338.58632pt x 208.01076pt.
+[76]
+Overfull \hbox (7.37111pt too wide) in paragraph at lines 659--660
+[]\T1/ptm/m/n/12 Avant SMOTE, la classe 5 dom-i-nait avec 47%, tan-dis que les classes 2 et 3 étaient sous-représentées.
+ []
+
+<capture_sas_59.png, id=1544, 648.62325pt x 406.51875pt>
+File: capture_sas_59.png Graphic file (type png)
+<use capture_sas_59.png>
+Package pdftex.def Info: capture_sas_59.png  used on input line 663.
+(pdftex.def)             Requested size: 338.58632pt x 212.20975pt.
+[77 <./capture_sas_57.png> <./capture_sas_59.png>]
+<capture_sas_65.png, id=1553, 1108.14pt x 362.5545pt>
+File: capture_sas_65.png Graphic file (type png)
+<use capture_sas_65.png>
+Package pdftex.def Info: capture_sas_65.png  used on input line 683.
+(pdftex.def)             Requested size: 386.95897pt x 126.60277pt.
+<capture_sas_66.png, id=1554, 1099.10625pt x 356.532pt>
+File: capture_sas_66.png Graphic file (type png)
+<use capture_sas_66.png>
+Package pdftex.def Info: capture_sas_66.png  used on input line 692.
+(pdftex.def)             Requested size: 386.95897pt x 125.52249pt.
+<capture_sas_67.png, id=1555, 1106.33325pt x 368.577pt>
+File: capture_sas_67.png Graphic file (type png)
+<use capture_sas_67.png>
+Package pdftex.def Info: capture_sas_67.png  used on input line 700.
+(pdftex.def)             Requested size: 386.95897pt x 128.91388pt.
+ [78 <./capture_sas_65.png> <./capture_sas_66.png>]
+Overfull \hbox (3.76158pt too wide) in paragraph at lines 706--707
+\T1/ptm/m/n/12 d'identifier les vari-ables clés pour la pré-dic-tion de \T1/ptm/b/n/12 OSAT\T1/ptm/m/n/12 . La fig-ure suiv-ante mon-tre les car-ac-téris-tiques
+ []
+
+
+Overfull \hbox (20.76717pt too wide) in paragraph at lines 706--707
+\T1/ptm/m/n/12 com-munes aux trois méth-odes, telles que \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 , \T1/ptm/b/n/12 voice_amount_moyenne\T1/ptm/m/n/12 , \T1/ptm/b/n/12 mou_moyenne\T1/ptm/m/n/12 ,
+ []
+
+<capture_sas_69.png, id=1563, 235.47975pt x 230.0595pt>
+File: capture_sas_69.png Graphic file (type png)
+<use capture_sas_69.png>
+Package pdftex.def Info: capture_sas_69.png  used on input line 710.
+(pdftex.def)             Requested size: 193.47578pt x 189.02913pt.
+[79 <./capture_sas_67.png> <./capture_sas_69.png>]
+Overfull \hbox (22.68562pt too wide) in paragraph at lines 725--726
+\T1/ptm/m/n/12 L'optimisation des hy-per-paramètres a été réal-isée avec \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 pour ex-plorer ef-fi-cace-ment
+ []
+
+
+Overfull \hbox (6.78593pt too wide) in paragraph at lines 736--737
+\T1/ptm/m/n/12 unique-ment avec ces vari-ables, sur des don-nées stan-dard-is-ées, en suiv-ant les mêmes étapes de val-i-da-tion
+ []
+
+[80]
+Overfull \hbox (27.20686pt too wide) in paragraph at lines 760--761
+[]\T1/ptm/b/n/12 3. Op-ti-mi-sa-tion des hy-per-paramètres: \T1/ptm/m/n/12 L'algorithme \T1/ptm/b/n/12 Adam \T1/ptm/m/n/12 a été util-isé avec dif-férentes com-bi-naisons
+ []
+
+[81]
+Overfull \hbox (14.7301pt too wide) in paragraph at lines 787--788
+\T1/ptm/m/n/12 Les ap-proches Py-Torch et Keras/Ten-sor-Flow ont per-mis d'explorer dif-férentes straté-gies de mod-éli-sa-tion.
+ []
+
+
+Overfull \hbox (7.29031pt too wide) in paragraph at lines 787--788
+\T1/ptm/m/n/12 Py-Torch a op-ti-misé les hy-per-paramètres pour de meilleures per-for-mances, tan-dis que Keras/Ten-sor-Flow
+ []
+
+
+Overfull \hbox (38.64558pt too wide) in paragraph at lines 787--788
+\T1/ptm/m/n/12 a testé di-verses con-fig-u-ra-tions de mod-èles, in-clu-ant des réseaux stan-dard, des op-ti-mi-sa-tions d'hyperparamètres
+ []
+
+) [82] (chapter/Chapitre_4.tex [83]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc8) [84
+
+]
+<capture_modele_1.png, id=1625, 355.92975pt x 205.9695pt>
+File: capture_modele_1.png Graphic file (type png)
+<use capture_modele_1.png>
+Package pdftex.def Info: capture_modele_1.png  used on input line 50.
+(pdftex.def)             Requested size: 217.66211pt x 125.95862pt.
+<capture_modele_3.png, id=1626, 673.3155pt x 470.9595pt>
+File: capture_modele_3.png Graphic file (type png)
+<use capture_modele_3.png>
+Package pdftex.def Info: capture_modele_3.png  used on input line 57.
+(pdftex.def)             Requested size: 217.66211pt x 152.24078pt.
+ [85]
+<capture_modele_4.png, id=1633, 332.442pt x 205.9695pt>
+File: capture_modele_4.png Graphic file (type png)
+<use capture_modele_4.png>
+Package pdftex.def Info: capture_modele_4.png  used on input line 69.
+(pdftex.def)             Requested size: 217.66211pt x 134.85599pt.
+<capture_modele_20.png, id=1634, 326.4195pt x 201.75375pt>
+File: capture_modele_20.png Graphic file (type png)
+<use capture_modele_20.png>
+Package pdftex.def Info: capture_modele_20.png  used on input line 76.
+(pdftex.def)             Requested size: 217.66211pt x 134.53705pt.
+
+Overfull \hbox (0.91518pt too wide) in paragraph at lines 88--89
+[]\T1/ptm/b/n/12 Performance glob-ale : \T1/ptm/m/n/12 Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 a obtenu les meilleurs ré-sul-tats avec une pré-ci-sion
+ []
+
+[86 <./capture_modele_1.png> <./capture_modele_3.png> <./capture_modele_4.png> <./capture_modele_20.png>]
+Overfull \hbox (0.47044pt too wide) in paragraph at lines 90--91
+[]\T1/ptm/b/n/12 Taille des datasets : \T1/ptm/m/n/12 Mal-gré la taille plus im-por-tante de \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 (2800 lignes), les per-for-mances
+ []
+
+<capture_modele_6.png, id=1643, 487.8225pt x 492.03825pt>
+File: capture_modele_6.png Graphic file (type png)
+<use capture_modele_6.png>
+Package pdftex.def Info: capture_modele_6.png  used on input line 125.
+(pdftex.def)             Requested size: 217.66211pt x 219.5457pt.
+<capture_modele_7.png, id=1644, 471.56175pt x 493.845pt>
+File: capture_modele_7.png Graphic file (type png)
+<use capture_modele_7.png>
+Package pdftex.def Info: capture_modele_7.png  used on input line 131.
+(pdftex.def)             Requested size: 217.66211pt x 227.9476pt.
+[87]
+<capture_modele_8.png, id=1650, 455.90324pt x 489.027pt>
+File: capture_modele_8.png Graphic file (type png)
+<use capture_modele_8.png>
+Package pdftex.def Info: capture_modele_8.png  used on input line 140.
+(pdftex.def)             Requested size: 217.66211pt x 233.47667pt.
+ [88 <./capture_modele_6.png> <./capture_modele_7.png> <./capture_modele_8.png>]
+Overfull \hbox (13.62645pt too wide) in paragraph at lines 166--167
+\T1/ptm/m/n/12 ré-gres-sion lo-gis-tique, on a choisi d'implémenter un mod-èle de Ran-dom For-est afin d'améliorer da-van-tage
+ []
+
+<capture_modele_9.png, id=1658, 359.54324pt x 202.95825pt>
+File: capture_modele_9.png Graphic file (type png)
+<use capture_modele_9.png>
+Package pdftex.def Info: capture_modele_9.png  used on input line 194.
+(pdftex.def)             Requested size: 217.66211pt x 122.86908pt.
+<capture_modele_10.png, id=1659, 242.1045pt x 145.14224pt>
+File: capture_modele_10.png Graphic file (type png)
+<use capture_modele_10.png>
+Package pdftex.def Info: capture_modele_10.png  used on input line 200.
+(pdftex.def)             Requested size: 217.66211pt x 130.49391pt.
+[89]
+Overfull \hbox (18.8433pt too wide) in paragraph at lines 205--206
+[]\T1/ptm/b/n/12 Interprétation : \T1/ptm/m/n/12 Le mod-èle mon-tre une amélio-ra-tion par rap-port à l'arbre de dé-ci-sion sur \T1/ptm/m/it/12 net-work_fev\T1/ptm/m/n/12 ,
+ []
+
+<capture_modele_11.png, id=1665, 383.63326pt x 328.8285pt>
+File: capture_modele_11.png Graphic file (type png)
+<use capture_modele_11.png>
+Package pdftex.def Info: capture_modele_11.png  used on input line 211.
+(pdftex.def)             Requested size: 217.66211pt x 186.56616pt.
+<capture_modele_40.png, id=1666, 766.062pt x 407.72325pt>
+File: capture_modele_40.png Graphic file (type png)
+<use capture_modele_40.png>
+Package pdftex.def Info: capture_modele_40.png  used on input line 217.
+(pdftex.def)             Requested size: 217.66211pt x 115.8477pt.
+<capture_modele_14.png, id=1667, 380.622pt x 205.9695pt>
+File: capture_modele_14.png Graphic file (type png)
+<use capture_modele_14.png>
+Package pdftex.def Info: capture_modele_14.png  used on input line 229.
+(pdftex.def)             Requested size: 217.66211pt x 117.78725pt.
+<capture_modele_15.png, id=1668, 669.702pt x 464.937pt>
+File: capture_modele_15.png Graphic file (type png)
+<use capture_modele_15.png>
+Package pdftex.def Info: capture_modele_15.png  used on input line 235.
+(pdftex.def)             Requested size: 217.66211pt x 151.10982pt.
+[90 <./capture_modele_9.png> <./capture_modele_10.png> <./capture_modele_11.png> <./capture_modele_40.png>]
+<capture_modele_38.png, id=1679, 683.55376pt x 431.81325pt>
+File: capture_modele_38.png Graphic file (type png)
+<use capture_modele_38.png>
+Package pdftex.def Info: capture_modele_38.png  used on input line 257.
+(pdftex.def)             Requested size: 241.84843pt x 152.77754pt.
+<capture_modele_39.png, id=1680, 370.38374pt x 196.3335pt>
+File: capture_modele_39.png Graphic file (type png)
+<use capture_modele_39.png>
+Package pdftex.def Info: capture_modele_39.png  used on input line 266.
+(pdftex.def)             Requested size: 290.22107pt x 153.8435pt.
+ [91 <./capture_modele_14.png> <./capture_modele_15.png> <./capture_modele_38.png>]
+Overfull \hbox (3.73557pt too wide) in paragraph at lines 271--272
+[]\T1/ptm/b/n/12 Interprétation : \T1/ptm/m/n/12 La ma-trice de con-fu-sion mon-tre une amélio-ra-tion de l'exactitude à 0.75, in-di-quant
+ []
+
+
+Overfull \hbox (10.48183pt too wide) in paragraph at lines 287--288
+\T1/ptm/m/n/12 Pour le dataset \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 , nous avons util-isé l'algorithme KMeans pour con-ver-tir les vari-ables con-tin-ues
+ []
+
+<capture_modele_18.png, id=1690, 399.29175pt x 427.5975pt>
+File: capture_modele_18.png Graphic file (type png)
+<use capture_modele_18.png>
+Package pdftex.def Info: capture_modele_18.png  used on input line 297.
+(pdftex.def)             Requested size: 217.66211pt x 233.09148pt.
+<capture_modele_19.png, id=1691, 456.5055pt x 350.5095pt>
+File: capture_modele_19.png Graphic file (type png)
+<use capture_modele_19.png>
+Package pdftex.def Info: capture_modele_19.png  used on input line 303.
+(pdftex.def)             Requested size: 217.66211pt x 167.11949pt.
+[92 <./capture_modele_39.png>]
+<capture_modele_17.png, id=1698, 337.86224pt x 154.77824pt>
+File: capture_modele_17.png Graphic file (type png)
+<use capture_modele_17.png>
+Package pdftex.def Info: capture_modele_17.png  used on input line 337.
+(pdftex.def)             Requested size: 290.22107pt x 132.96027pt.
+ [93 <./capture_modele_18.png> <./capture_modele_19.png>]
+Overfull \hbox (2.88594pt too wide) in paragraph at lines 359--360
+\T1/ptm/m/n/12 Dans cette sec-tion, nous présen-tons les ré-sul-tats obtenus à l'aide de mod-èles de deep learn-ing ap-pliqués
+ []
+
+[94 <./capture_modele_17.png>]
+<capture_modele_25.png, id=1711, 329.43076pt x 184.89075pt>
+File: capture_modele_25.png Graphic file (type png)
+<use capture_modele_25.png>
+Package pdftex.def Info: capture_modele_25.png  used on input line 390.
+(pdftex.def)             Requested size: 217.66211pt x 122.16367pt.
+<capture_modele_26.png, id=1712, 328.22626pt x 184.2885pt>
+File: capture_modele_26.png Graphic file (type png)
+<use capture_modele_26.png>
+Package pdftex.def Info: capture_modele_26.png  used on input line 395.
+(pdftex.def)             Requested size: 217.66211pt x 122.21005pt.
+ [95]
+<capture_modele_27.png, id=1718, 328.22626pt x 184.2885pt>
+File: capture_modele_27.png Graphic file (type png)
+<use capture_modele_27.png>
+Package pdftex.def Info: capture_modele_27.png  used on input line 404.
+(pdftex.def)             Requested size: 290.22107pt x 162.95049pt.
+
+Overfull \hbox (6.01704pt too wide) in paragraph at lines 416--417
+[]\T1/ptm/b/n/12 Performance sur \T1/ptm/b/it/12 net-work_may \T1/ptm/m/n/12 : Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 a mon-tré les meilleures per-for-mances,
+ []
+
+[96 <./capture_modele_25.png> <./capture_modele_26.png> <./capture_modele_27.png>]
+<capture_modele_28.png, id=1727, 323.40825pt x 146.34676pt>
+File: capture_modele_28.png Graphic file (type png)
+<use capture_modele_28.png>
+Package pdftex.def Info: capture_modele_28.png  used on input line 431.
+(pdftex.def)             Requested size: 290.22107pt x 131.329pt.
+ [97 <./capture_modele_28.png>]
+<capture_modele_29.png, id=1733, 326.4195pt x 150.5625pt>
+File: capture_modele_29.png Graphic file (type png)
+<use capture_modele_29.png>
+Package pdftex.def Info: capture_modele_29.png  used on input line 443.
+(pdftex.def)             Requested size: 290.22107pt x 133.86923pt.
+
+Overfull \hbox (6.88155pt too wide) in paragraph at lines 451--452
+\T1/ptm/m/n/12 Enfin, les ré-sul-tats obtenus pour le dataset \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 mon-trent égale-ment des per-for-mances ac-cept-a-bles
+ []
+
+<capture_modele_30.png, id=1734, 784.1295pt x 42.1575pt>
+File: capture_modele_30.png Graphic file (type png)
+<use capture_modele_30.png>
+Package pdftex.def Info: capture_modele_30.png  used on input line 455.
+(pdftex.def)             Requested size: 386.95897pt x 20.804pt.
+<capture_modele_31.png, id=1735, 897.3525pt x 352.9185pt>
+File: capture_modele_31.png Graphic file (type png)
+<use capture_modele_31.png>
+Package pdftex.def Info: capture_modele_31.png  used on input line 461.
+(pdftex.def)             Requested size: 386.95897pt x 152.1828pt.
+
+Overfull \hbox (9.04259pt too wide) in paragraph at lines 466--467
+\T1/ptm/m/n/12 une surap-pren-tis-sage (over-fit-ting). L'amélioration des per-for-mances par rap-port aux mod-èles précé-dents
+ []
+
+[98 <./capture_modele_29.png> <./capture_modele_30.png> <./capture_modele_31.png>]
+Overfull \hbox (2.5495pt too wide) in paragraph at lines 470--471
+\T1/ptm/m/n/12 Dans l'ensemble, le mod-èle Keras/Ten-sor-Flow a mon-tré des per-for-mances solides sur les trois datasets,
+ []
+
+
+Overfull \hbox (23.45319pt too wide) in paragraph at lines 484--485
+[]\T1/ptm/b/n/12 Précision glob-ale : \T1/ptm/m/n/12 Le mod-èle de Ran-dom For-est a générale-ment obtenu de meilleures per-for-mances
+ []
+
+
+Overfull \hbox (1.4447pt too wide) in paragraph at lines 484--485
+\T1/ptm/m/n/12 mon-tré des ré-sul-tats moins ro-bustes, surtout pour les datasets plus com-plexes comme \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . 
+ []
+
+[99]
+Overfull \hbox (17.4066pt too wide) in paragraph at lines 501--502
+\T1/ptm/m/n/12 sous la courbe (AUC). Voici un ré-sumé des com-para-isons en-tre les deux frame-works et leurs per-for-mances
+ []
+
+[100]
+Overfull \hbox (41.0926pt too wide) in paragraph at lines 506--507
+[]\T1/ptm/b/n/12 F1-score : \T1/ptm/m/n/12 Les F1-scores sont glob-ale-ment sim-i-laires pour les deux frame-works, mais Keras/Ten-sor-Flow
+ []
+
+
+Overfull \hbox (13.46799pt too wide) in paragraph at lines 506--507
+\T1/ptm/m/n/12 a mon-tré une meilleure ca-pac-ité à cap-turer les re-la-tions en-tre classes dans les datasets \T1/ptm/m/it/12 net-work_may
+ []
+
+
+Overfull \hbox (39.41283pt too wide) in paragraph at lines 510--511
+\T1/ptm/m/n/12 AUC sim-i-laires, au-tour de 0.74 pour \T1/ptm/m/it/12 net-work_fev \T1/ptm/m/n/12 et 0.75 pour \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . Cepen-dant, Keras/Ten-sor-Flow
+ []
+
+
+Overfull \hbox (22.95912pt too wide) in paragraph at lines 515--516
+[]\T1/ptm/m/n/12 En con-clu-sion, bien que les deux frame-works aient mon-tré des ré-sul-tats promet-teurs, Keras/Ten-sor-Flow
+ []
+
+
+Overfull \hbox (11.87358pt too wide) in paragraph at lines 519--520
+\T1/ptm/m/n/12 deep learn-ing ap-pliqués aux trois datasets : \T1/ptm/m/it/12 net-work_fev\T1/ptm/m/n/12 , \T1/ptm/m/it/12 net-work_may\T1/ptm/m/n/12 , et \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . Cette com-para-i-son
+ []
+
+[101] [102]
+Overfull \hbox (67.16922pt too wide) in paragraph at lines 537--538
+\T1/ptm/m/n/12 paramétré et op-ti-misé in-di-vidu-elle-ment à l'aide de la recherche aléa-toire d'hyperparamètres (\T1/ptm/m/it/12 Ran-dom-ized-SearchCV\T1/ptm/m/n/12 )
+ []
+
+
+Overfull \hbox (16.54149pt too wide) in paragraph at lines 541--542
+\T1/ptm/m/n/12 mod-èles in-di-vidu-els, car elle com-bine leurs pré-dic-tions, et peut ainsi ré-duire le risque de sur-apprentissage
+ []
+
+
+Overfull \hbox (4.10927pt too wide) in paragraph at lines 548--549
+\T1/ptm/m/n/12 For-est seul (pré-ci-sion de 0.74 et F1-score de 0.76). Ainsi, il n'était pas néces-saire de com-plex-i-fier
+ []
+
+
+Overfull \hbox (9.47272pt too wide) in paragraph at lines 549--550
+[]\T1/ptm/b/n/12 Complexité des don-nées pour \T1/ptm/b/it/12 net-work_fev \T1/ptm/b/n/12 et \T1/ptm/b/it/12 re-tail_juin \T1/ptm/m/n/12 : En re-vanche, les datasets \T1/ptm/m/it/12 net-work_fev
+ []
+
+[103]
+<capture_modele_21.png, id=1764, 335.45325pt x 181.8795pt>
+File: capture_modele_21.png Graphic file (type png)
+<use capture_modele_21.png>
+Package pdftex.def Info: capture_modele_21.png  used on input line 565.
+(pdftex.def)             Requested size: 290.22107pt x 157.35966pt.
+<capture_modele_22.png, id=1765, 443.85825pt x 342.078pt>
+File: capture_modele_22.png Graphic file (type png)
+<use capture_modele_22.png>
+Package pdftex.def Info: capture_modele_22.png  used on input line 573.
+(pdftex.def)             Requested size: 338.58632pt x 260.95282pt.
+ [104 <./capture_modele_21.png>]
+Overfull \hbox (3.5933pt too wide) in paragraph at lines 577--578
+\T1/ptm/m/n/12 com-bi-nai-son des pré-dic-tions, il n'a pas sig-ni-fica-tive-ment amélioré la ca-pac-ité glob-ale de dis-crim-i-na-tion
+ []
+
+<capture_modele_23.png, id=1771, 335.45325pt x 178.266pt>
+File: capture_modele_23.png Graphic file (type png)
+<use capture_modele_23.png>
+Package pdftex.def Info: capture_modele_23.png  used on input line 585.
+(pdftex.def)             Requested size: 290.22107pt x 154.2333pt.
+<capture_modele_24.png, id=1772, 449.2785pt x 335.45325pt>
+File: capture_modele_24.png Graphic file (type png)
+<use capture_modele_24.png>
+Package pdftex.def Info: capture_modele_24.png  used on input line 593.
+(pdftex.def)             Requested size: 338.58632pt x 252.81776pt.
+[105 <./capture_modele_22.png> <./capture_modele_23.png>]
+Overfull \hbox (24.0067pt too wide) in paragraph at lines 603--604
+\T1/ptm/m/n/12 con-clu-sion, le choix du mod-èle op-ti-mal dépend de la com-plex-ité des don-nées et du be-soin de général-i-sa-tion. 
+ []
+
+[106 <./capture_modele_24.png>]
+<OVERFIT.png, id=1785, 334.24875pt x 317.38576pt>
+File: OVERFIT.png Graphic file (type png)
+<use OVERFIT.png>
+Package pdftex.def Info: OVERFIT.png  used on input line 612.
+(pdftex.def)             Requested size: 290.22107pt x 275.60034pt.
+ [107 <./OVERFIT.png>]
+<capture_modele_32.png, id=1792, 813.63976pt x 215.00325pt>
+File: capture_modele_32.png Graphic file (type png)
+<use capture_modele_32.png>
+Package pdftex.def Info: capture_modele_32.png  used on input line 646.
+(pdftex.def)             Requested size: 435.32422pt x 115.0338pt.
+ [108 <./capture_modele_32.png>]
+<capture_modele_35.png, id=1800, 994.917pt x 205.36725pt>
+File: capture_modele_35.png Graphic file (type png)
+<use capture_modele_35.png>
+Package pdftex.def Info: capture_modele_35.png  used on input line 664.
+(pdftex.def)             Requested size: 435.32422pt x 89.85735pt.
+<capture_modele_33.png, id=1802, 711.8595pt x 175.25475pt>
+File: capture_modele_33.png Graphic file (type png)
+<use capture_modele_33.png>
+Package pdftex.def Info: capture_modele_33.png  used on input line 680.
+(pdftex.def)             Requested size: 435.32422pt x 107.17531pt.
+
+Overfull \hbox (12.03851pt too wide) in paragraph at lines 685--688
+[]\T1/ptm/b/n/12 Méthode d'Interprétation des Ef-fets : \T1/ptm/m/n/12 Quelques ex-em-ples d'impact des vari-ables sur la sat-is-fac-tion
+ []
+
+[109 <./capture_modele_35.png> <./capture_modele_33.png>]
+<capture_modele_36.png, id=1809, 994.917pt x 164.41425pt>
+File: capture_modele_36.png Graphic file (type png)
+<use capture_modele_36.png>
+Package pdftex.def Info: capture_modele_36.png  used on input line 696.
+(pdftex.def)             Requested size: 435.32422pt x 71.93857pt.
+<capture_modele_34.png, id=1811, 714.87074pt x 184.2885pt>
+File: capture_modele_34.png Graphic file (type png)
+<use capture_modele_34.png>
+Package pdftex.def Info: capture_modele_34.png  used on input line 712.
+(pdftex.def)             Requested size: 435.32422pt x 112.2246pt.
+
+Overfull \hbox (12.03851pt too wide) in paragraph at lines 717--720
+[]\T1/ptm/b/n/12 Méthode d'Interprétation des Ef-fets : \T1/ptm/m/n/12 Quelques ex-em-ples d'impact des vari-ables sur la sat-is-fac-tion
+ []
+
+[110 <./capture_modele_36.png> <./capture_modele_34.png>]
+<capture_modele_37.png, id=1819, 985.88326pt x 151.767pt>
+File: capture_modele_37.png Graphic file (type png)
+<use capture_modele_37.png>
+Package pdftex.def Info: capture_modele_37.png  used on input line 727.
+(pdftex.def)             Requested size: 435.32422pt x 67.01389pt.
+
+Overfull \hbox (14.11661pt too wide) in paragraph at lines 734--735
+\T1/ptm/m/n/12 Les trois datasets présen-tent des pro-fils de sat-is-fac-tion légère-ment dif-férents selon les vari-ables analysées. 
+ []
+
+
+Overfull \hbox (12.49715pt too wide) in paragraph at lines 737--738
+[]\T1/ptm/b/n/12 Activation Days : \T1/ptm/m/n/12 Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 mon-tre l'intervalle le plus ré-cent pour \T1/ptm/m/it/12 ac-ti-va-tion_days\T1/ptm/m/n/12 ,
+ []
+
+
+Overfull \hbox (0.83192pt too wide) in paragraph at lines 737--738
+\T1/ptm/m/n/12 de sat-is-fac-tion pour cette vari-able restent sim-i-laires en-tre les datasets, avec une légère supéri-or-ité
+ []
+
+
+Overfull \hbox (25.87619pt too wide) in paragraph at lines 741--742
+[]\T1/ptm/b/n/12 Interprétation des Ef-fets des Vari-ables : \T1/ptm/m/n/12 Les ré-sul-tats d'interprétation mon-trent que l'augmentation
+ []
+
+[111 <./capture_modele_37.png>]) (chapter/07-GeneralConclusion.tex [112]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+
+Overfull \hbox (7.0261pt too wide) in paragraph at lines 7--7
+\T1/ptm/m/n/12 This project rep-re-sents the cul-mi-na-tion of many months of dili-gent ef-fort, com-bin-ing tech-ni-cal ex-per-tise
+ []
+
+
+Overfull \hbox (9.74573pt too wide) in paragraph at lines 9--9
+[]\T1/ptm/m/n/12 A ma-jor ac-com-plish-ment was the suc-cess-ful in-te-gra-tion of AI with no-code plat-forms like Bub-ble.io.
+ []
+
+
+Overfull \hbox (6.17455pt too wide) in paragraph at lines 11--11
+\T1/ptm/m/n/12 while deep-en-ing my un-der-stand-ing of AI's role in cy-ber-se-cu-rity. En-sur-ing scal-a-bil-ity while main-tain-ing
+ []
+
+
+Overfull \hbox (12.5698pt too wide) in paragraph at lines 11--11
+\T1/ptm/m/n/12 data se-cu-rity dur-ing API in-te-gra-tions was a key chal-lenge. These ex-pe-ri-ences em-pha-sized the im-por-tance
+ []
+
+) (chapter/08-Bibliography.tex [113
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+[114
+
+]
+Underfull \hbox (badness 1803) in paragraph at lines 57--59
+[]\T1/ptm/m/n/12 REGULATION (EU) 2016/679 OF THE EU-RO-PEAN PAR-LIA-MENT AND OF THE
+ []
+
+[115]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[]\T1/ptm/m/n/12 NATURAL LAN-GUAGE PRO-CESS-ING: TRANS-FORM-ING HOW MA-CHINES
+ []
+
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
+[117]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.title1039}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.203 \bibitem{title1039}
+                         ) (chapter/09-Annexe.tex [118]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+<capture_sas_1.png, id=1970, 413.1435pt x 243.91125pt>
+File: capture_sas_1.png Graphic file (type png)
+<use capture_sas_1.png>
+Package pdftex.def Info: capture_sas_1.png  used on input line 16.
+(pdftex.def)             Requested size: 290.22107pt x 171.34708pt.
+<capture_sas_6.png, id=1971, 700.41675pt x 478.78876pt>
+File: capture_sas_6.png Graphic file (type png)
+<use capture_sas_6.png>
+Package pdftex.def Info: capture_sas_6.png  used on input line 23.
+(pdftex.def)             Requested size: 386.95897pt x 264.51814pt.
+<capture_sas_7.png, id=1972, 558.28575pt x 268.6035pt>
+File: capture_sas_7.png Graphic file (type png)
+<use capture_sas_7.png>
+Package pdftex.def Info: capture_sas_7.png  used on input line 30.
+(pdftex.def)             Requested size: 338.58632pt x 162.90112pt.
+[119
+
+ <./capture_sas_1.png> <./capture_sas_6.png>]
+<capture_sas_9.png, id=1979, 464.937pt x 142.73325pt>
+File: capture_sas_9.png Graphic file (type png)
+<use capture_sas_9.png>
+Package pdftex.def Info: capture_sas_9.png  used on input line 37.
+(pdftex.def)             Requested size: 338.58632pt x 103.95045pt.
+<capture_sas_12.png, id=1980, 446.26724pt x 196.93575pt>
+File: capture_sas_12.png Graphic file (type png)
+<use capture_sas_12.png>
+Package pdftex.def Info: capture_sas_12.png  used on input line 45.
+(pdftex.def)             Requested size: 386.95897pt x 170.76775pt.
+<capture_sas_13.png, id=1981, 648.021pt x 486.618pt>
+File: capture_sas_13.png Graphic file (type png)
+<use capture_sas_13.png>
+Package pdftex.def Info: capture_sas_13.png  used on input line 53.
+(pdftex.def)             Requested size: 483.69687pt x 363.23253pt.
+ [120 <./capture_sas_7.png> <./capture_sas_9.png> <./capture_sas_12.png>]
+<capture_sas_16.png, id=1990, 560.69475pt x 500.46976pt>
+File: capture_sas_16.png Graphic file (type png)
+<use capture_sas_16.png>
+Package pdftex.def Info: capture_sas_16.png  used on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 431.73962pt.
+ [121 <./capture_sas_13.png>]
+<capture_sas_19.png, id=1996, 614.295pt x 189.70876pt>
+File: capture_sas_19.png Graphic file (type png)
+<use capture_sas_19.png>
+Package pdftex.def Info: capture_sas_19.png  used on input line 69.
+(pdftex.def)             Requested size: 435.32422pt x 134.4394pt.
+<capture_sas_21.png, id=1997, 850.97925pt x 230.0595pt>
+File: capture_sas_21.png Graphic file (type png)
+<use capture_sas_21.png>
+Package pdftex.def Info: capture_sas_21.png  used on input line 77.
+(pdftex.def)             Requested size: 386.95897pt x 104.61404pt.
+ [122 <./capture_sas_16.png> <./capture_sas_19.png>]
+<capture_sas_28.png, id=2004, 1051.5285pt x 261.97874pt>
+File: capture_sas_28.png Graphic file (type png)
+<use capture_sas_28.png>
+Package pdftex.def Info: capture_sas_28.png  used on input line 85.
+(pdftex.def)             Requested size: 386.95897pt x 96.40694pt.
+<capture_sas_29.png, id=2005, 1063.5735pt x 258.9675pt>
+File: capture_sas_29.png Graphic file (type png)
+<use capture_sas_29.png>
+Package pdftex.def Info: capture_sas_29.png  used on input line 93.
+(pdftex.def)             Requested size: 386.95897pt x 94.22005pt.
+<capture_sas_61.png, id=2006, 546.843pt x 317.988pt>
+File: capture_sas_61.png Graphic file (type png)
+<use capture_sas_61.png>
+Package pdftex.def Info: capture_sas_61.png  used on input line 101.
+(pdftex.def)             Requested size: 435.32422pt x 253.15344pt.
+ [123 <./capture_sas_21.png> <./capture_sas_28.png> <./capture_sas_29.png>]
+<capture_sas_70.png, id=2014, 531.78674pt x 388.45125pt>
+File: capture_sas_70.png Graphic file (type png)
+<use capture_sas_70.png>
+Package pdftex.def Info: capture_sas_70.png  used on input line 109.
+(pdftex.def)             Requested size: 435.32422pt x 317.98676pt.
+<capture_sas_71.png, id=2015, 635.37375pt x 314.3745pt>
+File: capture_sas_71.png Graphic file (type png)
+<use capture_sas_71.png>
+Package pdftex.def Info: capture_sas_71.png  used on input line 117.
+(pdftex.def)             Requested size: 435.32422pt x 215.398pt.
+ [124 <./capture_sas_61.png> <./capture_sas_70.png>]
+<capture_sas_72.png, id=2022, 437.83575pt x 160.80075pt>
+File: capture_sas_72.png Graphic file (type png)
+<use capture_sas_72.png>
+Package pdftex.def Info: capture_sas_72.png  used on input line 125.
+(pdftex.def)             Requested size: 338.58632pt x 124.35428pt.
+<capture_sas_73.png, id=2023, 676.32675pt x 254.1495pt>
+File: capture_sas_73.png Graphic file (type png)
+<use capture_sas_73.png>
+Package pdftex.def Info: capture_sas_73.png  used on input line 133.
+(pdftex.def)             Requested size: 435.32422pt x 163.58585pt.
+<capture_sas_74.png, id=2024, 489.027pt x 251.7405pt>
+File: capture_sas_74.png Graphic file (type png)
+<use capture_sas_74.png>
+Package pdftex.def Info: capture_sas_74.png  used on input line 141.
+(pdftex.def)             Requested size: 386.95897pt x 199.20699pt.
+ [125 <./capture_sas_71.png> <./capture_sas_72.png> <./capture_sas_73.png>]
+<capture_sas_75.png, id=2032, 585.387pt x 420.3705pt>
+File: capture_sas_75.png Graphic file (type png)
+<use capture_sas_75.png>
+Package pdftex.def Info: capture_sas_75.png  used on input line 149.
+(pdftex.def)             Requested size: 386.95897pt x 277.88156pt.
+<capture_sas_77.png, id=2033, 525.162pt x 199.34476pt>
+File: capture_sas_77.png Graphic file (type png)
+<use capture_sas_77.png>
+Package pdftex.def Info: capture_sas_77.png  used on input line 157.
+(pdftex.def)             Requested size: 386.95897pt x 146.88315pt.
+ [126 <./capture_sas_74.png> <./capture_sas_75.png>]
+<capture_sas_78.png, id=2041, 449.88075pt x 331.2375pt>
+File: capture_sas_78.png Graphic file (type png)
+<use capture_sas_78.png>
+Package pdftex.def Info: capture_sas_78.png  used on input line 165.
+(pdftex.def)             Requested size: 338.58632pt x 249.29178pt.
+<capture_sas_79.png, id=2042, 945.5325pt x 457.71pt>
+File: capture_sas_79.png Graphic file (type png)
+<use capture_sas_79.png>
+Package pdftex.def Info: capture_sas_79.png  used on input line 173.
+(pdftex.def)             Requested size: 435.32422pt x 210.73074pt.
+ [127 <./capture_sas_77.png> <./capture_sas_78.png>]
+<capture_sas_80.png, id=2049, 596.2275pt x 396.2805pt>
+File: capture_sas_80.png Graphic file (type png)
+<use capture_sas_80.png>
+Package pdftex.def Info: capture_sas_80.png  used on input line 181.
+(pdftex.def)             Requested size: 435.32422pt x 289.33678pt.
+)
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+ [128 <./capture_sas_79.png> <./capture_sas_80.png>] (main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6227A592F839B824A584A66FF8633E41;34661.
+ ) 
+Here is how much of TeX's memory you used:
+ 49759 strings out of 474486
+ 1095379 string characters out of 5743755
+ 1970542 words of memory out of 5000000
+ 70770 multiletter control sequences out of 15000+600000
+ 690323 words of font info for 204 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 98i,13n,101p,1652b,1338s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\meria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (141 pages, 4454313 bytes).
+PDF statistics:
+ 2225 PDF objects out of 2487 (max. 8388607)
+ 477 named destinations out of 1000 (max. 500000)
+ 1725 words of extra memory for PDF output out of 10000 (max. 10000000)
+
