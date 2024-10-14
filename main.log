@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  14 OCT 2024 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  14 OCT 2024 02:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1390,18 +1390,8 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 60
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (10.28845pt too wide) in paragraph at lines 60--61
-[]\T1/ptm/b/n/12 Caring\T1/ptm/m/n/12 : Cette valeur se traduit par une ap-proche sim-ple et trans-par-ente dans toutes les in-ter-ac-tions
- []
-
-
-Overfull \hbox (14.23784pt too wide) in paragraph at lines 61--62
-[]\T1/ptm/b/n/12 Connecting\T1/ptm/m/n/12 : Oore-doo met un point d'honneur à of-frir un ac-cès fi-able et per-ti-nent à la com-mu-nauté,
- []
-
-
-Overfull \hbox (10.96092pt too wide) in paragraph at lines 61--62
-\T1/ptm/m/n/12 s'efforce de main-tenir une re-la-tion de con-fi-ance avec ses clients en restant fidèle à ses en-gage-ments
+Underfull \hbox (badness 1033) in paragraph at lines 61--62
+[]\T1/ptm/b/n/12 Connecting\T1/ptm/m/n/12 : Oore-doo met un point d'honneur à of-frir un ac-cès fi-able et per-ti-nent à
  []
 
 <Value_Ooredoo.png, id=1086, 845.26315pt x 597.60106pt>
@@ -1410,140 +1400,26 @@ File: Value_Ooredoo.png Graphic file (type png)
 Package pdftex.def Info: Value_Ooredoo.png  used on input line 71.
 (pdftex.def)             Requested size: 290.22107pt x 205.18777pt.
 [5]
-Overfull \hbox (24.71095pt too wide) in paragraph at lines 91--92
-[]\T1/ptm/m/n/12 Le siège se com-pose de dix di-rec-tions à savoir: Di-rec-tion Ressources Hu-maines, Di-rec-tion Tech-nolo-gie,
- []
-
-
-Overfull \hbox (12.08916pt too wide) in paragraph at lines 91--92
-\T1/ptm/m/n/12 Di-rec-tion Ad-min-is-tra-tive et Fi-nan-cière, Di-rec-tion Vente et Dis-tri-bu-tion, Di-rec-tion Mar-ket-ing et Di-rec-tion
- []
-
-
-Overfull \hbox (16.70674pt too wide) in paragraph at lines 93--94
-[]\T1/ptm/m/n/12 La fig-ure []1.2[] ci-dessous il-lus-tre la ré-par-ti-tion des prin-ci-paux postes de di-rec-tion au sein de l'entreprise. 
- []
-
 <General_Ooredoo.png, id=1092, 597.60106pt x 845.26315pt>
 File: General_Ooredoo.png Graphic file (type png)
 <use General_Ooredoo.png>
-Package pdftex.def Info: General_Ooredoo.png  used on input line 97.
+Package pdftex.def Info: General_Ooredoo.png  used on input line 95.
 (pdftex.def)             Requested size: 241.84843pt x 342.07175pt.
-[6 <./Value_Ooredoo.png (PNG copy)>]
-Overfull \hbox (6.89343pt too wide) in paragraph at lines 104--107
-\T1/ptm/m/n/12 Di-rec-tion CME (Cen-tre de Main-te-nance et d'Exploitation) est re-spon-s-able de la main-te-nance préven-tive
- []
-
-
-Overfull \hbox (39.07848pt too wide) in paragraph at lines 104--107
-\T1/ptm/m/n/12 et cor-rec-tive des équipements ainsi que de leur ex-ploita-tion quo-ti-di-enne pour garan-tir leur bon fonc-tion-nement. 
- []
-
-[7 <./General_Ooredoo.png (PNG copy)>]
-Overfull \hbox (8.5978pt too wide) in paragraph at lines 116--117
-\T1/ptm/m/n/12 La fig-ure []1.3[] ci-dessous il-lus-tre la ré-par-ti-tion des dif-férentes di-rec-tions au sein de la di-rec-tion Tech-nique. 
- []
-
+ [6 <./Value_Ooredoo.png (PNG copy)>] [7 <./General_Ooredoo.png (PNG copy)>]
 <DepIT_Ooredoo.jpg, id=1103, 845.26315pt x 597.60106pt>
 File: DepIT_Ooredoo.jpg Graphic file (type jpg)
 <use DepIT_Ooredoo.jpg>
-Package pdftex.def Info: DepIT_Ooredoo.jpg  used on input line 120.
+Package pdftex.def Info: DepIT_Ooredoo.jpg  used on input line 118.
 (pdftex.def)             Requested size: 241.84843pt x 170.98372pt.
-[8 <./DepIT_Ooredoo.jpg>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 132.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 130.
  (C:\Users\meria\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Overfull \hbox (5.51408pt too wide) in paragraph at lines 132--133
-\T1/ptm/m/n/12 recharger leur crédit. Ils représen-tent une caté-gorie ho-mogène dont le com-porte-ment est prin-ci-pale-ment
+) [8 <./DepIT_Ooredoo.jpg>] [9] [10] [11] [12] [13] [14]
+Underfull \hbox (badness 1137) in paragraph at lines 274--275
+\T1/ptm/m/n/12 telles que la régu-lar-i-sa-tion L2 ou le \T1/ptm/b/n/12 dropout \T1/ptm/m/n/12 sont ap-pliquées. Le dropout dés-ac-tive
  []
 
-
-Overfull \hbox (31.65907pt too wide) in paragraph at lines 132--133
-\T1/ptm/m/n/12 recharges, comme \T1/cmtt/m/n/12 recharge_amount \T1/ptm/m/n/12 et \T1/cmtt/m/n/12 number_of_recharges\T1/ptm/m/n/12 , sont des in-di-ca-teurs clés pour com-pren-dre
- []
-
-[9]
-Overfull \hbox (16.50333pt too wide) in paragraph at lines 160--161
-[]\T1/ptm/b/n/12 Optimiser l'expérience client \T1/ptm/m/n/12 en iden-ti-fi-ant les seg-ments de clien-tèle né-ces-si-tant des amélio-ra-tions
- []
-
-
-Overfull \hbox (10.73283pt too wide) in paragraph at lines 163--164
-\T1/ptm/m/n/12 statis-tique des ré-sul-tats, le développe-ment et l'évaluation de mod-èles pré-dic-tifs, ainsi que l'interprétation
- []
-
-[10]
-Overfull \hbox (17.04506pt too wide) in paragraph at lines 178--179
-[]\T1/ptm/b/n/12 Évaluation du mod-èle\T1/ptm/m/n/12 : Après la mod-éli-sa-tion, chaque mod-èle est évalué en ter-mes de per-for-mance
- []
-
-
-Overfull \hbox (7.16002pt too wide) in paragraph at lines 189--190
-[]\T1/ptm/b/n/12 Jupyter Note-book\T1/ptm/m/n/12 : Un en-vi-ron-nement de développe-ment in-ter-ac-tif qui per-met de com-biner
- []
-
-
-Overfull \hbox (8.63487pt too wide) in paragraph at lines 189--190
-\T1/ptm/m/n/12 code, texte et vi-su-al-i-sa-tions dans un même doc-u-ment, par-ti-c-ulière-ment adapté pour l'analyse
- []
-
-[11]
-Overfull \hbox (7.05138pt too wide) in paragraph at lines 205--206
-[]\T1/ptm/b/n/12 TensorFlow\T1/ptm/m/n/12 : Bib-lio-thèque open source pour con-stru-ire et en-traîner des mod-èles de ma-chine
- []
-
-
-Overfull \hbox (0.7646pt too wide) in paragraph at lines 207--208
-[]\T1/ptm/b/n/12 PyTorch\T1/ptm/m/n/12 : Bib-lio-thèque open source dévelop-pée par Face-book, pop-u-laire pour la recherche
- []
-
-
-Overfull \hbox (8.73914pt too wide) in paragraph at lines 222--223
-[]\T1/ptm/m/n/12 Contrairement à d'autres ap-proches, le Data Min-ing est da-van-tage ori-enté vers l'analyse ex-ploratoire
- []
-
-[12]
-Overfull \hbox (5.86151pt too wide) in paragraph at lines 232--233
-\T1/ptm/m/n/12 fa-ciliter l'exploration des don-nées. Cepen-dant, son ob-jec-tif est prin-ci-pale-ment de-scrip-tif, con-traire-ment
- []
-
-[13]
-Overfull \hbox (8.84827pt too wide) in paragraph at lines 249--250
-[]\T1/ptm/b/n/12 Sélection des car-ac-téris-tiques\T1/ptm/m/n/12 : Choix des vari-ables per-ti-nentes pour l'entraînement des mod-èles. 
- []
-
-
-Overfull \hbox (3.59424pt too wide) in paragraph at lines 257--258
-\T1/ptm/m/n/12 l'exploration des don-nées pour en ex-traire des in-for-ma-tions utiles, ils se dis-tinguent par leurs ap-proches
- []
-
-[14]
-Overfull \hbox (14.27371pt too wide) in paragraph at lines 282--283
-\T1/ptm/b/n/12 sig-moïde \T1/ptm/m/n/12 ou \T1/ptm/b/n/12 tanh\T1/ptm/m/n/12 ) pour in-tro-duire de la non-linéarité dans le mod-èle, ce qui lui per-met d'apprendre
- []
-
-
-Overfull \hbox (6.48535pt too wide) in paragraph at lines 284--285
-[]\T1/ptm/b/n/12 Régularisation et Dropout\T1/ptm/m/n/12 : Pour éviter le sur-apprentissage (over-fit-ting), des tech-niques comme
- []
-
-[15]
-Overfull \hbox (32.11613pt too wide) in paragraph at lines 292--293
-[]\T1/ptm/b/n/12 Reconnaissance d'images\T1/ptm/m/n/12 : Util-i-sa-tion de réseaux de neu-rones con-vo-lu-tifs (CNN) pour l'identification
- []
-
-
-Overfull \hbox (3.68896pt too wide) in paragraph at lines 293--294
-[]\T1/ptm/b/n/12 Traitement du lan-gage na-turel (NLP)\T1/ptm/m/n/12 : Util-i-sa-tion de mod-èles comme les \T1/ptm/b/n/12 réseaux de neu-rones
- []
-
-
-Overfull \hbox (0.54495pt too wide) in paragraph at lines 303--304
-[]\T1/ptm/b/n/12 Caractéristiques au-toma-tiques\T1/ptm/m/n/12 : Dans le Ma-chine Learn-ing tra-di-tion-nel, les in-génieurs doivent
- []
-
-) [16] (chapter/Chapitre_2.tex [17]
+[15]) (chapter/Chapitre_2.tex [16]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1554,245 +1430,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc6 [18
+(main.mtc6 [17
 
-]) [19]
-Overfull \hbox (5.87404pt too wide) in paragraph at lines 13--14
-\T1/ptm/m/n/12 abor-dons des méth-odes comme la nor-mal-i-sa-tion et le traite-ment des valeurs man-quantes, puis ex-plorons
- []
-
-
-Overfull \hbox (0.25757pt too wide) in paragraph at lines 13--14
-\T1/ptm/m/n/12 des out-ils statis-tiques pour anal-yser les re-la-tions en-tre vari-ables. En-fin, nous présen-tons des tech-niques
- []
-
-[20]
-Overfull \hbox (1.57811pt too wide) in paragraph at lines 59--60
-\T1/ptm/m/n/12 Pour améliorer la qual-ité des don-nées, surtout lorsque celles-ci ne suiv-ent pas une dis-tri-bu-tion nor-male,
- []
-
-
-Overfull \hbox (6.9783pt too wide) in paragraph at lines 61--63
-\T1/ptm/m/n/12 La trans-for-ma-tion de Box-Cox sta-bilise la vari-ance et rap-proche les don-nées d'une dis-tri-bu-tion nor-male.
- []
-
-
-Overfull \hbox (8.536pt too wide) in paragraph at lines 72--75
-[]$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Ex-pli-ca-tion\T1/ptm/m/n/12 : Box-Cox ap-plique une trans-for-ma-tion ex-po-nen-tielle ou log-a-rith-mique aux don-nées,
- []
-
-
-Overfull \hbox (19.26607pt too wide) in paragraph at lines 72--75
-\T1/ptm/m/n/12 une trans-for-ma-tion log-a-rith-mique pour at-ténuer l'impact des grandes valeurs tout en ren-dant la dis-tri-bu-tion
- []
-
-[21]
-Overfull \hbox (16.80539pt too wide) in paragraph at lines 109--110
-\T1/ptm/m/n/12 Le K-Nearest Neigh-bors (KNN) re-pose sur la sim-i-lar-ité des don-nées pour im-puter les valeurs man-quantes.
- []
-
-[22]
-Overfull \hbox (15.70187pt too wide) in paragraph at lines 123--125
-\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Im-pact\T1/ptm/m/n/12 : Le choix de la dis-tance in-flu-ence les voisins sélec-tion-nés, et donc la pré-ci-sion de l'imputation. 
- []
-
-
-Overfull \hbox (8.9466pt too wide) in paragraph at lines 135--137
-\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Im-pact\T1/ptm/m/n/12 : Les valeurs im-putées sont sou-vent plus proches des vraies don-nées man-quantes, aug-men-tant
- []
-
-
-Overfull \hbox (9.22084pt too wide) in paragraph at lines 144--145
-\T1/ptm/m/n/12 Les \T1/ptm/b/n/12 in-di-ca-teurs statis-tiques \T1/ptm/m/n/12 ré-su-ment les don-nées et per-me-t-tent de mesurer les re-la-tions en-tre vari-ables.
- []
-
-
+]) [18] [19] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-
-Overfull \hbox (1.68575pt too wide) in paragraph at lines 146--150
-\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Dis-per-sion : \T1/ptm/m/n/12 Vari-ance, écart-type et éten-due quan-ti-fient la vari-abil-ité au-tour de la ten-dance cen-trale. 
- []
-
-[23]
-Overfull \hbox (3.68678pt too wide) in paragraph at lines 172--173
-\T1/ptm/m/n/12 du $\OML/ztmcm/m/it/12 ^^_[]$\T1/ptm/m/n/12 . Il est sou-vent util-isé avec un \T1/ptm/b/n/12 tableau de con-tin-gence\T1/ptm/m/n/12 , qui mon-tre la fréquence des com-bi-naisons
- []
-
-[24]
-Overfull \hbox (17.02182pt too wide) in paragraph at lines 210--211
-\T1/ptm/m/n/12 La \T1/ptm/b/n/12 co-vari-ance \T1/ptm/m/n/12 mesure la vari-a-tion con-jointe de deux vari-ables quan-ti-ta-tives, in-di-quant si elles aug-mentent
- []
-
-[25] [26]
-<gaussqq.png, id=1236, 803.0pt x 401.5pt>
+[22] [23] [24] [25]
+<gaussqq.png, id=1232, 803.0pt x 401.5pt>
 File: gaussqq.png Graphic file (type png)
 <use gaussqq.png>
 Package pdftex.def Info: gaussqq.png  used on input line 271.
 (pdftex.def)             Requested size: 338.58632pt x 169.29662pt.
-
-Overfull \hbox (4.20703pt too wide) in paragraph at lines 276--278
-[]$[]$ \T1/ptm/b/n/12 Ex-pli-ca-tion Math-é-ma-tique: \T1/ptm/m/n/12 Le test de Shapiro-Wilk com-pare les statis-tiques d'ordre ob-servées
- []
-
-[27 <./gaussqq.png>] [28] [29]
+ [26 <./gaussqq.png>] [27] [28]
 Underfull \hbox (badness 10000) in paragraph at lines 386--393
 
  []
 
-[30] [31] [32] [33]
-Overfull \hbox (10.56541pt too wide) in paragraph at lines 537--538
-\T1/ptm/b/n/12 Le test du Chi-Deux \T1/ptm/m/n/12 est util-isé pour éval-uer si les dis-tri-bu-tions ob-servées dans des don-nées caté-gorielles
+[29] [30] [31] [32] [33] [34] [35]
+Underfull \hbox (badness 1354) in paragraph at lines 640--642
+\T1/ptm/m/n/12 L'algorithme répète le pro-ces-sus jusqu'à ce qu'il ne reste qu'un sous-ensemble op-ti-mal de
  []
 
-[34] [35]
-Overfull \hbox (23.1512pt too wide) in paragraph at lines 613--614
-[]$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Étape 3: \T1/ptm/m/n/12 Répéter ce pro-ces-sus pour plusieurs $\OML/ztmcm/m/it/12 k$\T1/ptm/m/n/12 -voisins afin de générer plusieurs points syn-thé-tiques,
+[36] [37]
+Underfull \hbox (badness 1112) in paragraph at lines 678--679
+\T1/ptm/m/n/12 statis-tique-ment les meilleures, et la Forêt Aléa-toire évalue leur im-por-tance via la ré-duc-tion
  []
 
-[36]
-Overfull \hbox (19.72157pt too wide) in paragraph at lines 640--642
-\T1/ptm/m/n/12 L'algorithme répète le pro-ces-sus jusqu'à ce qu'il ne reste qu'un sous-ensemble op-ti-mal de car-ac-téris-tiques. 
- []
-
-[37]
-Overfull \hbox (25.59013pt too wide) in paragraph at lines 663--664
-\T1/ptm/m/n/12 La \T1/ptm/b/n/12 forêt aléa-toire \T1/ptm/m/n/12 est un en-sem-ble d'arbres de dé-ci-sion qui at-tribue une im-por-tance à chaque car-ac-téris-tique
- []
-
-[38]
-Overfull \hbox (0.18504pt too wide) in paragraph at lines 678--679
-\T1/ptm/m/n/12 statis-tique-ment les meilleures, et la Forêt Aléa-toire évalue leur im-por-tance via la ré-duc-tion d'impureté.
+[38] [39] [40] [41] [42]
+Underfull \hbox (badness 1688) in paragraph at lines 849--851
+\T1/ptm/m/n/12 Des méth-odes comme \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 per-me-t-tent de tester dif-férentes com-bi-naisons
  []
 
 
-Overfull \hbox (26.33286pt too wide) in paragraph at lines 686--687
-\T1/ptm/b/n/12 La ré-gres-sion lo-gis-tique \T1/ptm/m/n/12 est un mod-èle paramétrique util-isé prin-ci-pale-ment pour les tâches de clas-si-fi-ca-tion
+Underfull \hbox (badness 1092) in paragraph at lines 849--851
+\T1/ptm/m/n/12 de manière ex-haus-tive toutes les com-bi-naisons pos-si-bles, \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 sélec-tionne
  []
 
 
-Overfull \hbox (8.34624pt too wide) in paragraph at lines 686--687
-\T1/ptm/m/n/12 bi-naire. Son ob-jec-tif est de prédire la prob-a-bil-ité qu'une ob-ser-va-tion ap-par-ti-enne à une classe spé-ci-fique. 
+Underfull \hbox (badness 1314) in paragraph at lines 854--855
+\T1/ptm/m/n/12 d'hyperparamètres, tan-dis que \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 teste aléa-toire-ment un cer-tain nom-bre
  []
 
-[39]
-Overfull \hbox (7.57954pt too wide) in paragraph at lines 703--704
-[]\T1/ptm/m/n/12 Le but est d'ajuster les co-ef-fi-cients $\OML/ztmcm/m/it/12 ^^L[]; ^^L[]; [] ; ^^L[]$ \T1/ptm/m/n/12 de manière à ce que le mod-èle prévoie cor-recte-ment
+[43] [44] [45] [46] [47] [48]
+Underfull \hbox (badness 1231) in paragraph at lines 1025--1026
+[]\T1/ptm/m/n/12 Cela em-pêche cer-tains neu-rones de dévelop-per des poids trop élevés, ré-duisant ainsi la
  []
 
-
-Overfull \hbox (10.12582pt too wide) in paragraph at lines 721--723
-\T1/ptm/m/n/12 L'objectif de l'optimisation est de min-imiser la fonc-tion de coût en ajus-tant les co-ef-fi-cients $\OML/ztmcm/m/it/12 ^^L[]; ^^L[]; [] ; ^^L[]$\T1/ptm/m/n/12 .
+[49]
+Underfull \hbox (badness 6927) in paragraph at lines 1050--1050
+|\T1/ptm/b/n/17.28 2.9 In-ter-pré-ta-tion des Mod-èles pour la Pré-dic-tion de la
  []
 
-[40]
-Overfull \hbox (39.47273pt too wide) in paragraph at lines 751--752
-[]\T1/ptm/b/n/12 LBFGS \T1/ptm/m/n/12 (Limited-memory Broy-den^^UFletcher^^UGoldfarb^^UShanno): Ver-sion plus ef-fi-cace de Newton-CG,
- []
-
-
-Overfull \hbox (36.27994pt too wide) in paragraph at lines 757--758
-[]\T1/ptm/b/n/12 SAGA\T1/ptm/m/n/12 : Améliore la de-scente de gra-di-ent stochas-tique (SGD) en com-bi-nant les gra-di-ents précédem-ment
- []
-
-
-Overfull \hbox (0.36469pt too wide) in paragraph at lines 759--760
-[]\T1/ptm/m/n/12 SAGA com-bine cette ap-proche avec un ajuste-ment basé sur l'accumulation des gra-di-ents passés,
- []
-
-[41]
-Overfull \hbox (0.2694pt too wide) in paragraph at lines 779--780
-\T1/ptm/m/n/12 des mod-èles plus sim-ples en met-tant cer-tains co-ef-fi-cients à zéro (ce qui peut ex-clure cer-taines vari-ables
- []
-
-[42]
-Overfull \hbox (24.78548pt too wide) in paragraph at lines 798--800
-\T1/ptm/m/n/12 Un ar-bre de dé-ci-sion classe des ob-ser-va-tions en les di-visant en sous-groupes basés sur leurs car-ac-téris-tiques.
- []
-
-
-Overfull \hbox (2.50253pt too wide) in paragraph at lines 806--808
-\T1/ptm/m/n/12 L'arbre di-vise les don-nées en sous-groupes aussi ho-mogènes que pos-si-ble, avec l'objectif de max-imiser
- []
-
-
-Overfull \hbox (2.45412pt too wide) in paragraph at lines 809--811
-\T1/ptm/m/n/12 Les deux critères prin-ci-paux pour mesurer la qual-ité des di-vi-sions sont l'Impureté de Gini et l'Entropie. 
- []
-
-[43]
-Overfull \hbox (8.49977pt too wide) in paragraph at lines 838--839
-[]\T1/ptm/m/n/12 Le critère retenu dépend de la pri-or-ité don-née à la pureté des n÷uds ou à la ré-duc-tion de l'incertitude. 
- []
-
-
-Overfull \hbox (49.46881pt too wide) in paragraph at lines 849--851
-\T1/ptm/m/n/12 Des méth-odes comme \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 per-me-t-tent de tester dif-férentes com-bi-naisons d'hyperparamètres
- []
-
-
-Overfull \hbox (8.75275pt too wide) in paragraph at lines 849--851
-\T1/ptm/m/n/12 toutes les com-bi-naisons pos-si-bles, \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 sélec-tionne aléa-toire-ment un sous-ensemble
- []
-
-
-Overfull \hbox (53.213pt too wide) in paragraph at lines 852--853
-$\OMS/ztmcm/m/n/12 !$ \T1/ptm/b/n/12 Principe\T1/ptm/m/n/12 : \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 ef-fectue un échan-til-lon-nage aléa-toire des com-bi-naisons d'hyperparamètres
- []
-
-
-Overfull \hbox (32.58516pt too wide) in paragraph at lines 854--855
-\T1/ptm/m/n/12 d'hyperparamètres, tan-dis que \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 teste aléa-toire-ment un cer-tain nom-bre d'échantillons,
- []
-
-
-Overfull \hbox (16.38255pt too wide) in paragraph at lines 856--857
-[]\T1/ptm/b/n/12 Note: \T1/ptm/m/n/12 La fonc-tion de coût et les dé-tails sur la de-scente de gra-di-ent, sou-vent util-isés dans l'optimisation
- []
-
-[44]
-Overfull \hbox (22.45766pt too wide) in paragraph at lines 863--865
-\T1/ptm/m/n/12 La forêt aléa-toire est un en-sem-ble d'arbres de dé-ci-sion, où plusieurs ar-bres sont créés à par-tir d'échantillons
- []
-
-
-Overfull \hbox (29.29573pt too wide) in paragraph at lines 870--871
-[]\T1/ptm/b/n/12 Sélection Aléa-toire des Car-ac-téris-tiques: \T1/ptm/m/n/12 À chaque n÷ud, une frac-tion aléa-toire des car-ac-téris-tiques
- []
-
-[45] [46]
-Overfull \hbox (8.46745pt too wide) in paragraph at lines 918--923
-\T1/ptm/m/n/12 faible taux d'apprentissage (par ex-em-ple, 0,1) est sou-vent recom-mandé pour une meilleure con-ver-gence. 
- []
-
-[47]
-Overfull \hbox (29.62279pt too wide) in paragraph at lines 945--946
-\T1/ptm/m/n/12 Un réseau de neu-rones pro-fond est com-posé de plusieurs couches. Chaque couche réalise une trans-for-ma-tion
- []
-
-
-Overfull \hbox (6.08998pt too wide) in paragraph at lines 962--963
-\T1/ptm/m/n/12 Les fonc-tions d'activation ajoutent de la non-linéarité, per-me-t-tant aux réseaux d'apprendre des re-la-tions
- []
-
-[48] [49]
-Overfull \hbox (8.12682pt too wide) in paragraph at lines 1025--1026
-[]\T1/ptm/m/n/12 Cela em-pêche cer-tains neu-rones de dévelop-per des poids trop élevés, ré-duisant ainsi la spé-cial-i-sa-tion
- []
-
-[50]
-Overfull \hbox (7.89143pt too wide) in paragraph at lines 1050--1050
-|\T1/ptm/b/n/17.28 2.9 In-ter-pré-ta-tion des Mod-èles pour la Pré-dic-tion de la Sat-is-fac-tion
- []
-
-[51]
-Overfull \hbox (0.12831pt too wide) in paragraph at lines 1072--1073
-\T1/ptm/m/n/12 Chaque clus-ter représente un groupe dis-tinct de clients. Pour chaque clus-ter $\OML/ztmcm/m/it/12 C[]$\T1/ptm/m/n/12 , la prob-a-bil-ité moyenne
- []
-
-) (chapter/Chapitre_3.tex [52]
+[50]) (chapter/Chapitre_3.tex [51]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1803,139 +1494,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc7) [53
+(main.mtc7) [52
 
-] [54]
-Overfull \hbox (8.81221pt too wide) in paragraph at lines 58--59
-[]\T1/ptm/b/n/12 Variables caté-gorielles: \T1/ptm/m/n/12 Pour traiter les vari-ables caté-gorielles, on a ap-pliqué des trans-for-ma-tions
+] [53]
+Underfull \hbox (badness 2875) in paragraph at lines 58--59
+[]\T1/ptm/b/n/12 Variables caté-gorielles: \T1/ptm/m/n/12 Pour traiter les vari-ables caté-gorielles, on a ap-pliqué des
  []
 
-<capture_sas_3.png, id=1384, 396.2805pt x 274.626pt>
+<capture_sas_3.png, id=1379, 396.2805pt x 274.626pt>
 File: capture_sas_3.png Graphic file (type png)
 <use capture_sas_3.png>
 Package pdftex.def Info: capture_sas_3.png  used on input line 62.
 (pdftex.def)             Requested size: 241.84843pt x 167.60541pt.
-[55]
-<capture_sas_4.png, id=1389, 590.80725pt x 58.41824pt>
+[54]
+<capture_sas_4.png, id=1385, 590.80725pt x 58.41824pt>
 File: capture_sas_4.png Graphic file (type png)
 <use capture_sas_4.png>
 Package pdftex.def Info: capture_sas_4.png  used on input line 71.
 (pdftex.def)             Requested size: 338.58632pt x 33.47969pt.
 
-Overfull \hbox (12.89044pt too wide) in paragraph at lines 80--81
-[]\T1/ptm/m/n/12 Ces trans-for-ma-tions garan-tis-sent que les don-nées, tant qual-i-ta-tives que quan-ti-ta-tives, sont con-solidées
+Underfull \hbox (badness 4699) in paragraph at lines 83--85
+[]\T1/ptm/b/n/12 Fusion des ta-bles et agré-ga-tion: \T1/ptm/m/n/12 on a fu-sion-ner les ta-bles \T1/ptm/b/n/12 Resp_Network_Fev \T1/ptm/m/n/12 et
  []
 
 
-Overfull \hbox (25.87094pt too wide) in paragraph at lines 83--85
-[]\T1/ptm/b/n/12 Fusion des ta-bles et agré-ga-tion: \T1/ptm/m/n/12 on a fu-sion-ner les ta-bles \T1/ptm/b/n/12 Resp_Network_Fev \T1/ptm/m/n/12 et \T1/ptm/b/n/12 monthly_aggregation
+Underfull \hbox (badness 2856) in paragraph at lines 83--85
+\T1/ptm/b/n/12 monthly_aggregation \T1/ptm/m/n/12 pour obtenir une ta-ble fi-nale. La vari-able \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 est ex-traite de
  []
 
-[56 <./capture_sas_3.png> <./capture_sas_4.png>]
-Overfull \hbox (9.79768pt too wide) in paragraph at lines 117--118
-[]\T1/ptm/m/n/12 Avant l'imputation, les dates ont été con-ver-ties en jours depuis une date de référence (\T1/ptm/b/n/12 01/01/1970\T1/ptm/m/n/12 ),
- []
-
-
-Overfull \hbox (21.29353pt too wide) in paragraph at lines 119--120
-[]\T1/ptm/b/n/12 Imputation KNN: \T1/ptm/m/n/12 On a ap-pliqué \T1/ptm/b/n/12 KN-NIm-puter \T1/ptm/m/n/12 avec 5 voisins pour es-timer les valeurs man-quantes,
- []
-
-[57]
-Overfull \hbox (8.86266pt too wide) in paragraph at lines 132--134
-\T1/ptm/b/n/12 Recharge_moyenne\T1/ptm/m/n/12 , créant la nou-velle vari-able nor-mal-isée \T1/ptm/b/n/12 new_recharge_moyenne\T1/ptm/m/n/12 . Le code dé-taillé
- []
-
-
-Overfull \hbox (23.63821pt too wide) in paragraph at lines 142--144
-[]\T1/ptm/b/n/12 Comparaison des échan-til-lons: \T1/ptm/m/n/12 La ta-ble \T1/ptm/b/n/12 net-work_may \T1/ptm/m/n/12 con-tient 375 lignes, un échan-til-lon rel-a-tive-ment
- []
-
-[58]
-Overfull \hbox (14.9439pt too wide) in paragraph at lines 177--178
-\T1/ptm/m/n/12 Les statis-tiques de-scrip-tives pour la vari-able \T1/ptm/b/n/12 recharge \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 mul-ti-classe sont présen-tées
- []
-
+[55 <./capture_sas_3.png> <./capture_sas_4.png>] [56] [57] [58]
 <analyse_descriptive_2.png, id=1410, 498.06075pt x 437.2335pt>
 File: analyse_descriptive_2.png Graphic file (type png)
 <use analyse_descriptive_2.png>
 Package pdftex.def Info: analyse_descriptive_2.png  used on input line 181.
 (pdftex.def)             Requested size: 338.58632pt x 297.24812pt.
-[59]
-Overfull \hbox (11.89336pt too wide) in paragraph at lines 190--191
-[]\T1/ptm/m/n/12 Les statis-tiques de-scrip-tives pour la vari-able \T1/ptm/b/n/12 recharge \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 bi-naire sont présen-tées
- []
-
 
 Overfull \hbox (46.4846pt too wide) in paragraph at lines 194--202
  [][] 
  []
 
-[60 <./analyse_descriptive_2.png>]
-Overfull \hbox (6.29326pt too wide) in paragraph at lines 220--223
-\T1/ptm/b/n/12 OSAT mul-ti-classe\T1/ptm/m/n/12 : Les moyennes sont sta-bles en-tre les classes (38 à 43), avec une légère aug-men-ta-tion
- []
-
-[61]
-Overfull \hbox (4.78116pt too wide) in paragraph at lines 244--247
-\T1/ptm/b/n/12 OSAT bi-naire\T1/ptm/m/n/12 : La dif-férence en-tre les classes 0 et 1 est min-ime, avec des durées moyennes d'activation
- []
-
-
-Overfull \hbox (3.9666pt too wide) in paragraph at lines 244--247
-\T1/ptm/m/n/12 d'environ 46,6 ans (classe 0) et 46,3 ans (classe 1), ce qui mon-tre une sta-bil-ité dans la durée d'activation
- []
-
-
-Overfull \hbox (17.44154pt too wide) in paragraph at lines 256--259
-\T1/ptm/b/n/12 OSAT bi-naire\T1/ptm/m/n/12 : La dif-férence en-tre les classes 0 et 1 est faible (7,37 vs 6,97), in-di-quant une con-som-ma-tion
- []
-
-
-Overfull \hbox (8.82495pt too wide) in paragraph at lines 263--264
-\T1/ptm/m/n/12 Dans l'ensemble, la ver-sion mul-ti-classe d'OSAT per-met une seg-men-ta-tion plus fine, mais les dif-férences
- []
-
-
-Overfull \hbox (8.55997pt too wide) in paragraph at lines 268--269
-\T1/ptm/m/n/12 L'analyse de la vari-able \T1/ptm/b/n/12 monthly_rech_subscriber_seg \T1/ptm/m/n/12 selon les classes \T1/ptm/b/n/12 OSAT \T1/ptm/m/n/12 mul-ti-classe est il-lus-trée
- []
-
+[59 <./analyse_descriptive_2.png>] [60] [61]
 <barre_monthl_rech.png, id=1427, 1003.8303pt x 570.933pt>
 File: barre_monthl_rech.png Graphic file (type png)
 <use barre_monthl_rech.png>
 Package pdftex.def Info: barre_monthl_rech.png  used on input line 272.
 (pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
-[62]
-<barre_monthl_rech_binary.png, id=1433, 1003.8303pt x 570.933pt>
+<barre_monthl_rech_binary.png, id=1429, 1003.8303pt x 570.933pt>
 File: barre_monthl_rech_binary.png Graphic file (type png)
 <use barre_monthl_rech_binary.png>
 Package pdftex.def Info: barre_monthl_rech_binary.png  used on input line 283.
 (pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
-
-Overfull \hbox (3.92973pt too wide) in paragraph at lines 288--289
-\T1/ptm/m/n/12 large-ment dom-i-nants dans tous les seg-ments de recharge men-su-elle, par-ti-c-ulière-ment dans les seg-ments
- []
-
-[63 <./barre_monthl_rech.png> <./barre_monthl_rech_binary.png>]
-<heatmap_monthly_recharge.png, id=1441, 659.1024pt x 505.1673pt>
+ [62 <./barre_monthl_rech.png>]
+<heatmap_monthly_recharge.png, id=1436, 659.1024pt x 505.1673pt>
 File: heatmap_monthly_recharge.png Graphic file (type png)
 <use heatmap_monthly_recharge.png>
 Package pdftex.def Info: heatmap_monthly_recharge.png  used on input line 292.
 (pdftex.def)             Requested size: 338.58632pt x 259.505pt.
-<heatmap_monthly_recharge_binary.png, id=1443, 665.6067pt x 505.1673pt>
+<heatmap_monthly_recharge_binary.png, id=1438, 665.6067pt x 505.1673pt>
 File: heatmap_monthly_recharge_binary.png Graphic file (type png)
 <use heatmap_monthly_recharge_binary.png>
 Package pdftex.def Info: heatmap_monthly_recharge_binary.png  used on input line 301.
 (pdftex.def)             Requested size: 338.58632pt x 256.97672pt.
- [64 <./heatmap_monthly_recharge.png> <./heatmap_monthly_recharge_binary.png>]
-Overfull \hbox (44.99225pt too wide) in paragraph at lines 308--308
-|\T1/ptm/b/n/12 Comparaison en-tre les OSAT mul-ti-classe et OSAT bi-naire pour la vari-able monthly_rech_subscriber_seg| 
- []
-
-
-Overfull \hbox (1.94919pt too wide) in paragraph at lines 309--310
-\T1/ptm/m/n/12 priv-ilégiée pour les anal-y-ses ultérieures afin de sim-pli-fier les in-ter-pré-ta-tions sans per-dre d'informations
+ [63 <./barre_monthl_rech_binary.png> <./heatmap_monthly_recharge.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+|\T1/ptm/b/n/12 Comparaison en-tre les OSAT mul-ti-classe et OSAT bi-naire pour la vari-able
  []
 
 
@@ -2053,102 +1675,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--343
 []|\T1/ptm/m/n/12 Les réac-ti-va-tions
  []
 
-
-Overfull \hbox (5.80188pt too wide) in paragraph at lines 354--355
-\T1/ptm/m/n/12 L'analyse des vari-ables quan-ti-ta-tives et qual-i-ta-tives mon-tre que, bien que la ver-sion mul-ti-classe d'OSAT
- []
-
-[65]
-<Correlation_Retail.png, id=1456, 1389.0294pt x 1076.1003pt>
+[64 <./heatmap_monthly_recharge_binary.png>]
+<Correlation_Retail.png, id=1451, 1389.0294pt x 1076.1003pt>
 File: Correlation_Retail.png Graphic file (type png)
 <use Correlation_Retail.png>
 Package pdftex.def Info: Correlation_Retail.png  used on input line 363.
 (pdftex.def)             Requested size: 338.58632pt x 262.30865pt.
-
-Overfull \hbox (10.39761pt too wide) in paragraph at lines 371--372
-\T1/ptm/m/n/12 Pour éval-uer la re-la-tion en-tre des vari-ables qual-i-ta-tives comme \T1/ptm/b/n/12 de-vice_type \T1/ptm/m/n/12 et \T1/ptm/b/n/12 osat\T1/ptm/m/n/12 , plusieurs in-di-ca-teurs
- []
-
-[66 <./Correlation_Retail.png>]
-<capture_sas_38.png, id=1464, 441.44925pt x 51.19125pt>
+ [65]
+<capture_sas_38.png, id=1458, 441.44925pt x 51.19125pt>
 File: capture_sas_38.png Graphic file (type png)
 <use capture_sas_38.png>
 Package pdftex.def Info: capture_sas_38.png  used on input line 381.
 (pdftex.def)             Requested size: 290.22107pt x 33.65509pt.
-<capture_sas_39.png, id=1466, 456.5055pt x 260.77425pt>
+ [66 <./Correlation_Retail.png> <./capture_sas_38.png>]
+<capture_sas_39.png, id=1467, 456.5055pt x 260.77425pt>
 File: capture_sas_39.png Graphic file (type png)
 <use capture_sas_39.png>
 Package pdftex.def Info: capture_sas_39.png  used on input line 395.
 (pdftex.def)             Requested size: 290.22107pt x 165.78477pt.
- [67 <./capture_sas_38.png> <./capture_sas_39.png>]
-Overfull \hbox (6.73877pt too wide) in paragraph at lines 415--416
-\T1/ptm/m/n/12 in-di-quant que la con-nais-sance de cette vari-able per-met une ré-duc-tion d'erreur de \T1/ptm/b/n/12 42% \T1/ptm/m/n/12 dans la pré-dic-tion
- []
-
+ [67 <./capture_sas_39.png>]
 <capture_sas_40.png, id=1474, 906.38625pt x 281.25075pt>
 File: capture_sas_40.png Graphic file (type png)
 <use capture_sas_40.png>
 Package pdftex.def Info: capture_sas_40.png  used on input line 419.
 (pdftex.def)             Requested size: 386.95897pt x 120.07286pt.
 
-Overfull \hbox (5.9235pt too wide) in paragraph at lines 423--424
-\T1/ptm/m/n/12 0.15, in-di-quant une faible ré-duc-tion d'erreur, tan-dis que \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation
+Underfull \hbox (badness 1584) in paragraph at lines 423--424
+[][]\T1/ptm/b/n/12 Résultats pour les autres vari-ables: \T1/ptm/m/n/12 Les ré-sul-tats mon-trent que \T1/ptm/b/n/12 de-vice_type \T1/ptm/m/n/12 a une
  []
 
 
-Overfull \hbox (6.73862pt too wide) in paragraph at lines 423--424
-\T1/ptm/m/n/12 af-fichent des lamb-das de 0.60 et 0.84 re-spec-tive-ment, sig-nalant une ré-duc-tion d'erreur plus sig-ni-fica-tive.
+Underfull \hbox (badness 2818) in paragraph at lines 423--424
+\T1/ptm/m/n/12 lambda de 0.15, in-di-quant une faible ré-duc-tion d'erreur, tan-dis que \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et
  []
 
 
-Overfull \hbox (13.07458pt too wide) in paragraph at lines 423--424
-\T1/ptm/m/n/12 En re-vanche, \T1/ptm/b/n/12 monthly_arpu_subscriber_seg \T1/ptm/m/n/12 et \T1/ptm/b/n/12 monthly_rech_subscriber_seg \T1/ptm/m/n/12 n'ont au-cune ré-duc-tion
+Underfull \hbox (badness 3219) in paragraph at lines 423--424
+\T1/ptm/b/n/12 Num-ber_of_reactivation \T1/ptm/m/n/12 af-fichent des lamb-das de 0.60 et 0.84 re-spec-tive-ment, sig-nalant
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 423--424
+\T1/ptm/m/n/12 une ré-duc-tion d'erreur plus sig-ni-fica-tive. En re-vanche, \T1/ptm/b/n/12 monthly_arpu_subscriber_seg \T1/ptm/m/n/12 et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+\T1/ptm/m/n/12 in-flu-en-cent la sat-is-fac-tion (\T1/ptm/b/n/12 osat_binary\T1/ptm/m/n/12 ), tan-dis que d'autres, comme
  []
 
 [68 <./capture_sas_40.png>]
-Overfull \hbox (28.5633pt too wide) in paragraph at lines 425--426
-[]\T1/ptm/m/n/12 Cela mon-tre que cer-taines vari-ables, comme \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation\T1/ptm/m/n/12 , in-flu-en-cent
- []
-
-
-Overfull \hbox (6.35402pt too wide) in paragraph at lines 425--426
-\T1/ptm/m/n/12 la sat-is-fac-tion (\T1/ptm/b/n/12 osat_binary\T1/ptm/m/n/12 ), tan-dis que d'autres, comme \T1/ptm/b/n/12 monthly_arpu_subscriber_seg\T1/ptm/m/n/12 , n'apportent
- []
-
 <capture_sas_41.png, id=1482, 394.47375pt x 70.46326pt>
 File: capture_sas_41.png Graphic file (type png)
 <use capture_sas_41.png>
 Package pdftex.def Info: capture_sas_41.png  used on input line 445.
 (pdftex.def)             Requested size: 386.95897pt x 69.12125pt.
-[69 <./capture_sas_41.png>]
-<capture_sas_42.png, id=1488, 454.69875pt x 262.581pt>
+<capture_sas_42.png, id=1483, 454.69875pt x 262.581pt>
 File: capture_sas_42.png Graphic file (type png)
 <use capture_sas_42.png>
 Package pdftex.def Info: capture_sas_42.png  used on input line 455.
 (pdftex.def)             Requested size: 386.95897pt x 223.46733pt.
-<capture_sas_43.png, id=1489, 885.3075pt x 73.4745pt>
+<capture_sas_43.png, id=1484, 885.3075pt x 73.4745pt>
 File: capture_sas_43.png Graphic file (type png)
 <use capture_sas_43.png>
 Package pdftex.def Info: capture_sas_43.png  used on input line 461.
 (pdftex.def)             Requested size: 386.95897pt x 32.11473pt.
-
-Overfull \hbox (3.9798pt too wide) in paragraph at lines 465--466
-\T1/ptm/m/n/12 de la vari-able \T1/ptm/b/n/12 recharge_moyenne \T1/ptm/m/n/12 pour les deux groupes de \T1/ptm/b/n/12 osat_binary \T1/ptm/m/n/12 (\T1/ptm/b/n/12 p-value = 0.0003\T1/ptm/m/n/12 ), in-di-quant
- []
-
-
-Overfull \hbox (6.78181pt too wide) in paragraph at lines 467--468
-[]\T1/ptm/m/n/12 Pour \T1/ptm/b/n/12 osat mul-ti-classe\T1/ptm/m/n/12 , les tests ont mon-tré des ré-sul-tats sim-i-laires avec des dif-férences sig-ni-fica-tives
- []
-
-
-Overfull \hbox (10.43115pt too wide) in paragraph at lines 471--472
-[]\T1/ptm/m/n/12 En con-séquence, tous les tests util-isés sont non paramétriques : le \T1/ptm/b/n/12 Mann-Whitney \T1/ptm/m/n/12 pour \T1/ptm/b/n/12 osat_binary
- []
-
-
-Overfull \hbox (39.11348pt too wide) in paragraph at lines 471--472
-\T1/ptm/m/n/12 et le \T1/ptm/b/n/12 Kruskal-Wallis \T1/ptm/m/n/12 pour \T1/ptm/b/n/12 OSAT\T1/ptm/m/n/12 . Lorsque des dif-férences sig-ni-fica-tives ont été dé-tec-tées avec Kruskal-Wallis,
+ [69 <./capture_sas_41.png> <./capture_sas_42.png>]
+Underfull \hbox (badness 1152) in paragraph at lines 467--468
+[]\T1/ptm/m/n/12 Pour \T1/ptm/b/n/12 osat mul-ti-classe\T1/ptm/m/n/12 , les tests ont mon-tré des ré-sul-tats sim-i-laires avec des dif-férences
  []
 
 
@@ -2206,94 +1800,53 @@ Overfull \hbox (5.57811pt too wide) in alignment at lines 473--491
  [] [] [] [] [] 
  []
 
-[70 <./capture_sas_42.png> <./capture_sas_43.png>]
-Overfull \hbox (11.64467pt too wide) in paragraph at lines 494--496
-\T1/ptm/m/n/12 en év-i-dence des im-pacts lim-ités des vari-ables étudiées sur la sat-is-fac-tion client. \T1/ptm/b/n/12 Vari-ables quan-ti-ta-tives:
- []
-
-
-Overfull \hbox (14.08177pt too wide) in paragraph at lines 494--496
-\T1/ptm/m/n/12 Les vari-ables quan-ti-ta-tives, comme \T1/ptm/b/n/12 Arpu\T1/ptm/m/n/12 , \T1/ptm/b/n/12 Voice Vol-ume\T1/ptm/m/n/12 , et \T1/ptm/b/n/12 Mou\T1/ptm/m/n/12 , mon-trent des dif-férences sig-ni-fica-tives
- []
-
-
-Overfull \hbox (12.49835pt too wide) in paragraph at lines 501--502
-\T1/ptm/m/n/12 in-ter-dépen-dances. Une forte cor-réla-tion pour-rait in-di-quer que deux vari-ables véhicu-lent des in-for-ma-tions
- []
-
-[71]
-Overfull \hbox (2.90688pt too wide) in paragraph at lines 509--510
-[]\T1/ptm/m/n/12 De plus, le code génère des \T1/ptm/b/n/12 di-a-grammes de dis-per-sion \T1/ptm/m/n/12 qui per-me-t-tent de vi-su-aliser et d'interpréter
- []
-
-
-Overfull \hbox (9.7705pt too wide) in paragraph at lines 511--512
-[]\T1/ptm/m/n/12 Cette ap-proche per-met d'explorer les re-la-tions linéaires et non linéaires, même lorsque les con-di-tions
- []
-
-<capture_sas_47.png, id=1503, 663.6795pt x 410.7345pt>
+[70 <./capture_sas_43.png>]
+<capture_sas_47.png, id=1499, 663.6795pt x 410.7345pt>
 File: capture_sas_47.png Graphic file (type png)
 <use capture_sas_47.png>
 Package pdftex.def Info: capture_sas_47.png  used on input line 516.
 (pdftex.def)             Requested size: 290.22107pt x 179.61443pt.
+ [71]
 <capture_sas_48.png, id=1505, 392.06474pt x 293.898pt>
 File: capture_sas_48.png Graphic file (type png)
 <use capture_sas_48.png>
 Package pdftex.def Info: capture_sas_48.png  used on input line 526.
 (pdftex.def)             Requested size: 241.84843pt x 181.29105pt.
-[72 <./capture_sas_47.png>]
-Overfull \hbox (10.35062pt too wide) in paragraph at lines 531--532
-\T1/ptm/m/n/12 La ma-trice de cor-réla-tion dans la fig-ure []3.16[] con-firme cette ob-ser-va-tion avec un co-ef-fi-cient de cor-réla-tion
- []
-
-<capture_sas_49.png, id=1514, 579.3645pt x 234.8775pt>
+<capture_sas_49.png, id=1508, 579.3645pt x 234.8775pt>
 File: capture_sas_49.png Graphic file (type png)
 <use capture_sas_49.png>
 Package pdftex.def Info: capture_sas_49.png  used on input line 538.
 (pdftex.def)             Requested size: 386.95897pt x 156.87968pt.
-
-Overfull \hbox (23.88727pt too wide) in paragraph at lines 543--545
-\T1/ptm/m/n/12 forte en-tre ces deux vari-ables (\T1/ptm/b/n/12 r = 0.9450\T1/ptm/m/n/12 , \T1/ptm/b/n/12 p-value = 0.0000\T1/ptm/m/n/12 ). Cela sig-ni-fie que lorsque \T1/ptm/b/n/12 recharge_moyenne
- []
-
-<capture_sas_50.png, id=1515, 684.75826pt x 416.757pt>
+ [72 <./capture_sas_47.png> <./capture_sas_48.png>]
+<capture_sas_50.png, id=1516, 684.75826pt x 416.757pt>
 File: capture_sas_50.png Graphic file (type png)
 <use capture_sas_50.png>
 Package pdftex.def Info: capture_sas_50.png  used on input line 548.
 (pdftex.def)             Requested size: 290.22107pt x 176.6329pt.
-[73 <./capture_sas_48.png> <./capture_sas_49.png>]
-Overfull \hbox (58.9631pt too wide) in paragraph at lines 553--555
-\T1/ptm/m/n/12 La fig-ure []3.18[] mon-tre un nu-age de points en-tre les vari-ables \T1/ptm/b/n/12 voice_volume_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 voice_amount_moyenne\T1/ptm/m/n/12 .
+
+Underfull \hbox (badness 2221) in paragraph at lines 553--555
+\T1/ptm/m/n/12 La fig-ure []3.18[] mon-tre un nu-age de points en-tre les vari-ables \T1/ptm/b/n/12 voice_volume_moyenne \T1/ptm/m/n/12 et
  []
 
-<capture_sas_51.png, id=1523, 498.663pt x 301.125pt>
+<capture_sas_51.png, id=1518, 498.663pt x 301.125pt>
 File: capture_sas_51.png Graphic file (type png)
 <use capture_sas_51.png>
 Package pdftex.def Info: capture_sas_51.png  used on input line 558.
 (pdftex.def)             Requested size: 241.84843pt x 146.04085pt.
-[74 <./capture_sas_50.png> <./capture_sas_51.png>]
-Overfull \hbox (40.55391pt too wide) in paragraph at lines 573--574
-\T1/ptm/m/n/12 client et la fréquence des recharges. D'autres vari-ables, telles que \T1/ptm/b/n/12 nbre_sms_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 ,
- []
-
-
-Overfull \hbox (8.97803pt too wide) in paragraph at lines 579--580
-[]\T1/ptm/m/n/12 on va main-tenant anal-yser les cor-réla-tions en-tre les vari-ables ex-plica-tives quan-ti-ta-tives et qual-i-ta-tives
- []
-
-<capture_sas_36.png, id=1531, 397.485pt x 133.6995pt>
+[73 <./capture_sas_49.png> <./capture_sas_50.png>]
+<capture_sas_36.png, id=1526, 397.485pt x 133.6995pt>
 File: capture_sas_36.png Graphic file (type png)
 <use capture_sas_36.png>
 Package pdftex.def Info: capture_sas_36.png  used on input line 585.
 (pdftex.def)             Requested size: 338.58632pt x 113.89194pt.
-[75 <./capture_sas_36.png>]
-Overfull \hbox (45.4229pt too wide) in paragraph at lines 604--605
-[]\T1/ptm/m/n/12 Ces anal-y-ses mon-trent que des vari-ables qual-i-ta-tives comme \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et \T1/ptm/b/n/12 Num-ber_of_reactivation
+ [74 <./capture_sas_51.png>] [75 <./capture_sas_36.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
+[]\T1/ptm/m/n/12 Ces anal-y-ses mon-trent que des vari-ables qual-i-ta-tives comme \T1/ptm/b/n/12 flag_smartphone \T1/ptm/m/n/12 et
  []
 
 
-Overfull \hbox (39.1375pt too wide) in paragraph at lines 604--605
-\T1/ptm/m/n/12 sont sig-ni-fica-tive-ment as-so-ciées à des vari-ables quan-ti-ta-tives telles que \T1/ptm/b/n/12 mou_moyenne \T1/ptm/m/n/12 et \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 ,
+Underfull \hbox (badness 1668) in paragraph at lines 604--605
+\T1/ptm/b/n/12 Num-ber_of_reactivation \T1/ptm/m/n/12 sont sig-ni-fica-tive-ment as-so-ciées à des vari-ables quan-ti-ta-tives telles
  []
 
 <capture_sas_57.png, id=1539, 663.6795pt x 407.72325pt>
@@ -2301,22 +1854,23 @@ File: capture_sas_57.png Graphic file (type png)
 <use capture_sas_57.png>
 Package pdftex.def Info: capture_sas_57.png  used on input line 654.
 (pdftex.def)             Requested size: 338.58632pt x 208.01076pt.
-[76]
-Overfull \hbox (7.37111pt too wide) in paragraph at lines 659--660
-[]\T1/ptm/m/n/12 Avant SMOTE, la classe 5 dom-i-nait avec 47%, tan-dis que les classes 2 et 3 étaient sous-représentées.
+
+Underfull \hbox (badness 1789) in paragraph at lines 659--660
+[]\T1/ptm/m/n/12 Avant SMOTE, la classe 5 dom-i-nait avec 47%, tan-dis que les classes 2 et 3 étaient
  []
 
-<capture_sas_59.png, id=1544, 648.62325pt x 406.51875pt>
+<capture_sas_59.png, id=1540, 648.62325pt x 406.51875pt>
 File: capture_sas_59.png Graphic file (type png)
 <use capture_sas_59.png>
 Package pdftex.def Info: capture_sas_59.png  used on input line 663.
 (pdftex.def)             Requested size: 338.58632pt x 212.20975pt.
-[77 <./capture_sas_57.png> <./capture_sas_59.png>]
-<capture_sas_65.png, id=1553, 1108.14pt x 362.5545pt>
+[76 <./capture_sas_57.png>]
+<capture_sas_65.png, id=1548, 1108.14pt x 362.5545pt>
 File: capture_sas_65.png Graphic file (type png)
 <use capture_sas_65.png>
 Package pdftex.def Info: capture_sas_65.png  used on input line 683.
 (pdftex.def)             Requested size: 386.95897pt x 126.60277pt.
+ [77 <./capture_sas_59.png>]
 <capture_sas_66.png, id=1554, 1099.10625pt x 356.532pt>
 File: capture_sas_66.png Graphic file (type png)
 <use capture_sas_66.png>
@@ -2327,52 +1881,38 @@ File: capture_sas_67.png Graphic file (type png)
 <use capture_sas_67.png>
 Package pdftex.def Info: capture_sas_67.png  used on input line 700.
 (pdftex.def)             Requested size: 386.95897pt x 128.91388pt.
- [78 <./capture_sas_65.png> <./capture_sas_66.png>]
-Overfull \hbox (3.76158pt too wide) in paragraph at lines 706--707
-\T1/ptm/m/n/12 d'identifier les vari-ables clés pour la pré-dic-tion de \T1/ptm/b/n/12 OSAT\T1/ptm/m/n/12 . La fig-ure suiv-ante mon-tre les car-ac-téris-tiques
+
+Underfull \hbox (badness 1622) in paragraph at lines 706--707
+\T1/ptm/m/n/12 Les méth-odes de sélec-tion des car-ac-téris-tiques \T1/ptm/b/n/12 RFE\T1/ptm/m/n/12 , \T1/ptm/b/n/12 Se-lec-tKBest\T1/ptm/m/n/12 , et \T1/ptm/b/n/12 Ran-dom For-est \T1/ptm/m/n/12 ont
  []
 
 
-Overfull \hbox (20.76717pt too wide) in paragraph at lines 706--707
-\T1/ptm/m/n/12 com-munes aux trois méth-odes, telles que \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 , \T1/ptm/b/n/12 voice_amount_moyenne\T1/ptm/m/n/12 , \T1/ptm/b/n/12 mou_moyenne\T1/ptm/m/n/12 ,
+Underfull \hbox (badness 5359) in paragraph at lines 706--707
+\T1/ptm/m/n/12 per-mis d'identifier les vari-ables clés pour la pré-dic-tion de \T1/ptm/b/n/12 OSAT\T1/ptm/m/n/12 . La fig-ure suiv-ante
  []
 
-<capture_sas_69.png, id=1563, 235.47975pt x 230.0595pt>
+
+Underfull \hbox (badness 3138) in paragraph at lines 706--707
+\T1/ptm/m/n/12 mon-tre les car-ac-téris-tiques com-munes aux trois méth-odes, telles que \T1/ptm/b/n/12 recharge_moyenne\T1/ptm/m/n/12 ,
+ []
+
+[78 <./capture_sas_65.png> <./capture_sas_66.png> <./capture_sas_67.png>]
+<capture_sas_69.png, id=1564, 235.47975pt x 230.0595pt>
 File: capture_sas_69.png Graphic file (type png)
 <use capture_sas_69.png>
 Package pdftex.def Info: capture_sas_69.png  used on input line 710.
 (pdftex.def)             Requested size: 193.47578pt x 189.02913pt.
-[79 <./capture_sas_67.png> <./capture_sas_69.png>]
-Overfull \hbox (22.68562pt too wide) in paragraph at lines 725--726
-\T1/ptm/m/n/12 L'optimisation des hy-per-paramètres a été réal-isée avec \T1/ptm/b/n/12 Ran-dom-ized-SearchCV \T1/ptm/m/n/12 pour ex-plorer ef-fi-cace-ment
+
+Underfull \hbox (badness 4981) in paragraph at lines 725--726
+\T1/ptm/m/n/12 ef-fi-cace-ment dif-férentes com-bi-naisons de paramètres, in-clu-ant \T1/ptm/b/n/12 n_estimators\T1/ptm/m/n/12 , \T1/ptm/b/n/12 max_depth\T1/ptm/m/n/12 ,
  []
 
-
-Overfull \hbox (6.78593pt too wide) in paragraph at lines 736--737
-\T1/ptm/m/n/12 unique-ment avec ces vari-ables, sur des don-nées stan-dard-is-ées, en suiv-ant les mêmes étapes de val-i-da-tion
+[79 <./capture_sas_69.png>] [80] [81]
+Underfull \hbox (badness 1596) in paragraph at lines 787--788
+\T1/ptm/m/n/12 Les ap-proches Py-Torch et Keras/Ten-sor-Flow ont per-mis d'explorer dif-férentes straté-gies de
  []
 
-[80]
-Overfull \hbox (27.20686pt too wide) in paragraph at lines 760--761
-[]\T1/ptm/b/n/12 3. Op-ti-mi-sa-tion des hy-per-paramètres: \T1/ptm/m/n/12 L'algorithme \T1/ptm/b/n/12 Adam \T1/ptm/m/n/12 a été util-isé avec dif-férentes com-bi-naisons
- []
-
-[81]
-Overfull \hbox (14.7301pt too wide) in paragraph at lines 787--788
-\T1/ptm/m/n/12 Les ap-proches Py-Torch et Keras/Ten-sor-Flow ont per-mis d'explorer dif-férentes straté-gies de mod-éli-sa-tion.
- []
-
-
-Overfull \hbox (7.29031pt too wide) in paragraph at lines 787--788
-\T1/ptm/m/n/12 Py-Torch a op-ti-misé les hy-per-paramètres pour de meilleures per-for-mances, tan-dis que Keras/Ten-sor-Flow
- []
-
-
-Overfull \hbox (38.64558pt too wide) in paragraph at lines 787--788
-\T1/ptm/m/n/12 a testé di-verses con-fig-u-ra-tions de mod-èles, in-clu-ant des réseaux stan-dard, des op-ti-mi-sa-tions d'hyperparamètres
- []
-
-) [82] (chapter/Chapitre_4.tex [83]
+) (chapter/Chapitre_4.tex [82]
 Chapter 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -2383,295 +1923,195 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc8) [84
+(main.mtc8) [83
 
 ]
-<capture_modele_1.png, id=1625, 355.92975pt x 205.9695pt>
+<capture_modele_1.png, id=1620, 355.92975pt x 205.9695pt>
 File: capture_modele_1.png Graphic file (type png)
 <use capture_modele_1.png>
 Package pdftex.def Info: capture_modele_1.png  used on input line 50.
 (pdftex.def)             Requested size: 217.66211pt x 125.95862pt.
-<capture_modele_3.png, id=1626, 673.3155pt x 470.9595pt>
+<capture_modele_3.png, id=1621, 673.3155pt x 470.9595pt>
 File: capture_modele_3.png Graphic file (type png)
 <use capture_modele_3.png>
 Package pdftex.def Info: capture_modele_3.png  used on input line 57.
 (pdftex.def)             Requested size: 217.66211pt x 152.24078pt.
- [85]
-<capture_modele_4.png, id=1633, 332.442pt x 205.9695pt>
+ [84]
+<capture_modele_4.png, id=1629, 332.442pt x 205.9695pt>
 File: capture_modele_4.png Graphic file (type png)
 <use capture_modele_4.png>
 Package pdftex.def Info: capture_modele_4.png  used on input line 69.
 (pdftex.def)             Requested size: 217.66211pt x 134.85599pt.
-<capture_modele_20.png, id=1634, 326.4195pt x 201.75375pt>
+<capture_modele_20.png, id=1630, 326.4195pt x 201.75375pt>
 File: capture_modele_20.png Graphic file (type png)
 <use capture_modele_20.png>
 Package pdftex.def Info: capture_modele_20.png  used on input line 76.
 (pdftex.def)             Requested size: 217.66211pt x 134.53705pt.
-
-Overfull \hbox (0.91518pt too wide) in paragraph at lines 88--89
-[]\T1/ptm/b/n/12 Performance glob-ale : \T1/ptm/m/n/12 Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 a obtenu les meilleurs ré-sul-tats avec une pré-ci-sion
+ [85 <./capture_modele_1.png> <./capture_modele_3.png> <./capture_modele_4.png> <./capture_modele_20.png>]
+Underfull \hbox (badness 1168) in paragraph at lines 90--91
+[]\T1/ptm/b/n/12 Taille des datasets : \T1/ptm/m/n/12 Mal-gré la taille plus im-por-tante de \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 (2800 lignes), les
  []
 
-[86 <./capture_modele_1.png> <./capture_modele_3.png> <./capture_modele_4.png> <./capture_modele_20.png>]
-Overfull \hbox (0.47044pt too wide) in paragraph at lines 90--91
-[]\T1/ptm/b/n/12 Taille des datasets : \T1/ptm/m/n/12 Mal-gré la taille plus im-por-tante de \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 (2800 lignes), les per-for-mances
- []
-
-<capture_modele_6.png, id=1643, 487.8225pt x 492.03825pt>
+<capture_modele_6.png, id=1639, 487.8225pt x 492.03825pt>
 File: capture_modele_6.png Graphic file (type png)
 <use capture_modele_6.png>
 Package pdftex.def Info: capture_modele_6.png  used on input line 125.
 (pdftex.def)             Requested size: 217.66211pt x 219.5457pt.
-<capture_modele_7.png, id=1644, 471.56175pt x 493.845pt>
+<capture_modele_7.png, id=1640, 471.56175pt x 493.845pt>
 File: capture_modele_7.png Graphic file (type png)
 <use capture_modele_7.png>
 Package pdftex.def Info: capture_modele_7.png  used on input line 131.
 (pdftex.def)             Requested size: 217.66211pt x 227.9476pt.
-[87]
-<capture_modele_8.png, id=1650, 455.90324pt x 489.027pt>
+[86]
+<capture_modele_8.png, id=1646, 455.90324pt x 489.027pt>
 File: capture_modele_8.png Graphic file (type png)
 <use capture_modele_8.png>
 Package pdftex.def Info: capture_modele_8.png  used on input line 140.
 (pdftex.def)             Requested size: 217.66211pt x 233.47667pt.
- [88 <./capture_modele_6.png> <./capture_modele_7.png> <./capture_modele_8.png>]
-Overfull \hbox (13.62645pt too wide) in paragraph at lines 166--167
-\T1/ptm/m/n/12 ré-gres-sion lo-gis-tique, on a choisi d'implémenter un mod-èle de Ran-dom For-est afin d'améliorer da-van-tage
- []
-
-<capture_modele_9.png, id=1658, 359.54324pt x 202.95825pt>
+ [87 <./capture_modele_6.png> <./capture_modele_7.png> <./capture_modele_8.png>]
+<capture_modele_9.png, id=1654, 359.54324pt x 202.95825pt>
 File: capture_modele_9.png Graphic file (type png)
 <use capture_modele_9.png>
 Package pdftex.def Info: capture_modele_9.png  used on input line 194.
 (pdftex.def)             Requested size: 217.66211pt x 122.86908pt.
-<capture_modele_10.png, id=1659, 242.1045pt x 145.14224pt>
+<capture_modele_10.png, id=1655, 242.1045pt x 145.14224pt>
 File: capture_modele_10.png Graphic file (type png)
 <use capture_modele_10.png>
 Package pdftex.def Info: capture_modele_10.png  used on input line 200.
 (pdftex.def)             Requested size: 217.66211pt x 130.49391pt.
-[89]
-Overfull \hbox (18.8433pt too wide) in paragraph at lines 205--206
-[]\T1/ptm/b/n/12 Interprétation : \T1/ptm/m/n/12 Le mod-èle mon-tre une amélio-ra-tion par rap-port à l'arbre de dé-ci-sion sur \T1/ptm/m/it/12 net-work_fev\T1/ptm/m/n/12 ,
- []
-
-<capture_modele_11.png, id=1665, 383.63326pt x 328.8285pt>
+ [88]
+<capture_modele_11.png, id=1661, 383.63326pt x 328.8285pt>
 File: capture_modele_11.png Graphic file (type png)
 <use capture_modele_11.png>
 Package pdftex.def Info: capture_modele_11.png  used on input line 211.
 (pdftex.def)             Requested size: 217.66211pt x 186.56616pt.
-<capture_modele_40.png, id=1666, 766.062pt x 407.72325pt>
+<capture_modele_40.png, id=1662, 766.062pt x 407.72325pt>
 File: capture_modele_40.png Graphic file (type png)
 <use capture_modele_40.png>
 Package pdftex.def Info: capture_modele_40.png  used on input line 217.
 (pdftex.def)             Requested size: 217.66211pt x 115.8477pt.
-<capture_modele_14.png, id=1667, 380.622pt x 205.9695pt>
+<capture_modele_14.png, id=1663, 380.622pt x 205.9695pt>
 File: capture_modele_14.png Graphic file (type png)
 <use capture_modele_14.png>
 Package pdftex.def Info: capture_modele_14.png  used on input line 229.
 (pdftex.def)             Requested size: 217.66211pt x 117.78725pt.
-<capture_modele_15.png, id=1668, 669.702pt x 464.937pt>
+<capture_modele_15.png, id=1664, 669.702pt x 464.937pt>
 File: capture_modele_15.png Graphic file (type png)
 <use capture_modele_15.png>
 Package pdftex.def Info: capture_modele_15.png  used on input line 235.
 (pdftex.def)             Requested size: 217.66211pt x 151.10982pt.
-[90 <./capture_modele_9.png> <./capture_modele_10.png> <./capture_modele_11.png> <./capture_modele_40.png>]
-<capture_modele_38.png, id=1679, 683.55376pt x 431.81325pt>
+ [89 <./capture_modele_9.png> <./capture_modele_10.png> <./capture_modele_11.png> <./capture_modele_40.png>]
+<capture_modele_38.png, id=1674, 683.55376pt x 431.81325pt>
 File: capture_modele_38.png Graphic file (type png)
 <use capture_modele_38.png>
 Package pdftex.def Info: capture_modele_38.png  used on input line 257.
 (pdftex.def)             Requested size: 241.84843pt x 152.77754pt.
-<capture_modele_39.png, id=1680, 370.38374pt x 196.3335pt>
+<capture_modele_39.png, id=1675, 370.38374pt x 196.3335pt>
 File: capture_modele_39.png Graphic file (type png)
 <use capture_modele_39.png>
 Package pdftex.def Info: capture_modele_39.png  used on input line 266.
 (pdftex.def)             Requested size: 290.22107pt x 153.8435pt.
- [91 <./capture_modele_14.png> <./capture_modele_15.png> <./capture_modele_38.png>]
-Overfull \hbox (3.73557pt too wide) in paragraph at lines 271--272
-[]\T1/ptm/b/n/12 Interprétation : \T1/ptm/m/n/12 La ma-trice de con-fu-sion mon-tre une amélio-ra-tion de l'exactitude à 0.75, in-di-quant
- []
-
-
-Overfull \hbox (10.48183pt too wide) in paragraph at lines 287--288
-\T1/ptm/m/n/12 Pour le dataset \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 , nous avons util-isé l'algorithme KMeans pour con-ver-tir les vari-ables con-tin-ues
- []
-
-<capture_modele_18.png, id=1690, 399.29175pt x 427.5975pt>
+ [90 <./capture_modele_14.png> <./capture_modele_15.png> <./capture_modele_38.png>]
+<capture_modele_18.png, id=1686, 399.29175pt x 427.5975pt>
 File: capture_modele_18.png Graphic file (type png)
 <use capture_modele_18.png>
 Package pdftex.def Info: capture_modele_18.png  used on input line 297.
 (pdftex.def)             Requested size: 217.66211pt x 233.09148pt.
-<capture_modele_19.png, id=1691, 456.5055pt x 350.5095pt>
+<capture_modele_19.png, id=1687, 456.5055pt x 350.5095pt>
 File: capture_modele_19.png Graphic file (type png)
 <use capture_modele_19.png>
 Package pdftex.def Info: capture_modele_19.png  used on input line 303.
 (pdftex.def)             Requested size: 217.66211pt x 167.11949pt.
-[92 <./capture_modele_39.png>]
-<capture_modele_17.png, id=1698, 337.86224pt x 154.77824pt>
+ [91 <./capture_modele_39.png>]
+<capture_modele_17.png, id=1694, 337.86224pt x 154.77824pt>
 File: capture_modele_17.png Graphic file (type png)
 <use capture_modele_17.png>
 Package pdftex.def Info: capture_modele_17.png  used on input line 337.
 (pdftex.def)             Requested size: 290.22107pt x 132.96027pt.
- [93 <./capture_modele_18.png> <./capture_modele_19.png>]
-Overfull \hbox (2.88594pt too wide) in paragraph at lines 359--360
-\T1/ptm/m/n/12 Dans cette sec-tion, nous présen-tons les ré-sul-tats obtenus à l'aide de mod-èles de deep learn-ing ap-pliqués
- []
-
-[94 <./capture_modele_17.png>]
-<capture_modele_25.png, id=1711, 329.43076pt x 184.89075pt>
+ [92 <./capture_modele_18.png> <./capture_modele_19.png>] [93 <./capture_modele_17.png>]
+<capture_modele_25.png, id=1707, 329.43076pt x 184.89075pt>
 File: capture_modele_25.png Graphic file (type png)
 <use capture_modele_25.png>
 Package pdftex.def Info: capture_modele_25.png  used on input line 390.
 (pdftex.def)             Requested size: 217.66211pt x 122.16367pt.
-<capture_modele_26.png, id=1712, 328.22626pt x 184.2885pt>
+<capture_modele_26.png, id=1708, 328.22626pt x 184.2885pt>
 File: capture_modele_26.png Graphic file (type png)
 <use capture_modele_26.png>
 Package pdftex.def Info: capture_modele_26.png  used on input line 395.
 (pdftex.def)             Requested size: 217.66211pt x 122.21005pt.
- [95]
-<capture_modele_27.png, id=1718, 328.22626pt x 184.2885pt>
+ [94]
+<capture_modele_27.png, id=1714, 328.22626pt x 184.2885pt>
 File: capture_modele_27.png Graphic file (type png)
 <use capture_modele_27.png>
 Package pdftex.def Info: capture_modele_27.png  used on input line 404.
 (pdftex.def)             Requested size: 290.22107pt x 162.95049pt.
 
-Overfull \hbox (6.01704pt too wide) in paragraph at lines 416--417
-[]\T1/ptm/b/n/12 Performance sur \T1/ptm/b/it/12 net-work_may \T1/ptm/m/n/12 : Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 a mon-tré les meilleures per-for-mances,
+Underfull \hbox (badness 2469) in paragraph at lines 416--417
+[]\T1/ptm/b/n/12 Performance sur \T1/ptm/b/it/12 net-work_may \T1/ptm/m/n/12 : Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 a mon-tré les meilleures
  []
 
-[96 <./capture_modele_25.png> <./capture_modele_26.png> <./capture_modele_27.png>]
-<capture_modele_28.png, id=1727, 323.40825pt x 146.34676pt>
+[95 <./capture_modele_25.png> <./capture_modele_26.png> <./capture_modele_27.png>]
+<capture_modele_28.png, id=1722, 323.40825pt x 146.34676pt>
 File: capture_modele_28.png Graphic file (type png)
 <use capture_modele_28.png>
 Package pdftex.def Info: capture_modele_28.png  used on input line 431.
 (pdftex.def)             Requested size: 290.22107pt x 131.329pt.
- [97 <./capture_modele_28.png>]
-<capture_modele_29.png, id=1733, 326.4195pt x 150.5625pt>
+ [96 <./capture_modele_28.png>]
+<capture_modele_29.png, id=1729, 326.4195pt x 150.5625pt>
 File: capture_modele_29.png Graphic file (type png)
 <use capture_modele_29.png>
 Package pdftex.def Info: capture_modele_29.png  used on input line 443.
 (pdftex.def)             Requested size: 290.22107pt x 133.86923pt.
-
-Overfull \hbox (6.88155pt too wide) in paragraph at lines 451--452
-\T1/ptm/m/n/12 Enfin, les ré-sul-tats obtenus pour le dataset \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 mon-trent égale-ment des per-for-mances ac-cept-a-bles
- []
-
-<capture_modele_30.png, id=1734, 784.1295pt x 42.1575pt>
+<capture_modele_30.png, id=1730, 784.1295pt x 42.1575pt>
 File: capture_modele_30.png Graphic file (type png)
 <use capture_modele_30.png>
 Package pdftex.def Info: capture_modele_30.png  used on input line 455.
 (pdftex.def)             Requested size: 386.95897pt x 20.804pt.
-<capture_modele_31.png, id=1735, 897.3525pt x 352.9185pt>
+<capture_modele_31.png, id=1731, 897.3525pt x 352.9185pt>
 File: capture_modele_31.png Graphic file (type png)
 <use capture_modele_31.png>
 Package pdftex.def Info: capture_modele_31.png  used on input line 461.
 (pdftex.def)             Requested size: 386.95897pt x 152.1828pt.
-
-Overfull \hbox (9.04259pt too wide) in paragraph at lines 466--467
-\T1/ptm/m/n/12 une surap-pren-tis-sage (over-fit-ting). L'amélioration des per-for-mances par rap-port aux mod-èles précé-dents
+ [97 <./capture_modele_29.png> <./capture_modele_30.png>] [98 <./capture_modele_31.png>] [99] [100]
+Underfull \hbox (badness 2538) in paragraph at lines 515--516
+[]\T1/ptm/m/n/12 En con-clu-sion, bien que les deux frame-works aient mon-tré des ré-sul-tats promet-teurs,
  []
 
-[98 <./capture_modele_29.png> <./capture_modele_30.png> <./capture_modele_31.png>]
-Overfull \hbox (2.5495pt too wide) in paragraph at lines 470--471
-\T1/ptm/m/n/12 Dans l'ensemble, le mod-èle Keras/Ten-sor-Flow a mon-tré des per-for-mances solides sur les trois datasets,
+[101]
+Underfull \hbox (badness 1264) in paragraph at lines 537--538
+\T1/ptm/m/n/12 (\T1/ptm/m/it/12 Ran-dom-ized-SearchCV\T1/ptm/m/n/12 ) sur l'ensemble d'entraînement, afin de s'assurer que chaque mod-èle
  []
 
-
-Overfull \hbox (23.45319pt too wide) in paragraph at lines 484--485
-[]\T1/ptm/b/n/12 Précision glob-ale : \T1/ptm/m/n/12 Le mod-èle de Ran-dom For-est a générale-ment obtenu de meilleures per-for-mances
- []
-
-
-Overfull \hbox (1.4447pt too wide) in paragraph at lines 484--485
-\T1/ptm/m/n/12 mon-tré des ré-sul-tats moins ro-bustes, surtout pour les datasets plus com-plexes comme \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . 
- []
-
-[99]
-Overfull \hbox (17.4066pt too wide) in paragraph at lines 501--502
-\T1/ptm/m/n/12 sous la courbe (AUC). Voici un ré-sumé des com-para-isons en-tre les deux frame-works et leurs per-for-mances
- []
-
-[100]
-Overfull \hbox (41.0926pt too wide) in paragraph at lines 506--507
-[]\T1/ptm/b/n/12 F1-score : \T1/ptm/m/n/12 Les F1-scores sont glob-ale-ment sim-i-laires pour les deux frame-works, mais Keras/Ten-sor-Flow
- []
-
-
-Overfull \hbox (13.46799pt too wide) in paragraph at lines 506--507
-\T1/ptm/m/n/12 a mon-tré une meilleure ca-pac-ité à cap-turer les re-la-tions en-tre classes dans les datasets \T1/ptm/m/it/12 net-work_may
- []
-
-
-Overfull \hbox (39.41283pt too wide) in paragraph at lines 510--511
-\T1/ptm/m/n/12 AUC sim-i-laires, au-tour de 0.74 pour \T1/ptm/m/it/12 net-work_fev \T1/ptm/m/n/12 et 0.75 pour \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . Cepen-dant, Keras/Ten-sor-Flow
- []
-
-
-Overfull \hbox (22.95912pt too wide) in paragraph at lines 515--516
-[]\T1/ptm/m/n/12 En con-clu-sion, bien que les deux frame-works aient mon-tré des ré-sul-tats promet-teurs, Keras/Ten-sor-Flow
- []
-
-
-Overfull \hbox (11.87358pt too wide) in paragraph at lines 519--520
-\T1/ptm/m/n/12 deep learn-ing ap-pliqués aux trois datasets : \T1/ptm/m/it/12 net-work_fev\T1/ptm/m/n/12 , \T1/ptm/m/it/12 net-work_may\T1/ptm/m/n/12 , et \T1/ptm/m/it/12 re-tail_juin\T1/ptm/m/n/12 . Cette com-para-i-son
- []
-
-[101] [102]
-Overfull \hbox (67.16922pt too wide) in paragraph at lines 537--538
-\T1/ptm/m/n/12 paramétré et op-ti-misé in-di-vidu-elle-ment à l'aide de la recherche aléa-toire d'hyperparamètres (\T1/ptm/m/it/12 Ran-dom-ized-SearchCV\T1/ptm/m/n/12 )
- []
-
-
-Overfull \hbox (16.54149pt too wide) in paragraph at lines 541--542
-\T1/ptm/m/n/12 mod-èles in-di-vidu-els, car elle com-bine leurs pré-dic-tions, et peut ainsi ré-duire le risque de sur-apprentissage
- []
-
-
-Overfull \hbox (4.10927pt too wide) in paragraph at lines 548--549
-\T1/ptm/m/n/12 For-est seul (pré-ci-sion de 0.74 et F1-score de 0.76). Ainsi, il n'était pas néces-saire de com-plex-i-fier
- []
-
-
-Overfull \hbox (9.47272pt too wide) in paragraph at lines 549--550
-[]\T1/ptm/b/n/12 Complexité des don-nées pour \T1/ptm/b/it/12 net-work_fev \T1/ptm/b/n/12 et \T1/ptm/b/it/12 re-tail_juin \T1/ptm/m/n/12 : En re-vanche, les datasets \T1/ptm/m/it/12 net-work_fev
- []
-
-[103]
-<capture_modele_21.png, id=1764, 335.45325pt x 181.8795pt>
+[102]
+<capture_modele_21.png, id=1760, 335.45325pt x 181.8795pt>
 File: capture_modele_21.png Graphic file (type png)
 <use capture_modele_21.png>
 Package pdftex.def Info: capture_modele_21.png  used on input line 565.
 (pdftex.def)             Requested size: 290.22107pt x 157.35966pt.
+ [103]
 <capture_modele_22.png, id=1765, 443.85825pt x 342.078pt>
 File: capture_modele_22.png Graphic file (type png)
 <use capture_modele_22.png>
 Package pdftex.def Info: capture_modele_22.png  used on input line 573.
 (pdftex.def)             Requested size: 338.58632pt x 260.95282pt.
- [104 <./capture_modele_21.png>]
-Overfull \hbox (3.5933pt too wide) in paragraph at lines 577--578
-\T1/ptm/m/n/12 com-bi-nai-son des pré-dic-tions, il n'a pas sig-ni-fica-tive-ment amélioré la ca-pac-ité glob-ale de dis-crim-i-na-tion
- []
-
-<capture_modele_23.png, id=1771, 335.45325pt x 178.266pt>
+<capture_modele_23.png, id=1766, 335.45325pt x 178.266pt>
 File: capture_modele_23.png Graphic file (type png)
 <use capture_modele_23.png>
 Package pdftex.def Info: capture_modele_23.png  used on input line 585.
 (pdftex.def)             Requested size: 290.22107pt x 154.2333pt.
-<capture_modele_24.png, id=1772, 449.2785pt x 335.45325pt>
+ [104 <./capture_modele_21.png> <./capture_modele_22.png>]
+<capture_modele_24.png, id=1773, 449.2785pt x 335.45325pt>
 File: capture_modele_24.png Graphic file (type png)
 <use capture_modele_24.png>
 Package pdftex.def Info: capture_modele_24.png  used on input line 593.
 (pdftex.def)             Requested size: 338.58632pt x 252.81776pt.
-[105 <./capture_modele_22.png> <./capture_modele_23.png>]
-Overfull \hbox (24.0067pt too wide) in paragraph at lines 603--604
-\T1/ptm/m/n/12 con-clu-sion, le choix du mod-èle op-ti-mal dépend de la com-plex-ité des don-nées et du be-soin de général-i-sa-tion. 
- []
-
-[106 <./capture_modele_24.png>]
-<OVERFIT.png, id=1785, 334.24875pt x 317.38576pt>
+ [105 <./capture_modele_23.png> <./capture_modele_24.png>]
+<OVERFIT.png, id=1781, 334.24875pt x 317.38576pt>
 File: OVERFIT.png Graphic file (type png)
 <use OVERFIT.png>
 Package pdftex.def Info: OVERFIT.png  used on input line 612.
 (pdftex.def)             Requested size: 290.22107pt x 275.60034pt.
- [107 <./OVERFIT.png>]
+ [106] [107 <./OVERFIT.png>]
 <capture_modele_32.png, id=1792, 813.63976pt x 215.00325pt>
 File: capture_modele_32.png Graphic file (type png)
 <use capture_modele_32.png>
@@ -2688,12 +2128,7 @@ File: capture_modele_33.png Graphic file (type png)
 <use capture_modele_33.png>
 Package pdftex.def Info: capture_modele_33.png  used on input line 680.
 (pdftex.def)             Requested size: 435.32422pt x 107.17531pt.
-
-Overfull \hbox (12.03851pt too wide) in paragraph at lines 685--688
-[]\T1/ptm/b/n/12 Méthode d'Interprétation des Ef-fets : \T1/ptm/m/n/12 Quelques ex-em-ples d'impact des vari-ables sur la sat-is-fac-tion
- []
-
-[109 <./capture_modele_35.png> <./capture_modele_33.png>]
+ [109 <./capture_modele_35.png> <./capture_modele_33.png>]
 <capture_modele_36.png, id=1809, 994.917pt x 164.41425pt>
 File: capture_modele_36.png Graphic file (type png)
 <use capture_modele_36.png>
@@ -2704,60 +2139,24 @@ File: capture_modele_34.png Graphic file (type png)
 <use capture_modele_34.png>
 Package pdftex.def Info: capture_modele_34.png  used on input line 712.
 (pdftex.def)             Requested size: 435.32422pt x 112.2246pt.
-
-Overfull \hbox (12.03851pt too wide) in paragraph at lines 717--720
-[]\T1/ptm/b/n/12 Méthode d'Interprétation des Ef-fets : \T1/ptm/m/n/12 Quelques ex-em-ples d'impact des vari-ables sur la sat-is-fac-tion
- []
-
-[110 <./capture_modele_36.png> <./capture_modele_34.png>]
-<capture_modele_37.png, id=1819, 985.88326pt x 151.767pt>
+<capture_modele_37.png, id=1813, 985.88326pt x 151.767pt>
 File: capture_modele_37.png Graphic file (type png)
 <use capture_modele_37.png>
 Package pdftex.def Info: capture_modele_37.png  used on input line 727.
 (pdftex.def)             Requested size: 435.32422pt x 67.01389pt.
-
-Overfull \hbox (14.11661pt too wide) in paragraph at lines 734--735
-\T1/ptm/m/n/12 Les trois datasets présen-tent des pro-fils de sat-is-fac-tion légère-ment dif-férents selon les vari-ables analysées. 
+ [110 <./capture_modele_36.png> <./capture_modele_34.png>]
+Underfull \hbox (badness 2269) in paragraph at lines 737--738
+[]\T1/ptm/b/n/12 Activation Days : \T1/ptm/m/n/12 Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 mon-tre l'intervalle le plus ré-cent pour
  []
 
 
-Overfull \hbox (12.49715pt too wide) in paragraph at lines 737--738
-[]\T1/ptm/b/n/12 Activation Days : \T1/ptm/m/n/12 Le dataset \T1/ptm/m/it/12 net-work_may \T1/ptm/m/n/12 mon-tre l'intervalle le plus ré-cent pour \T1/ptm/m/it/12 ac-ti-va-tion_days\T1/ptm/m/n/12 ,
- []
-
-
-Overfull \hbox (0.83192pt too wide) in paragraph at lines 737--738
-\T1/ptm/m/n/12 de sat-is-fac-tion pour cette vari-able restent sim-i-laires en-tre les datasets, avec une légère supéri-or-ité
- []
-
-
-Overfull \hbox (25.87619pt too wide) in paragraph at lines 741--742
-[]\T1/ptm/b/n/12 Interprétation des Ef-fets des Vari-ables : \T1/ptm/m/n/12 Les ré-sul-tats d'interprétation mon-trent que l'augmentation
+Underfull \hbox (badness 2269) in paragraph at lines 737--738
+\T1/ptm/m/it/12 ac-ti-va-tion_days\T1/ptm/m/n/12 , tan-dis que \T1/ptm/m/it/12 re-tail_juin \T1/ptm/m/n/12 cou-vre une péri-ode légère-ment plus an-ci-enne.
  []
 
 [111 <./capture_modele_37.png>]) (chapter/07-GeneralConclusion.tex [112]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
- []
-
-
-Overfull \hbox (7.0261pt too wide) in paragraph at lines 7--7
-\T1/ptm/m/n/12 This project rep-re-sents the cul-mi-na-tion of many months of dili-gent ef-fort, com-bin-ing tech-ni-cal ex-per-tise
- []
-
-
-Overfull \hbox (9.74573pt too wide) in paragraph at lines 9--9
-[]\T1/ptm/m/n/12 A ma-jor ac-com-plish-ment was the suc-cess-ful in-te-gra-tion of AI with no-code plat-forms like Bub-ble.io.
- []
-
-
-Overfull \hbox (6.17455pt too wide) in paragraph at lines 11--11
-\T1/ptm/m/n/12 while deep-en-ing my un-der-stand-ing of AI's role in cy-ber-se-cu-rity. En-sur-ing scal-a-bil-ity while main-tain-ing
- []
-
-
-Overfull \hbox (12.5698pt too wide) in paragraph at lines 11--11
-\T1/ptm/m/n/12 data se-cu-rity dur-ing API in-te-gra-tions was a key chal-lenge. These ex-pe-ri-ences em-pha-sized the im-por-tance
  []
 
 ) (chapter/08-Bibliography.tex [113
@@ -2937,13 +2336,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  49759 strings out of 474486
  1095379 string characters out of 5743755
- 1970542 words of memory out of 5000000
+ 1969542 words of memory out of 5000000
  70770 multiletter control sequences out of 15000+600000
  690323 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,13n,101p,1652b,1338s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\meria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (141 pages, 4454313 bytes).
+Output written on main.pdf (141 pages, 4455666 bytes).
 PDF statistics:
  2225 PDF objects out of 2487 (max. 8388607)
  477 named destinations out of 1000 (max. 500000)
