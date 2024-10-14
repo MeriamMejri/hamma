@@ -1,0 +1,16 @@
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.3.2.2}Analyse des corrélations entre les variables explicatives}{\reset@font\mtcSSSfont 64}{subsubsection.3.3.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Modélisation}{\reset@font\mtcSfont 68}{section.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Équilibrage des classes (SMOTE)}{\reset@font\mtcSSfont 68}{subsection.3.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Sélection des caractéristiques}{\reset@font\mtcSSfont 69}{subsection.3.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.3}Modélisation avec Machine Learning}{\reset@font\mtcSSfont 71}{subsection.3.4.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.1}Introduction}{\reset@font\mtcSSSfont 71}{subsubsection.3.4.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.2}Prétraitement des données}{\reset@font\mtcSSSfont 71}{subsubsection.3.4.3.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.3}Optimisation des hyperparamètres}{\reset@font\mtcSSSfont 71}{subsubsection.3.4.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.4}Sélection des caractéristiques importantes et réentraînement du modèle}{\reset@font\mtcSSSfont 71}{subsubsection.3.4.3.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.5}Optimisation du seuil de classification}{\reset@font\mtcSSSfont 72}{subsubsection.3.4.3.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.3.6}Conclusion}{\reset@font\mtcSSSfont 72}{subsubsection.3.4.3.6}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.4}Modélisation avec Deep Learning}{\reset@font\mtcSSfont 72}{subsection.3.4.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.4.1}Approche PyTorch}{\reset@font\mtcSSSfont 72}{subsubsection.3.4.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.4.2}Approche Keras/TensorFlow}{\reset@font\mtcSSSfont 73}{subsubsection.3.4.4.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {3.4.4.3}Conclusion}{\reset@font\mtcSSSfont 73}{subsubsection.3.4.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Conclusion}{\reset@font\mtcSfont 74}{section.3.5}}
