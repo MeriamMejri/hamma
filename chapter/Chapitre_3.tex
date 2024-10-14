@@ -191,7 +191,7 @@ Les statistiques descriptives pour la variable \textbf{recharge} selon les class
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{lccccccccc} % 9 columns
+    \begin{tabular}{p{2cm}ccccccccc} % 9 columns
         \toprule
         Classe OSAT binaire & Nombre & Moyenne & Ecart-Type & Min & Q1 & Médiane & Q3 & Max \\
         \midrule
@@ -376,11 +376,6 @@ Pour évaluer la relation entre des variables qualitatives comme \textbf{device\
 
 \textbf{\checkmark Exemple de résultat:} Pour la relation entre \textbf{device\_type} et \textbf{osat}, un Cramér's V de \textbf{0.0297} a été obtenu, ce qui indique une association faible.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\linewidth]{capture_sas_38.png}
-    \caption{Résultat de l'indice de Cramér's V pour la variable \textbf{device\_type} et \textbf{OSAT}.}
-\end{figure}
     
 \textbf{2. Test du Chi-Carré:} Ce test permet de vérifier s'il existe une association statistiquement significative entre deux variables qualitatives. Si la p-value est inférieure à 0.05, cela indique une association significative.
 
@@ -414,11 +409,8 @@ Cette méthodologie a été appliquée pour toutes les autres variables qualitat
 
 \textbf{\checkmark Exemple de résultat:} Pour la variable \textbf{Flag\_4g\_binary}, une Lambda de \textbf{0.42} a été obtenue, indiquant que la connaissance de cette variable permet une réduction d'erreur de \textbf{42\%} dans la prédiction de \textbf{osat\_binary}.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{capture_sas_40.png}
-    \caption{Résultat de la Lambda de Goodman et Kruskal pour \textbf{Flag\_4g\_binary}.}
-\end{figure}
+\textit{Le résultat de la Lambda de Goodman et Kruskal est présenté dans l'annexe, voir Figure \ref{AnB1}.}
+
 
 \textbf{\checkmark Résultats pour les autres variables:} Les résultats montrent que \textbf{device\_type} a une lambda de 0.15, indiquant une faible réduction d'erreur, tandis que \textbf{flag\_smartphone} et \textbf{Number\_of\_reactivation} affichent des lambdas de 0.60 et 0.84 respectivement, signalant une réduction d'erreur plus significative. En revanche, \textbf{monthly\_arpu\_subscriber\_seg} et \textbf{monthly\_rech\_subscriber\_seg} n'ont aucune réduction d'erreur avec des lambdas nulles.
 
@@ -440,27 +432,17 @@ Pour la variable quantitative \textbf{recharge}, l'ensemble des tests a été ap
 
 \textbf{\checkmark Résultat de l'Eta carré:} L'indicateur de \textbf{l'Eta carré} montre un effet très faible pour \textbf{OSAT}, avec une valeur de \textbf{0.0064}. 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{capture_sas_41.png}
-    \caption{Résultat de l'Eta carré pour \textbf{osat\_binary}}
-\end{figure}
+\textit{Résultat de l'Eta carré pour osat\_binary est disponible en annexe, voir Figure \ref{AnB3}.}
+
 
 L'interprétation de ce résultat indique que l'effet de la variable explicative sur la satisfaction (\textbf{OSAT}) est très faible, suggérant une influence limitée.
 
 \textbf{\checkmark Test pour \textbf{osat\_binary}:} Les tests de \textbf{Shapiro-Wilk} montrent que les données ne suivent pas une distribution normale pour les deux groupes (statistiques de \textbf{0.7522} pour le groupe 0 et \textbf{0.6954} pour le groupe 1, avec des p-values inférieures à 0.05). De plus, le test de \textbf{Levene} indique que les variances ne sont pas homogènes (\textbf{p-value = 0.0273}). Par conséquent, les conditions pour appliquer un test paramétrique ne sont pas respectées. Nous avons donc appliqué le \textbf{test de Mann-Whitney}, qui révèle des différences significatives entre les deux groupes (\textbf{p-value = 0.0003}). 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{capture_sas_42.png}
-    \caption{Résultats du test de normalité et de variances}
-\end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{capture_sas_43.png}
-    \caption{Résultats du test de Mann-Whitney}
-\end{figure}
+\textit{Les résultats du test de normalité et de variances et du test de Mann-Whitney sont disponibles en annexe, voir Figure \ref{AnB4} et \ref{AnB5}.}
+
+
 
 Les résultats du test de Mann-Whitney montrent une différence significative entre les distributions de la variable \textbf{recharge\_moyenne} pour les deux groupes de \textbf{osat\_binary} (\textbf{p-value = 0.0003}), indiquant que les valeurs de \textbf{recharge\_moyenne} diffèrent significativement selon les niveaux de \textbf{osat\_binary}.
 
@@ -531,14 +513,9 @@ Cette première figure \ref{nuage1} représente un nuage de points entre les var
 \noindent
 La matrice de corrélation dans la figure \ref{matrice1} confirme cette observation avec un coefficient de corrélation de \(0.91\), indiquant une corrélation forte et positive entre ces deux variables.\par
 
-Voici la figure \ref{11} qui résume les résultats de la covariance, des tests de normalité, et du test de corrélation entre les variables \textbf{recharge\_moyenne} et \textbf{Arpu\_moyenne}. Comme les deux variables ne suivent pas une distribution normale, on a utilisé le test non paramétrique de Spearman pour évaluer la corrélation.
+\textit{La figure \ref{11} de l'annexe B résume les résultats de la covariance, des tests de normalité, et du test de corrélation entre les variables \textbf{recharge\_moyenne} et \textbf{Arpu\_moyenne}. Comme les deux variables ne suivent pas une distribution normale, on a utilisé le test non paramétrique de Spearman pour évaluer la corrélation.}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\linewidth]{capture_sas_49.png}
-    \caption{Interprétation des résultats statistiques entre les deux variables}
-    \label{11}
-\end{figure}
+
 
 \noindent
 Le test de Shapiro-Wilk a montré que les deux variables \textbf{recharge\_moyenne} et \textbf{Arpu\_moyenne} ne suivent pas une distribution normale, avec des p-values très faibles (inférieures à 0.05). Par conséquent, le test non paramétrique de Spearman a été utilisé, et il a révélé une corrélation positive et forte entre ces deux variables (\textbf{r = 0.9450}, \textbf{p-value = 0.0000}). Cela signifie que lorsque \textbf{recharge\_moyenne} augmente, \textbf{Arpu\_moyenne} tend également à augmenter.

@@ -18,79 +18,96 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Heatmap de la variable \textbf {monthly\_rech\_subscriber\_seg} par classe \textbf {OSAT} multiclasse.}}{58}{figure.caption.18}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Heatmap de la variable \textbf {monthly\_rech\_subscriber\_seg} par classe \textbf {OSAT} binaire.}}{58}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Heatmap de la matrice de corrélation globale pour la table de Juin.}}{60}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Résultat de l'indice de Cramér's V pour la variable \textbf {device\_type} et \textbf {OSAT}.}}{61}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Tableau de contingence pour \textbf {device\_type} et \textbf {osat\_binary}.}}{61}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Résultat de la Lambda de Goodman et Kruskal pour \textbf {Flag\_4g\_binary}.}}{62}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Résultat de l'Eta carré pour \textbf {osat\_binary}}}{63}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Résultats du test de normalité et de variances}}{63}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Résultats du test de Mann-Whitney}}{64}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Nuage de points entre \textbf {recharge\_moyenne} et \textbf {Arpu\_moyenne}}}{66}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Matrice de corrélation entre \textbf {recharge\_moyenne} et \textbf {Arpu\_moyenne}}}{66}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Interprétation des résultats statistiques entre les deux variables}}{67}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Nuage de points entre \textbf {voice\_volume\_moyenne} et \textbf {voice\_amount\_moyenne}}}{67}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Matrice de corrélation entre \textbf {voice\_volume\_moyenne} et \textbf {voice\_amount\_moyenne}}}{68}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Tests ANOVA/Kruskal-Wallis entre \textbf {mou\_moyenne} et \textbf {Flag\_4g\_binary}}}{69}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Pourcentages des classes OSAT avant équilibrage}}{70}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Pourcentages des classes OSAT après équilibrage avec SMOTE}}{70}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Classement des caractéristiques par RFE}}{71}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Scores des caractéristiques par SelectKBest}}{71}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Importances des caractéristiques par Random Forest}}{72}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Caractéristiques communes importantes entre les trois méthodes}}{72}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Tableau de contingence pour \textbf {device\_type} et \textbf {osat\_binary}.}}{61}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Nuage de points entre \textbf {recharge\_moyenne} et \textbf {Arpu\_moyenne}}}{65}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Matrice de corrélation entre \textbf {recharge\_moyenne} et \textbf {Arpu\_moyenne}}}{65}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Nuage de points entre \textbf {voice\_volume\_moyenne} et \textbf {voice\_amount\_moyenne}}}{66}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Matrice de corrélation entre \textbf {voice\_volume\_moyenne} et \textbf {voice\_amount\_moyenne}}}{66}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Tests ANOVA/Kruskal-Wallis entre \textbf {mou\_moyenne} et \textbf {Flag\_4g\_binary}}}{67}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Pourcentages des classes OSAT avant équilibrage}}{68}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Pourcentages des classes OSAT après équilibrage avec SMOTE}}{69}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Classement des caractéristiques par RFE}}{69}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Scores des caractéristiques par SelectKBest}}{70}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Importances des caractéristiques par Random Forest}}{70}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Caractéristiques communes importantes entre les trois méthodes}}{71}{figure.caption.33}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Résultats et interprétation}{76}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{78}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Courbe ROC pour \textit {network\_fev}.}}{78}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{78}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{78}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{80}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{80}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{80}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{82}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Courbe ROC pour \textit {network\_fev}.}}{82}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{82}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Courbe ROC pour \textit {network\_may}.}}{82}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{82}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Courbe ROC pour \textit {retail\_juin}.}}{82}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Exactitude en fonction du seuil d'importance.}}{83}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Matrice de confusion avec caractéristiques importantes (\textit {retail\_juin}).}}{83}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Meilleurs scores de silhouette pour \textit {retail\_juin}.}}{84}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Répartition des variables en clusters après KMeans.}}{84}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Rapport de classification pour \textit {retail\_juin} après KMeans.}}{85}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Matrice de confusion pour \textit {network\_fev} (PyTorch).}}{87}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Matrice de confusion pour \textit {network\_may} (PyTorch).}}{87}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Matrice de confusion pour \textit {retail\_juin} (PyTorch).}}{87}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Matrice de confusion pour \textit {network\_fev} avec Keras/TensorFlow.}}{88}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Matrice de confusion pour \textit {network\_may} avec Keras/TensorFlow.}}{89}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Matrice de confusion et classification report pour \textit {retail\_juin} avec Keras/TensorFlow.}}{89}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Courbes de précision et de perte sur les epochs pour \textit {retail\_juin}.}}{89}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Matrice de confusion pour \textit {network\_fev} avec le modèle d'ensemble.}}{94}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Courbe ROC pour \textit {network\_fev} avec le modèle d'ensemble.}}{95}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Matrice de confusion pour \textit {retail\_juin} avec le modèle d'ensemble.}}{95}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Courbe ROC pour \textit {retail\_juin} avec le modèle d'ensemble.}}{96}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Performances du modèle sur les jeux de validation et de test pour \textbf {network\_may}}}{97}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Profil du client le plus satisfait pour \textit {network\_fev} basé sur les intervalles de satisfaction.}}{98}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Profil du client le plus satisfait pour \textit {network\_may} basé sur les intervalles de satisfaction.}}{99}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.33}{\ignorespaces Profil du client le plus satisfait pour \textit {retail\_juin} basé sur les intervalles de satisfaction.}}{99}{figure.caption.70}%
+\contentsline {xchapter}{Résultats et interprétation}{75}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{77}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Courbe ROC pour \textit {network\_fev}.}}{77}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{77}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{77}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{79}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{79}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{79}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Matrice de confusion pour \textit {network\_fev}.}}{81}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Courbe ROC pour \textit {network\_fev}.}}{81}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Matrice de confusion pour \textit {network\_may}.}}{81}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Courbe ROC pour \textit {network\_may}.}}{81}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Matrice de confusion pour \textit {retail\_juin}.}}{81}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Courbe ROC pour \textit {retail\_juin}.}}{81}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Exactitude en fonction du seuil d'importance.}}{82}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Matrice de confusion avec caractéristiques importantes (\textit {retail\_juin}).}}{82}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Meilleurs scores de silhouette pour \textit {retail\_juin}.}}{83}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Répartition des variables en clusters après KMeans.}}{83}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Rapport de classification pour \textit {retail\_juin} après KMeans.}}{84}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Matrice de confusion pour \textit {network\_fev} (PyTorch).}}{86}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Matrice de confusion pour \textit {network\_may} (PyTorch).}}{86}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Matrice de confusion pour \textit {retail\_juin} (PyTorch).}}{86}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Matrice de confusion pour \textit {network\_fev} avec Keras/TensorFlow.}}{87}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Matrice de confusion pour \textit {network\_may} avec Keras/TensorFlow.}}{88}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Matrice de confusion et classification report pour \textit {retail\_juin} avec Keras/TensorFlow.}}{88}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Courbes de précision et de perte sur les epochs pour \textit {retail\_juin}.}}{88}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Matrice de confusion pour \textit {network\_fev} avec le modèle d'ensemble.}}{93}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Courbe ROC pour \textit {network\_fev} avec le modèle d'ensemble.}}{94}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Matrice de confusion pour \textit {retail\_juin} avec le modèle d'ensemble.}}{94}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Courbe ROC pour \textit {retail\_juin} avec le modèle d'ensemble.}}{95}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Performances du modèle sur les jeux de validation et de test pour \textbf {network\_may}}}{96}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Profil du client le plus satisfait pour \textit {network\_fev} basé sur les intervalles de satisfaction.}}{97}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Profil du client le plus satisfait pour \textit {network\_may} basé sur les intervalles de satisfaction.}}{98}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Profil du client le plus satisfait pour \textit {retail\_juin} basé sur les intervalles de satisfaction.}}{98}{figure.caption.64}%
 \vspace {0.3cm}
-\contentsline {figure}{\numberline {34}{\ignorespaces Imputation de la colonne OSAT à partir de la moyenne des réponses aux questions}}{107}{figure.caption.74}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Code pour l'imputation KNN}}{107}{figure.caption.75}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Remplacement des valeurs aberrantes par la médiane.}}{108}{figure.caption.76}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Transformation Box-Cox sur \textbf {Recharge\_moyenne}.}}{108}{figure.caption.77}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Calcul de l'indice de Cramér’s V}}{108}{figure.caption.78}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Test du Chi-Carré et test de Fisher (si applicable)}}{109}{figure.caption.79}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Calcul de la Lambda de Goodman et Kruskal}}{110}{figure.caption.80}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Calcul de l'Eta carré pour \textbf {osat\_binary}}}{110}{figure.caption.81}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Test d'homogénéité des variances de Levene}}{111}{figure.caption.82}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Calcul de la covariance et test de normalité (Shapiro-Wilk) pour deux variables}}{111}{figure.caption.83}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Choix du test de corrélation: Pearson ou Spearman, basé sur la normalité des données}}{111}{figure.caption.84}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Code de sélection des caractéristiques avec RFE, SelectKBest, et Random Forest}}{112}{figure.caption.85}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Optimisation des hyperparamètres pour Random Forest}}{112}{figure.caption.86}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Importances des caractéristiques par Random Forest}}{113}{figure.caption.87}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Courbe ROC pour Random Forest avec AUC.}}{113}{figure.caption.88}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Préparation des données pour PyTorch.}}{113}{figure.caption.89}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Architecture du modèle de classification binaire dans PyTorch.}}{114}{figure.caption.90}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Réglage des hyperparamètres pour le modèle PyTorch.}}{114}{figure.caption.91}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Sélection du meilleur modèle PyTorch et évaluation finale.}}{115}{figure.caption.92}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Architecture classique du modèle Keras.}}{115}{figure.caption.93}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Optimisation des hyperparamètres du modèle Keras.}}{116}{figure.caption.94}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Optimisation de l'architecture des couches dans Keras.}}{116}{figure.caption.95}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Imputation de la colonne OSAT à partir de la moyenne des réponses aux questions}}{ii}{figure.caption.68}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Code pour l'imputation KNN}}{ii}{figure.caption.69}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Remplacement des valeurs aberrantes par la médiane.}}{iii}{figure.caption.70}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Transformation Box-Cox sur \textbf {Recharge\_moyenne}.}}{iii}{figure.caption.71}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Calcul de l'indice de Cramér’s V}}{iii}{figure.caption.72}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Test du Chi-Carré et test de Fisher (si applicable)}}{iv}{figure.caption.73}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Calcul de la Lambda de Goodman et Kruskal}}{v}{figure.caption.74}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Calcul de l'Eta carré pour \textbf {osat\_binary}}}{v}{figure.caption.75}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Test d'homogénéité des variances de Levene}}{vi}{figure.caption.76}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Calcul de la covariance et test de normalité (Shapiro-Wilk) pour deux variables}}{vi}{figure.caption.77}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Choix du test de corrélation: Pearson ou Spearman, basé sur la normalité des données}}{vi}{figure.caption.78}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Code de sélection des caractéristiques avec RFE, SelectKBest, et Random Forest}}{vii}{figure.caption.79}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Optimisation des hyperparamètres pour Random Forest}}{vii}{figure.caption.80}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Importances des caractéristiques par Random Forest}}{viii}{figure.caption.81}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Courbe ROC pour Random Forest avec AUC.}}{viii}{figure.caption.82}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Préparation des données pour PyTorch.}}{viii}{figure.caption.83}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Architecture du modèle de classification binaire dans PyTorch.}}{ix}{figure.caption.84}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Réglage des hyperparamètres pour le modèle PyTorch.}}{ix}{figure.caption.85}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Sélection du meilleur modèle PyTorch et évaluation finale.}}{x}{figure.caption.86}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Architecture classique du modèle Keras.}}{x}{figure.caption.87}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Optimisation des hyperparamètres du modèle Keras.}}{xi}{figure.caption.88}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Optimisation de l'architecture des couches dans Keras.}}{xi}{figure.caption.89}%
+\vspace {0.3cm}
+\contentsline {figure}{\numberline {56}{\ignorespaces Résultat de la Lambda de Goodman et Kruskal pour \textbf {Flag\_4g\_binary}.}}{xii}{figure.caption.91}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Résultat de l'Eta carré pour \textbf {osat\_binary}}}{xii}{figure.caption.92}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Résultats du test de normalité et de variances}}{xii}{figure.caption.93}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Résultats du test de Mann-Whitney}}{xii}{figure.caption.94}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Interprétation des résultats statistiques entre les deux variables}}{xiii}{figure.caption.95}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Test du Chi-Carré et test de Fisher (si applicable)}}{xiii}{figure.caption.96}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Calcul de la Lambda de Goodman et Kruskal}}{xiv}{figure.caption.97}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Calcul de l'Eta carré pour \textbf {osat\_binary}}}{xiv}{figure.caption.98}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Test d'homogénéité des variances de Levene}}{xv}{figure.caption.99}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Calcul de la covariance et test de normalité (Shapiro-Wilk) pour deux variables}}{xv}{figure.caption.100}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Choix du test de corrélation: Pearson ou Spearman, basé sur la normalité des données}}{xv}{figure.caption.101}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Code de sélection des caractéristiques avec RFE, SelectKBest, et Random Forest}}{xvi}{figure.caption.102}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Optimisation des hyperparamètres pour Random Forest}}{xvi}{figure.caption.103}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Importances des caractéristiques par Random Forest}}{xvii}{figure.caption.104}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Courbe ROC pour Random Forest avec AUC.}}{xvii}{figure.caption.105}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Préparation des données pour PyTorch.}}{xvii}{figure.caption.106}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Architecture du modèle de classification binaire dans PyTorch.}}{xviii}{figure.caption.107}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Réglage des hyperparamètres pour le modèle PyTorch.}}{xviii}{figure.caption.108}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Sélection du meilleur modèle PyTorch et évaluation finale.}}{xix}{figure.caption.109}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Architecture classique du modèle Keras.}}{xix}{figure.caption.110}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Optimisation des hyperparamètres du modèle Keras.}}{xx}{figure.caption.111}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Optimisation de l'architecture des couches dans Keras.}}{xx}{figure.caption.112}%
