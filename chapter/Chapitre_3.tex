@@ -130,10 +130,10 @@ La table finale agrégée comprend \textbf{25 colonnes} et \textbf{985 lignes}. 
 La normalisation est essentielle pour rendre les variables comparables et améliorer les performances des algorithmes d'apprentissage.
 
 \textbf{\checkmark Gestion des valeurs aberrantes:}  
-On a identifié et remplacé les valeurs aberrantes des variables quantitatives (montants de recharge, volume de données, SMS, minutes d'appels) en utilisant les quartiles (\textbf{Q1}, \textbf{Q3}) et l'intervalle interquartile (\textbf{IQR}). Les valeurs en dehors de l'intervalle (\textbf{Q1 - 1.5 * IQR} à \textbf{Q3 + 1.5 * IQR}) ont été remplacées par la médiane pour éviter les biais. Le code utilisé pour cette étape est disponible dans l'annexe (voir figure \ref{fig:aberrant_values_annex}).
+On a identifié et remplacé les valeurs aberrantes des variables quantitatives (montants de recharge, volume de données, SMS, minutes d'appels) en utilisant les quartiles (\textbf{Q1}, \textbf{Q3}) et l'intervalle interquartile (\textbf{IQR}). Les valeurs en dehors de l'intervalle (\textbf{Q1 - 1.5 * IQR} à \textbf{Q3 + 1.5 * IQR}) ont été remplacées par la médiane pour éviter les biais. Le code utilisé pour cette étape est disponible dans l'annexe (voir figure \ref{fig:aberrant_values}).
 
 \textbf{\checkmark Normalisation Box-Cox:}  
-Après avoir géré les valeurs aberrantes, différentes méthodes de normalisation (\textbf{min-max}, \textbf{sqrt}, \textbf{log}) ont été testées sans succès. On a donc appliqué la transformation \textbf{Box-Cox}, particulièrement efficace pour les données asymétriques. L'algorithme a optimisé la valeur de \(\lambda\) à l'aide de la courbe de log-vraisemblance. La transformation a été appliquée à la variable \textbf{Recharge\_moyenne}, créant la nouvelle variable normalisée \textbf{new\_recharge\_moyenne}. Le code détaillé est présenté dans l'annexe (voir figure \ref{fig:boxcox_transformation_annex}).
+Après avoir géré les valeurs aberrantes, différentes méthodes de normalisation (\textbf{min-max}, \textbf{sqrt}, \textbf{log}) ont été testées sans succès. On a donc appliqué la transformation \textbf{Box-Cox}, particulièrement efficace pour les données asymétriques. L'algorithme a optimisé la valeur de \(\lambda\) à l'aide de la courbe de log-vraisemblance. La transformation a été appliquée à la variable \textbf{Recharge\_moyenne}, créant la nouvelle variable normalisée \textbf{new\_recharge\_moyenne}. Le code détaillé est présenté dans l'annexe (voir figure \ref{fig:boxcox_transformation}).
 
 Après la transformation et la gestion des valeurs aberrantes, on a vérifié la distribution des données normalisées via les histogrammes. La normalité a aussi été testée avec Shapiro-Wilk, mais les résultats ne sont pas disponibles en raison d'un problème sur la plateforme SAS en fin de stage. Cependant, les premiers résultats montrent que la normalité n'est pas totalement vérifiée, bien que les données de cette table soient presque normales. La table a été exportée en format Excel pour l'analyse et la modélisation sur Jupyter, offrant plus de flexibilité et rapidité.
 
@@ -393,7 +393,7 @@ Cette méthodologie a été appliquée pour toutes les autres variables qualitat
 
 \textbf{\checkmark Exemple de résultat:} Pour la variable \textbf{Flag\_4g\_binary}, une Lambda de \textbf{0.42} a été obtenue, indiquant que la connaissance de cette variable permet une réduction d'erreur de \textbf{42\%} dans la prédiction de \textbf{osat\_binary}.
 
-\textit{Le résultat de la Lambda de Goodman et Kruskal est présenté dans l'annexe, voir Figure \ref{AnB1}.}
+\textit{Le résultat de la Lambda de Goodman et Kruskal est présenté dans l'annexe, voir Figure \ref{AnB2}.}
 
 
 \textbf{\checkmark Résultats pour les autres variables:} Les résultats montrent que \textbf{device\_type} a une lambda de 0.15, indiquant une faible réduction d'erreur, tandis que \textbf{flag\_smartphone} et \textbf{Number\_of\_reactivation} affichent des lambdas de 0.60 et 0.84 respectivement, signalant une réduction d'erreur plus significative. En revanche, \textbf{monthly\_arpu\_subscriber\_seg} et \textbf{monthly\_rech\_subscriber\_seg} n'ont aucune réduction d'erreur avec des lambdas nulles.
