@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  15 OCT 2024 16:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  15 OCT 2024 18:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1296,9 +1296,7 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc10.
 \openout3 = `main.mtc10'.
 
- [1
-
-{C:/Users/meria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (chapter/01-Dedication.tex
+ (chapter/01-Dedication.tex
 LaTeX Font Info:    Calculating math sizes for size <26> on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 1.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
@@ -1334,7 +1332,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 ) (chapter/02-Acknowledgement.tex [1
 
 
-]
+
+{C:/Users/meria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1348,15 +1347,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--415
 
 (main.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
  [3
 
 ] [4]
-Overfull \hbox (3.99097pt too wide) in paragraph at lines 104--104
+Overfull \hbox (3.99097pt too wide) in paragraph at lines 103--103
  [][] [][]\T1/ptm/m/n/12 Sélection des ca-rac-té-ris-tiques im-por-tantes et ré-en-traî-ne-ment du mo-dèle[] [][]  
  []
 
@@ -1364,61 +1363,12 @@ Overfull \hbox (3.99097pt too wide) in paragraph at lines 104--104
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- (chapter/Resume.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            *{RÃ©sumÃ©} [1]
+ (chapter/03-ListOfAbr.tex [7]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-
-Underfull \hbox (badness 2538) in paragraph at lines 11--12
-[]\T1/ptm/m/n/12 Ce rap-port pré-sente une ana-lyse ap-pro-fon-die des don-nées clients dans le sec-teur des
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 16--17
-\T1/ptm/m/n/12 tels que l'ANOVA et Kruskal-Wallis, pour exa-mi-ner les liens entre di-verses va-riables
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 \chapter
-             *{Abstract} [2
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
-
-Underfull \hbox (badness 4967) in paragraph at lines 38--39
-\T1/ptm/m/n/12 per-so-na-li-zing cus-to-mer com-mu-ni-ca-tions, and ul-ti-ma-tely im-pro-ving user loyalty and
- []
-
-) (chapter/03-ListOfAbr.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            *{Liste des abrÃ©viations} [3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-
- []
-
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.426 \newpage
-               [4
+) [8
 
 ] (chapter/Chapitre_1.tex
 Chapitre 1.
@@ -1437,27 +1387,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
-(main.mtc3)
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \newpage
-             [1
+(main.mtc2) [1
 
 ] [2]
-<Value_Ooredoo.png, id=879, 845.26315pt x 597.60106pt>
+<Value_Ooredoo.png, id=870, 845.26315pt x 597.60106pt>
 File: Value_Ooredoo.png Graphic file (type png)
 <use Value_Ooredoo.png>
 Package pdftex.def Info: Value_Ooredoo.png  used on input line 71.
 (pdftex.def)             Requested size: 290.22107pt x 205.18777pt.
  [3 <./Value_Ooredoo.png (PNG copy)>]
-<General_Ooredoo.png, id=886, 597.60106pt x 845.26315pt>
+<General_Ooredoo.png, id=877, 597.60106pt x 845.26315pt>
 File: General_Ooredoo.png Graphic file (type png)
 <use General_Ooredoo.png>
 Package pdftex.def Info: General_Ooredoo.png  used on input line 95.
 (pdftex.def)             Requested size: 241.84843pt x 342.07175pt.
  [4] [5 <./General_Ooredoo.png (PNG copy)>]
-<DepIT_Ooredoo.jpg, id=897, 845.26315pt x 597.60106pt>
+<DepIT_Ooredoo.jpg, id=889, 845.26315pt x 597.60106pt>
 File: DepIT_Ooredoo.jpg Graphic file (type jpg)
 <use DepIT_Ooredoo.jpg>
 Package pdftex.def Info: DepIT_Ooredoo.jpg  used on input line 118.
@@ -1491,7 +1436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc4 [13
+(main.mtc3 [13
 
 ]) [14] [15] [16] [17]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
@@ -1509,32 +1454,32 @@ Underfull \hbox (badness 1354) in paragraph at lines 633--635
  []
 
 [29] [30] [31] [32] [33]
-Underfull \hbox (badness 1688) in paragraph at lines 842--844
+Underfull \hbox (badness 1688) in paragraph at lines 838--840
 \T1/ptm/m/n/12 Des mé-thodes comme \T1/ptm/b/n/12 Ran-do-mi-zed-Sear-chCV \T1/ptm/m/n/12 per-mettent de tes-ter dif-fé-rentes com-bi-nai-sons
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 842--844
+Underfull \hbox (badness 1194) in paragraph at lines 838--840
 \T1/ptm/m/n/12 de ma-nière ex-haus-tive toutes les com-bi-nai-sons pos-sibles, \T1/ptm/b/n/12 Ran-do-mi-zed-Sear-chCV \T1/ptm/m/n/12 sé-lec-tionne
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 847--848
+Underfull \hbox (badness 1442) in paragraph at lines 843--844
 \T1/ptm/m/n/12 d'hy-per-pa-ra-mètres, tan-dis que \T1/ptm/b/n/12 Ran-do-mi-zed-Sear-chCV \T1/ptm/m/n/12 teste aléa-toi-re-ment un cer-tain nombre
  []
 
 [34] [35] [36] [37] [38]
-Underfull \hbox (badness 1308) in paragraph at lines 1018--1019
+Underfull \hbox (badness 1308) in paragraph at lines 1014--1015
 []\T1/ptm/m/n/12 Cela em-pêche cer-tains neu-rones de dé-ve-lop-per des poids trop éle-vés, ré-dui-sant ainsi la
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 1029--1031
+Underfull \hbox (badness 4181) in paragraph at lines 1025--1027
 []\T1/ptm/m/n/12 Les hy-per-pa-ra-mètres, comme ex-pli-qué pré-cé-dem-ment, sont des va-riables fixées avant
  []
 
 [39]
-Underfull \hbox (badness 6927) in paragraph at lines 1043--1043
+Underfull \hbox (badness 6927) in paragraph at lines 1039--1039
 |\T1/ptm/b/n/17.28 2.9 In-ter-pré-ta-tion des Mo-dèles pour la Pré-dic-tion de la
  []
 
@@ -1549,19 +1494,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc5) [42
+(main.mtc4) [42
 
 ] [43]
 Underfull \hbox (badness 2744) in paragraph at lines 61--62
 []\T1/ptm/b/n/12 Variables ca-té-go-rielles : \T1/ptm/m/n/12 Pour trai-ter les va-riables ca-té-go-rielles, on a ap-pli-qué des
  []
 
-<capture_sas_3.png, id=1140, 396.2805pt x 274.626pt>
+<capture_sas_3.png, id=1216, 396.2805pt x 274.626pt>
 File: capture_sas_3.png Graphic file (type png)
 <use capture_sas_3.png>
 Package pdftex.def Info: capture_sas_3.png  used on input line 65.
 (pdftex.def)             Requested size: 241.84843pt x 167.60541pt.
-<capture_sas_4.png, id=1142, 590.80725pt x 58.41824pt>
+<capture_sas_4.png, id=1218, 590.80725pt x 58.41824pt>
 File: capture_sas_4.png Graphic file (type png)
 <use capture_sas_4.png>
 Package pdftex.def Info: capture_sas_4.png  used on input line 74.
@@ -1587,7 +1532,7 @@ Underfull \hbox (badness 1968) in paragraph at lines 130--131
  []
 
 [46]
-<analyse_descriptive_2.png, id=1168, 498.06075pt x 437.2335pt>
+<analyse_descriptive_2.png, id=1243, 498.06075pt x 437.2335pt>
 File: analyse_descriptive_2.png Graphic file (type png)
 <use analyse_descriptive_2.png>
 Package pdftex.def Info: analyse_descriptive_2.png  used on input line 184.
@@ -1608,17 +1553,18 @@ Overfull \hbox (2.73532pt too wide) in paragraph at lines 197--205
  []
 
 [48 <./analyse_descriptive_2.png>] [49]
-<barre_monthl_rech.png, id=1185, 1003.8303pt x 570.933pt>
+<barre_monthl_rech.png, id=1261, 1003.8303pt x 570.933pt>
 File: barre_monthl_rech.png Graphic file (type png)
 <use barre_monthl_rech.png>
 Package pdftex.def Info: barre_monthl_rech.png  used on input line 275.
-(pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
-<barre_monthl_rech_binary.png, id=1187, 1003.8303pt x 570.933pt>
+(pdftex.def)             Requested size: 483.69687pt x 275.10754pt.
+ [50 <./barre_monthl_rech.png>]
+<barre_monthl_rech_binary.png, id=1269, 1003.8303pt x 570.933pt>
 File: barre_monthl_rech_binary.png Graphic file (type png)
 <use barre_monthl_rech_binary.png>
 Package pdftex.def Info: barre_monthl_rech_binary.png  used on input line 286.
-(pdftex.def)             Requested size: 338.58632pt x 192.57266pt.
- [50 <./barre_monthl_rech.png>]
+(pdftex.def)             Requested size: 483.69687pt x 275.10754pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
 |\T1/ptm/b/n/12 Comparaison entre les OSAT mul-ti-classe et OSAT bi-naire pour la va-riable
  []
@@ -1739,13 +1685,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--328
  []
 
 [51 <./barre_monthl_rech_binary.png>]
-<Correlation_Retail.png, id=1202, 1389.0294pt x 1076.1003pt>
+<Correlation_Retail.png, id=1277, 1389.0294pt x 1076.1003pt>
 File: Correlation_Retail.png Graphic file (type png)
 <use Correlation_Retail.png>
 Package pdftex.def Info: Correlation_Retail.png  used on input line 348.
-(pdftex.def)             Requested size: 338.58632pt x 262.30865pt.
+(pdftex.def)             Requested size: 435.32422pt x 337.2493pt.
  [52]
-<capture_sas_39.png, id=1211, 456.5055pt x 260.77425pt>
+<capture_sas_39.png, id=1286, 456.5055pt x 260.77425pt>
 File: capture_sas_39.png Graphic file (type png)
 <use capture_sas_39.png>
 Package pdftex.def Info: capture_sas_39.png  used on input line 375.
@@ -1841,18 +1787,18 @@ Underfull \hbox (badness 1072) in paragraph at lines 460--462
  []
 
 [56]
-<capture_sas_47.png, id=1250, 663.6795pt x 410.7345pt>
+<capture_sas_47.png, id=1325, 663.6795pt x 410.7345pt>
 File: capture_sas_47.png Graphic file (type png)
 <use capture_sas_47.png>
 Package pdftex.def Info: capture_sas_47.png  used on input line 482.
 (pdftex.def)             Requested size: 290.22107pt x 179.61443pt.
-<capture_sas_48.png, id=1252, 392.06474pt x 293.898pt>
+<capture_sas_48.png, id=1327, 392.06474pt x 293.898pt>
 File: capture_sas_48.png Graphic file (type png)
 <use capture_sas_48.png>
 Package pdftex.def Info: capture_sas_48.png  used on input line 492.
 (pdftex.def)             Requested size: 290.22107pt x 217.55286pt.
  [57 <./capture_sas_47.png>]
-<capture_sas_50.png, id=1263, 684.75826pt x 416.757pt>
+<capture_sas_50.png, id=1338, 684.75826pt x 416.757pt>
 File: capture_sas_50.png Graphic file (type png)
 <use capture_sas_50.png>
 Package pdftex.def Info: capture_sas_50.png  used on input line 509.
@@ -1862,7 +1808,7 @@ Underfull \hbox (badness 2221) in paragraph at lines 514--516
 \T1/ptm/m/n/12 La fi-gure []3.10[] montre un nuage de points entre les va-riables \T1/ptm/b/n/12 voice_volume_moyenne \T1/ptm/m/n/12 et
  []
 
-<capture_sas_51.png, id=1265, 498.663pt x 301.125pt>
+<capture_sas_51.png, id=1340, 498.663pt x 301.125pt>
 File: capture_sas_51.png Graphic file (type png)
 <use capture_sas_51.png>
 Package pdftex.def Info: capture_sas_51.png  used on input line 519.
@@ -1872,7 +1818,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 532--534
 \T1/ptm/m/n/12 forte avec un co-ef-fi-cient de $\OML/ztmcm/m/it/12 r \OT1/ztmcm/m/n/12 = 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 91$\T1/ptm/m/n/12 , ce qui sug-gère qu'une aug-men-ta-tion de la re-charge
  []
 
-<capture_sas_36.png, id=1276, 397.485pt x 133.6995pt>
+<capture_sas_36.png, id=1351, 397.485pt x 133.6995pt>
 File: capture_sas_36.png Graphic file (type png)
 <use capture_sas_36.png>
 Package pdftex.def Info: capture_sas_36.png  used on input line 545.
@@ -1902,7 +1848,7 @@ Underfull \hbox (badness 5563) in paragraph at lines 559--560
 []\T1/ptm/m/n/12 Ces ana-lyses sou-lignent des as-so-cia-tions im-por-tantes entre des va-riables qua-li-ta-tives
  []
 
-<capture_sas_57.png, id=1285, 663.6795pt x 407.72325pt>
+<capture_sas_57.png, id=1361, 663.6795pt x 407.72325pt>
 File: capture_sas_57.png Graphic file (type png)
 <use capture_sas_57.png>
 Package pdftex.def Info: capture_sas_57.png  used on input line 609.
@@ -1912,27 +1858,27 @@ Underfull \hbox (badness 1881) in paragraph at lines 614--615
 []\T1/ptm/m/n/12 Avant SMOTE, la classe 5 do-mi-nait avec 47%, tan-dis que les classes 2 et 3 étaient
  []
 
-<capture_sas_59.png, id=1293, 648.62325pt x 406.51875pt>
+<capture_sas_59.png, id=1369, 648.62325pt x 406.51875pt>
 File: capture_sas_59.png Graphic file (type png)
 <use capture_sas_59.png>
 Package pdftex.def Info: capture_sas_59.png  used on input line 618.
 (pdftex.def)             Requested size: 338.58632pt x 212.20975pt.
 [61 <./capture_sas_57.png> <./capture_sas_59.png>]
-<capture_sas_65.png, id=1303, 1108.14pt x 362.5545pt>
+<capture_sas_65.png, id=1379, 1108.14pt x 362.5545pt>
 File: capture_sas_65.png Graphic file (type png)
 <use capture_sas_65.png>
 Package pdftex.def Info: capture_sas_65.png  used on input line 638.
-(pdftex.def)             Requested size: 386.95897pt x 126.60277pt.
-<capture_sas_66.png, id=1304, 1099.10625pt x 356.532pt>
+(pdftex.def)             Requested size: 483.69687pt x 158.25208pt.
+<capture_sas_66.png, id=1380, 1099.10625pt x 356.532pt>
 File: capture_sas_66.png Graphic file (type png)
 <use capture_sas_66.png>
 Package pdftex.def Info: capture_sas_66.png  used on input line 647.
-(pdftex.def)             Requested size: 386.95897pt x 125.52249pt.
-<capture_sas_67.png, id=1305, 1106.33325pt x 368.577pt>
+(pdftex.def)             Requested size: 483.69687pt x 156.90175pt.
+<capture_sas_67.png, id=1381, 1106.33325pt x 368.577pt>
 File: capture_sas_67.png Graphic file (type png)
 <use capture_sas_67.png>
 Package pdftex.def Info: capture_sas_67.png  used on input line 655.
-(pdftex.def)             Requested size: 386.95897pt x 128.91388pt.
+(pdftex.def)             Requested size: 483.69687pt x 161.14517pt.
  [62 <./capture_sas_65.png> <./capture_sas_66.png>]
 Underfull \hbox (badness 2409) in paragraph at lines 661--662
 []\T1/ptm/m/n/12 Les mé-thodes de sé-lec-tion des ca-rac-té-ris-tiques \T1/ptm/b/n/12 RFE\T1/ptm/m/n/12 , \T1/ptm/b/n/12 Se-lectK-Best\T1/ptm/m/n/12 , et \T1/ptm/b/n/12 Ran-dom Fo-rest
@@ -1948,7 +1894,7 @@ Underfull \hbox (badness 3407) in paragraph at lines 661--662
 \T1/ptm/m/n/12 montre les ca-rac-té-ris-tiques com-munes aux trois mé-thodes, telles que \T1/ptm/b/n/12 re-charge_moyenne\T1/ptm/m/n/12 ,
  []
 
-<capture_sas_69.png, id=1316, 235.47975pt x 230.0595pt>
+<capture_sas_69.png, id=1391, 235.47975pt x 230.0595pt>
 File: capture_sas_69.png Graphic file (type png)
 <use capture_sas_69.png>
 Package pdftex.def Info: capture_sas_69.png  used on input line 665.
@@ -1969,43 +1915,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc6) [67
+(main.mtc5) [67
 
 ]
-<capture_modele_1.png, id=1384, 355.92975pt x 205.9695pt>
+<capture_modele_1.png, id=1460, 355.92975pt x 205.9695pt>
 File: capture_modele_1.png Graphic file (type png)
 <use capture_modele_1.png>
 Package pdftex.def Info: capture_modele_1.png  used on input line 50.
 (pdftex.def)             Requested size: 217.66211pt x 125.95862pt.
-<capture_modele_3.png, id=1385, 673.3155pt x 470.9595pt>
+<capture_modele_3.png, id=1461, 673.3155pt x 470.9595pt>
 File: capture_modele_3.png Graphic file (type png)
 <use capture_modele_3.png>
 Package pdftex.def Info: capture_modele_3.png  used on input line 57.
 (pdftex.def)             Requested size: 217.66211pt x 152.24078pt.
  [68]
-<capture_modele_4.png, id=1393, 332.442pt x 205.9695pt>
+<capture_modele_4.png, id=1468, 332.442pt x 205.9695pt>
 File: capture_modele_4.png Graphic file (type png)
 <use capture_modele_4.png>
 Package pdftex.def Info: capture_modele_4.png  used on input line 69.
 (pdftex.def)             Requested size: 217.66211pt x 134.85599pt.
-<capture_modele_20.png, id=1394, 326.4195pt x 201.75375pt>
+<capture_modele_20.png, id=1469, 326.4195pt x 201.75375pt>
 File: capture_modele_20.png Graphic file (type png)
 <use capture_modele_20.png>
 Package pdftex.def Info: capture_modele_20.png  used on input line 76.
 (pdftex.def)             Requested size: 217.66211pt x 134.53705pt.
  [69 <./capture_modele_1.png> <./capture_modele_3.png> <./capture_modele_4.png> <./capture_modele_20.png>]
-<capture_modele_6.png, id=1405, 487.8225pt x 492.03825pt>
+<capture_modele_6.png, id=1480, 487.8225pt x 492.03825pt>
 File: capture_modele_6.png Graphic file (type png)
 <use capture_modele_6.png>
 Package pdftex.def Info: capture_modele_6.png  used on input line 125.
 (pdftex.def)             Requested size: 217.66211pt x 219.5457pt.
-<capture_modele_7.png, id=1406, 471.56175pt x 493.845pt>
+<capture_modele_7.png, id=1481, 471.56175pt x 493.845pt>
 File: capture_modele_7.png Graphic file (type png)
 <use capture_modele_7.png>
 Package pdftex.def Info: capture_modele_7.png  used on input line 131.
 (pdftex.def)             Requested size: 217.66211pt x 227.9476pt.
  [70]
-<capture_modele_8.png, id=1412, 455.90324pt x 489.027pt>
+<capture_modele_8.png, id=1487, 455.90324pt x 489.027pt>
 File: capture_modele_8.png Graphic file (type png)
 <use capture_modele_8.png>
 Package pdftex.def Info: capture_modele_8.png  used on input line 140.
@@ -2015,23 +1961,23 @@ Underfull \hbox (badness 1314) in paragraph at lines 166--167
 \T1/ptm/m/n/12 que la ré-gres-sion lo-gis-tique, on a choisi d'im-plé-men-ter un mo-dèle de Ran-dom Fo-rest afin
  []
 
-<capture_modele_9.png, id=1422, 359.54324pt x 202.95825pt>
+<capture_modele_9.png, id=1498, 359.54324pt x 202.95825pt>
 File: capture_modele_9.png Graphic file (type png)
 <use capture_modele_9.png>
 Package pdftex.def Info: capture_modele_9.png  used on input line 194.
 (pdftex.def)             Requested size: 217.66211pt x 122.86908pt.
-<capture_modele_10.png, id=1423, 242.1045pt x 145.14224pt>
+<capture_modele_10.png, id=1499, 242.1045pt x 145.14224pt>
 File: capture_modele_10.png Graphic file (type png)
 <use capture_modele_10.png>
 Package pdftex.def Info: capture_modele_10.png  used on input line 200.
 (pdftex.def)             Requested size: 217.66211pt x 130.49391pt.
 [72]
-<capture_modele_11.png, id=1429, 383.63326pt x 328.8285pt>
+<capture_modele_11.png, id=1505, 383.63326pt x 328.8285pt>
 File: capture_modele_11.png Graphic file (type png)
 <use capture_modele_11.png>
 Package pdftex.def Info: capture_modele_11.png  used on input line 211.
 (pdftex.def)             Requested size: 217.66211pt x 186.56616pt.
-<capture_modele_40.png, id=1430, 766.062pt x 407.72325pt>
+<capture_modele_40.png, id=1506, 766.062pt x 407.72325pt>
 File: capture_modele_40.png Graphic file (type png)
 <use capture_modele_40.png>
 Package pdftex.def Info: capture_modele_40.png  used on input line 217.
@@ -2041,56 +1987,56 @@ Underfull \hbox (badness 1314) in paragraph at lines 218--218
 []\T1/ptm/b/sc/10.95 Figure 4.11 \T1/ptm/b/n/10.95 ^^U |Courbe ROC pour 
  []
 
-<capture_modele_14.png, id=1431, 380.622pt x 205.9695pt>
+<capture_modele_14.png, id=1507, 380.622pt x 205.9695pt>
 File: capture_modele_14.png Graphic file (type png)
 <use capture_modele_14.png>
 Package pdftex.def Info: capture_modele_14.png  used on input line 229.
 (pdftex.def)             Requested size: 217.66211pt x 117.78725pt.
-<capture_modele_15.png, id=1432, 669.702pt x 464.937pt>
+<capture_modele_15.png, id=1508, 669.702pt x 464.937pt>
 File: capture_modele_15.png Graphic file (type png)
 <use capture_modele_15.png>
 Package pdftex.def Info: capture_modele_15.png  used on input line 235.
 (pdftex.def)             Requested size: 217.66211pt x 151.10982pt.
 [73 <./capture_modele_9.png> <./capture_modele_10.png> <./capture_modele_11.png> <./capture_modele_40.png> <./capture_modele_14.png> <./capture_modele_15.png>]
-<capture_modele_38.png, id=1447, 683.55376pt x 431.81325pt>
+<capture_modele_38.png, id=1523, 683.55376pt x 431.81325pt>
 File: capture_modele_38.png Graphic file (type png)
 <use capture_modele_38.png>
 Package pdftex.def Info: capture_modele_38.png  used on input line 257.
 (pdftex.def)             Requested size: 241.84843pt x 152.77754pt.
-<capture_modele_39.png, id=1448, 370.38374pt x 196.3335pt>
+<capture_modele_39.png, id=1524, 370.38374pt x 196.3335pt>
 File: capture_modele_39.png Graphic file (type png)
 <use capture_modele_39.png>
 Package pdftex.def Info: capture_modele_39.png  used on input line 266.
 (pdftex.def)             Requested size: 290.22107pt x 153.8435pt.
  [74 <./capture_modele_38.png> <./capture_modele_39.png>]
-<capture_modele_18.png, id=1460, 399.29175pt x 427.5975pt>
+<capture_modele_18.png, id=1535, 399.29175pt x 427.5975pt>
 File: capture_modele_18.png Graphic file (type png)
 <use capture_modele_18.png>
 Package pdftex.def Info: capture_modele_18.png  used on input line 297.
 (pdftex.def)             Requested size: 217.66211pt x 233.09148pt.
-<capture_modele_19.png, id=1461, 456.5055pt x 350.5095pt>
+<capture_modele_19.png, id=1536, 456.5055pt x 350.5095pt>
 File: capture_modele_19.png Graphic file (type png)
 <use capture_modele_19.png>
 Package pdftex.def Info: capture_modele_19.png  used on input line 303.
 (pdftex.def)             Requested size: 217.66211pt x 167.11949pt.
  [75 <./capture_modele_18.png> <./capture_modele_19.png>]
-<capture_modele_17.png, id=1470, 337.86224pt x 154.77824pt>
+<capture_modele_17.png, id=1545, 337.86224pt x 154.77824pt>
 File: capture_modele_17.png Graphic file (type png)
 <use capture_modele_17.png>
 Package pdftex.def Info: capture_modele_17.png  used on input line 337.
 (pdftex.def)             Requested size: 290.22107pt x 132.96027pt.
  [76 <./capture_modele_17.png>]
-<capture_modele_25.png, id=1478, 329.43076pt x 184.89075pt>
+<capture_modele_25.png, id=1553, 329.43076pt x 184.89075pt>
 File: capture_modele_25.png Graphic file (type png)
 <use capture_modele_25.png>
 Package pdftex.def Info: capture_modele_25.png  used on input line 390.
 (pdftex.def)             Requested size: 217.66211pt x 122.16367pt.
-<capture_modele_26.png, id=1479, 328.22626pt x 184.2885pt>
+<capture_modele_26.png, id=1554, 328.22626pt x 184.2885pt>
 File: capture_modele_26.png Graphic file (type png)
 <use capture_modele_26.png>
 Package pdftex.def Info: capture_modele_26.png  used on input line 395.
 (pdftex.def)             Requested size: 217.66211pt x 122.21005pt.
-<capture_modele_27.png, id=1480, 328.22626pt x 184.2885pt>
+<capture_modele_27.png, id=1555, 328.22626pt x 184.2885pt>
 File: capture_modele_27.png Graphic file (type png)
 <use capture_modele_27.png>
 Package pdftex.def Info: capture_modele_27.png  used on input line 404.
@@ -2101,23 +2047,23 @@ Underfull \hbox (badness 3417) in paragraph at lines 416--417
  []
 
 [78 <./capture_modele_27.png>]
-<capture_modele_28.png, id=1495, 323.40825pt x 146.34676pt>
+<capture_modele_28.png, id=1571, 323.40825pt x 146.34676pt>
 File: capture_modele_28.png Graphic file (type png)
 <use capture_modele_28.png>
 Package pdftex.def Info: capture_modele_28.png  used on input line 431.
 (pdftex.def)             Requested size: 290.22107pt x 131.329pt.
-<capture_modele_29.png, id=1496, 326.4195pt x 150.5625pt>
+<capture_modele_29.png, id=1572, 326.4195pt x 150.5625pt>
 File: capture_modele_29.png Graphic file (type png)
 <use capture_modele_29.png>
 Package pdftex.def Info: capture_modele_29.png  used on input line 443.
 (pdftex.def)             Requested size: 290.22107pt x 133.86923pt.
-<capture_modele_30.png, id=1497, 784.1295pt x 42.1575pt>
+<capture_modele_30.png, id=1573, 784.1295pt x 42.1575pt>
 File: capture_modele_30.png Graphic file (type png)
 <use capture_modele_30.png>
 Package pdftex.def Info: capture_modele_30.png  used on input line 455.
 (pdftex.def)             Requested size: 386.95897pt x 20.804pt.
  [79 <./capture_modele_28.png> <./capture_modele_29.png>]
-<capture_modele_31.png, id=1506, 897.3525pt x 352.9185pt>
+<capture_modele_31.png, id=1582, 897.3525pt x 352.9185pt>
 File: capture_modele_31.png Graphic file (type png)
 <use capture_modele_31.png>
 Package pdftex.def Info: capture_modele_31.png  used on input line 461.
@@ -2137,47 +2083,47 @@ Underfull \hbox (badness 1137) in paragraph at lines 549--550
 []\T1/ptm/b/n/12 Complexité des don-nées pour \T1/ptm/b/it/12 net-work_fev \T1/ptm/b/n/12 et \T1/ptm/b/it/12 re-tail_juin \T1/ptm/m/n/12 : En re-vanche, les da-ta-sets
  []
 
-<capture_modele_21.png, id=1528, 335.45325pt x 181.8795pt>
+<capture_modele_21.png, id=1604, 335.45325pt x 181.8795pt>
 File: capture_modele_21.png Graphic file (type png)
 <use capture_modele_21.png>
 Package pdftex.def Info: capture_modele_21.png  used on input line 565.
 (pdftex.def)             Requested size: 290.22107pt x 157.35966pt.
 [84]
-<capture_modele_22.png, id=1533, 443.85825pt x 342.078pt>
+<capture_modele_22.png, id=1609, 443.85825pt x 342.078pt>
 File: capture_modele_22.png Graphic file (type png)
 <use capture_modele_22.png>
 Package pdftex.def Info: capture_modele_22.png  used on input line 573.
 (pdftex.def)             Requested size: 338.58632pt x 260.95282pt.
-<capture_modele_23.png, id=1534, 335.45325pt x 178.266pt>
+<capture_modele_23.png, id=1610, 335.45325pt x 178.266pt>
 File: capture_modele_23.png Graphic file (type png)
 <use capture_modele_23.png>
 Package pdftex.def Info: capture_modele_23.png  used on input line 585.
 (pdftex.def)             Requested size: 290.22107pt x 154.2333pt.
  [85 <./capture_modele_21.png> <./capture_modele_22.png>]
-<capture_modele_24.png, id=1543, 449.2785pt x 335.45325pt>
+<capture_modele_24.png, id=1619, 449.2785pt x 335.45325pt>
 File: capture_modele_24.png Graphic file (type png)
 <use capture_modele_24.png>
 Package pdftex.def Info: capture_modele_24.png  used on input line 593.
 (pdftex.def)             Requested size: 338.58632pt x 252.81776pt.
  [86 <./capture_modele_23.png> <./capture_modele_24.png>]
-<OVERFIT.png, id=1554, 334.24875pt x 317.38576pt>
+<OVERFIT.png, id=1629, 334.24875pt x 317.38576pt>
 File: OVERFIT.png Graphic file (type png)
 <use OVERFIT.png>
 Package pdftex.def Info: OVERFIT.png  used on input line 612.
 (pdftex.def)             Requested size: 290.22107pt x 275.60034pt.
  [87 <./OVERFIT.png>]
-<capture_modele_32.png, id=1562, 813.63976pt x 215.00325pt>
+<capture_modele_32.png, id=1637, 813.63976pt x 215.00325pt>
 File: capture_modele_32.png Graphic file (type png)
 <use capture_modele_32.png>
 Package pdftex.def Info: capture_modele_32.png  used on input line 646.
 (pdftex.def)             Requested size: 435.32422pt x 115.0338pt.
  [88 <./capture_modele_32.png>]
-<capture_modele_33.png, id=1570, 711.8595pt x 175.25475pt>
+<capture_modele_33.png, id=1645, 711.8595pt x 175.25475pt>
 File: capture_modele_33.png Graphic file (type png)
 <use capture_modele_33.png>
 Package pdftex.def Info: capture_modele_33.png  used on input line 671.
 (pdftex.def)             Requested size: 435.32422pt x 107.17531pt.
-<capture_modele_34.png, id=1572, 714.87074pt x 184.2885pt>
+<capture_modele_34.png, id=1647, 714.87074pt x 184.2885pt>
 File: capture_modele_34.png Graphic file (type png)
 <use capture_modele_34.png>
 Package pdftex.def Info: capture_modele_34.png  used on input line 693.
@@ -2209,163 +2155,215 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 
  []
 
-) (chapter/09-AnnexeA.tex [93
+
+Underfull \hbox (badness 1014) in paragraph at lines 22--23
+[]\T1/ptm/m/n/12 Weisstein, Eric W. "Pear-son Cor-re-la-tion Co-ef-fi-cient." In *CRC Concise En-cy-clo-pe-dia of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+) (chapter/haja.tex [93
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.titleB1000}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3 \newpage
+            ]
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{cite.titleB1000}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \bibitem{titleB1000}
+                        
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+\T1/ptm/m/n/12 Minkowski, H. (1909). Raum und Zeit. *Jah-res-be-richte der Deut-schen
+ []
+
+[94
 
 ]
+Underfull \hbox (badness 1028) in paragraph at lines 48--50
+\T1/ptm/m/n/12 Spearman, C. (1904). "Ge-ne-ral in-tel-li-gence," ob-jec-ti-vely de-ter-mi-ned and mea-su-red. *The
+ []
+
+) (chapter/09-AnnexeA.tex [95]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-<capture_sas_1.png, id=1619, 413.1435pt x 243.91125pt>
+<capture_sas_1.png, id=1698, 413.1435pt x 243.91125pt>
 File: capture_sas_1.png Graphic file (type png)
 <use capture_sas_1.png>
 Package pdftex.def Info: capture_sas_1.png  used on input line 16.
 (pdftex.def)             Requested size: 290.22107pt x 171.34708pt.
-<capture_sas_6.png, id=1620, 700.41675pt x 478.78876pt>
+<capture_sas_6.png, id=1699, 700.41675pt x 478.78876pt>
 File: capture_sas_6.png Graphic file (type png)
 <use capture_sas_6.png>
 Package pdftex.def Info: capture_sas_6.png  used on input line 23.
 (pdftex.def)             Requested size: 386.95897pt x 264.51814pt.
-<capture_sas_7.png, id=1621, 558.28575pt x 268.6035pt>
+<capture_sas_7.png, id=1700, 558.28575pt x 268.6035pt>
 File: capture_sas_7.png Graphic file (type png)
 <use capture_sas_7.png>
 Package pdftex.def Info: capture_sas_7.png  used on input line 30.
 (pdftex.def)             Requested size: 338.58632pt x 162.90112pt.
-[94
+[96
 
  <./capture_sas_1.png> <./capture_sas_6.png>]
-<capture_sas_9.png, id=1628, 464.937pt x 142.73325pt>
+<capture_sas_9.png, id=1707, 464.937pt x 142.73325pt>
 File: capture_sas_9.png Graphic file (type png)
 <use capture_sas_9.png>
 Package pdftex.def Info: capture_sas_9.png  used on input line 37.
 (pdftex.def)             Requested size: 338.58632pt x 103.95045pt.
-<capture_sas_12.png, id=1629, 446.26724pt x 196.93575pt>
+<capture_sas_12.png, id=1708, 446.26724pt x 196.93575pt>
 File: capture_sas_12.png Graphic file (type png)
 <use capture_sas_12.png>
 Package pdftex.def Info: capture_sas_12.png  used on input line 45.
 (pdftex.def)             Requested size: 386.95897pt x 170.76775pt.
-<capture_sas_13.png, id=1630, 648.021pt x 486.618pt>
+<capture_sas_13.png, id=1709, 648.021pt x 486.618pt>
 File: capture_sas_13.png Graphic file (type png)
 <use capture_sas_13.png>
 Package pdftex.def Info: capture_sas_13.png  used on input line 53.
 (pdftex.def)             Requested size: 483.69687pt x 363.23253pt.
- [95 <./capture_sas_7.png> <./capture_sas_9.png> <./capture_sas_12.png>]
-<capture_sas_16.png, id=1640, 560.69475pt x 500.46976pt>
+ [97 <./capture_sas_7.png> <./capture_sas_9.png> <./capture_sas_12.png>]
+<capture_sas_16.png, id=1719, 560.69475pt x 500.46976pt>
 File: capture_sas_16.png Graphic file (type png)
 <use capture_sas_16.png>
 Package pdftex.def Info: capture_sas_16.png  used on input line 61.
 (pdftex.def)             Requested size: 483.69687pt x 431.73962pt.
- [96 <./capture_sas_13.png>]
-<capture_sas_19.png, id=1646, 614.295pt x 189.70876pt>
+ [98 <./capture_sas_13.png>]
+<capture_sas_19.png, id=1725, 614.295pt x 189.70876pt>
 File: capture_sas_19.png Graphic file (type png)
 <use capture_sas_19.png>
 Package pdftex.def Info: capture_sas_19.png  used on input line 69.
 (pdftex.def)             Requested size: 435.32422pt x 134.4394pt.
-<capture_sas_21.png, id=1647, 850.97925pt x 230.0595pt>
+<capture_sas_21.png, id=1726, 850.97925pt x 230.0595pt>
 File: capture_sas_21.png Graphic file (type png)
 <use capture_sas_21.png>
 Package pdftex.def Info: capture_sas_21.png  used on input line 77.
 (pdftex.def)             Requested size: 386.95897pt x 104.61404pt.
- [97 <./capture_sas_16.png> <./capture_sas_19.png>]
-<capture_sas_28.png, id=1654, 1051.5285pt x 261.97874pt>
+ [99 <./capture_sas_16.png> <./capture_sas_19.png>]
+<capture_sas_28.png, id=1733, 1051.5285pt x 261.97874pt>
 File: capture_sas_28.png Graphic file (type png)
 <use capture_sas_28.png>
 Package pdftex.def Info: capture_sas_28.png  used on input line 85.
 (pdftex.def)             Requested size: 386.95897pt x 96.40694pt.
-<capture_sas_29.png, id=1655, 1063.5735pt x 258.9675pt>
+<capture_sas_29.png, id=1734, 1063.5735pt x 258.9675pt>
 File: capture_sas_29.png Graphic file (type png)
 <use capture_sas_29.png>
 Package pdftex.def Info: capture_sas_29.png  used on input line 93.
 (pdftex.def)             Requested size: 386.95897pt x 94.22005pt.
-<capture_sas_61.png, id=1656, 546.843pt x 317.988pt>
+<capture_sas_61.png, id=1735, 546.843pt x 317.988pt>
 File: capture_sas_61.png Graphic file (type png)
 <use capture_sas_61.png>
 Package pdftex.def Info: capture_sas_61.png  used on input line 101.
 (pdftex.def)             Requested size: 435.32422pt x 253.15344pt.
- [98 <./capture_sas_21.png> <./capture_sas_28.png> <./capture_sas_29.png>]
-<capture_sas_70.png, id=1665, 531.78674pt x 388.45125pt>
+ [100 <./capture_sas_21.png> <./capture_sas_28.png> <./capture_sas_29.png>]
+<capture_sas_70.png, id=1743, 531.78674pt x 388.45125pt>
 File: capture_sas_70.png Graphic file (type png)
 <use capture_sas_70.png>
 Package pdftex.def Info: capture_sas_70.png  used on input line 109.
 (pdftex.def)             Requested size: 435.32422pt x 317.98676pt.
-<capture_sas_71.png, id=1666, 635.37375pt x 314.3745pt>
+<capture_sas_71.png, id=1744, 635.37375pt x 314.3745pt>
 File: capture_sas_71.png Graphic file (type png)
 <use capture_sas_71.png>
 Package pdftex.def Info: capture_sas_71.png  used on input line 117.
 (pdftex.def)             Requested size: 435.32422pt x 215.398pt.
- [99 <./capture_sas_61.png> <./capture_sas_70.png>]
-<capture_sas_72.png, id=1673, 437.83575pt x 160.80075pt>
+ [101 <./capture_sas_61.png> <./capture_sas_70.png>]
+<capture_sas_72.png, id=1752, 437.83575pt x 160.80075pt>
 File: capture_sas_72.png Graphic file (type png)
 <use capture_sas_72.png>
 Package pdftex.def Info: capture_sas_72.png  used on input line 125.
 (pdftex.def)             Requested size: 338.58632pt x 124.35428pt.
-<capture_sas_73.png, id=1674, 676.32675pt x 254.1495pt>
+<capture_sas_73.png, id=1753, 676.32675pt x 254.1495pt>
 File: capture_sas_73.png Graphic file (type png)
 <use capture_sas_73.png>
 Package pdftex.def Info: capture_sas_73.png  used on input line 133.
 (pdftex.def)             Requested size: 435.32422pt x 163.58585pt.
-<capture_sas_74.png, id=1675, 489.027pt x 251.7405pt>
+<capture_sas_74.png, id=1754, 489.027pt x 251.7405pt>
 File: capture_sas_74.png Graphic file (type png)
 <use capture_sas_74.png>
 Package pdftex.def Info: capture_sas_74.png  used on input line 141.
 (pdftex.def)             Requested size: 386.95897pt x 199.20699pt.
- [100 <./capture_sas_71.png> <./capture_sas_72.png> <./capture_sas_73.png>]
-<capture_sas_75.png, id=1683, 585.387pt x 420.3705pt>
+ [102 <./capture_sas_71.png> <./capture_sas_72.png> <./capture_sas_73.png>]
+<capture_sas_75.png, id=1762, 585.387pt x 420.3705pt>
 File: capture_sas_75.png Graphic file (type png)
 <use capture_sas_75.png>
 Package pdftex.def Info: capture_sas_75.png  used on input line 149.
 (pdftex.def)             Requested size: 386.95897pt x 277.88156pt.
-<capture_sas_77.png, id=1684, 525.162pt x 199.34476pt>
+<capture_sas_77.png, id=1763, 525.162pt x 199.34476pt>
 File: capture_sas_77.png Graphic file (type png)
 <use capture_sas_77.png>
 Package pdftex.def Info: capture_sas_77.png  used on input line 157.
 (pdftex.def)             Requested size: 386.95897pt x 146.88315pt.
- [101 <./capture_sas_74.png> <./capture_sas_75.png>]
-<capture_sas_78.png, id=1691, 449.88075pt x 331.2375pt>
+ [103 <./capture_sas_74.png> <./capture_sas_75.png>]
+<capture_sas_78.png, id=1770, 449.88075pt x 331.2375pt>
 File: capture_sas_78.png Graphic file (type png)
 <use capture_sas_78.png>
 Package pdftex.def Info: capture_sas_78.png  used on input line 165.
 (pdftex.def)             Requested size: 338.58632pt x 249.29178pt.
-<capture_sas_79.png, id=1692, 945.5325pt x 457.71pt>
+<capture_sas_79.png, id=1771, 945.5325pt x 457.71pt>
 File: capture_sas_79.png Graphic file (type png)
 <use capture_sas_79.png>
 Package pdftex.def Info: capture_sas_79.png  used on input line 173.
 (pdftex.def)             Requested size: 435.32422pt x 210.73074pt.
- [102 <./capture_sas_77.png> <./capture_sas_78.png>]
-<capture_sas_80.png, id=1699, 596.2275pt x 396.2805pt>
+ [104 <./capture_sas_77.png> <./capture_sas_78.png>]
+<capture_sas_80.png, id=1778, 596.2275pt x 396.2805pt>
 File: capture_sas_80.png Graphic file (type png)
 <use capture_sas_80.png>
 Package pdftex.def Info: capture_sas_80.png  used on input line 181.
 (pdftex.def)             Requested size: 435.32422pt x 289.33678pt.
-) (chapter/09-AnnexeB.tex [103 <./capture_sas_79.png> <./capture_sas_80.png>]
+) (chapter/09-AnnexeB.tex [105 <./capture_sas_79.png> <./capture_sas_80.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-<capture_sas_40.png, id=1706, 906.38625pt x 281.25075pt>
+<capture_sas_40.png, id=1785, 906.38625pt x 281.25075pt>
 File: capture_sas_40.png Graphic file (type png)
 <use capture_sas_40.png>
 Package pdftex.def Info: capture_sas_40.png  used on input line 23.
 (pdftex.def)             Requested size: 435.32422pt x 135.08035pt.
-<capture_sas_41.png, id=1707, 394.47375pt x 70.46326pt>
+<capture_sas_41.png, id=1786, 394.47375pt x 70.46326pt>
 File: capture_sas_41.png Graphic file (type png)
 <use capture_sas_41.png>
 Package pdftex.def Info: capture_sas_41.png  used on input line 30.
 (pdftex.def)             Requested size: 386.95897pt x 69.12125pt.
-<capture_sas_42.png, id=1708, 454.69875pt x 262.581pt>
+<capture_sas_42.png, id=1787, 454.69875pt x 262.581pt>
 File: capture_sas_42.png Graphic file (type png)
 <use capture_sas_42.png>
 Package pdftex.def Info: capture_sas_42.png  used on input line 37.
 (pdftex.def)             Requested size: 386.95897pt x 223.46733pt.
-<capture_sas_43.png, id=1709, 885.3075pt x 73.4745pt>
+<capture_sas_43.png, id=1788, 885.3075pt x 73.4745pt>
 File: capture_sas_43.png Graphic file (type png)
 <use capture_sas_43.png>
 Package pdftex.def Info: capture_sas_43.png  used on input line 44.
 (pdftex.def)             Requested size: 386.95897pt x 32.11473pt.
-[104
+[106
 
  <./capture_sas_40.png> <./capture_sas_41.png> <./capture_sas_42.png>]
-<capture_sas_49.png, id=1719, 579.3645pt x 234.8775pt>
+<capture_sas_49.png, id=1797, 579.3645pt x 234.8775pt>
 File: capture_sas_49.png Graphic file (type png)
 <use capture_sas_49.png>
 Package pdftex.def Info: capture_sas_49.png  used on input line 53.
@@ -2381,26 +2379,26 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             please be aware that the minitoc package 
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
- [105 <./capture_sas_43.png> <./capture_sas_49.png>] (main.aux)
+ [107 <./capture_sas_43.png> <./capture_sas_49.png>] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 45E02E9B774E53FD80C0DCD26ADC009B;34053.
+(rerunfilecheck)             Checksum: 354E15B20D5BCCE6F3BB4DACF4990885;34073.
  ) 
 Here is how much of TeX's memory you used:
- 51420 strings out of 474486
- 1127046 string characters out of 5743755
- 1949542 words of memory out of 5000000
- 72495 multiletter control sequences out of 15000+600000
- 670387 words of font info for 188 fonts, out of 8000000 for 9000
+ 51482 strings out of 474486
+ 1126947 string characters out of 5743755
+ 1947542 words of memory out of 5000000
+ 72482 multiletter control sequences out of 15000+600000
+ 665940 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,13n,103p,1636b,1353s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\meria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/meria/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (116 pages, 4146656 bytes).
+Output written on main.pdf (115 pages, 4158107 bytes).
 PDF statistics:
- 1879 PDF objects out of 2073 (max. 8388607)
- 402 named destinations out of 1000 (max. 500000)
+ 1974 PDF objects out of 2073 (max. 8388607)
+ 478 named destinations out of 1000 (max. 500000)
  1666 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,7 +6,6 @@
 \end{spacing}
 \newpage
 \justifying
-
 \sloppy \setstretch{1.2} 
 \section{Introduction}
 
@@ -23,17 +22,18 @@ La normalisation met toutes les variables sur une même échelle, ce qui est ess
 \subsubsection{Méthodes classiques de normalisation}
 
 \textbf{\(\checkmark\)} \textbf{Normalisation Min-Max} \\
-Elle met les données à l’échelle entre 0 et 1 selon la formule suivante: 
-    \[
-    X_{\text{norm}} = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}
-    \]
-\textbf{\(\rightarrow\)} \textbf{Utilité}: Recommandée pour les algorithmes comme les réseaux de neurones.\\
+Elle met les données à l’échelle entre 0 et 1 selon la formule suivante:
+
+\[
+X_{\text{norm}} = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}} \tag{1}
+\]
+\textbf{\(\rightarrow\)} \textbf{Utilité}: Recommandée pour les algorithmes comme les réseaux de neurones. \\
 \textbf{\(\rightarrow\)} \textbf{Impact}: Sensible aux valeurs extrêmes (outliers).
 
 \textbf{\(\checkmark\)} \textbf{Z-Score (Standardisation)} \\
     Cette méthode centre les données à 0 avec un écart-type de 1 selon la formule suivante:
     \[
-    X_{\text{std}} = \frac{X - \mu}{\sigma}
+    X_{\text{std}} = \frac{X - \mu}{\sigma}  \tag{2}
     \]
 \textbf{\(\rightarrow\)} \textbf{Utilité}: Utile pour ajuster les échelles sans affecter la structure des variables, peu importe la distribution.\\
 \textbf{\(\rightarrow\)} \textbf{Impact}: Uniformise l'effet des variables sur le modèle.
@@ -41,7 +41,7 @@ Elle met les données à l’échelle entre 0 et 1 selon la formule suivante:
 \textbf{\(\checkmark\)} \textbf{Normalisation Logarithmique (Log)} \\
     La transformation logarithmique réduit l'influence des grandes valeurs et rend les distributions plus symétriques selon la formule suivante: 
     \[
-    X_{\text{log}} = \log(X + 1)
+    X_{\text{log}} = \log(X + 1)    \tag{3}
     \]
 \textbf{\(\rightarrow\)} \textbf{Utilité}: Efficace pour réduire les écarts dus aux valeurs extrêmes.\\
 \textbf{\(\rightarrow\)} \textbf{Impact}: Diminue l'influence des grandes valeurs.
@@ -49,7 +49,7 @@ Elle met les données à l’échelle entre 0 et 1 selon la formule suivante:
 \textbf{\(\checkmark\)} \textbf{Transformation par Racine Carrée (Sqrt)} \\
     Cette transformation réduit la variance tout en préservant la hiérarchie des données. Formule :
     \[
-    X_{\text{sqrt}} = \sqrt{X}
+    X_{\text{sqrt}} = \sqrt{X}  \tag{4}
     \]
 \textbf{\(\rightarrow\)} \textbf{Utilité}: Réduit l'impact des grandes valeurs sans affecter l'ordre des données.\\
 \textbf{\(\rightarrow\)} \textbf{Impact}: Atténue les grandes variations tout en maintenant la structure des données.
@@ -66,7 +66,7 @@ y(\lambda) =
 \begin{cases} 
 \frac{x^\lambda - 1}{\lambda}, & \text{si } \lambda \neq 0 \\
 \log(x), & \text{si } \lambda = 0
-\end{cases}
+\end{cases} \tag{5}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Explication}: Box-Cox applique une transformation exponentielle ou logarithmique aux données, selon la valeur de $\lambda$. Lorsque $\lambda$ est différent de zéro, la transformation lisse les données et réduit l'asymétrie en modifiant la relation entre les valeurs observées et la moyenne. Si $\lambda = 0$, elle applique une transformation logarithmique pour atténuer l'impact des grandes valeurs tout en rendant la distribution plus symétrique. on approfondir1 la notion de \textbf{log-vraisemblance} dans une section ultérieure.\\
@@ -83,7 +83,7 @@ y(\lambda) =
 \log(x + 1), & \text{si } \lambda = 0 \text{ et } x \geq 0 \\
 -\frac{(-x + 1)^{2 - \lambda} - 1}{2 - \lambda}, & \text{si } \lambda \neq 2 \text{ et } x < 0 \\
 -\log(-x + 1), & \text{si } \lambda = 2 \text{ et } x < 0
-\end{cases}
+\end{cases} \tag{6}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Permet de traiter les données négatives et positives, rendant les données plus normalisées.\\
@@ -98,7 +98,7 @@ Le traitement des valeurs manquantes est crucial pour maintenir la qualité des 
 L’imputation par la médiane est une méthode simple qui remplace les valeurs manquantes par la médiane de la variable concernée. Elle est particulièrement efficace pour les données avec des valeurs extrêmes (outliers), car la médiane n'est pas influencée par ces dernières.
 
 \[
-x_{i,\text{missing}} = \text{Médiane}(x_i)
+x_{i,\text{missing}} = \text{Médiane}(x_i)  \tag{7}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Adaptée aux distributions asymétriques.\\
@@ -112,7 +112,7 @@ Le K-Nearest Neighbors (KNN) repose sur la similarité des données pour imputer
 La distance de Minkowski \cite{min} est définie par :
 
 \[
-d(x_i, x_j) = \left( \sum_{k=1}^{n} |x_{ik} - x_{jk}|^p \right)^{1/p}
+d(x_i, x_j) = \left( \sum_{k=1}^{n} |x_{ik} - x_{jk}|^p \right)^{1/p}   \tag{8}
 \]
 
 \textbf{Cas particuliers:}\\
@@ -127,7 +127,7 @@ d(x_i, x_j) = \left( \sum_{k=1}^{n} |x_{ik} - x_{jk}|^p \right)^{1/p}
 Une fois les voisins identifiés, la valeur manquante est imputée par une moyenne pondérée de leurs valeurs :
 
 \[
-x_{i,\text{missing}} = \frac{\sum_{j \in N(i)} w_j x_j}{\sum_{j \in N(i)} w_j}
+x_{i,\text{missing}} = \frac{\sum_{j \in N(i)} w_j x_j}{\sum_{j \in N(i)} w_j}  \tag{9}
 \]
 
 où \(w_j\) est un poids inversement proportionnel à la distance \(d(x_i, x_j)\).
@@ -153,7 +153,7 @@ Les \textbf{indicateurs statistiques} résument les données et permettent de me
 L'Eta carré (\(\eta^2\)) quantifie la part de variance d'une variable quantitative expliquée par une variable qualitative. Il mesure l'effet d'un facteur.
 
 \[
-\eta^2 = \frac{SSB}{SSB + SSW}
+\eta^2 = \frac{SSB}{SSB + SSW}  \tag{10}
 \]
 
 Avec :
@@ -172,7 +172,7 @@ Avec :
 Le \textbf{Cramer V} mesure la force de l'association entre deux variables qualitatives, basé sur la statistique du \(\chi^2\). Il est souvent utilisé avec un \textbf{tableau de contingence}, qui montre la fréquence des combinaisons possibles entre deux variables catégorielles. On détaillera ce tableau et le calcul du \(\chi^2\) dans une prochaine section.
 
 \[
-V = \sqrt{\frac{X^2}{N \times \min(k-1, r-1)}}
+V = \sqrt{\frac{X^2}{N \times \min(k-1, r-1)}}  \tag{11}
 \]
 
 Où:
@@ -191,7 +191,7 @@ Où:
 
 Le \textbf{Lambda} (\(\lambda\)) de Goodman et Kruskal \cite{gm} mesure l'amélioration de la prédiction d'une variable qualitative dépendante en fonction d'une variable qualitative indépendante. Il compare les erreurs de prédiction avec et sans la variable indépendante.
 \[
-\lambda = \frac{E_0 - E_1}{E_0}
+\lambda = \frac{E_0 - E_1}{E_0} \tag{12}
 \]
 
 Où:
@@ -210,7 +210,7 @@ Où:
 La \textbf{covariance} mesure la variation conjointe de deux variables quantitatives, indiquant si elles augmentent ou diminuent ensemble. Elle est calculée par la somme des produits des écarts par rapport à leurs moyennes:
 
 \[
-\text{Cov}(X, Y) = \frac{1}{N} \sum_{i=1}^{N} (X_i - \bar{X})(Y_i - \bar{Y})
+\text{Cov}(X, Y) = \frac{1}{N} \sum_{i=1}^{N} (X_i - \bar{X})(Y_i - \bar{Y})    \tag{13}
 \]
 
 Où:
@@ -270,7 +270,7 @@ La vérification de la normalité est essentielle avant d'appliquer des tests pa
 Le test de Shapiro-Wilk compare les statistiques d'ordre observées à celles attendues sous la loi normale. La statistique \( W \) est calculée comme suit:
 
 \[
-W = \frac{\left( \sum_{i=1}^{n} a_i x_i \right)^2}{\sum_{i=1}^{n} (x_i - \bar{x})^2}
+W = \frac{\left( \sum_{i=1}^{n} a_i x_i \right)^2}{\sum_{i=1}^{n} (x_i - \bar{x})^2}    \tag{14}
 \]
 
 Où:
@@ -298,7 +298,7 @@ L'homoscédasticité est cruciale avant d'appliquer des tests paramétriques. Le
 Pour chaque observation \( x_{ij} \) dans le groupe \( j \):
 
 \[
-d_{ij} = \left| x_{ij} - \tilde{x}_j \right|
+d_{ij} = \left| x_{ij} - \tilde{x}_j \right|    \tag{15}
 \]
 Où \( \tilde{x}_j \) est la médiane du groupe \( j \).
 
@@ -307,15 +307,15 @@ Où \( \tilde{x}_j \) est la médiane du groupe \( j \).
 La statistique \( F \), qui compare la variance entre les groupes à celle intra-groupe, est donnée par:
 
 \[
-F = \frac{\text{Variance entre les groupes}}{\text{Variance intra-groupe}}
+F = \frac{\text{Variance entre les groupes}}{\text{Variance intra-groupe}}  \tag{16}
 \]
 
 Où:
 \[
-\text{Variance entre les groupes} = \frac{\sum_{j=1}^{k} n_j \left( \bar{d}_j - \bar{d} \right)^2}{k - 1}
+\text{Variance entre les groupes} = \frac{\sum_{j=1}^{k} n_j \left( \bar{d}_j - \bar{d} \right)^2}{k - 1}   \tag{17}
 \]
 \[
-\text{Variance intra-groupe} = \frac{\sum_{j=1}^{k} \sum_{i=1}^{n_j} \left( d_{ij} - \bar{d}_j \right)^2}{N - k}
+\text{Variance intra-groupe} = \frac{\sum_{j=1}^{k} \sum_{i=1}^{n_j} \left( d_{ij} - \bar{d}_j \right)^2}{N - k}    \tag{18}
 \]
 
 \textbf{\(\checkmark\)} \textbf{Interprétation des Résultats:}\\
@@ -332,37 +332,37 @@ Où:
 \noindent \textbf{\(\rightarrow\)} \textbf{Méthode des moindres carrés}: Pour vérifier la linéarité entre \( X \) et \( Y \), on ajuste un modèle de régression linéaire:
 
 \[
-Y = \beta_0 + \beta_1 X + \varepsilon
+Y = \beta_0 + \beta_1 X + \varepsilon   \tag{19}
 \]
 
 Les coefficients \( \beta_0 \) et \( \beta_1 \) sont déterminés en minimisant la somme des carrés des résidus \( S(\beta_0, \beta_1) \):
 
 \[
-S(\beta_0, \beta_1) = \sum_{i=1}^{n} \left( Y_i - (\beta_0 + \beta_1 X_i) \right)^2
+S(\beta_0, \beta_1) = \sum_{i=1}^{n} \left( Y_i - (\beta_0 + \beta_1 X_i) \right)^2 \tag{20}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Dérivation pour minimisation}: Les dérivées partielles de \( S \) sont calculées pour minimiser cette fonction:
 
 \[
-\frac{\partial S}{\partial \beta_0} = -2 \sum_{i=1}^{n} \left( Y_i - (\beta_0 + \beta_1 X_i) \right)
+\frac{\partial S}{\partial \beta_0} = -2 \sum_{i=1}^{n} \left( Y_i - (\beta_0 + \beta_1 X_i) \right)    \tag{21}
 \]
 \[
-\frac{\partial S}{\partial \beta_1} = -2 \sum_{i=1}^{n} X_i \left( Y_i - (\beta_0 + \beta_1 X_i) \right)
+\frac{\partial S}{\partial \beta_1} = -2 \sum_{i=1}^{n} X_i \left( Y_i - (\beta_0 + \beta_1 X_i) \right)    \tag{22}
 \]
 
 \noindent \textbf{\(\rightarrow\)}  \textbf{Résolution des équations normales}:
 
 \[
-\beta_1 = \frac{n \sum_{i=1}^{n} X_i Y_i - \sum_{i=1}^{n} X_i \sum_{i=1}^{n} Y_i}{n \sum_{i=1}^{n} X_i^2 - \left( \sum_{i=1}^{n} X_i \right)^2}
+\beta_1 = \frac{n \sum_{i=1}^{n} X_i Y_i - \sum_{i=1}^{n} X_i \sum_{i=1}^{n} Y_i}{n \sum_{i=1}^{n} X_i^2 - \left( \sum_{i=1}^{n} X_i \right)^2} \tag{23}
 \]
 \[
-\beta_0 = \frac{1}{n} \sum_{i=1}^{n} Y_i - \beta_1 \frac{1}{n} \sum_{i=1}^{n} X_i
+\beta_0 = \frac{1}{n} \sum_{i=1}^{n} Y_i - \beta_1 \frac{1}{n} \sum_{i=1}^{n} X_i   \tag{24}
 \]
 
 \noindent \textbf{\(\rightarrow\)}  \textbf{Coefficient de détermination \( R^2 \)}: Il mesure la proportion de la variance expliquée par le modèle:
 
 \[
-R^2 = 1 - \frac{\sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2}{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}
+R^2 = 1 - \frac{\sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2}{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}   \tag{25}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Interprétation de \( R^2 \)}:
@@ -386,7 +386,7 @@ R^2 = 1 - \frac{\sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2}{\sum_{i=1}^{n} (Y_i - \bar{Y
 
 \textbf{\(\checkmark\)} \textbf{Formule du test t pour échantillons indépendants:}
 \[
-t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}  \tag{26}
 \]
 Où:
 \begin{itemize}
@@ -417,7 +417,7 @@ Où:
     on a déjà utilisé des formules similaires pour l'ANOVA appliqué aux déviations absolues dans le test de Levene pour évaluer l'homogénéité des variances. Dans ce contexte, l'ANOVA est utilisé pour comparer les moyennes des groupes en utilisant la même structure de calcul pour la statistique \( F \):
     
     \[
-    F = \frac{\text{Variance inter-groupes}}{\text{Variance intra-groupes}}
+    F = \frac{\text{Variance inter-groupes}}{\text{Variance intra-groupes}} \tag{27}
     \]
     
 Les formules spécifiques de la variance inter-groupes et intra-groupes ont déjà été introduites, mais ici elles servent à évaluer la différence \textbf{des moyennes}moyennes entre les groupes plutôt que leurs variances.
@@ -444,7 +444,7 @@ Ainsi, bien que l'ANOVA puisse être utilisé à la fois pour tester les varianc
 \textbf{\(\checkmark\)} \textbf{Formule du coefficient de corrélation de Pearson:}\\
 Le coefficient \( r \) est calculé à partir de la covariance des deux variables, divisée par le produit de leurs écarts-types:
 \[
-r = \frac{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i=1}^{n} (X_i - \bar{X})^2} \sqrt{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}}
+r = \frac{\sum_{i=1}^{n} (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum_{i=1}^{n} (X_i - \bar{X})^2} \sqrt{\sum_{i=1}^{n} (Y_i - \bar{Y})^2}}   \tag{28}
 \]
 Où:
 \begin{itemize}
@@ -477,7 +477,7 @@ Les valeurs des deux groupes sont combinées et classées par ordre croissant. C
 
 \textbf{\(\checkmark\)} \textbf{Formule du test U:}
 \[
-U_1 = n_1 n_2 + \frac{n_1 (n_1 + 1)}{2} - R_1, \quad U_2 = n_1 n_2 + \frac{n_2 (n_2 + 1)}{2} - R_2
+U_1 = n_1 n_2 + \frac{n_1 (n_1 + 1)}{2} - R_1, \quad U_2 = n_1 n_2 + \frac{n_2 (n_2 + 1)}{2} - R_2 \tag{29}
 \]
 Où \( n_1 \) et \( n_2 \) sont les tailles des groupes, et \( R_1 \) et \( R_2 \) les sommes des rangs.
 
@@ -494,7 +494,7 @@ La statistique \( U \) est le minimum de \( U_1 \) et \( U_2 \).
 
 \textbf{\(\checkmark\)} \textbf{Formule du test H:}
 \[
-H = \frac{12}{N(N+1)} \sum_{i=1}^{k} \frac{R_i^2}{n_i} - 3(N+1)
+H = \frac{12}{N(N+1)} \sum_{i=1}^{k} \frac{R_i^2}{n_i} - 3(N+1) \tag{30}
 \]
 Où:
 \begin{itemize}
@@ -513,7 +513,7 @@ Où:
 
 \textbf{\(\checkmark\)} \textbf{Formule du coefficient de Spearman:}
 \[
-r_s = \frac{\sum_{i=1}^{n} (R_{x_i} - \frac{N+1}{2})(R_{y_i} - \frac{N+1}{2})}{\sqrt{\sum_{i=1}^{n} (R_{x_i} - \frac{N+1}{2})^2 \sum_{i=1}^{n} (R_{y_i} - \frac{N+1}{2})^2}}
+r_s = \frac{\sum_{i=1}^{n} (R_{x_i} - \frac{N+1}{2})(R_{y_i} - \frac{N+1}{2})}{\sqrt{\sum_{i=1}^{n} (R_{x_i} - \frac{N+1}{2})^2 \sum_{i=1}^{n} (R_{y_i} - \frac{N+1}{2})^2}}    \tag{31}
 \]
 Où:
 \begin{itemize}
@@ -532,7 +532,7 @@ Où:
 \textbf{\(\checkmark\)} \textbf{Calcul des fréquences attendues:}\\
 Les fréquences attendues \( E_{ij} \) dans chaque cellule d'un tableau de contingence sont calculées en utilisant la formule:
 \[
-E_{ij} = \frac{R_i \times C_j}{N}
+E_{ij} = \frac{R_i \times C_j}{N}   \tag{32}
 \]
 Où:
 \begin{itemize}
@@ -544,7 +544,7 @@ Où:
 \textbf{\(\checkmark\)} \textbf{Formule du test du Chi-Deux:}\\
 La statistique \( X^2 \) est calculée en comparant les fréquences observées aux fréquences attendues:
 \[
-X^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}}
+X^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}}  \tag{33}
 \]
 Où:
 \begin{itemize}
@@ -580,7 +580,7 @@ Prenons un tableau de contingence 2x2:
 Les probabilités des différentes configurations possibles sont calculées en respectant les totaux des lignes et colonnes (totaux marginaux) avec la distribution hypergéométrique:
 
 \[
-P = \frac{\binom{a+b}{a} \binom{c+d}{c}}{\binom{N}{a+c}}
+P = \frac{\binom{a+b}{a} \binom{c+d}{c}}{\binom{N}{a+c}}    \tag{35}
 \]
 
 \textbf{\(\checkmark\)} \textbf{Interprétation de la p-valeur:}\\
@@ -598,7 +598,7 @@ Le principe de SMOTE repose sur la génération de nouveaux points synthétiques
 \textbf{\(\rightarrow\)} \textbf{Étape 2:} Générer un nouveau point \(x_{\text{new}}\) qui est situé quelque part sur la ligne reliant \(x_i\) et \(x_j\), selon la formule suivante:
     
     \[
-    x_{\text{new}} = x_i + \delta \times (x_j - x_i)
+    x_{\text{new}} = x_i + \delta \times (x_j - x_i)    \tag{35}
     \]
     
     où \(x_i\) et \(x_j\) sont les points dans l'espace des features, et \(\delta\) est un facteur aléatoire compris entre 0 et 1.
@@ -642,11 +642,7 @@ Contrairement à la méthode des \textbf{Forêts Aléatoires} qui évalue l'impo
 
 \subsection{SelectKBest}
 
-La méthode \textbf{SelectKBest} sélectionne les $k$ meilleures caractéristiques en fonction d'une mesure statistique. Un test statistique couramment utilisé est le test F, qui mesure le rapport entre la variance inter-classes et la variance intra-classes:
-
-\[
-F = \frac{\text{Variance entre les classes}}{\text{Variance intra-classes}}
-\]
+La méthode \textbf{SelectKBest} sélectionne les $k$ meilleures caractéristiques en fonction d'une mesure statistique. Un test statistique couramment utilisé est le test F, qui mesure le rapport entre la variance inter-classes et la variance intra-classes (Voir la formule 27)
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Cette méthode est particulièrement utile pour sélectionner les caractéristiques ayant un fort pouvoir discriminant dans les modèles supervisés.\\
 \textbf{\(\rightarrow\)} \textbf{Impact}: La sélection des caractéristiques en fonction du test F permet d'optimiser la performance des modèles en se concentrant sur les variables ayant une forte influence sur la variable cible.
@@ -658,7 +654,7 @@ La \textbf{forêt aléatoire} est un ensemble d'arbres de décision qui attribue
 La réduction de l'impureté, aussi appelée \textbf{réduction de Gini}, est définie par la formule:
 
 \[
-\Delta \text{Gini}(f) = \sum (\text{Gini avant} - \text{Gini après})
+\Delta \text{Gini}(f) = \sum (\text{Gini avant} - \text{Gini après}) \tag{36}
 \]
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Utilité}: Cette méthode identifie les caractéristiques qui contribuent le plus à la séparation des classes dans un jeu de données complexe.\\
@@ -682,7 +678,7 @@ Les modèles de machine learning permettent d’entraîner des algorithmes pour 
 La régression logistique modélise la probabilité qu’un événement se produise à l'aide d'une fonction sigmoïde. La formule de la probabilité est donnée par:
 
 \[
-P = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_k x_k)}}
+P = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_k x_k)}}    \tag{37}
 \]
 
 Où:
@@ -699,7 +695,7 @@ Le but est d’ajuster les coefficients \( \beta_0, \beta_1, \dots, \beta_k \) d
 La fonction de coût dans un modèle de régression logistique est appelée \textbf{log-loss} ou \textbf{cross-entropy loss}. Elle mesure l’écart entre les prédictions du modèle et les vraies valeurs:
 
 \[
-L(\beta) = -\sum_{i=1}^{N} [y_i \log(p_i) + (1 - y_i) \log(1 - p_i)]
+L(\beta) = -\sum_{i=1}^{N} [y_i \log(p_i) + (1 - y_i) \log(1 - p_i)]    \tag{38}
 \]
 
 Où:
@@ -716,7 +712,7 @@ L’objectif de l’optimisation est de minimiser la fonction de coût en ajusta
 
 La mise à jour des coefficients se fait ainsi:
 \[
-\beta_i \leftarrow \beta_i - \alpha \frac{\partial L(\beta)}{\partial \beta_i}
+\beta_i \leftarrow \beta_i - \alpha \frac{\partial L(\beta)}{\partial \beta_i}  \tag{39}
 \]
 
 Où:
@@ -737,13 +733,13 @@ Les \textbf{hyperparamètres} sont des variables définies avant l’entraîneme
 \begin{itemize}
     \item \textbf{Newton-CG}: Utilise la matrice Hessienne \( H \), qui contient les dérivées secondes de la fonction de coût, pour calculer la direction de descente. La mise à jour des coefficients \( \beta \) est effectuée comme suit:
     \[
-    \beta \leftarrow \beta - H^{-1} \nabla L(\beta)
+    \beta \leftarrow \beta - H^{-1} \nabla L(\beta) \tag{40}
     \]
     Où \( H^{-1} \) est l'inverse de la Hessienne et \( \nabla L(\beta) \) est le gradient de la fonction de coût. Bien que précis, il peut être coûteux en temps pour les grands ensembles de données.
 
     \item \textbf{LBFGS} (Limited-memory Broyden–Fletcher–Goldfarb–Shanno): Version plus efficace de Newton-CG, LBFGS utilise les gradients récents au lieu de la matrice Hessienne complète pour estimer la direction de descente. La mise à jour est donnée par:
     \[
-    \beta \leftarrow \beta - \alpha \cdot \text{Direction}
+    \beta \leftarrow \beta - \alpha \cdot \text{Direction}  \tag{41}
     \]
     LBFGS réduit la mémoire utilisée et accélère les calculs, ce qui le rend adapté pour les grands ensembles de données.
 
@@ -751,7 +747,7 @@ Les \textbf{hyperparamètres} sont des variables définies avant l’entraîneme
 
     SAGA combine cette approche avec un ajustement basé sur l'accumulation des gradients passés, offrant une meilleure stabilité et précision. La mise à jour des coefficients se fait ainsi:
     \[
-    \beta \leftarrow \beta - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \nabla L_i(\beta)
+    \beta \leftarrow \beta - \alpha \cdot \frac{1}{N} \sum_{i=1}^{N} \nabla L_i(\beta)  \tag{42}
     \]
     Où \( \nabla L_i(\beta) \) est le gradient de la fonction de coût pour un échantillon \( i \), et \( N \) est la taille de l'ensemble de données.
 \end{itemize}
@@ -765,13 +761,13 @@ La \textbf{régularisation} est un mécanisme qui ajoute une pénalité aux coef
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Régularisation L2 (Ridge)}: Ajoute une pénalité proportionnelle à la somme des carrés des coefficients pour éviter que certains coefficients ne deviennent trop grands. Sa formule est:
     \[
-    L2 = \lambda \sum_{j=1}^{k} \beta_j^2
+    L2 = \lambda \sum_{j=1}^{k} \beta_j^2   \tag{43}
     \]
     Où \( \lambda \) contrôle l’importance de cette pénalisation.
 
 \noindent \textbf{\(\rightarrow\)} \textbf{Régularisation L1 (Lasso)}: Pénalise la somme des valeurs absolues des coefficients, favorisant des modèles plus simples en mettant certains coefficients à zéro (ce qui peut exclure certaines variables inutiles):
     \[
-    L1 = \lambda \sum_{j=1}^{k} |\beta_j|
+    L1 = \lambda \sum_{j=1}^{k} |\beta_j|   \tag{44}
     \]
 
 Le choix de la régularisation dépend de l'objectif: L1 aide à la sélection des variables, tandis que L2 contrôle la taille des coefficients pour éviter le surajustement.
@@ -806,13 +802,13 @@ Les deux critères principaux pour mesurer la qualité des divisions sont l'Impu
 Mesure la pureté d’un nœud: un nœud est pur si toutes les observations appartiennent à la même classe. La formule est donnée par:
 
 \[
-Gini(S) = 1 - \sum_{k=1}^{K} P_k^2
+Gini(S) = 1 - \sum_{k=1}^{K} P_k^2  \tag{45}
 \]
 
 où \( P_k \) est la proportion d'éléments de la classe \( k \). Une réduction de l'impureté de Gini est calculée après chaque division:
 
 \[
-\Delta Gini = Gini(S) - Gini_{\text{moy}}
+\Delta Gini = Gini(S) - Gini_{\text{moy}}   \tag{46}
 \]
 
 La meilleure division est celle qui maximise la réduction de l'impureté.
@@ -821,11 +817,11 @@ La meilleure division est celle qui maximise la réduction de l'impureté.
 L'entropie mesure l'incertitude des classes au sein d’un nœud. Plus l'entropie est faible, plus le nœud est homogène.
 
 \[
-Entropie(S) = -\sum_{k=1}^{K} P_k \log_2(P_k)
+Entropie(S) = -\sum_{k=1}^{K} P_k \log_2(P_k)   \tag{47}
 \]
 
 \[
-\Delta Entropie = Entropie(S) - Entropie_{\text{moy}}
+\Delta Entropie = Entropie(S) - Entropie_{\text{moy}}   \tag{48}
 \]
 
 Le critère retenu dépend de la priorité donnée à la pureté des nœuds ou à la réduction de l'incertitude.
@@ -864,7 +860,7 @@ La forêt aléatoire est un ensemble d'arbres de décision, où plusieurs arbres
 
     \item \textbf{Vote Majoritaire:} Chaque arbre vote pour une classe, et la classe finale prédite est celle qui reçoit le plus de votes. Cela est formalisé par l'équation suivante:
     \[
-    \hat{y} = \arg\max_k \left( \sum_{i=1}^{T} \mathbf{1}(\hat{y}_i = k) \right)
+    \hat{y} = \arg\max_k \left( \sum_{i=1}^{T} \mathbf{1}(\hat{y}_i = k) \right)    \tag{49}
     \]
     où \( T \) est le nombre total d'arbres et \( k \) les classes possibles.
 \end{enumerate}
@@ -897,11 +893,11 @@ AdaBoost est une technique de \textbf{boosting} qui améliore les performances d
 
 La formule suivante détermine les poids des modèles faibles \( \alpha_m \) selon les erreurs (\( \epsilon_m \)):
 \[
-\alpha_m = \frac{1}{2} \log\left(\frac{1 - \epsilon_m}{\epsilon_m}\right)
+\alpha_m = \frac{1}{2} \log\left(\frac{1 - \epsilon_m}{\epsilon_m}\right)   \tag{50}
 \]
 Les poids des observations sont ensuite mis à jour:
 \[
-w_{i,m+1} = w_{i,m} \exp(-\alpha_m y_i h_m(x_i))
+w_{i,m+1} = w_{i,m} \exp(-\alpha_m y_i h_m(x_i))    \tag{51}
 \]
 Cela permet aux arbres suivants de mieux corriger les erreurs des arbres précédents.
 
@@ -938,7 +934,7 @@ Dans cette section, On se concentre sur les aspects techniques et mathématiques
 Un réseau de neurones profond est composé de plusieurs couches. Chaque couche réalise une transformation linéaire suivie d'une fonction d'activation non linéaire. Mathématiquement, une couche \( l \) applique la transformation suivante:
 
 \[
-h^{(l)} = f(W^{(l)} h^{(l-1)} + b^{(l)})
+h^{(l)} = f(W^{(l)} h^{(l-1)} + b^{(l)})    \tag{52}
 \]
 
 Où:
@@ -955,15 +951,15 @@ Cette formule montre comment chaque neurone d'une couche reçoit une combinaison
 Les fonctions d'activation ajoutent de la non-linéarité, permettant aux réseaux d'apprendre des relations complexes.
 
 \textbf{\(\checkmark\)} \textbf{ReLU:} 
-\[ f(x) = \max(0, x) \]
+\[ f(x) = \max(0, x) \tag{53}\]
 ReLU renvoie \( x \) si \( x \) est positif, sinon 0, accélérant l'apprentissage. Toutefois, certains neurones peuvent cesser d'apprendre si leurs valeurs deviennent constamment nulles.
 
 \textbf{\(\checkmark\)} \textbf{Tanh:} 
-\[ f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \]
+\[ f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \tag{54}\]
 Tanh produit des sorties entre -1 et 1, utile pour centrer les données, mais entraîne la saturation des gradients pour des valeurs extrêmes, ralentissant l'apprentissage.
 
 \textbf{\(\checkmark\)} \textbf{Sigmoïde:} 
-\[ f(x) = \frac{1}{1 + e^{-x}} \]
+\[ f(x) = \frac{1}{1 + e^{-x}} \tag{55}\]
 La Sigmoïde compresse entre 0 et 1, idéale pour la classification binaire, mais ralentit l'apprentissage dans les réseaux profonds en réduisant les gradients pour des valeurs extrêmes de \( x \).
 
 
@@ -976,7 +972,7 @@ L'entraînement d'un réseau de neurones consiste à ajuster les poids et les bi
 La fonction de perte mesure l'écart entre la sortie prédite et la valeur réelle. Dans les tâches de classification binaire, une fonction courante est la \textbf{binary cross-entropy}, définie comme suit:
 
 \[
-L(\hat{y}, y) = - \frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right]
+L(\hat{y}, y) = - \frac{1}{N} \sum_{i=1}^{N} \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \right] \tag{56}
 \]
 
 Où:
@@ -993,10 +989,10 @@ Une fois la perte calculée, l'algorithme de \textbf{backpropagation} est utilis
 L'objectif est de minimiser la fonction de perte \( L \). Pour ce faire, on ajuste les poids \( W \) et les biais \( b \) en utilisant la descente de gradient:
 
 \[
-W_{\text{nouveau}} = W_{\text{ancien}} - \eta \frac{\partial L}{\partial W}
+W_{\text{nouveau}} = W_{\text{ancien}} - \eta \frac{\partial L}{\partial W} \tag{57}
 \]
 \[
-b_{\text{nouveau}} = b_{\text{ancien}} - \eta \frac{\partial L}{\partial b}
+b_{\text{nouveau}} = b_{\text{ancien}} - \eta \frac{\partial L}{\partial b} \tag{58}
 \]
 
 Où:
@@ -1012,7 +1008,7 @@ Les gradients sont calculés en utilisant la règle de la chaîne pour rétropro
 La \textbf{régularisation \( L_2 \)} aide à prévenir le surapprentissage en ajoutant une pénalité proportionnelle à la somme des carrés des poids à la fonction de perte :
 
 \[ 
-L_{\text{rég}} = L + \lambda \sum_{i} W_i^2 
+L_{\text{rég}} = L + \lambda \sum_{i} W_i^2 \tag{59}
 \]
 
 Cela empêche certains neurones de développer des poids trop élevés, réduisant ainsi la spécialisation excessive du modèle.
@@ -1020,7 +1016,7 @@ Cela empêche certains neurones de développer des poids trop élevés, réduisa
 Le \textbf{Dropout}, autre technique courante, désactive aléatoirement un pourcentage de neurones à chaque itération, empêchant leur co-adaptation excessive. Mathématiquement, pour un neurone \( h^{(l)} \) dans la couche \( l \) :
 
 \[
-h^{(l)} = \text{Dropout}(f(W^{(l)} h^{(l-1)} + b^{(l)}))
+h^{(l)} = \text{Dropout}(f(W^{(l)} h^{(l-1)} + b^{(l)}))    \tag{60}
 \]
 
 Le taux de Dropout, un hyperparamètre clé, doit être bien ajusté : un taux trop bas a peu d'effet, tandis qu'un taux trop élevé peut entraîner un sous-apprentissage.
@@ -1053,7 +1049,7 @@ KMeans est une méthode non supervisée qui partitionne les observations en \(k\
 L'algorithme minimise l'inertie intra-cluster:
 
 \[
-\min \sum_{i=1}^{k} \sum_{x \in C_i} \| x - \mu_i \|^2
+\min \sum_{i=1}^{k} \sum_{x \in C_i} \| x - \mu_i \|^2  \tag{61}
 \]
 
 où \( C_i \) est le \(i\)-ème cluster, \( x \) une observation, \( \mu_i \) le centroïde, et \( \| x - \mu_i \|^2 \) la distance euclidienne au carré.\\
@@ -1065,7 +1061,7 @@ où \( C_i \) est le \(i\)-ème cluster, \( x \) une observation, \( \mu_i \) le
 Chaque cluster représente un groupe distinct de clients. Pour chaque cluster \( C_i \), la probabilité moyenne de satisfaction est calculée par:
 
 \[
-P_{\text{satisfaction}}(C_i) = \frac{1}{|C_i|} \sum_{x \in C_i} P_{\text{satisfaction}}(x)
+P_{\text{satisfaction}}(C_i) = \frac{1}{|C_i|} \sum_{x \in C_i} P_{\text{satisfaction}}(x)  \tag{62}
 \]
 
 où \( P_{\text{satisfaction}}(x) \) est la probabilité de satisfaction de chaque client \( x \), et \( |C_i| \) est la taille du cluster. Cela permet d'identifier les groupes de clients les plus satisfaits.
